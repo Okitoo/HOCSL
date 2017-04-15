@@ -241,7 +241,7 @@ E-mail сообщение
 
 <!-- Это сочетание режет слух, кто сможет предложить иной вариант?
 "Хакерская почта" -->
-<string name="header_email"></string>
+<string name="header_email">"хак-мейл"</string>
 <string name="header_desktop">"Рабочий стол"</string>
 <string name="header_con_manager">"Диспетчер подключений"</string>
 <string name="tct_fw_log">"Журнал Брандмауэра"</string>
