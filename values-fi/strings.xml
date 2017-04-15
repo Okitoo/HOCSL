@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">"Hackerz"</string>
+<string name="user_name">"Käyttäjätunnus"</string>
+<string name="password">"Salasana"</string>
+<string name="_connect">"Yhdistä"</string>
+<string name="_connecting">"Luodaan yhteyttä"</string>
+<string name="fail_mission">"Luovuta"</string>
+<string name="crack_twice">"Huomio: Voit kräkätä vain KERRAN TUNNISSA"</string>
+<string name="Reputation_display">"Maine:"</string>
+<string name="_message">"Viesti:"</string>
+<string name="verify_create">"Tarkista ja Luo"</string>
+<string name="mission_nore">"Vain maineellesi sopivat tehtävät näkyvät täällä"</string>
+<string name="str_login">"Kirjaudu"</string>
+<string name="str_reg">"Rekisteröidy"</string>
+<string name="txt_up_pc">"Päivitä Salasanakräkkeri, Prosessori ja Tekoäly kräkätäksesi nopeammin!"</string>
+<string name="btn_upgrade_software">"Käytä prosessoria ja tekälyä päivittääksesi ohjelmistojen algoritmejä ja vahvistaaksesi niitä!"</string>
+<string name="btn_cancel_software_description">"Peruuttaa ohjelmistopäivitykset ja palauttaa HC:t tilillesi"</string>
+<string name="btn_finish_soft_upgrade_explain">"Vuokraa supertietokone laskeaksesi ohjelmistoille vahvemmat algoritmit. Tulokset näkyvät heti!"</string>
+<string name="btn_add_ip_to_history">"Tallenna IP-osoite listallesi."</string>
+<string name="txt_u_r_almost_traced_down">"Olet melkein jäljitetty!"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Protokolla rikki! Yritä uudelleen 1h jälkeen"</string>
+<string name="txt_not_being_traced">"Ei jäljitetä"</string>
+<string name="txt_auth_failed">"Todennus epäonnistui"</string>
+<string name="txt_wrong_user_pass">"Väärä käyttäjätunnus tai salasana!"</string>
+<string name="txt_data_corrupted">"Tiedot vioittuneet!"</string>
+<string name="txt_log_corrupted">"Loki vioittunut!"</string>
+<string name="no_guild">"Et ole minkään killan jäsen! Etsi tai luo uusi kilta!"</string>
+<string name="txt_search_guilds">"Etsi kiltaa"</string>
+<string name="btn_create_guild">"Luo kilta"</string>
+<string name="tit_guild_name">"Killan nimi:"</string>
+<string name="tit_name_prefix">"Etuliite:"</string>
+<string name="h_16_chars_max">"Enintään 16 merkkiä"</string>
+<string name="h_3_chars_exactly">"3 merkkiä. Vain a-z ja 0-9 käyvät"</string>
+<string name="tit_slogam">"Iskulause:"</string>
+<string name="h_64_chars_max">"Enintään 64 merkkiä"</string>
+<string name="tit_create_price">"Hinta:"</string>
+<string name="btn_create">"Luo"</string>
+
+<!-- Fuzzy -->
+<string name="txt_all_time">"Parhaat"</string>
+<string name="txt_weekly">"Viikottainen"</string>
+<string name="txt_load_guild">"Lataa kilta"</string>
+<string name="txt_guild_load_error">"Killan lataamisessa sattui virhe!"</string>
+<string name="tit_members_count">"Jäsenten määrä:"</string>
+<string name="tit_ddos_mitigation">"DDoS lievitys"</string>
+<string name="tit_bandwidth_util">"Kaistanleveys:"</string>
+<string name="tit_news">"Uutiset:"</string>
+<string name="tit_guild_leader">"Killan johtaja:"</string>
+<string name="tit_hackcoins">"HackCoins:"</string>
+<string name="tit_blackbits">"BlackBits:"</string>
+<string name="tit_member_name">"Nimi:"</string>
+<string name="tit_reputation">"Maine:"</string>
+<string name="tit_last_login">"Viimeinen kirjautuminen:"</string>
+<string name="tit_last_hack">"Viimeinen kräkki:"</string>
+<string name="tit_contributions">"Avustukset:"</string>
+<string name="tit_enter_guild_prefix">"Syötä killan etuliite:"</string>
+<string name="tit_min_rep">"Mainevaatimus:"</string>
+<string name="btn_send_join_request">"Lähetä liittymispyyntö"</string>
+<string name="txt_min_rep">"Tarvitset ainakin min. Maineen liittyäksesi kiltaan."</string>
+
+<!-- Fuzzy -->
+<string name="txt_how_to_leave">"Voit erota killasta vain, jos sinut potkitaan ulos."</string>
+<string name="btn_accept">"Hyväksy"</string>
+<string name="btn_reject">"Hylkää"</string>
+<string name="btn_send">"Lähetä"</string>
+<string name="txt_guilds">"Killat"</string>
+<string name="txt_rank">"Sijoitus"</string>
+<string name="txt_guild_pre">"Killan etuliite"</string>
+<string name="txt_mitigation">"DDos lievennys"</string>
+<string name="txt_remove">"Poista"</string>
+<string name="tit_your_email">"Sähköpostiosoiteesi:"</string>
+<string name="des_weekly">"Nollaantuu maanantaisin keskiyöllä palvelimen aikaan. 100 parhaalle BB palkintoja."</string>
+<string name="info_hacked_already">"[Kräkätty äskettäin]"</string>
+<string name="info_guild_member">"[Killan jäsen]"</string>
+<string name="tit_chat_lines">"Max. näkyvät chat rivit:"</string>
+<string name="desc_chat_lines">"Näkyvien chat rivien näkyvyys. 
+Jos poistat automaattisen vierityksen käytöstä, tällä arvolla ei ole väliä."</string>
+<string name="desc_share_300_bb">"Jaa ystäviesi kanssa ja saat 200BB, kun ystäväsi saavuttaa 1000 maineen määrän. (Pitää käyttää linkkiä ladatakseen pelin)"</string>
+<string name="txt_share">"Jaa"</string>
+<string name="txt_try_again">"Yritä uudelleen!"</string>
+
+<!-- Where is this one visible? Can not translate without the actual context -->
+<!-- Fuzzy -->
+<string name="txt_db_record_name">"Tietokantaan tallennettu nimi."</string>
+<string name="txt_db_connection_failed">"Yhteys tietokantaan ei onnistu!"</string>
+<string name="txt_save">"Tallenna"</string>
+<string name="tit_support">"Tuki:"</string>
+<string name="not_connecting_twitter">"Palvelinta huolletaan! Klikkaa tästä saadaksesi lisätietoa!"</string>
+<string name="txt_clear">"Tyhjennä"</string>
+<string name="coming_soon">"Tulossa pian"</string>
+<string name="q_delete_hardware">"Poista laitteisto?"</string>
+<string name="aus_delete_hardware">"Haluatko varmasti poistaa laitteiston?
+Tätä EI VOI peruuttaa!
+
+Saat 100BB hyvityksen poistosta."</string>
+<string name="prc_loading">"Ladataan..."</string>
+<string name="tit_from">"Lähettäjä:"</string>
+<string name="txt_subject">"Aihe"</string>
+<string name="tit_subject">"Aihe:"</string>
+<string name="bad_usernames">"Sopimattomat käyttäjätunnukset poistetaan!"</string>
+<string name="WEGotThere">"-"</string>
+<string name="tit_to">"Vastaanottaja:"</string>
+<string name="tit_attachment">"Liite:"</string>
+<string name="UserName">"Käyttäjätunnus"</string>
+<string name="email_subject">"Sähköpostin aihe"</string>
+<string name="email_message">"Sähköpostiviesti"</string>
+<string name="attachment_name">"Täydellinen tiedoston nimi (Kopioi tiedoston nimi)"</string>
+<string name="email_warning">"! Sääntöjen vastaisen sähköpostin lähetys tai toisen pelaajan ahdistelu johtaa pysyvään estoon."</string>
+<string name="txt_sending_email">"Lähetetään sähköpostia"</string>
+<string name="q_delete_email">"Poistetaanko viesti?"</string>
+<string name="aus_delete_email">"Haluatko varmasti poistaa tämän viestin?"</string>
+<string name="txt_deleting_email">"Poistetaan viestiä.."</string>
+<string name="tit_date">"Päivämäärä:"</string>
+<string name="chat_box_hint"><![CDATA[<<Klikkaa ikonia valitaksesi Chatin]]></string>
+<string name="invitation_title">"Hackerz.Online"</string>
+<string name="invitation_message">"Liity kanssani pelaamaan peliä Hackerz Online: Massive Multiplayer Online Hacking Simulator (MMO)"</string>
+<string name="invitation_cta">"Liity "</string>
+<string name="tit_mail">"Sähköposti:"</string>
+<string name="sep_hardware_name">"Laitteiston nimi"</string>
+<string name="please_wait_reg">"Odota.."</string>
+<string name="failed_try_again">"Epäonnistui! Ole hyvä ja yritä uudelleen."</string>
+<string name="captcha">"Captcha koodi"</string>
+<string name="need_help">"Tarvitsetko apua? Klikkaa tästä!"</string>
+<string name="tit_search_term">"Etsi:"</string>
+
+<!-- Too many possible words for this, we need more context -->
+<string name="btn_in_progress"></string>
+<string name="txt_find_missions">"Löydä tehtäviä"</string>
+
+<!-- We need more context -->
+<string name="row_title"></string>
+<string name="row_payout">"|Maksu"</string>
+<string name="row_rep">"|Maine"</string>
+<string name="row_client">"|Asiakas"</string>
+<string name="row_timelimit">"|Aikaraja"</string>
+<string name="txt_no_missions">"Ei tehtäviä!\Voit etsiä uusia tehtäviä."</string>
+<string name="txt_reputation">"Maine"</string>
+<string name="txt_hacker_name">"Häkkeri nimi"</string>
+<string name="txt_alpha">"- Alpha palvelin on tarkoitettu pelin kehittämistä varten. Kaikki pelin tiedot alpha palvelimella pyyhitään vähintään kerran kuukaudessa "</string>
+<string name="question_which_server">"Missä palvelimessa haluat pelata:"</string>
+<string name="tit_email_verification">"Sähköpostin varmistus:"</string>
+<string name="txt_email_steps"></string>
+
+<!-- Fuzzy -->
+<string name="btn_send_email">"Lähetä viesti Gmailin kautta"</string>
+<string name="txt_shop">"Kauppa"</string>
+<string name="txt_software_center"></string>
+<string name="txt_installed">"Asennettu"</string>
+
+<!-- Fuzzy -->
+<string name="txt_description">"Kuvaus"</string>
+<string name="row_name">"|Nimi"</string>
+<string name="row_version">"|Versio"</string>
+<string name="txt_uninstall">"Poista"</string>
+<string name="txt_upgrade">"Päivitä"</string>
+<string name="txt_start">"Aloita"</string>
+<string name="tit_on_success">"Onnistuessa:"</string>
+<string name="tit_on_fail">"Epäonnistuessa:"</string>
+<string name="tit_target">"Kohde:"</string>
+<string name="tit_target_rep">"Kohteen maine:"</string>
+<string name="tit_requested_by"></string>
+<string name="header_gateway_center"></string>
+<string name="tit_gw_name">"Portin nimi:"</string>
+<string name="tit_gateway_slots"></string>
+<string name="tit_ip_address">"IP osoite:"</string>
+<string name="row_level">"|Taso"</string>
+<string name="row_spec"></string>
+<string name="header_file_manager"></string>
+<string name="pcr_mounting_drive"></string>
+<string name="header_email">"Sähköposti"</string>
+<string name="header_desktop">"Työpöytä"</string>
+<string name="header_con_manager"></string>
+<string name="tct_fw_log"></string>
+<string name="tit_add_target">"Lisää kohde:"</string>
+<string name="tit_con_log"></string>
+<string name="txt_close">"Sulje"</string>
+<string name="btn_add_hardware">"+ Lisää Laitteisto"</string>
+
+<!-- Fuzzy -->
+<string name="txt_empty_slot">"Tyhjä paikka"</string>
+<string name="txt_open_file">"Avaa tiedosto"</string>
+
+<!-- Fuzzy -->
+<string name="txt_enter_decryption_key">"Anna salattu avain"</string>
+
+<!-- Fuzzy -->
+<string name="txt_decrypt">"Poista salaus"</string>
+<string name="txt_execute">"Suorita"</string>
+<string name="tit_file_name">"Tiedoston nimi:"</string>
+<string name="tit_file_size">"Tiedoston koko:"</string>
+<string name="tit_origin">"Alkuperä:"</string>
+<string name="txt_buy">"Osta"</string>
+
+<!-- Fuzzy -->
+<string name="note_shop_limit">"Huom: Et voi käyttää enemmän kuin 50€ viikossa"</string>
+<string name="txt_cancel_upgrade">"Peruuta päivitys"</string>
+<string name="txt_delete">"Poista"</string>
+
+<!-- Fuzzy -->
+<string name="tit_connected_to">"Yhdistetty:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_tracing">"Jäljitetään:"</string>
+
+<!-- Fuzzy -->
+<string name="txt_disconnect">"Lopeta yhteys"</string>
+<string name="txt_hardware">"Laitteisto"</string>
+<string name="txt_database">"Data keskus"</string>
+<string name="txt_file_manager"></string>
+
+<!-- There Isn't really a good word for this in finnish -->
+<!-- Fuzzy -->
+<string name="txt_log">"Loki"</string>
+</resources>
