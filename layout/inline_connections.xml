@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolboxBG" >
+
+        <TextView
+            style="@style/TextViewStyleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/header_con_manager"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/hlp_connection"
+            android:src="@mipmap/question"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:contextClickable="false"
+            android:background="@color/transparent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_con_man"
+        android:backgroundTint="#69ffffff"
+        android:backgroundTintMode="multiply"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="210dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:id="@+id/layoutBounce">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Bounce list: (0 IPs)"
+                android:id="@+id/totalBounceIps"
+                android:layout_marginLeft="10dp"
+                android:textSize="11dp" />
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bounce_list"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/transparent" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/_connect"
+                android:id="@+id/connections_connect"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/transparentGreen"
+            android:id="@+id/layoutMap"
+            android:layout_toRightOf="@+id/layoutBounce"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="false">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent">
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/ip_history"
+                    android:layout_weight="1"
+                    android:background="@color/transparent" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/connections_search"
+                    android:background="@color/transparent"
+                    android:tint="@color/colorValueText"
+                    android:src="@android:drawable/ic_search_category_default"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="-35dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/tit_add_target"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="11dp"
+                    android:background="@color/transparent" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/connection_new_target"
+                    android:layout_weight="1"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/connections_paste"
+                    android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                    android:tint="@color/colorValueText"
+                    android:background="@color/transparent"
+                    android:clickable="true"
+                    android:layout_marginLeft="-35dp" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/connections_add"
+                    android:background="@color/transparent"
+                    android:tint="@color/colorValueText"
+                    android:src="@android:drawable/ic_input_add"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/transparent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="@string/tct_fw_log"
+                    android:id="@+id/connection_firewall"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layout_log_list"
+            android:visibility="gone"
+            android:background="@color/toolboxBG3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/tit_con_log"
+                android:id="@+id/textView36"
+                android:textColor="@color/colorValueText" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="2dp" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="IP Address"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="|Type"
+                    android:id="@+id/textView43"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="|Message"
+                    android:id="@+id/textView44"
+                    android:textSize="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="|Time"
+                    android:id="@+id/textView32"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="|Actions"
+                    android:id="@+id/textView45"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/log_list"
+                android:background="@color/transparent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_close"
+                android:id="@+id/btn_close2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_con_remote"
+        android:visibility="gone"
+        android:background="@color/transparent"
+        layout="@layout/connections_remote">
+    </include>
+
+    <include
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_con_shop"
+        android:visibility="gone"
+        android:background="@color/transparent"
+        layout="@layout/inline_shop">
+    </include>
+
+</LinearLayout>

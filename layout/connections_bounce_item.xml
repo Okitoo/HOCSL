@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000.000.000.000"
+            android:id="@+id/list_ip"
+            android:background="@color/transparent"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target"
+            android:id="@+id/list_target_name"
+            android:background="@color/transparent"
+            android:textStyle="bold"
+            android:textColor="@color/colorValueText"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:id="@+id/bounce_target"
+            android:src="@android:drawable/ic_menu_compass"
+            android:tint="@color/colorValueText"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:id="@+id/bounce_delete"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:tint="@color/colorTextWarning" />
+
+    </LinearLayout>
+</LinearLayout>

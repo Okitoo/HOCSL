@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote_connection_window"
+    android:gravity="center_horizontal">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_member_name"
+            android:id="@+id/textView101"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="member name"
+            android:id="@+id/gdm_user"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="@color/btnSelected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_reputation"
+            android:id="@+id/textView104"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reputation"
+            android:id="@+id/gdm_rep"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="@color/btnSelected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_last_login"
+            android:id="@+id/textView106"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="last login"
+            android:id="@+id/gdm_last_login"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:textColor="@color/btnSelected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_last_hack"
+            android:id="@+id/textView108"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="last hack"
+            android:id="@+id/gdm_last_hack"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textColor="@color/btnSelected"
+            android:layout_marginBottom="3dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_accept"
+            android:id="@+id/btn_accept"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_marginBottom="10dp"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_reject"
+            android:id="@+id/btn_reject"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="2" />
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/remote_connection_window">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView12"
+        android:background="@color/transparent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tit_to"
+                android:id="@+id/textView124"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="12dp"
+                android:textColor="@color/colorText"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mail_to"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:hint="@string/UserName"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_gravity="fill_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tit_subject"
+                android:id="@+id/textView125"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:textSize="12dp"
+                android:textColor="@color/colorText"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mail_subject"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:hint="@string/email_subject"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:layout_gravity="fill_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/_message"
+                android:id="@+id/textView126"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:textSize="12dp"
+                android:textColor="@color/colorText"
+                android:layout_gravity="top"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:id="@+id/mail_message"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:hint="@string/email_message"
+                android:maxLength="512"
+                android:maxLines="20"
+                android:imeOptions="actionDone"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tit_attachment"
+                android:id="@+id/textView127"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:textSize="12dp"
+                android:textColor="@color/colorText"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:background="@color/transparent">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mail_attachment"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:singleLine="true"
+                    android:hint="@string/attachment_name"
+                    android:layout_gravity="fill_horizontal" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/paste_attachment"
+                    android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                    android:tint="@color/colorValueText"
+                    android:background="@color/transparent"
+                    android:clickable="true"
+                    android:layout_marginLeft="-35dp"
+                    android:layout_row="1"
+                    android:layout_column="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/email_warning"
+                android:id="@+id/textView128"
+                android:layout_row="4"
+                android:textSize="11dp"
+                android:textColor="@color/accent_material_dark"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_marginBottom="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:layout_gravity="right">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@android:string/cancel"
+                    android:id="@+id/mail_btn_cancel"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_send"
+                    android:id="@+id/mail_btn_send"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>

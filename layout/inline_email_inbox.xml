@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolboxBG" >
+
+        <TextView
+            style="@style/TextViewStyleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/header_email"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frame_email_loading"
+        android:background="@color/transparent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/prc_loading"
+            android:id="@+id/textView35"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolboxBG2"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_from"
+            android:id="@+id/textView121"
+            android:background="@color/transparent"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_subject"
+            android:id="@+id/textView123"
+            android:background="@color/transparent"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_main"
+        android:background="@color/transparent">
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/main_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent">
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/inbox_list"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/toolboxBG" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:src="@drawable/pencil"
+                app:fabSize="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+
+                app:layout_anchor="@id/inbox_list"
+                app:layout_anchorGravity="bottom|right|end"
+                app:backgroundTint="@color/EditableTextArea"
+                android:id="@+id/compose_new_email" />
+
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

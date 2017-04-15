@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Имя собственное, можно оставить Hackers -->
+<string name="app_name">"Hackers"</string>
+<string name="user_name">"Имя пользователя"</string>
+<string name="password">"Пароль"</string>
+<string name="_connect">"Подключиться"</string>
+<string name="_connecting">"$ Подключение ... _"</string>
+
+<!-- Отмена задания, провал не по русски -->
+<string name="fail_mission">"Отмена задания"</string>
+<string name="crack_twice">"Уведомление: Вы можете взламывать только ОДИН РАЗ В ЧАС"</string>
+
+<!-- Дисплей репутации -->
+<string name="Reputation_display">"Репутация:"</string>
+<string name="_message">"Сообщение:"</string>
+
+<!-- В каком контексте это идёт? -->
+<string name="verify_create">"Подтвердить и создать"</string>
+<string name="mission_nore">"Показаны задания, которые соответствуют вашей Репутации"</string>
+<string name="str_login">"Логин"</string>
+<string name="str_reg">"Регистрация"</string>
+
+<!-- Central Processing Unit | Центральный Процессор 
+"У" -  лишняя -->
+<string name="txt_up_pc">"Обновляйте взломщик паролей, процессор и ИИ для лучшего результата!"</string>
+<string name="btn_upgrade_software">"Чем мощнее ваш процессор и ИИ, тем сильнее алгоритмы вашего ПО!"</string>
+<string name="btn_cancel_software_description">"Отменить процесс обновления ПО и вернуть ХК"</string>
+
+<!-- Половину слов просто выбросили из сообщения... -->
+<string name="btn_finish_soft_upgrade_explain">"Арендовать суперкомпьютер для мгновенного улучшения."</string>
+
+<!-- В игре разделяют логи и историю -->
+<string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
+<string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
+
+<!-- Реконнект - так луше будет -->
+<string name="txt_tunnel_broke_reconn_hour">"Туннель разорван! Переподключение возможно через час!"</string>
+
+<!-- Мирослав, не знаешь игры не лезь! -->
+<string name="txt_not_being_traced">"Не отслеживается"</string>
+<string name="txt_auth_failed">"Ошибка авторизации"</string>
+<string name="txt_wrong_user_pass">"Неверное имя пользователя или пароль!"</string>
+<string name="txt_data_corrupted">"Данные повреждены!"</string>
+<string name="txt_log_corrupted">"Лог поврежден!"</string>
+<string name="no_guild">"Вы не являетесь членом гильдии! 
+Используйте поиск или создайте собственную гильдию!"</string>
+<string name="txt_search_guilds">"Поиск гильдий"</string>
+<string name="btn_create_guild">"Создать гильдию"</string>
+<string name="tit_guild_name">"Название гильдии:"</string>
+<string name="tit_name_prefix">"Префикс:"</string>
+<string name="h_16_chars_max">"Максимум 16 символов"</string>
+<string name="h_3_chars_exactly">"Три символа (только a-z и 0-9)"</string>
+<string name="tit_slogam">"Слоган:"</string>
+<string name="h_64_chars_max">"Максимум 64 символа"</string>
+
+<!-- Fuzzy -->
+<string name="tit_create_price">"Задать цену:"</string>
+<string name="btn_create">"Создать"</string>
+<string name="txt_all_time">"За всё время"</string>
+
+<!-- имеется ввиду сортировка. Она не еженедельная, а по текущей неделе, -->
+<string name="txt_weekly">"Эта неделя"</string>
+<string name="txt_load_guild">"Загрузить гильдию"</string>
+<string name="txt_guild_load_error">"Ошибка при загрузке гильдии!"</string>
+<string name="tit_members_count">"Число участников:"</string>
+<string name="tit_ddos_mitigation">"Предотвращение DDoS-атак"</string>
+<string name="tit_bandwidth_util">"Нагрузка на канал:"</string>
+<string name="tit_news">"Новости:"</string>
+<string name="tit_guild_leader">"Лидер гильдии:"</string>
+
+<!-- Такое наименование предложено не мною, но оно правильное!
+Хак Коины: -->
+<string name="tit_hackcoins">"Хак Коины:"</string>
+
+<!-- Такое наименование предложено не мною, но оно правильное!
+Блэк Биты: -->
+<string name="tit_blackbits">"Блэк Биты:"</string>
+<string name="tit_member_name">"Имя участника:"</string>
+<string name="tit_reputation">"Репутация:"</string>
+<string name="tit_last_login">"Последний вход:"</string>
+<string name="tit_last_hack">"Последний взлом:"</string>
+<string name="tit_contributions">"Вклад:"</string>
+<string name="tit_enter_guild_prefix">"Введите префикс гильдии:"</string>
+
+<!-- Po koroche mojno kakta zdelat? -->
+<string name="tit_min_rep">"Мин. репутация:"</string>
+<string name="btn_send_join_request">"Отправить запрос на вступление"</string>
+<string name="txt_min_rep">"У вас должно быть минимальное значение репутации для вступления в данную гильдию!"</string>
+
+<!-- укоротил немного, исключил тафтологию -->
+<!-- Fuzzy -->
+<string name="txt_how_to_leave">"Покинуть гильдию можно только если вас исключит глава. При снижении репутации ниже средней по гильдии, либо 48-ми часовой неактивности аккаунта, возможно принудительное исключение из гильдии."</string>
+<string name="btn_accept">"Принять"</string>
+<string name="btn_reject">"Отклонить"</string>
+
+<!-- Письма посылают -->
+<string name="btn_send">"Отправить"</string>
+<string name="txt_guilds">"Гильдии"</string>
+<string name="txt_rank">"Ранг"</string>
+<string name="txt_guild_pre">"Префикс гильдии"</string>
+<string name="txt_mitigation">"Защита от DDoS"</string>
+<string name="txt_remove">"Удалить"</string>
+<string name="tit_your_email">"Ваш e-mail:"</string>
+
+<!-- Nikmy, это сообщение тебе:
+Как тебе кажется, что ты написал не так? Вот твоё сообщение:
+"Статистика обнуляется каждый понедельник в полночь (Во времемя рестарта сервера). Призовые BB для первых 100" -->
+<string name="des_weekly">"Статистика сбрасывается каждый Понедельник в полночь (серверное время). Призовые ББ для Топ 100"</string>
+<string name="info_hacked_already">"[Уже взломан]"</string>
+<string name="info_guild_member">"[Член гильдии]"</string>
+<string name="tit_chat_lines">"Максимальное количество строк в чате:"</string>
+<string name="desc_chat_lines">"Максимальное кол-во строк, показываемых в чате. При остановке автоматической прокрутки это значение будет проигнорировано. "</string>
+<string name="desc_share_300_bb">"Поделись ссылкой на игру с друзьями, чтобы получить 200 ВВ, когда они достигнут 1000 репутации! (Они должны открыть вашу ссылку и установить игру из Play Market, до регистрации в игре)"</string>
+<string name="txt_share">"Поделиться"</string>
+<string name="txt_try_again">"Попробуйте снова!"</string>
+<string name="txt_db_record_name">"Имя записи Базы Данных"</string>
+<string name="txt_db_connection_failed">"Ошибка подключения к Базе Данных"</string>
+<string name="txt_save">"Сохранить"</string>
+<string name="tit_support">"Поддержка:"</string>
+<string name="not_connecting_twitter">"Сервер недоступен. 
+Информация по ссылке!"</string>
+<string name="txt_clear">"Очистить"</string>
+<string name="coming_soon">"Скоро"</string>
+<string name="q_delete_hardware">"Удалить оборудование?"</string>
+<string name="aus_delete_hardware">"Вы уверены, что хотите удалить это устройство? 
+Эта операция НЕ может быть отменена. 
+
+Вы получите 100 ББ в качестве компенсации."</string>
+<string name="prc_loading">"Загрузка ..."</string>
+<string name="tit_from">"От:"</string>
+<string name="txt_subject">"Тема"</string>
+<string name="tit_subject">"Тема:"</string>
+<string name="bad_usernames">"Аккаунты игроков с запрещенными именами будут удалены!"</string>
+
+<!-- Какой контекст? -->
+<string name="WEGotThere">"Подключено, взламываем .... *"</string>
+<string name="tit_to">"Кому:"</string>
+<string name="tit_attachment">"Вложение:"</string>
+
+<!-- Может все же лучше просто "Пользователь"? -->
+<string name="UserName">"Имя пользователя"</string>
+<string name="email_subject">"Тема письма"</string>
+
+<!-- Можно оставить:
+E-mail сообщение
+или же
+Сообщение эл.почты -->
+<string name="email_message">"Сообщение"</string>
+
+<!-- Может всё же лучше:
+"Полное имя файла (копировать имя файла)" -->
+<string name="attachment_name">"Имя файла (скопировать)"</string>
+
+<!-- это стандартный ахтунг, и слово "бан" в принципе лучше не переводить.  А транслит  - вполне возможен. -->
+<string name="email_warning">"! Отправка любого электронного письма, нарушающего правила чата, оскорбляющего игроков, наказывается вечным БАНОМ учётной записи !"</string>
+<string name="txt_sending_email">"Отправка почты..."</string>
+
+<!-- Ну что ты делаешь?
+Не проще ли написать:
+Удалить сообщение?
+Учитывай, что это будет на мелких дисплеях, может вылезать за границы! Ты ни разу не имел что ли подобных проблем? Не надо тут расписывать диалоги на пол книги! Сокращай! -->
+<string name="q_delete_email">"Удалить сообщение?"</string>
+<string name="aus_delete_email">"Вы уверены, что хотите удалить сообщение?"</string>
+<string name="txt_deleting_email">"Удаление сообщения ..."</string>
+
+<!-- Во многих информационных текстах слово "Data" обозначает "информация" -->
+<string name="tit_date">"Дата:"</string>
+
+<!-- Ещё один вариант:
+<= Нажмите, чтобы выбрать чат -->
+<string name="chat_box_hint">"&lt;&lt; Нажмите, чтобы выбрать чат"</string>
+<string name="invitation_title">"Hackerz.Online"</string>
+
+<!-- хватит мож повелительное наклонение везде пихать!? -->
+<string name="invitation_message">"Присоединяйся играть со мной в Hackerz Online; Массовый Многопользовательский Онлайн симулятор хакерского взлома (MMO)"</string>
+<string name="invitation_cta">"Войти␣"</string>
+<string name="tit_mail">"Почта:"</string>
+
+<!-- Нужно коротко, оставить железо или HW? -->
+<!-- Fuzzy -->
+<string name="sep_hardware_name">"Железо"</string>
+<string name="please_wait_reg">"Пожалуйста, подождите ..."</string>
+<string name="failed_try_again">"Неудачно! Попробуйте снова"</string>
+
+<!-- Или оставить каптчу? -->
+<string name="captcha">"Капча"</string>
+<string name="need_help">"Нужна помощь? Кликните сюда!"</string>
+<string name="tit_search_term">"Поиск:"</string>
+<string name="btn_in_progress">"В процессе"</string>
+<string name="txt_find_missions">"Поиск миссий"</string>
+<string name="row_title">"|Заголовок"</string>
+<string name="row_payout">"|Выплата"</string>
+
+<!-- Непонятно первое слово "row" -->
+<!-- Fuzzy -->
+<string name="row_rep">"|Репутация"</string>
+
+<!-- Fuzzy -->
+<string name="row_client">"|Клиент"</string>
+<string name="row_timelimit">"|Ограничение времени"</string>
+<string name="txt_no_missions">"Не выполняется никаких заданий! \
+Вы можете искать миссии."</string>
+<string name="txt_reputation">"Репутация"</string>
+<string name="txt_hacker_name">"Ник хакера"</string>
+<string name="txt_alpha">"- Альфа-сервер предназначен только для разработки, все игровые данные на Альфа сервере будут сброшены по крайней мере один раз в месяц для тестирования новых функций и оптимизации игры. Покупка игровой валюты не будет доступна в Альфа-версии. Сервер будет часто перезагружаться и может быть НЕ доступен в течение долгого времени."</string>
+<string name="question_which_server">"На каком сервере играть:"</string>
+<string name="tit_email_verification">"Подтверждение e-mail:"</string>
+<string name="txt_email_steps">"\\ТОЛЬКО @GMAIL.COM: Для сброса пароля, если вы его забыли, необходимо добавить вашу почту в систему. Сделав это вы можете  отправить письмо с кодом в заголовке на mail_verify@hackerz.online. Нажмите кнопку ниже чтобы отправить письмо из вашего почтового клиента."</string>
+<string name="btn_send_email">"Отправить с GMail"</string>
+<string name="txt_shop">"Магазин"</string>
+<string name="txt_software_center">"Центр софта"</string>
+<string name="txt_installed">"Установлено"</string>
+<string name="txt_description">"Описание"</string>
+<string name="row_name">"|Имя"</string>
+<string name="row_version">"|Версия"</string>
+
+<!-- Блин, не могу подобрать нужного слова -->
+<!-- Fuzzy -->
+<string name="txt_uninstall">"Удалить"</string>
+<string name="txt_upgrade">"Улучшить"</string>
+<string name="txt_start">"Начало"</string>
+
+<!-- Предложите более точный и подходящий вариант -->
+<string name="tit_on_success">"Выполнено:"</string>
+<string name="tit_on_fail">"Провалено:"</string>
+<string name="tit_target">"Цель:"</string>
+<string name="tit_target_rep">"Репутация цели:"</string>
+<string name="tit_requested_by">"Запрос от:"</string>
+
+<!-- Нигде вроде бы не встречалось, поэтому просто переведу по смыслу -->
+<string name="header_gateway_center">"Оборудование - Сервер Шлюза"</string>
+<string name="tit_gw_name">"Имя Шлюза:"</string>
+<string name="tit_gateway_slots">"Всё слоты:"</string>
+<string name="tit_ip_address">"IP адрес:"</string>
+<string name="row_level">"|Уровень"</string>
+<string name="row_spec">"|Специальный"</string>
+<string name="header_file_manager">"Файловый Менеджер"</string>
+<string name="pcr_mounting_drive">"Монтирование удаленного диска ..."</string>
+
+<!-- Это сочетание режет слух, кто сможет предложить иной вариант?
+"Хакерская почта" -->
+<string name="header_email"></string>
+<string name="header_desktop">"Рабочий стол"</string>
+<string name="header_con_manager">"Диспетчер подключений"</string>
+<string name="tct_fw_log">"Журнал Брандмауэра"</string>
+<string name="tit_add_target">"Добавить цель:"</string>
+<string name="tit_con_log">"Журнал подключений:"</string>
+<string name="txt_close">"Закрыть"</string>
+<string name="btn_add_hardware">"+ Добавить оборудование"</string>
+<string name="txt_empty_slot">"Пустой слот"</string>
+<string name="txt_open_file">"Открыть файл"</string>
+<string name="txt_enter_decryption_key">"Введите ключ расшифровки"</string>
+
+<!-- Мне кажется, что расшифровка или дешифровки подойдет -->
+<string name="txt_decrypt">"Расшифровка"</string>
+<string name="txt_execute">"Выполнить"</string>
+<string name="tit_file_name">"Название файла :"</string>
+<string name="tit_file_size">"Размер файла :"</string>
+<string name="tit_origin">"Оригинал :"</string>
+<string name="txt_buy">"Купить"</string>
+
+<!-- Может быть:
+"чем 50$ за 7 дней."
+? -->
+<string name="note_shop_limit">"Примечание: Вы не можете купить больше, чем на 50$ за 7 дней."</string>
+<string name="txt_cancel_upgrade">"Отменить улучшение"</string>
+<string name="txt_delete">"Удалить"</string>
+<string name="tit_connected_to">"Присоединиться к:"</string>
+<string name="tit_tracing">"Трассировка:"</string>
+<string name="txt_disconnect">"Отключиться"</string>
+
+<!-- Всё таки нужно определиться с названием: оборудование, HW или железо -->
+<string name="txt_hardware">"Оборудование"</string>
+<string name="txt_database">"База Данных"</string>
+
+<!-- Можно по-короче назвать, "проводник" -->
+<string name="txt_file_manager">"Файловый менеджер"</string>
+<string name="txt_log">"Лог"</string>
+</resources>

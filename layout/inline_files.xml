@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolboxBG" >
+
+        <TextView
+            style="@style/TextViewStyleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/header_file_manager"
+            android:id="@+id/textView10"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/help_files"
+            android:src="@mipmap/question"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:contextClickable="false"
+            android:background="@color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frame_files_loading"
+        android:background="@color/transparent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/pcr_mounting_drive"
+            android:id="@+id/textView51"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/frame_files_list"
+        android:background="@color/transparent">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/lv_files"
+            android:background="@color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>

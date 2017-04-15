@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wtit_create_guild" type="id">Create guild</item>
+    <item name="txt_sure_create_guild" type="id">Are you sure you want to create a guild?</item>
+    <item name="txt_cost_you" type="id">This will cost you</item>
+</resources>

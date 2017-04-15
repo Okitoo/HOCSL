@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote_connection_window"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/txt_style_section"
+        android:id="@+id/zone_upgrade">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_upgrade"
+            android:id="@+id/btn_upgrade"
+            android:layout_marginBottom="5dp"
+            android:textSize="11dp"
+            android:background="@drawable/btn_style_hc"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/btn_upgrade_software"
+            android:id="@+id/textView91"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_style_section"
+        android:id="@+id/zone_upgrade_bb">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Finish 100BB"
+            android:id="@+id/btn_bb_upgrade"
+            android:layout_marginBottom="5dp"
+            android:textSize="11dp"
+            android:background="@drawable/btn_style_dash"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/btn_finish_soft_upgrade_explain"
+            android:id="@+id/textView92"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_style_section"
+        android:id="@+id/zone_cancel">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_cancel_upgrade"
+            android:id="@+id/btn_cancel_upgrade"
+            android:textSize="11dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/btn_cancel_software_description"
+            android:id="@+id/textView93"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/file_icon"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        style="@style/textHardwareName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="MINER"
+        android:id="@+id/file_name"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="12dp"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/textHardwareName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINER"
+        android:id="@+id/file_size_txt"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/file_list_paste_file"
+        android:src="@android:drawable/stat_sys_download"
+        android:tint="@color/colorValueText"
+        android:background="@color/transparent"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>

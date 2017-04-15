@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_style_section">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/cup_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Rank: "
+            android:id="@+id/textView39"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculating ..."
+            android:id="@+id/my_rank"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:textColor="@color/btnSelected" />
+
+    </LinearLayout>
+
+    <net.okitoo.hackers.Modules.OkitooOverrides.OkitooTabHost
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ranksTab"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transparent">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:background="@color/toolboxBG">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/toolboxBG" >
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_rank"
+                            android:id="@+id/textView95"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_hacker_name"
+                            android:id="@+id/textView96"
+                            android:background="@color/transparent"
+                            android:textAlignment="center"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_reputation"
+                            android:id="@+id/textView97"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lists_ranks"
+                        android:background="@color/transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    android:background="@color/toolboxBG">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/toolboxBG" >
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_rank"
+                            android:id="@+id/textView40"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_hacker_name"
+                            android:id="@+id/textView41"
+                            android:background="@color/transparent"
+                            android:textAlignment="center"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_reputation"
+                            android:id="@+id/textView42"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des_weekly"
+                        android:id="@+id/textView8" />
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lists_ranks2"
+                        android:background="@color/transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/toolboxBG">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/toolboxBG" >
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_rank"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_guild_pre"
+                            android:background="@color/transparent"
+                            android:textAlignment="center"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_mitigation"
+                            android:background="@color/transparent"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/lists_ranks3"
+                        android:background="@color/transparent" />
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </net.okitoo.hackers.Modules.OkitooOverrides.OkitooTabHost>
+
+</LinearLayout>

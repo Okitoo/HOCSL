@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/chatmnu_icon"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Name"
+            android:id="@+id/chatmnu_name"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+</LinearLayout>

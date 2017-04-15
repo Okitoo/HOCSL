@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView11"
+        android:layout_weight="1"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TextEditStyleValue"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/whois"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:scrollIndicators="right"
+                android:background="@drawable/txt_style_section"
+                android:padding="7dp"
+                android:textSize="12dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/btn_add_ip_to_history"
+            android:id="@+id/whois_add_to_list"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="15dp"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="@android:string/cancel"
+            android:id="@+id/whois_done"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

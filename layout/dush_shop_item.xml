@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/remote_connection_window">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/rth_icon"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/fileicon_package"
+        android:background="@color/transparent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/transparent">
+
+        <TextView
+            style="@style/textHardwareName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/dush_title"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            style="@style/TextEditStyleValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/dush_description" />
+    </LinearLayout>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/txt_buy"
+        android:id="@+id/dush_btn_buy"
+        android:visibility="visible" />
+</LinearLayout>

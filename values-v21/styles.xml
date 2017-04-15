@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="HackersDialogTheme">
+                <item name="android:windowBackground">@color/transparent</item>
+                <item name="android:windowTitleStyle">@style/MyAlertDialogTitle</item>
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+                <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+                <item name="android:windowIsFloating">true</item>
+                <item name="android:textColor">@color/colorText</item>
+                <item name="android:shadowColor">@color/colorShadow</item>
+                <item name="android:fontFamily">monospace</item>
+
+
+                <item name="android:buttonBarButtonStyle">@style/ButtonStyle</item>
+                <item name="android:buttonBarPositiveButtonStyle">@style/ButtonStylePositive</item>
+                <item name="android:buttonBarNegativeButtonStyle">@style/ButtonStyleNegative</item>
+        </style>
+</resources>

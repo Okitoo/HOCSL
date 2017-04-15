@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote_connection_window">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/EditableTextArea">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Price:"
+            android:id="@+id/textView56"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 HC"
+            android:id="@+id/cm_list_price"
+            android:textColor="@color/colorValueText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| Payout:"
+            android:id="@+id/textView58"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 HC"
+            android:id="@+id/cm_payout_price"
+            android:textColor="@color/colorValueText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| Total:"
+            android:id="@+id/textView60"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 HC"
+            android:id="@+id/cm_total_price"
+            android:textColor="@color/colorValueText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/EditableTextArea" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reputation: On Success"
+            android:id="@+id/textView75"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/cp_rep_success"
+            android:textColor="@color/colorValueText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| On Failure :"
+            android:id="@+id/textView77"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/cp_rep_fail"
+            android:textColor="@color/colorTextWarning" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView79"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/EditableTextArea" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reputation limited: Min: "
+            android:id="@+id/textView76"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/cp_rep_min"
+            android:textColor="@color/colorValueText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| Max :"
+            android:id="@+id/textView80"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/cp_rep_max"
+            android:textColor="@color/colorValueText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView82"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+        android:fillViewport="false"
+        android:scrollIndicators="right">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="top">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mission title:"
+                    android:id="@+id/textView57"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_title"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section"
+                android:layout_gravity="top"
+                android:gravity="top">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:id="@+id/textView59"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11sp"
+                    android:layout_gravity="top"
+                    android:gravity="top" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/nm_description"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView3"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Payout HC:"
+                    android:id="@+id/textView62"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_payout_hc"
+                    android:inputType="number"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView5"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Penalty HC:"
+                    android:id="@+id/textView63"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_penalty_hc"
+                    android:inputType="number"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView6"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Copies :"
+                    android:id="@+id/textView61"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_copies"
+                    android:inputType="number"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView4"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Win on:"
+                    android:id="@+id/textView64"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/transparent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Action"
+                        android:id="@+id/cm_r_action"
+                        android:background="@color/transparent"
+                        android:textSize="11dp"
+                        android:textColor="@color/colorValueText"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Message"
+                        android:id="@+id/cm_r_msg"
+                        android:background="@color/transparent"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="11dp"
+                        android:textColor="@color/colorValueText" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="File"
+                        android:id="@+id/cm_r_file"
+                        android:background="@color/transparent"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="11dp"
+                        android:textColor="@color/colorValueText" />
+
+                </RadioGroup>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView7"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section" >
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView65"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cm_win_action_frame"
+                        android:background="@color/transparent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="Win on:"
+                                android:id="@+id/textView66"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <Spinner
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/win_on_list_actions"
+                                android:layout_weight="1"
+                                android:spinnerMode="dropdown"
+                                android:entries="@array/create_mission_actions"
+                                android:background="@drawable/remote_connection_window" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_what_frame"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="What:"
+                                android:id="@+id/textView69"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <Spinner
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/win_on_list_objects"
+                                android:layout_weight="1"
+                                android:spinnerMode="dropdown"
+                                android:entries="@array/create_mission_objects"
+                                android:visibility="visible"
+                                android:background="@drawable/remote_connection_window" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_time_frame">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/transparent">
+
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Date :"
+                                    android:id="@+id/textView70"
+                                    android:layout_marginRight="10dp"
+                                    android:textSize="11dp" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_day"
+                                    android:inputType="number"
+                                    android:singleLine="false"
+                                    android:layout_weight="1"
+                                    android:hint="DD" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_month"
+                                    android:inputType="number"
+                                    android:singleLine="false"
+                                    android:layout_weight="1"
+                                    android:hint="MM" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_year"
+                                    android:inputType="number"
+                                    android:singleLine="false"
+                                    android:layout_weight="1"
+                                    android:hint="YY" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/transparent" >
+
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Time:"
+                                    android:id="@+id/textView71"
+                                    android:layout_marginRight="10dp"
+                                    android:textSize="11dp" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_hour"
+                                    android:inputType="number"
+                                    android:singleLine="false"
+                                    android:layout_weight="1"
+                                    android:hint="HH" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_minute"
+                                    android:inputType="number"
+                                    android:singleLine="false"
+                                    android:layout_weight="1"
+                                    android:hint="MM" />
+
+                                <Switch
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/cm_win_1_time_am"
+                                    android:showText="true"
+                                    android:textOn="PM"
+                                    android:textOff="AM" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_fname_frame"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="File Name:"
+                                android:id="@+id/textView74"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/cm_win_1_file"
+                                android:inputType="number"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/win_paste_filename"
+                                android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                                android:tint="@color/colorValueText"
+                                android:background="@color/transparent"
+                                android:clickable="true"
+                                android:layout_marginLeft="-35dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_count_frame">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="Count:"
+                                android:id="@+id/textView68"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/cm_win_1_count"
+                                android:inputType="number"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_source_frame">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="IP in log:"
+                                android:id="@+id/textView72"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/win_source_ip" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/win_paste_source"
+                                android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                                android:tint="@color/colorValueText"
+                                android:background="@color/transparent"
+                                android:clickable="true"
+                                android:layout_marginLeft="-35dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:id="@+id/cm_win_1_target_frame">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:text="Target IP:"
+                                android:id="@+id/textView67"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp" />
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/win_target_ip" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/win_paste_target"
+                                android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                                android:tint="@color/colorValueText"
+                                android:background="@color/transparent"
+                                android:clickable="true"
+                                android:layout_marginLeft="-35dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cm_win_msg_frame" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cm_win_file_frame" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="@string/verify_create"
+                    android:id="@+id/btn_create_missions"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050505</color>
+    <color name="colorPrimaryDark">#020202</color>
+    <color name="colorAccent">#cefaff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorBackGround">#070707</color>
+
+    <color name="colorShadow">#a7b0b1</color>
+
+    <color name="colorTextTitle">#eafdff</color>
+    <color name="colorText">#7cf2ff</color>
+    <color name="colorTextT">#017cf2ff</color>
+    <color name="colorTextError">#e15252</color>
+    <color name="colorTextWarning">#ff6f71</color>
+    <color name="colorValueText">#7cffbb</color>
+    <color name="colorValueTextT">#017cffbb</color>
+    <color name="colorBtnBorder">#2b5840</color>
+    <color name="colorDialogBorder">#1e3e2d</color>
+
+    <color name="colorSelectedTargetBackground">#337cffbb</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparentGreen">#274c8e4d</color>
+    <color name="transparentOrange">#27af7d27</color>
+    <color name="transparentRed">#278e4c4c</color>
+    <color name="toolboxBG">#63000000</color>
+    <color name="toolboxBG2">#bb000000</color>
+    <color name="toolboxBG3">#e6000a01</color>
+    <color name="EditableTextArea">#003d3d</color>
+
+    <color name="pBackGreen">#5c428743</color>
+    <color name="pBackOrange">#5c876325</color>
+    <color name="pBackRed">#5a942b2b</color>
+
+    <color name="btnSelected">#f07cffbb</color>
+    <color name="IPHacked">#f0810000</color>
+
+    <color name="gold">#e6d558</color>
+    <color name="silver">#d2d2d1</color>
+    <color name="bronze">#ffa24c</color>
+</resources>

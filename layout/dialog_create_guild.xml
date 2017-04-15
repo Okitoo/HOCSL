@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote_connection_window">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/EditableTextArea">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_create_price"
+            android:id="@+id/textView56"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 HC"
+            android:id="@+id/cm_list_price"
+            android:textColor="@color/colorValueText" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+        android:fillViewport="false"
+        android:scrollIndicators="right">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="top">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_guild_name"
+                    android:id="@+id/textView57"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_title"
+                    android:layout_weight="1"
+                    android:hint="@string/h_16_chars_max"
+                    android:maxLength="16" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_name_prefix"
+                    android:id="@+id/textView62"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nm_prefix"
+                    android:layout_weight="1"
+                    android:hint="@string/h_3_chars_exactly"
+                    android:maxLength="3" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView5"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section"
+                android:layout_gravity="top"
+                android:gravity="top">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_slogam"
+                    android:id="@+id/textView59"
+                    android:layout_marginRight="10dp"
+                    android:textSize="11sp"
+                    android:layout_gravity="top"
+                    android:gravity="top" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/nm_slogan"
+                    android:layout_weight="1"
+                    android:hint="@string/h_64_chars_max"
+                    android:maxLength="64" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/imageView3"
+                    android:src="@mipmap/question"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/txt_style_section"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="@string/btn_create"
+                    android:id="@+id/btn_create_guild"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

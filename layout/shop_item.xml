@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/remote_connection_window">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/si_icon"
+            android:layout_margin="3dp"
+            android:background="@color/transparent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Description"
+                android:id="@+id/si_name"
+                android:textColor="@color/btnSelected"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:id="@+id/si_description"
+                android:textSize="10dp"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/transparent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="28dp"
+                android:text="New Button"
+                android:id="@+id/si_buy_dash"
+                android:background="@drawable/btn_style_dash"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="28dp"
+                android:text="New Button"
+                android:id="@+id/si_buy_hc"
+                android:background="@drawable/btn_style_hc"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/transparent">
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:id="@+id/hardware_icon"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/hardware_cpu" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/description"
+        android:src="@mipmap/question"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:contextClickable="false"
+        android:background="@color/transparent"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="MINER"
+        android:id="@+id/hardware_name"
+        style="@style/textHardwareName"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="13dp" />
+
+    <TextView
+        style="@style/TextEditStyleValue"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="32/15"
+        android:id="@+id/hardware_level"
+        android:layout_gravity="center_vertical"
+        android:textSize="11dp" />
+
+    <TextView
+        style="@style/TextEditStyleValue"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="2x 2.12  GHz"
+        android:id="@+id/hardware_lvlname"
+        android:layout_gravity="center_vertical"
+        android:textSize="9dp" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="btn_func"
+        android:id="@+id/btn_func"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/txt_upgrade"
+            android:id="@+id/btn_upgrade"
+            style="@style/ButtonStyle" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TextEditStyleValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 days 3:55:12"
+                android:id="@+id/hardware_finishin"
+                android:visibility="visible"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hardware_finishbar"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

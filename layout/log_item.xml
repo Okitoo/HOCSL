@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="000.000.000.000"
+                android:textSize="10dp"
+                android:id="@+id/log_item_ip"
+                android:textColor="@color/colorValueText"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Direct"
+                android:id="@+id/log_item_contype"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="00/00 00:00"
+                android:id="@+id/log_item_time"
+                android:textSize="10dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorText" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/log_item_add"
+                    android:background="@color/transparent"
+                    android:tint="@color/colorValueText"
+                    android:src="@android:drawable/ic_input_add"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/log_item_del"
+                    android:background="@color/transparent"
+                    android:tint="@color/colorValueText"
+                    android:src="@android:drawable/ic_menu_delete"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:contextClickable="false"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="|Message"
+            android:id="@+id/log_item_msg"
+            android:textSize="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolboxBG" >
+
+        <TextView
+            style="@style/TextViewStyleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Missions and Jobs portal"
+            android:id="@+id/textView10"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/hlp_missions"
+            android:src="@mipmap/question"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:contextClickable="false"
+            android:background="@color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/btn_in_progress"
+            android:id="@+id/btn_mission_my"
+            android:layout_weight="1"
+            android:layout_marginRight="7dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="@string/txt_find_missions"
+            android:id="@+id/btn_mission_public"
+            android:layout_weight="1"
+            android:layout_marginRight="7dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/btn_create_mission"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/btnSelected"
+            android:cropToPadding="false"
+            android:layout_marginRight="5dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/mission_nore"
+            android:id="@+id/textView73"
+            android:textSize="10dp"
+            android:textColor="@color/btnSelected"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:id="@+id/my_missions_view"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp" >
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView12"
+                android:textSize="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="|Title"
+                android:id="@+id/textView13"
+                android:textSize="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="|Payout"
+                android:id="@+id/textView14"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="|Rep"
+                android:id="@+id/textView15"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="|Client"
+                android:id="@+id/textView29"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView48"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent" >
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lv_mission"
+                android:background="@color/toolboxBG"
+                android:divider="#da001d17"
+                android:dividerHeight="1dp"
+                android:drawSelectorOnTop="false"
+                android:headerDividersEnabled="true"
+                android:layoutMode="opticalBounds" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:id="@+id/public_missions_view"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView16"
+                android:textSize="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/row_title"
+                android:id="@+id/textView17"
+                android:textSize="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/row_payout"
+                android:id="@+id/textView18"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/row_rep"
+                android:id="@+id/textView19"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/row_client"
+                android:id="@+id/textView28"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/row_timelimit"
+                android:id="@+id/textView20"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent" >
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lv_p_mission"
+                android:background="@color/toolboxBG"
+                android:divider="#da001d17"
+                android:dividerHeight="1dp"
+                android:drawSelectorOnTop="false"
+                android:headerDividersEnabled="true"
+                android:layoutMode="opticalBounds" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:id="@+id/mission_loading"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/prc_loading"
+            android:id="@+id/textView9"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:id="@+id/mission_no_missions"
+        android:visibility="visible"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/txt_no_missions"
+            android:id="@+id/textView34"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:singleLine="false" />
+    </LinearLayout>
+</LinearLayout>

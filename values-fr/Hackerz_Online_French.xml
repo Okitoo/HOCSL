@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">"Hackers"</string>
+<string name="user_name">"Nom d'utilisateur"</string>
+<string name="password">"Mot de passe"</string>
+<string name="_connect">"Connecter"</string>
+<string name="_connecting">"$ Connexion ... _"</string>
+<string name="fail_mission">"Mission échoué"</string>
+<string name="crack_twice">"Remarque : Vous ne pouvez cracker QU'UNE FOIS PAR HEURE"</string>
+<string name="Reputation_display">"Réputation:"</string>
+<string name="_message">"Message:"</string>
+<string name="verify_create">"Vérifier et créer"</string>
+<string name="mission_nore">"Seules les missions qui ont une réputation similaire à la vôtre seront affiché"</string>
+
+<!-- Fuzzy -->
+<string name="str_login">"Entrer"</string>
+<string name="str_reg">"Créer un compte"</string>
+<string name="txt_up_pc">"Améliorer votre crackeur de mot de passe,CPU et I.A pour cracker plus rapidement !"</string>
+<string name="btn_upgrade_software">"Utilisez la puissance du CPU et de l'I.A pour améliorer les algorithmes de vos programmes et les rendre plus performants !"</string>
+
+<!-- Fuzzy -->
+<string name="btn_cancel_software_description">"Annuler l'amélioration du programme (Les HC seront remboursé)"</string>
+
+<!-- Fuzzy -->
+<string name="btn_finish_soft_upgrade_explain">"Louer un super-ordinateur pour calculer rapidement un meilleur algorithme pour le programme. Résultats immédiat!"</string>
+<string name="btn_add_ip_to_history">"Sauvegarder l'IP dans l'historique"</string>
+
+<!-- Fuzzy -->
+<string name="txt_u_r_almost_traced_down">"Vous êtes bientôt tracé !"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Le tunnel a été compromis! Reconnectez vous après une heure!"</string>
+
+<!-- Fuzzy -->
+<string name="txt_not_being_traced">"Pas de traçage"</string>
+<string name="txt_auth_failed">"L'identification a échoué"</string>
+<string name="txt_wrong_user_pass">"Mauvais nom ou mot de passe!"</string>
+<string name="txt_data_corrupted">"Données corrompues !"</string>
+<string name="txt_log_corrupted">"Historique corrompue!"</string>
+<string name="no_guild">"Vous n'êtes pas membre d'une guilde!
+Cherchez une guilde à rejoindre ou créez-en une!"</string>
+<string name="txt_search_guilds">"Chercher des guildes"</string>
+<string name="btn_create_guild">"Créer une guilde"</string>
+<string name="tit_guild_name">"Nom de la guilde:"</string>
+<string name="tit_name_prefix">"Préfixe:"</string>
+<string name="h_16_chars_max">"16 caractères max"</string>
+
+<!-- Fuzzy -->
+<string name="h_3_chars_exactly">"3 caractères exactement a-z 0-9 seulement"</string>
+<string name="tit_slogam">"Slogan:"</string>
+<string name="h_64_chars_max">"64 caractères max"</string>
+<string name="tit_create_price">"Créer prix:"</string>
+<string name="btn_create">"Créer"</string>
+<string name="txt_all_time">"Toujours"</string>
+<string name="txt_weekly">"Hebdomadaire"</string>
+<string name="txt_load_guild">"Charger la guilde"</string>
+<string name="txt_guild_load_error">"Une erreur est survenue lors du chargement de la guilde!"</string>
+<string name="tit_members_count">"Nombre de membres:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_ddos_mitigation">"Atténuation de DDoS"</string>
+<string name="tit_bandwidth_util">"Util. de la bande passante:"</string>
+<string name="tit_news">"Nouvelles:"</string>
+<string name="tit_guild_leader">"Leader de la guilde:"</string>
+<string name="tit_hackcoins">"HackCoins"</string>
+<string name="tit_blackbits">"BlackBits"</string>
+<string name="tit_member_name">"Nom du membre"</string>
+<string name="tit_reputation">"Réputation:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_last_login">"Dernière connexion:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_last_hack">"Dernier piratage:"</string>
+<string name="tit_contributions">"Contributions:"</string>
+<string name="tit_enter_guild_prefix">"Entrer le préfixe de la guilde:"</string>
+<string name="tit_min_rep">"Réputation min. :"</string>
+<string name="btn_send_join_request">"Envoyer une demande pour rejoindre"</string>
+<string name="txt_min_rep">"Vous devez avoir au moins la réputation minimum demandé pour rejoindre cette guilde!"</string>
+
+<!-- Fuzzy -->
+<string name="txt_how_to_leave">"Vous ne pouvez quitter la guilde qu'en vous faisant expulsé, vous pouvez vous faire expulsé seulement si vous êtes inactif (Pas de connexion) pendant 48 heures, ou que votre réputation passe en dessous de la réputation requise pour cette guilde."</string>
+<string name="btn_accept">"Accepter"</string>
+
+<!-- Fuzzy -->
+<string name="btn_reject">"Rejeter"</string>
+<string name="btn_send">"Envoyer"</string>
+<string name="txt_guilds">"Guildes"</string>
+<string name="txt_rank">"Rang"</string>
+<string name="txt_guild_pre">"Préfixe de la guilde"</string>
+
+<!-- Fuzzy -->
+<string name="txt_mitigation">"Att. de DDoS"</string>
+<string name="txt_remove">"Retirer"</string>
+<string name="tit_your_email">"Votre email:"</string>
+
+<!-- Fuzzy -->
+<string name="des_weekly">"Réinitialisé chaque lundi à minuit (heure du serveur). Des BB pour le top 100"</string>
+<string name="info_hacked_already">"[Déjà piraté]"</string>
+<string name="info_guild_member">"[Membre de la guilde]"</string>
+
+<!-- Fuzzy -->
+<string name="tit_chat_lines">"Nombre max. de lignes de la discussion:"</string>
+<string name="desc_chat_lines">"Le nombre max de lignes qui peuvent apparaitre dans le canal de discussion. Si vous arrêtez le défilement automatique, cette valeur sera ignoré."</string>
+<string name="desc_share_300_bb">"Partagez le jeu avec vos amis et recevez 200BB quand ils atteignent 1000 rép! (Ils doivent ouvrir le lien dans l'application Play Store et installer le jeu avant de s'enregistrer)"</string>
+<string name="txt_share">"Partager"</string>
+<string name="txt_try_again">"Réessayer!"</string>
+<string name="txt_db_record_name">"Nom de l'enregistrement de la base de données "</string>
+<string name="txt_db_connection_failed">"La connexion a la base de données a échoué!"</string>
+<string name="txt_save">"Sauvegarder"</string>
+<string name="tit_support">"Support:"</string>
+<string name="not_connecting_twitter">"Serveurs en maintenance.
+Cliquez ici pour plus d'info!"</string>
+<string name="txt_clear">"Nettoyer"</string>
+<string name="coming_soon">"Bientôt"</string>
+
+<!-- Fuzzy -->
+<string name="q_delete_hardware">"Supprimer le composant ?"</string>
+<string name="aus_delete_hardware">"êtes vous sûr de vouloir supprimer ce composant?
+Cette opération ne peut PAS être annuler.
+
+Vous recevrez seulement 100BB en retour."</string>
+<string name="prc_loading">"Chargement..."</string>
+<string name="tit_from">"De:"</string>
+<string name="txt_subject">"Sujet"</string>
+<string name="tit_subject">"Sujet:"</string>
+<string name="bad_usernames">"Les noms inappropriés seront effacé!"</string>
+
+<!-- Fuzzy -->
+<string name="WEGotThere">"Nous i sommes, crack en cours .... *"</string>
+<string name="tit_to">"À:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_attachment">"Attachement:"</string>
+<string name="UserName">"Nom d'utilisateur"</string>
+
+<!-- Fuzzy -->
+<string name="email_subject">"Sujet du mail"</string>
+
+<!-- Fuzzy -->
+<string name="email_message">"Message du mail"</string>
+<string name="attachment_name">"Nom complet du fichier (Copiez le nom du fichier)"</string>
+<string name="email_warning">"! Envoyer un mail qui ne respecte pas les règles du canal de discussion aura pour résultat un bannissement permanent et irréversible de cette fonctionnalité pour votre compte !"</string>
+
+<!-- Fuzzy -->
+<string name="txt_sending_email">"Envoi d l'mail"</string>
+<string name="q_delete_email">"Supprimer le mail?"</string>
+<string name="aus_delete_email">"Êtes-vous sûr de vouloir supprimer ce message?"</string>
+<string name="txt_deleting_email">"Supression du message ..."</string>
+<string name="tit_date">"Date:"</string>
+<string name="chat_box_hint"><![CDATA[<< Cliquez sur l’icône pour choisir un canal]]></string>
+<string name="invitation_title">"Hackerz.Online"</string>
+<string name="invitation_message">"Rejoignez moi dans Hackerz Online; Un simulateur de piratage massivement multijoueur (MMO)"</string>
+<string name="invitation_cta">"Rejoindre"</string>
+<string name="tit_mail">"Mail:"</string>
+<string name="sep_hardware_name">"Type de comp."</string>
+<string name="please_wait_reg">"Veuillez patienter..."</string>
+
+<!-- Fuzzy -->
+<string name="failed_try_again">"L'action a échoué! veuillez réessayer"</string>
+<string name="captcha">"Code Captcha"</string>
+<string name="need_help">"Besoin d'aide? Cliquez ici!"</string>
+<string name="tit_search_term">"Chercher:"</string>
+<string name="btn_in_progress">"en progression"</string>
+<string name="txt_find_missions">"Trouve une mission"</string>
+<string name="row_title">"|Title"</string>
+<string name="row_payout">"|Paiement"</string>
+<string name="row_rep">"|Rep"</string>
+<string name="row_client">"|Client"</string>
+<string name="row_timelimit">"|Limite de temps"</string>
+<string name="txt_no_missions">"Aucune mission en cours!\
+vous pouvez chercher des missions."</string>
+<string name="txt_reputation">"Réputation"</string>
+<string name="txt_hacker_name">"Nom du Hacker"</string>
+
+<!-- not finished -->
+<string name="txt_alpha">"- Le serveur Alpha est conçu uniquement à des fins de développement, toutes les données du jeu sur le serveur alpha seront réinitialisées au moins une fois par mois pour tester de nouvelles fonctionnalités et des optimisations pour le jeu. Les achats de BB ne seront pas disponibles dans la version Alpha, le serveur redémarre souvent et pourrait ne pas être disponible pendant de longues périodes."</string>
+<string name="question_which_server">"Choisissez votre serveur:"</string>
+<string name="tit_email_verification">"Vérification de l'e-mail:"</string>
+<string name="txt_email_steps">"\\ @ GMAIL.COM UNIQUEMENT: pour pouvoir réinitialiser votre mot de passe si vous l'avez oublié, vous devez ajouter votre courrier électronique au système. Pour ce faire, vous devrez envoyer un courrier électronique avec un code spécial dans le titre du mail à mail_verify@hackerz.online. Cliquez sur le bouton ci-dessous pour envoyer le mail avec votre client de messagerie!"</string>
+<string name="btn_send_email">"Envoyer avec GMail"</string>
+<string name="txt_shop">"Boutique"</string>
+<string name="txt_software_center">"Centre de logiciels"</string>
+<string name="txt_installed">"Installé"</string>
+<string name="txt_description">"Description"</string>
+<string name="row_name">"|Nom"</string>
+<string name="row_version">"|Version"</string>
+<string name="txt_uninstall">"Désinstaller"</string>
+<string name="txt_upgrade">"Améliorer"</string>
+<string name="txt_start">"Commencer"</string>
+<string name="tit_on_success">"Si réussi:"</string>
+<string name="tit_on_fail">"Si échoué:"</string>
+<string name="tit_target">"Cible:"</string>
+<string name="tit_target_rep">"Rep de la Cible:"</string>
+<string name="tit_requested_by">"Demandé par:"</string>
+<string name="header_gateway_center">"Composant - Passerelle du serveur"</string>
+<string name="tit_gw_name">"Nom de la passerelle:"</string>
+<string name="tit_gateway_slots">"Emplacement total:"</string>
+<string name="tit_ip_address">"Adresse IP:"</string>
+<string name="row_level">"|Niveau"</string>
+<string name="row_spec">"|Spec"</string>
+<string name="header_file_manager">"Gestionnaire de fichiers"</string>
+<string name="pcr_mounting_drive">"Montage du disque distant ..."</string>
+<string name="header_email">"HackMail"</string>
+<string name="header_desktop">"Bureau"</string>
+<string name="header_con_manager">"Gestionnaire de connexion"</string>
+<string name="tct_fw_log">"Journal du pare-feu"</string>
+<string name="tit_add_target">"Ajouter une cible:"</string>
+<string name="tit_con_log">"Journal des connexions:"</string>
+<string name="txt_close">"Fermer"</string>
+<string name="btn_add_hardware">"+ Ajouter du matériel"</string>
+<string name="txt_empty_slot">"Emplacement vide"</string>
+<string name="txt_open_file">"Ouvrir le fichier"</string>
+<string name="txt_enter_decryption_key">"Entrez la clé de décryptage"</string>
+<string name="txt_decrypt">"Décrypter"</string>
+<string name="txt_execute">"Exécuter"</string>
+<string name="tit_file_name">"Nom du fichier :"</string>
+<string name="tit_file_size">"Taille du fichier :"</string>
+<string name="tit_origin">"Origine :"</string>
+<string name="txt_buy">"Acheter"</string>
+<string name="note_shop_limit">"Remarque: Vous ne pouvez pas acheter plus de 50 $ en 7 jours."</string>
+<string name="txt_cancel_upgrade">"Annuler l'amélioration"</string>
+<string name="txt_delete">"Supprimer"</string>
+<string name="tit_connected_to">"Connecté à:"</string>
+<string name="tit_tracing">"Tracé:"</string>
+<string name="txt_disconnect">"Déconnecter"</string>
+<string name="txt_hardware">"Matériel"</string>
+<string name="txt_database">"Base de données"</string>
+<string name="txt_file_manager">"Gestionnaire de fichiers"</string>
+<string name="txt_log">"Historique"</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/rth_icon"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/hardware_cpu" />
+
+    <TextView
+        style="@style/textHardwareName"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:text="MINER"
+        android:id="@+id/rth_name"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="12dp" />
+
+    <TextView
+        style="@style/TextEditStyleValue"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:id="@+id/rth_lvl"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        style="@style/TextEditStyleValue"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="0x 00.00 XXX"
+        android:id="@+id/rth_lvl_name"
+        android:layout_gravity="center_vertical"
+        android:textSize="9dp" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="btn_func"
+        android:id="@+id/rth_btn"
+        android:visibility="visible" />
+</LinearLayout>
