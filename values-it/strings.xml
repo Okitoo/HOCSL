@@ -6,7 +6,7 @@
 
 <!-- Connettiti -->
 <string name="_connect">"Connettiti"</string>
-<string name="_connecting">"$ Caricamento..."</string>
+<string name="_connecting">"$ Dio cane..."</string>
 <string name="fail_mission">"Fallisci la missione"</string>
 <string name="crack_twice">"Avviso: puoi scroccare la password dell'obiettivo solo UNA VOLTA OGNI ORA"</string>
 <string name="Reputation_display">"Reputazione:"</string>
@@ -15,13 +15,13 @@
 <string name="mission_nore">"Verranno mostrate solo le missioni adatte alla tua Reputazione"</string>
 <string name="str_login">"Accedi"</string>
 <string name="str_reg">"Registrazione"</string>
-<string name="txt_up_pc">"Aggiorna il password cracker, la
- CPU e l'A.I per crackare più velocemente!"</string>
+<string name="txt_up_pc">"Aggiornamento il password cracker, la
+ CPU e l'A.I per bestemmiare più velocemente!"</string>
 <string name="btn_upgrade_software">"Usa il potere del CPU e dell'A.I per potenziare gli algoritmi del software e per renderlo più forte!"</string>
 <string name="btn_cancel_software_description">"Annulla il processo del potenziamento del software e restituisci i HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Noleggia un supercomputer per calcolare velocemente un algoritmo più potente per il software. Risultati immediati!"</string>
 <string name="btn_add_ip_to_history">"Salva IP nella cronologia"</string>
-<string name="txt_u_r_almost_traced_down">"Sei quasi stato rintracciato!"</string>
+<string name="txt_u_r_almost_traced_down">"Dio porco, esci.."</string>
 <string name="txt_tunnel_broke_reconn_hour">"Tunnel rotto! Riconnettiti fra un ora!"</string>
 <string name="txt_not_being_traced">"Non stai venendo tracciato"</string>
 <string name="txt_auth_failed">"Autentificazione fallita"</string>
