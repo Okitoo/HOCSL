@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="app_name">"Hackers"</string>
-<string name="user_name">"Nombre de usuario"</string>
+<string name="user_name">"Nombre de Usuario"</string>
 <string name="password">"Contraseña"</string>
 <string name="_connect">"Conectar"</string>
 <string name="_connecting">"$ Conectando ... _"</string>
-<string name="fail_mission">"Fallar misión"</string>
+<string name="fail_mission">"Fallar Misión"</string>
 <string name="crack_twice">"Nota: Solo puedes crackear UNA VEZ CADA HORA"</string>
 <string name="Reputation_display">"Reputación:"</string>
 <string name="_message">"Mensaje:"</string>
-<string name="verify_create">"Verificar y crear"</string>
+<string name="verify_create">"Verificar y Crear"</string>
 <string name="mission_nore">"Solo aparecerán las misiones acordes a tu Reputación"</string>
-<string name="str_login">"Iniciar sesión"</string>
+<string name="str_login">"Iniciar Sesión"</string>
 <string name="str_reg">"Registrar"</string>
 <string name="txt_up_pc">"¡Mejora el cracker de contraseñas, la CPU y la I.A. para descifrar las contraseñas más rápido!
 "</string>
 
 <!-- Y haslo Mas fuerte -->
-<string name="btn_upgrade_software">"¡Utiliza la potencia de tú CPU y tú I.A. para desarrollar nuevos algoritmos y hacer tus programas más fuertes!"</string>
+<string name="btn_upgrade_software">"¡Utiliza la potencia de tu CPU y tu I.A. para desarrollar nuevos algoritmos y hacer tus programas más fuertes!"</string>
 <string name="btn_cancel_software_description">"Cancela el proceso de mejora del software y recupera las HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Alquila una supercomputadora para calcular rápidamente un algoritmo más fuerte para el software. ¡Resultados inmediatos!"</string>
 <string name="btn_add_ip_to_history">"Almacenar esta IP en el historial"</string>
@@ -87,6 +87,8 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 (Deben abrir el enlace a la Play Store e instalar el juego antes de registrarse)"</string>
 <string name="txt_share">"Compartir"</string>
 <string name="txt_try_again">"¡Inténtalo de nuevo!"</string>
+
+<!-- What is the context of record in this one? -->
 <string name="txt_db_record_name">"Nombre del registro de base de datos"</string>
 <string name="txt_db_connection_failed">"No se pudo conectar a la base de datos"</string>
 <string name="txt_save">"Guardar"</string>
@@ -117,6 +119,8 @@ Solo recibirás 100 BB a cambio."</string>
 <string name="aus_delete_email">"¿Estás seguro de que quieres eliminar este mensaje?"</string>
 <string name="txt_deleting_email">"Eliminando Mensaje..."</string>
 <string name="tit_date">"Fecha:"</string>
+
+<!-- Fuzzy -->
 <string name="chat_box_hint"><![CDATA[<< Toca en el icono para seleccionar una sala de chat]]></string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Jugad conmigo a Hackerz Online,el simulador de hackeo MMO"</string>
@@ -135,6 +139,8 @@ Solo recibirás 100 BB a cambio."</string>
 <string name="row_rep">"|Reputación"</string>
 <string name="row_client">"|Cliente"</string>
 <string name="row_timelimit">"| Límite de tiempo"</string>
+
+<!-- Fuzzy -->
 <string name="txt_no_missions">"¡No hay misiones en progreso!
 Puedes buscar misiones en el botón de al lado"</string>
 <string name="txt_reputation">"Reputación"</string>
