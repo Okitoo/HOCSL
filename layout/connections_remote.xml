@@ -176,7 +176,7 @@
                                 <TextView
                                     android:layout_width="100dp"
                                     android:layout_height="wrap_content"
-                                    android:text="@string/Reputation_display"
+                                    android:text="@string/tit_reputation"
                                     android:id="@+id/textView50"
                                     android:layout_marginRight="10dp"
                                     android:textSize="10dp"

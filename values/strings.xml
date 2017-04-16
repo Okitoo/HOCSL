@@ -7,9 +7,7 @@
     <string name="_connecting">"$ Connecting ... _"</string>
     <string name="fail_mission">Fail Mission</string>
     <string name="crack_twice">Notice: You can crack only ONCE AN HOUR</string>
-    <string name="Reputation_display">Reputation:</string>
     <string name="_message">Message:</string>
-    <string name="verify_create">Verify and Create</string>
     <string name="mission_nore">Only missions that match your Reputation will show here</string>
     <string name="str_login">Login</string>
     <string name="str_reg">Register</string>

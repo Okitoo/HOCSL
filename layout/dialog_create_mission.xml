@@ -718,7 +718,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="35dp"
-                    android:text="@string/verify_create"
+                    android:text="__VERIFY--"
                     android:id="@+id/btn_create_missions"
                     android:layout_gravity="center" />
             </LinearLayout>
