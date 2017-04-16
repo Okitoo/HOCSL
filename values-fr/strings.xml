@@ -146,6 +146,8 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="aus_delete_email">"Êtes-vous sûr de vouloir supprimer ce message?"</string>
 <string name="txt_deleting_email">"Supression du message ..."</string>
 <string name="tit_date">"Date:"</string>
+
+<!-- Fuzzy -->
 <string name="chat_box_hint"><![CDATA[<< Cliquez sur l’icône pour choisir un canal]]></string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Rejoignez moi dans Hackerz Online; Un simulateur de piratage massivement multijoueur (MMO)"</string>
@@ -166,7 +168,9 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="row_rep">"|Rep"</string>
 <string name="row_client">"|Client"</string>
 <string name="row_timelimit">"|Limite de temps"</string>
-<string name="txt_no_missions">"Aucune mission en cours!\
+
+<!-- Fuzzy -->
+<string name="txt_no_missions">"Aucune mission en cours!
 vous pouvez chercher des missions."</string>
 <string name="txt_reputation">"Réputation"</string>
 <string name="txt_hacker_name">"Nom du Hacker"</string>
