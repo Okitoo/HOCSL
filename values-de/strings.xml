@@ -116,7 +116,7 @@ Du erhälst dafür nur 100BB zurück."</string>
 <string name="aus_delete_email">"Bist du dir sicher, dass du die Nachricht löschen willst?"</string>
 <string name="txt_deleting_email">"Lösche Nachricht ..."</string>
 <string name="tit_date">"Datum:"</string>
-<string name="chat_box_hint"><![CDATA[<< Klicke auf das Icon, um den Chat auszuwählen]]></string>
+<string name="chat_box_hint">&lt;&lt; Klicke auf das Icon, um den Chat auszuwählen</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Schließ dich mir in Hackerz Online an; Massive Multiplayer Online hacking Simulator (MMO)"</string>
 <string name="invitation_cta">"Teilnehmen"</string>

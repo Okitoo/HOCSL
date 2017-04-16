@@ -101,7 +101,7 @@
     <string name="aus_delete_email">Are you sure you want to delete this message?</string>
     <string name="txt_deleting_email">Deleting Message ...</string>
     <string name="tit_date">Date:</string>
-    <string name="chat_box_hint"><![CDATA[<< Click on the icon to select chat]]></string>
+    <string name="chat_box_hint">&lt;&lt; Click on the icon to select chat</string>
     <string name="invitation_title">Hackerz.Online</string>
     <string name="invitation_message">Join me playing Hackerz Online; Massive Multiplayer Online hacking Simulator (MMO)</string>
     <string name="invitation_cta">Join </string>
