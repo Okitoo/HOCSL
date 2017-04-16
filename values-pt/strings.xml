@@ -109,6 +109,8 @@ Tu receberás 100BB em retorno."</string>
 <string name="aus_delete_email">"Tem a certeza que queres eliminar esta mensagem?"</string>
 <string name="txt_deleting_email">"A eliminar a mensagem ..."</string>
 <string name="tit_date">"Data:"</string>
+
+<!-- Fuzzy -->
 <string name="chat_box_hint">"&lt;&lt; Clica no icon para selecionar o chat"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Vem jogar comigo Hackerz Onlinw; Simulador Massivo de Hacking Multiplayer Online (MMO)"</string>
@@ -127,7 +129,9 @@ Tu receberás 100BB em retorno."</string>
 <string name="row_rep">"|Rep"</string>
 <string name="row_client">"|Cliente"</string>
 <string name="row_timelimit">"|Limite de tempo"</string>
-<string name="txt_no_missions">"Sem missões em progresso!\
+
+<!-- Fuzzy -->
+<string name="txt_no_missions">"Sem missões em progresso!
 Você pode procurar por missões."</string>
 <string name="txt_reputation">"Reputação"</string>
 <string name="txt_hacker_name">"Nome do Hacker"</string>
