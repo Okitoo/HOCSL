@@ -178,6 +178,7 @@ E-mail сообщение
 
 <!-- Ещё один вариант:
 <= Нажмите, чтобы выбрать чат -->
+<!-- Fuzzy -->
 <string name="chat_box_hint">"&lt;&lt; Нажмите, чтобы выбрать чат"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 
@@ -200,6 +201,10 @@ E-mail сообщение
 <string name="tit_search_term">"Поиск:"</string>
 <string name="btn_in_progress">"В процессе"</string>
 <string name="txt_find_missions">"Поиск миссий"</string>
+
+<!-- Что подразумевается? Где это будет встречаться в игре?
+Можно написать:
+"|Название" -->
 <string name="row_title">"|Заголовок"</string>
 <string name="row_payout">"|Выплата"</string>
 
@@ -210,7 +215,9 @@ E-mail сообщение
 <!-- Fuzzy -->
 <string name="row_client">"|Клиент"</string>
 <string name="row_timelimit">"|Ограничение времени"</string>
-<string name="txt_no_missions">"Не выполняется никаких заданий! \
+
+<!-- Fuzzy -->
+<string name="txt_no_missions">"Не выполняется никаких заданий!
 Вы можете искать миссии."</string>
 <string name="txt_reputation">"Репутация"</string>
 <string name="txt_hacker_name">"Ник хакера"</string>
@@ -309,5 +316,7 @@ E-mail сообщение
 
 <!-- Можно по-короче назвать, "проводник" -->
 <string name="txt_file_manager">"MC"</string>
+
+<!-- Или Логи или как везде Журнал -->
 <string name="txt_log">"Журнал"</string>
 </resources>
