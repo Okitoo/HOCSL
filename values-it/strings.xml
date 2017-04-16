@@ -12,7 +12,7 @@
 <string name="Reputation_display">"Reputazione:"</string>
 <string name="_message">"Messaggio:"</string>
 <string name="verify_create">"Verifica e Crea"</string>
-<string name="mission_nore">"Verranno mostrate solo le missioni adatte alla tua Reputazione"</string>
+<string name="mission_nore">"Verranno mostrate solo le missioni adatte alle tue bestemmie"</string>
 <string name="str_login">"Accedi"</string>
 <string name="str_reg">"Registrazione"</string>
 <string name="txt_up_pc">"Aggiornamento il password cracker, la
@@ -21,9 +21,9 @@
 <string name="btn_cancel_software_description">"Annulla il processo del potenziamento del software e restituisci i HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Noleggia un supercomputer per calcolare velocemente un algoritmo più potente per il software. Risultati immediati!"</string>
 <string name="btn_add_ip_to_history">"Salva IP nella cronologia"</string>
-<string name="txt_u_r_almost_traced_down">"Dio porco, esci.."</string>
-<string name="txt_tunnel_broke_reconn_hour">"Tunnel rotto! Riconnettiti fra un ora!"</string>
-<string name="txt_not_being_traced">"Non stai venendo tracciato"</string>
+<string name="txt_u_r_almost_traced_down">"Dio porco, esci!"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Culo rotto, riconnettiti fra un ora!"</string>
+<string name="txt_not_being_traced">"Non ti sta tracciando"</string>
 <string name="txt_auth_failed">"Autentificazione fallita"</string>
 <string name="txt_wrong_user_pass">"Username o Password errati!"</string>
 <string name="txt_data_corrupted">"Dati corrotti!"</string>
@@ -40,8 +40,8 @@ Cerca una gilda in cui entrare o creane una nuova!"</string>
 <string name="h_64_chars_max">"Massimo 64 caratteri"</string>
 <string name="tit_create_price">"Crea Prezzo:"</string>
 <string name="btn_create">"Crea"</string>
-<string name="txt_all_time">"In assoluto"</string>
-<string name="txt_weekly">"Settimanale"</string>
+<string name="txt_all_time">"Settimanale"</string>
+<string name="txt_weekly">"Assoluto"</string>
 <string name="txt_load_guild">"Carica gilda"</string>
 <string name="txt_guild_load_error">"C'è stato un errore nel caricare la gilda!"</string>
 <string name="tit_members_count">"Numero di Membri:"</string>
@@ -111,6 +111,8 @@ In cambio avrai solo 100 BB."</string>
 <string name="aus_delete_email">"Sei sicuro di voler cancellare questo messaggio?"</string>
 <string name="txt_deleting_email">"Eliminazione del messaggio ..."</string>
 <string name="tit_date">"Data:"</string>
+
+<!-- Fuzzy -->
 <string name="chat_box_hint"><![CDATA[<< Clicca sull\'icona per selezionare la chat]]></string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Unisciti a me e gioca Hackerz Online; un simulatore di Hacking Massive Multiplayer Online (MMO)"</string>
@@ -129,7 +131,9 @@ In cambio avrai solo 100 BB."</string>
 <string name="row_rep">"|Reputazione"</string>
 <string name="row_client">"|Client"</string>
 <string name="row_timelimit">"|Tempo massimo"</string>
-<string name="txt_no_missions">"Nessuna missione in corso!\
+
+<!-- Fuzzy -->
+<string name="txt_no_missions">"Nessuna missione in corso!
 Puoi cercare una missione."</string>
 <string name="txt_reputation">"Reputazione"</string>
 <string name="txt_hacker_name">"Nome dell' Hacker"</string>
