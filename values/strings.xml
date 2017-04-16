@@ -119,7 +119,7 @@
     <string name="row_rep">|Rep</string>
     <string name="row_client">|Client</string>
     <string name="row_timelimit">|Time Limit</string>
-    <string name="txt_no_missions">No missions in progress!\\nYou can search for missions.</string>
+    <string name="txt_no_missions">No missions in progress!\nYou can search for missions.</string>
     <string name="txt_reputation">Reputation</string>
     <string name="txt_hacker_name">Hacker Name</string>
     <string name="txt_alpha">- The Alpha server is meant for development purposes only, all game data on alpha server will be reset at least once a month to test new features and optimizations for the game. Purchasing game coins will not be available in Alpha version, the server will restart often and might not be available for long times.</string>
