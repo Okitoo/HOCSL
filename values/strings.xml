@@ -176,6 +176,10 @@
     <string name="txt_database">Database</string>
     <string name="txt_file_manager">File Manager</string>
     <string name="txt_log">Log</string>
+    <string name="txt_my_guild">My Guild</string>
+    <string name="txt_guilds_net">Guilds Net</string>
+    <string name="txt_members">Members</string>
+    <string name="txt_requests">Requests</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
