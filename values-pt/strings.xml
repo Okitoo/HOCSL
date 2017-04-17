@@ -5,7 +5,7 @@
 <string name="password">"Senha"</string>
 <string name="_connect">"Conectar"</string>
 <string name="_connecting">"$ Conectando ... _"</string>
-<string name="fail_mission">"Cancelar missão"</string>
+<string name="fail_mission">"missão fracassada"</string>
 <string name="crack_twice">"Aviso : Você só pode crackear UMA VEZ POR HORA"</string>
 <string name="_message">"Mensagem:"</string>
 <string name="mission_nore">"Só irá aparecer missões adequadas à sua Reputação"</string>
@@ -33,7 +33,7 @@ Procure por uma para entrar, ou cria uma guild nova!"</string>
 <string name="h_3_chars_exactly">"exatamente 3 carateres somente a-z 0-9 "</string>
 <string name="tit_slogam">"Slogan:"</string>
 <string name="h_64_chars_max">"64 carateres no máximo"</string>
-<string name="tit_create_price">"Criar Preço:"</string>
+<string name="tit_create_price">"Criar recompensa::"</string>
 <string name="btn_create">"Criar"</string>
 <string name="txt_all_time">"Desde o Início"</string>
 <string name="txt_weekly">"Semanalmente"</string>
@@ -55,8 +55,6 @@ Procure por uma para entrar, ou cria uma guild nova!"</string>
 <string name="tit_min_rep">"Min Rep:"</string>
 <string name="btn_send_join_request">"Enviar o pedido de adesão"</string>
 <string name="txt_min_rep">"Você precisa de ter pelo menos o mínimo de reputação pedida para entrar na Guild!"</string>
-<string name="txt_how_to_leave">"Você só pode abandonar a guild se for kickado.
-Você só pode ser kickado se não for ativo(sem fazer login) durante 48 horas, ou se a sua reputação for inferior à média de todos os membros."</string>
 <string name="btn_accept">"Aceitar"</string>
 <string name="btn_reject">"Rejeitar"</string>
 <string name="btn_send">"Enviar"</string>
@@ -181,8 +179,8 @@ Você pode procurar por missões."</string>
 <string name="txt_database">"Base de Dados"</string>
 <string name="txt_file_manager">"Gerenciador de Arquivos"</string>
 <string name="txt_log">"Registo"</string>
-<string name="txt_my_guild"></string>
-<string name="txt_guilds_net"></string>
-<string name="txt_members"></string>
-<string name="txt_requests"></string>
+<string name="txt_my_guild">"Meu gremio"</string>
+<string name="txt_guilds_net">"Rede de gremios"</string>
+<string name="txt_members">"Membros"</string>
+<string name="txt_requests">"Aplicaçaos"</string>
 </resources>
