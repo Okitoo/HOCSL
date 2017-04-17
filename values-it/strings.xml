@@ -3,29 +3,24 @@
 <string name="app_name">"Hackers"</string>
 <string name="user_name">"Nome utente"</string>
 <string name="password">"Password"</string>
-
-<!-- Connettiti -->
 <string name="_connect">"Connettiti"</string>
-<string name="_connecting">"$ Dio cane..."</string>
-<string name="fail_mission">"Fallisci la missione"</string>
-<string name="crack_twice">"Avviso: puoi scroccare la password dell'obiettivo solo UNA VOLTA OGNI ORA"</string>
-<string name="Reputation_display">"Reputazione:"</string>
+<string name="_connecting">"$ Connettendo... _"</string>
+<string name="fail_mission">"Fallisci missione"</string>
+<string name="crack_twice">"Avviso: puoi crackare la password dell'obiettivo solo UNA VOLTA OGNI ORA"</string>
 <string name="_message">"Messaggio:"</string>
-<string name="verify_create">"Verifica e Crea"</string>
-<string name="mission_nore">"Verranno mostrate solo le missioni adatte alle tue bestemmie"</string>
+<string name="mission_nore">"Verranno mostrate solo le missioni adatte alla tua Reputazione"</string>
 <string name="str_login">"Accedi"</string>
-<string name="str_reg">"Registrazione"</string>
-<string name="txt_up_pc">"Aggiornamento il password cracker, la
- CPU e l'A.I per bestemmiare più velocemente!"</string>
-<string name="btn_upgrade_software">"Usa il potere del CPU e dell'A.I per potenziare gli algoritmi del software e per renderlo più forte!"</string>
-<string name="btn_cancel_software_description">"Annulla il processo del potenziamento del software e restituisci i HC"</string>
+<string name="str_reg">"Registrati"</string>
+<string name="txt_up_pc">"Migliora il Password Cracker, CPU e A.I. per crackare più velocemente!"</string>
+<string name="btn_upgrade_software">"Usa la potenza della CPU e dell'A.I per potenziare gli algoritmi del software e per renderlo più forte!"</string>
+<string name="btn_cancel_software_description">"Annulla il processo di aggiornamento del software e restituisci gli HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Noleggia un supercomputer per calcolare velocemente un algoritmo più potente per il software. Risultati immediati!"</string>
 <string name="btn_add_ip_to_history">"Salva IP nella cronologia"</string>
-<string name="txt_u_r_almost_traced_down">"Dio porco, esci!"</string>
-<string name="txt_tunnel_broke_reconn_hour">"Culo rotto, riconnettiti fra un ora!"</string>
-<string name="txt_not_being_traced">"Non ti sta tracciando"</string>
+<string name="txt_u_r_almost_traced_down">"Stai per essere rintracciato!"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Tunnel interrotto! Riconnettiti fra un ora!"</string>
+<string name="txt_not_being_traced">"Non sei stato rintracciato"</string>
 <string name="txt_auth_failed">"Autentificazione fallita"</string>
-<string name="txt_wrong_user_pass">"Username o Password errati!"</string>
+<string name="txt_wrong_user_pass">"Nome utente o Password errati!"</string>
 <string name="txt_data_corrupted">"Dati corrotti!"</string>
 <string name="txt_log_corrupted">"Log corrotto!"</string>
 <string name="no_guild">"Non sei membro di nessuna gilda!
@@ -35,18 +30,18 @@ Cerca una gilda in cui entrare o creane una nuova!"</string>
 <string name="tit_guild_name">"Nome della gilda:"</string>
 <string name="tit_name_prefix">"Prefisso:"</string>
 <string name="h_16_chars_max">"Massimo 16 caratteri"</string>
-<string name="h_3_chars_exactly">"Esattamente 3 caratteri, solo a-z 0-9"</string>
+<string name="h_3_chars_exactly">"Esattamente 3 a-z 0-9 solo"</string>
 <string name="tit_slogam">"Slogan:"</string>
 <string name="h_64_chars_max">"Massimo 64 caratteri"</string>
 <string name="tit_create_price">"Crea Prezzo:"</string>
 <string name="btn_create">"Crea"</string>
-<string name="txt_all_time">"Settimanale"</string>
-<string name="txt_weekly">"Assoluto"</string>
+<string name="txt_all_time">"In Assoluto"</string>
+<string name="txt_weekly">"Settimanale"</string>
 <string name="txt_load_guild">"Carica gilda"</string>
 <string name="txt_guild_load_error">"C'è stato un errore nel caricare la gilda!"</string>
 <string name="tit_members_count">"Numero di Membri:"</string>
 <string name="tit_ddos_mitigation">"Mitigazione DDoS:"</string>
-<string name="tit_bandwidth_util">"Banda utilizzata:"</string>
+<string name="tit_bandwidth_util">"Banda disponibile:"</string>
 <string name="tit_news">"Notizie:"</string>
 <string name="tit_guild_leader">"Leader della Gilda:"</string>
 <string name="tit_hackcoins">"HackCoins:"</string>
@@ -56,13 +51,11 @@ Cerca una gilda in cui entrare o creane una nuova!"</string>
 <string name="tit_last_login">"Ultimo Accesso:"</string>
 <string name="tit_last_hack">"Ultimo Hack:"</string>
 <string name="tit_contributions">"Contributi:"</string>
-<string name="tit_enter_guild_prefix">"Introduci il prefisso della gilda:"</string>
+<string name="tit_enter_guild_prefix">"Inserisci il prefisso della gilda:"</string>
 <string name="tit_min_rep">"Rep minima:"</string>
 <string name="btn_send_join_request">"Invia richiesta d'iscrizione"</string>
-<string name="txt_min_rep">"Devi avere almeno la reputazione minima necessaria per entrare in questa gilda!"</string>
-
-<!-- Fuzzy -->
-<string name="txt_how_to_leave">"Puoi uscire dalla gilda solo se lanci un porcone!"</string>
+<string name="txt_min_rep">"Devi avere almeno la reputazione minima necessaria per entrare in gilda!"</string>
+<string name="txt_how_to_leave">"Puoi uscire dalla gilda solo se il capo ti caccia. Sii sicuro di conoscere dove stai entrando e che il capo della gilda sia attivo"</string>
 <string name="btn_accept">"Accetta"</string>
 <string name="btn_reject">"Rifiuta"</string>
 <string name="btn_send">"Invia"</string>
@@ -76,19 +69,19 @@ Cerca una gilda in cui entrare o creane una nuova!"</string>
 <string name="info_hacked_already">"[Già Hackerato]"</string>
 <string name="info_guild_member">"[Membro Della Gilda]"</string>
 <string name="tit_chat_lines">"Numero massimo di linee di chat:"</string>
-<string name="desc_chat_lines">"Numero massimo di linee che saranno mostrate in chat. Se fermi il scorrere automatico questo valore sarà ignorato."</string>
-<string name="desc_share_300_bb">"Condividi il gioco con i tuoi amici e ricevi 200 BB quando raggiungeranno 1000 Rep! (Devono aprire il link in Play Store APP e installare il gioco prima di registrarsi)"</string>
+<string name="desc_chat_lines">"Numero massimo di linee che saranno mostrate in chat. Se blocchi lo scorrimento automatico questo valore sarà ignorato."</string>
+<string name="desc_share_300_bb">"Condividi il gioco con i tuoi amici e ricevi 200 BB quando raggiungeranno 1000 Rep! (Devono aprire il link nel Play Store e installare il gioco prima di registrarsi)"</string>
 <string name="txt_share">"Condividi"</string>
 <string name="txt_try_again">"Prova di nuovo!"</string>
-<string name="txt_db_record_name">"Nome registrato nella base dei dati"</string>
-<string name="txt_db_connection_failed">"La connessione alla base dei dati è fallita!"</string>
+<string name="txt_db_record_name">"Nome registrato nel Database"</string>
+<string name="txt_db_connection_failed">"La connessione al Database è fallita!"</string>
 <string name="txt_save">"Salva"</string>
 <string name="tit_support">"Assistenza:"</string>
 <string name="not_connecting_twitter">"Sospensione del server a causa di lavori di manutenzione.
 Clicca quì per maggiori informazioni!"</string>
 <string name="txt_clear">"Cancella"</string>
 <string name="coming_soon">"Prossimamente"</string>
-<string name="q_delete_hardware">"Vuoi eliminare l'hardware?"</string>
+<string name="q_delete_hardware">"Eliminare l'hardware?"</string>
 <string name="aus_delete_hardware">"Sei sicuro di voler cancellare questo hardware?
 Questa operazione non è reversibile.
 
@@ -97,25 +90,23 @@ In cambio avrai solo 100 BB."</string>
 <string name="tit_from">"Da:"</string>
 <string name="txt_subject">"Soggetto"</string>
 <string name="tit_subject">"Soggetto:"</string>
-<string name="bad_usernames">"I nomi utente inadatti verranno cancellati!"</string>
-<string name="WEGotThere">"Siamo arrivati là, stiamo spaccando .... *"</string>
+<string name="bad_usernames">"Nomi utente inappropriati verranno cancellati!"</string>
+<string name="WEGotThere">"Ci siamo, Stiamo crackando .... *"</string>
 <string name="tit_to">"A:"</string>
-<string name="tit_attachment">"Attaccamento:"</string>
+<string name="tit_attachment">"Allegato:"</string>
 <string name="UserName">"Nome Utente"</string>
-<string name="email_subject">"Soggetto Email"</string>
+<string name="email_subject">"Soggetto Email:"</string>
 <string name="email_message">"Messaggio Email"</string>
-<string name="attachment_name">"Nome del file (Copia Nome File)"</string>
-<string name="email_warning">"! L'invio di email che non segue le regole della chat o che disturba gli altri giocatori POTREBBE portare al ban permanente ed irreversibile !"</string>
-<string name="txt_sending_email">"Invio Email"</string>
-<string name="q_delete_email">"Cancellare Email?"</string>
-<string name="aus_delete_email">"Sei sicuro di voler cancellare questo messaggio?"</string>
+<string name="attachment_name">"Percorso del file (Copia il percorso del file)"</string>
+<string name="email_warning">"L'invio di email che non seguono le regole della chat o che disturba gli altri giocatori PORTERÀ ad un ban permanente ed irreversibile !"</string>
+<string name="txt_sending_email">"Invio E-mail"</string>
+<string name="q_delete_email">"Eliminare l'Email?"</string>
+<string name="aus_delete_email">"Sei sicuro di voler cancellare il messaggio?"</string>
 <string name="txt_deleting_email">"Eliminazione del messaggio ..."</string>
 <string name="tit_date">"Data:"</string>
-
-<!-- Fuzzy -->
-<string name="chat_box_hint"><![CDATA[<< Clicca sull\'icona per selezionare la chat]]></string>
+<string name="chat_box_hint">"&lt;&lt; Clicca sull'icona e seleziona le chat disponibili"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
-<string name="invitation_message">"Unisciti a me e gioca Hackerz Online; un simulatore di Hacking Massive Multiplayer Online (MMO)"</string>
+<string name="invitation_message">"Unisciti a me e gioca ad Hackerz Online; un simulatore di Hacking Massive Multiplayer Online (MMO)"</string>
 <string name="invitation_cta">"Iscriviti "</string>
 <string name="tit_mail">"Mail:"</string>
 <string name="sep_hardware_name">"Nome HW"</string>
@@ -128,31 +119,29 @@ In cambio avrai solo 100 BB."</string>
 <string name="txt_find_missions">"Cerca Missioni"</string>
 <string name="row_title">"|Titolo"</string>
 <string name="row_payout">"|Ricompensa"</string>
-<string name="row_rep">"|Reputazione"</string>
+<string name="row_rep">"|Rep"</string>
 <string name="row_client">"|Client"</string>
 <string name="row_timelimit">"|Tempo massimo"</string>
-
-<!-- Fuzzy -->
 <string name="txt_no_missions">"Nessuna missione in corso!
-Puoi cercare una missione."</string>
+Puoi cercare missioni."</string>
 <string name="txt_reputation">"Reputazione"</string>
 <string name="txt_hacker_name">"Nome dell' Hacker"</string>
-<string name="txt_alpha">"Il server Alpha è realizzato solo per obiettivi di sviluppo. Tutti i progressi sul server Alpha verranno resettati almeno una volta al mese per testare le nuove funzionalità ed ottimizzare il gioco. Sul server Alpha non è disponibile l'acquisto di crediti. Il server potrebbe essere spesso riavviato e non raggiungibile per parecchio tempo."</string>
+<string name="txt_alpha">"Il server Alpha è realizzato solo per obiettivi di sviluppo. Tutti i progressi sul server Alpha verranno resettati almeno una volta al mese per testare le nuove funzionalità ed ottimizzare il gioco. Sul server Alpha non è disponibile l'acquisto di crediti. Il server potrebbe essere spesso riavviato e non raggiungibile per lunghi tempi."</string>
 <string name="question_which_server">"Server sul quale giocare:"</string>
 <string name="tit_email_verification">"Verifica dell' E-mail"</string>
-<string name="txt_email_steps">"\\SOLO @GMAIL: per reimpostare la propria password se la si dimentica, si deve aggiungere il proprio indirizzo email al sistema. per farlo, sarà necessario che inviate  un email con un codice speciale nel titolo a mail_verify@hackerz.online. Clicca il bottone sottostante per inviare l'email dal vostro client!"</string>
+<string name="txt_email_steps">"\\SOLO @GMAIL: Per reimpostare la propria password se la si dimentica, si deve aggiungere il proprio indirizzo email al sistema. Per farlo, sarà necessario che inviate  un email con un codice speciale nel titolo a mail_verify@hackerz.online. Clicca il bottone sottostante per inviare l'email dal vostro client!"</string>
 <string name="btn_send_email">"Invia tramite GMail"</string>
 <string name="txt_shop">"Negozio"</string>
-<string name="txt_software_center">"Centro dei software"</string>
+<string name="txt_software_center">"Centro Software"</string>
 <string name="txt_installed">"Installato"</string>
 <string name="txt_description">"Descrizione"</string>
 <string name="row_name">"|Nome"</string>
 <string name="row_version">"|Versione"</string>
 <string name="txt_uninstall">"Disinstalla"</string>
-<string name="txt_upgrade">"Aggiorna"</string>
+<string name="txt_upgrade">"Migliora"</string>
 <string name="txt_start">"Inizia"</string>
-<string name="tit_on_success">"Al successo"</string>
-<string name="tit_on_fail">"Al fallimento"</string>
+<string name="tit_on_success">"In Successo"</string>
+<string name="tit_on_fail">"In Fallimento"</string>
 <string name="tit_target">"Obiettivo:"</string>
 <string name="tit_target_rep">"Rep obiettivo:"</string>
 <string name="tit_requested_by">"Richiesto da:"</string>
@@ -161,11 +150,11 @@ Puoi cercare una missione."</string>
 <string name="tit_gateway_slots">"Slot totali"</string>
 <string name="tit_ip_address">"Indirizzo IP"</string>
 <string name="row_level">"|Lvl"</string>
-<string name="row_spec">"|Stevjobs"</string>
-<string name="header_file_manager">"Esplora risorse"</string>
-<string name="pcr_mounting_drive">"Moumou"</string>
-<string name="header_email">"HackPosta"</string>
-<string name="header_desktop">"Scrivania"</string>
+<string name="row_spec">"|Spec"</string>
+<string name="header_file_manager">"File Manager"</string>
+<string name="pcr_mounting_drive">"Inizializzazione dischi remoti ..."</string>
+<string name="header_email">"HackMail"</string>
+<string name="header_desktop">"Desktop"</string>
 <string name="header_con_manager">"Gestore delle connessioni"</string>
 <string name="tct_fw_log">"Log Firewall"</string>
 <string name="tit_add_target">"Aggiungi obiettivo:"</string>
@@ -175,7 +164,7 @@ Puoi cercare una missione."</string>
 <string name="txt_empty_slot">"Slot Vuoto"</string>
 <string name="txt_open_file">"Apri File"</string>
 <string name="txt_enter_decryption_key">"Inserisci la chiave di decriptazione"</string>
-<string name="txt_decrypt">"Decodifica"</string>
+<string name="txt_decrypt">"Decripta"</string>
 <string name="txt_execute">"Esegui"</string>
 <string name="tit_file_name">"Nome File:"</string>
 <string name="tit_file_size">"Dimensione File:"</string>
@@ -186,9 +175,13 @@ Puoi cercare una missione."</string>
 <string name="txt_delete">"Elimina"</string>
 <string name="tit_connected_to">"Connesso a:"</string>
 <string name="tit_tracing">"Tracciamento"</string>
-<string name="txt_disconnect">"Disconnetti"</string>
+<string name="txt_disconnect">"Disconnettiti"</string>
 <string name="txt_hardware">"Hardware"</string>
 <string name="txt_database">"Database"</string>
-<string name="txt_file_manager">"Gestore dei filetti"</string>
-<string name="txt_log">"Log"</string>
+<string name="txt_file_manager">"File manager"</string>
+<string name="txt_log">"Entra"</string>
+<string name="txt_my_guild">"La mia Gilda"</string>
+<string name="txt_guilds_net">"Rete Gilda"</string>
+<string name="txt_members">"Membri"</string>
+<string name="txt_requests">"Richieste"</string>
 </resources>
