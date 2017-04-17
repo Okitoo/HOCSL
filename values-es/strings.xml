@@ -7,16 +7,12 @@
 <string name="_connecting">"$ Conectando ... _"</string>
 <string name="fail_mission">"Fallar Misión"</string>
 <string name="crack_twice">"Nota: Solo puedes crackear UNA VEZ CADA HORA"</string>
-<string name="Reputation_display">"Reputación:"</string>
 <string name="_message">"Mensaje:"</string>
-<string name="verify_create">"Verificar y Crear"</string>
 <string name="mission_nore">"Solo aparecerán las misiones acordes a tu Reputación"</string>
 <string name="str_login">"Iniciar Sesión"</string>
 <string name="str_reg">"Registrar"</string>
 <string name="txt_up_pc">"¡Mejora el cracker de contraseñas, la CPU y la I.A. para descifrar las contraseñas más rápido!
 "</string>
-
-<!-- Y haslo Mas fuerte -->
 <string name="btn_upgrade_software">"¡Utiliza la potencia de tu CPU y tu I.A. para desarrollar nuevos algoritmos y hacer tus programas más fuertes!"</string>
 <string name="btn_cancel_software_description">"Cancela el proceso de mejora del software y recupera las HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Alquila una supercomputadora para calcular rápidamente un algoritmo más fuerte para el software. ¡Resultados inmediatos!"</string>
@@ -24,8 +20,6 @@
 <string name="txt_u_r_almost_traced_down">"¡Estás a punto de ser rastreado!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"¡El túnel se ha roto! ¡Vuelve a intentar conectarte dentro de una hora!"</string>
 <string name="txt_not_being_traced">"No estás siendo localizado."</string>
-
-<!-- Fallada * -->
 <string name="txt_auth_failed">"Error de autenticación."</string>
 <string name="txt_wrong_user_pass">"Nombre de usuario o contraseña incorrectos."</string>
 <string name="txt_data_corrupted">"¡Los datos están CORRUPTOS!"</string>
@@ -40,12 +34,8 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 <string name="h_3_chars_exactly">"SÓLO 3 caracteres unicamente de la A a la Z o del 0 al 9"</string>
 <string name="tit_slogam">"Eslogan:"</string>
 <string name="h_64_chars_max">"Máximo de 64 caracteres"</string>
-
-<!-- Crear precio! -->
 <string name="tit_create_price">"Precio de creación:"</string>
 <string name="btn_create">"Crear:"</string>
-
-<!-- Siempre -->
 <string name="txt_all_time">"Mundial"</string>
 <string name="txt_weekly">"Semanal"</string>
 <string name="txt_load_guild">"Cargar organización"</string>
@@ -87,8 +77,6 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 (Deben abrir el enlace a la Play Store e instalar el juego antes de registrarse)"</string>
 <string name="txt_share">"Compartir"</string>
 <string name="txt_try_again">"¡Inténtalo de nuevo!"</string>
-
-<!-- What is the context of record in this one? -->
 <string name="txt_db_record_name">"Nombre del registro de base de datos"</string>
 <string name="txt_db_connection_failed">"No se pudo conectar a la base de datos"</string>
 <string name="txt_save">"Guardar"</string>
@@ -119,8 +107,6 @@ Solo recibirás 100 BB a cambio."</string>
 <string name="aus_delete_email">"¿Estás seguro de que quieres eliminar este mensaje?"</string>
 <string name="txt_deleting_email">"Eliminando Mensaje..."</string>
 <string name="tit_date">"Fecha:"</string>
-
-<!-- Fuzzy -->
 <string name="chat_box_hint"><![CDATA[<< Toca en el icono para seleccionar una sala de chat]]></string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Jugad conmigo a Hackerz Online,el simulador de hackeo MMO"</string>
@@ -139,8 +125,6 @@ Solo recibirás 100 BB a cambio."</string>
 <string name="row_rep">"|Reputación"</string>
 <string name="row_client">"|Cliente"</string>
 <string name="row_timelimit">"| Límite de tiempo"</string>
-
-<!-- Fuzzy -->
 <string name="txt_no_missions">"¡No hay misiones en progreso!
 Puedes buscar misiones en el botón de al lado"</string>
 <string name="txt_reputation">"Reputación"</string>
@@ -198,9 +182,13 @@ Toca en este botón para verificar tu correo electrónico."</string>
 <string name="txt_delete">"Eliminar"</string>
 <string name="tit_connected_to">"Conectado a:"</string>
 <string name="tit_tracing">"Rastreando:"</string>
-<string name="txt_disconnect">"Desconectado"</string>
+<string name="txt_disconnect">"Desconectar"</string>
 <string name="txt_hardware">"Hardware"</string>
 <string name="txt_database">"Base de datos"</string>
 <string name="txt_file_manager">"Administrador de archivos"</string>
 <string name="txt_log">"Registro"</string>
+<string name="txt_my_guild">"Mi organización"</string>
+<string name="txt_guilds_net">"Red de organizaciones"</string>
+<string name="txt_members">"Miembros"</string>
+<string name="txt_requests">"Solicitudes"</string>
 </resources>
