@@ -10,14 +10,14 @@
 <string name="_message">"Mensaje:"</string>
 <string name="mission_nore">"Solo aparecerán las misiones acordes a tu Reputación"</string>
 <string name="str_login">"Iniciar Sesión"</string>
-<string name="str_reg">"Registrar"</string>
+<string name="str_reg">"Registrarse"</string>
 <string name="txt_up_pc">"¡Mejora el cracker de contraseñas, la CPU y la I.A. para descifrar las contraseñas más rápido!
 "</string>
 <string name="btn_upgrade_software">"¡Utiliza la potencia de tu CPU y tu I.A. para desarrollar nuevos algoritmos y hacer tus programas más fuertes!"</string>
-<string name="btn_cancel_software_description">"Cancela el proceso de mejora del software y recupera las HC"</string>
+<string name="btn_cancel_software_description">"Cancela el proceso de mejora del software y recupera los HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Alquila una supercomputadora para calcular rápidamente un algoritmo más fuerte para el software. ¡Resultados inmediatos!"</string>
 <string name="btn_add_ip_to_history">"Almacenar esta IP en el historial"</string>
-<string name="txt_u_r_almost_traced_down">"¡Estás a punto de ser rastreado!"</string>
+<string name="txt_u_r_almost_traced_down">"¡Estás a punto de ser localizado"</string>
 <string name="txt_tunnel_broke_reconn_hour">"¡El túnel se ha roto! ¡Vuelve a intentar conectarte dentro de una hora!"</string>
 <string name="txt_not_being_traced">"No estás siendo localizado."</string>
 <string name="txt_auth_failed">"Error de autenticación."</string>
@@ -28,7 +28,7 @@
 Busca una a la que unirte, o crea la tuya propia!"</string>
 <string name="txt_search_guilds">"Buscar organización"</string>
 <string name="btn_create_guild">"Crear una organización"</string>
-<string name="tit_guild_name">"Nombre:"</string>
+<string name="tit_guild_name">"Nombre de la organización:"</string>
 <string name="tit_name_prefix">"Prefijo:"</string>
 <string name="h_16_chars_max">"Máximo de 16 caracteres"</string>
 <string name="h_3_chars_exactly">"SÓLO 3 caracteres unicamente de la A a la Z o del 0 al 9"</string>
@@ -83,10 +83,10 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 <string name="tit_support">"Ayuda:"</string>
 <string name="not_connecting_twitter">"El servidor está en mantenimiento.
 Toca aquí para saber más..."</string>
-<string name="txt_clear">"Limpiar"</string>
+<string name="txt_clear">"Borrar"</string>
 <string name="coming_soon">"Próximamente"</string>
-<string name="q_delete_hardware">"¿Quitar hardware?"</string>
-<string name="aus_delete_hardware">"¿Estás seguro de que quieres quitar este hardware? Este proceso NO se puede revertir.
+<string name="q_delete_hardware">"¿Eliminar hardware?"</string>
+<string name="aus_delete_hardware">"¿Estás seguro de que quieres eliminar este hardware? Este proceso NO se puede revertir.
 
 Solo recibirás 100 BB a cambio."</string>
 <string name="prc_loading">"Cargando..."</string>
@@ -94,22 +94,22 @@ Solo recibirás 100 BB a cambio."</string>
 <string name="txt_subject">"Asunto"</string>
 <string name="tit_subject">"Asunto:"</string>
 <string name="bad_usernames">"¡Los nombres inapropiados serán borrados!"</string>
-<string name="WEGotThere">"Lo tenemos.Crackeando...*"</string>
+<string name="WEGotThere">"Lo tenemos, Crackeando...*"</string>
 <string name="tit_to">"Para:"</string>
 <string name="tit_attachment">"Archivos adjuntos:"</string>
 <string name="UserName">"Nombre de usuario"</string>
 <string name="email_subject">"Asunto del email"</string>
 <string name="email_message">"Mensaje del email"</string>
-<string name="attachment_name">"Nombre completo del archivo (nombre de copia del archivo)"</string>
+<string name="attachment_name">"Nombre completo del archivo (copia el nombre del archivo)"</string>
 <string name="email_warning">"¡Enviar cualquier e-mail que no coincida con las reglas del chat o que acosen a otros jugadores RESULTARÁ (¡con efecto inmediato!) en un baneo irreversible de esta función en tu cuenta!"</string>
 <string name="txt_sending_email">"Enviando Email"</string>
 <string name="q_delete_email">"¿Eliminar Email?"</string>
 <string name="aus_delete_email">"¿Estás seguro de que quieres eliminar este mensaje?"</string>
 <string name="txt_deleting_email">"Eliminando Mensaje..."</string>
 <string name="tit_date">"Fecha:"</string>
-<string name="chat_box_hint"><![CDATA[<< Toca en el icono para seleccionar una sala de chat]]></string>
+<string name="chat_box_hint">"&lt;&lt; Toca en el icono para seleccionar una sala de chat"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
-<string name="invitation_message">"Jugad conmigo a Hackerz Online,el simulador de hackeo MMO"</string>
+<string name="invitation_message">"Jugad conmigo a Hackerz Online,el juego multijugador online de hackeo MMO"</string>
 <string name="invitation_cta">"Unirse a␣"</string>
 <string name="tit_mail">"Correo:"</string>
 <string name="sep_hardware_name">"Nombre de hardware:"</string>
@@ -134,9 +134,8 @@ Todos los datos del juego en el servidor Alpha se restablecerán al menos una ve
 La compra de monedas no estará disponible en el servidor Alpha,el servidor se reiniciará a menudo y podría no estar disponible por un buen rato"</string>
 <string name="question_which_server">"¿En qué servidor quieres jugar?"</string>
 <string name="tit_email_verification">"Verificación de correo electrónico:"</string>
-<string name="txt_email_steps">"SÓLO @GMAIL.COM
-Para restablecer tu contraseña en caso de que la hayas olvidado,necesitamos que añadas tu correo electrónico en la base de datos del servidor.
-Toca en este botón para verificar tu correo electrónico."</string>
+<string name="txt_email_steps">"\\SÓLO @GMAIL.COM
+Para restablecer tu contraseña en caso de que la hayas olvidado,necesitamos que añadas tu correo electrónico en el sistema. Para hacer eso necesitas enviar un email con un código especial a mail_verify@hackers.online. Haz click en el siguiente botón para enviar el mensaje desde tu cliente!"</string>
 <string name="btn_send_email">"Enviar con Gmail"</string>
 <string name="txt_shop">"Tienda"</string>
 <string name="txt_software_center">"Centro de software"</string>
@@ -156,10 +155,10 @@ Toca en este botón para verificar tu correo electrónico."</string>
 <string name="tit_gw_name">"Nombre de puerta de enlace:"</string>
 <string name="tit_gateway_slots">"Ranuras totales:"</string>
 <string name="tit_ip_address">"Dirección IP:"</string>
-<string name="row_level">"|Nvl"</string>
+<string name="row_level">"|Lvl"</string>
 <string name="row_spec">"|Espec."</string>
 <string name="header_file_manager">"Explorador de archivos"</string>
-<string name="pcr_mounting_drive">"Montando partición remota..."</string>
+<string name="pcr_mounting_drive">"Montando disco remoto..."</string>
 <string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Escritorio"</string>
 <string name="header_con_manager">"Administrador de conexiones"</string>
@@ -167,7 +166,7 @@ Toca en este botón para verificar tu correo electrónico."</string>
 <string name="tit_add_target">"Añadir IP:"</string>
 <string name="tit_con_log">"Registro de conexión"</string>
 <string name="txt_close">"Cerrar"</string>
-<string name="btn_add_hardware">"Añadir Hardware"</string>
+<string name="btn_add_hardware">"+ Añadir Hardware"</string>
 <string name="txt_empty_slot">"Espacio vacio"</string>
 <string name="txt_open_file">"Abrir archivo"</string>
 <string name="txt_enter_decryption_key">"Introduzca la clave de desencriptación"</string>
