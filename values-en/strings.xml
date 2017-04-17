@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Hackerz Online</string>
+    <string name="user_name">Gebruikersnaam</string>
+    <string name="password">Wachtwoord</string>
+    <string name="_connect">Verbind</string>
+    <string name="_connecting">root@okitoo:/home/Desktop# ssh root@hackerz.online\nVerbinden ... _</string>
+    <string name="fail_mission">Missie annuleren</string>
+    <string name="crack_twice">Info: Je kan elke gateway EEN KEER PER UUR HACKEN</string>
+    <string name="Reputation_display">Reputatie:</string>
+    <string name="_message">Bericht:</string>
+    <string name="verify_create">Verifiër en Creëer</string>
+    <string name="mission_nore">Alleen missies die bij je reputatie passen worden getoond</string>
+    <string name="str_login">Aanmelden</string>
+    <string name="str_reg">Registreren</string>
+    <string name="txt_up_pc">Upgrade Wachtwoord Cracker, CPU en AI om sneller een wachtwoord te kranken!</string>
+    <string name="btn_upgrade_software">Gebruik de kracht van de CPU en AI om de software te upgraden en sterker te make!</string>
+    <string name="btn_cancel_software_description">Annuleert de software upgrade en vergoed de HC</string>
+    <string name="btn_finish_soft_upgrade_explain">Huur een supercomputer om sneller een algorithe te berekenen om je software te upgraden, onmiddelijke upgrade!<string>
+    <string name="btn_add_ip_to_history">Sla IP address op in geschiedenis</string>
+    <string name="txt_u_r_almost_traced_down">Je bent bijna getraceerd!</string>
+    <string name="txt_tunnel_broke_reconn_hour">Tunnel verbinding is verbroken! Verbind opnieuw in één uur!</string>
+    <string name="txt_not_being_traced">Geen tracering actief</string>
+    <string name="txt_auth_failed">Authenticatie mislukt</string>
+    <string name="txt_wrong_user_pass">Gebruikersnaam of wachtwoord incorrect!</string>
+    <string name="txt_data_corrupted">Data gecorrumpeerd!</string>
+    <string name="txt_log_corrupted">Log gecorrumpeerd!</string>
+    <string name="no_guild">Je bent geen lid van een hackersgroepering!\nZoek een hackersgroepering om lid van te worden, of maak er zelf een aan!</string>
+    <string name="txt_search_guilds">Zoek naar hackersgroeperingen</string>
+    <string name="btn_create_guild">Creëer nieuwe hackersgroepering</string>
+    <string name="tit_guild_name">Hackersgroepering naam:</string>
+    <string name="tit_name_prefix">Prefix:</string>
+    <string name="h_16_chars_max">16 tekens maximaal</string>
+    <string name="h_3_chars_exactly">3 tekens, strikt alfanumeriek (a-z, A-Z, 0-9)</string>
+    <string name="tit_slogam">Slogan:</string>
+    <string name="h_64_chars_max">64 tekens maximaal</string>
+    <string name="tit_create_price">Creatie prijs:</string>
+    <string name="btn_create">Creëer</string>
+    <string name="txt_all_time">Altijd</string>
+    <string name="txt_weekly">Weekelijks</string>
+    <string name="txt_load_guild">Laad hackersgroepering</string>
+    <string name="txt_guild_load_error">Er is een fout opgetreden bij het laden van de hackersgroepering!</string>
+    <string name="tit_members_count">Aantal leden:</string>
+    <string name="tit_ddos_mitigation">DDoS Mitigatie</string>
+    <string name="tit_bandwidth_util">Bandbreedte gebruik:</string>
+    <string name="tit_news">Nieuws:</string>
+    <string name="tit_guild_leader">Hackersgroepering leider:</string>
+    <string name="tit_hackcoins">HackCoins:</string>
+    <string name="tit_blackbits">ZwartBits:</string>
+    <string name="tit_member_name">Lid Naam:</string>
+    <string name="tit_reputation">Reputatie:</string>
+    <string name="tit_last_login">Laatste aanmelding:</string>
+    <string name="tit_last_hack">Laatste Hack:</string>
+    <string name="tit_contributions">Contributies:</string>
+    <string name="tit_enter_guild_prefix">Voer een hackersgroeperings prefix in:</string>
+    <string name="tit_min_rep">Minimale Reputatie:</string>
+    <string name="btn_send_join_request">Verstuur solicitatie verzoek</string>
+    <string name="txt_min_rep">Je moet de benodigde reputatie hebben om lid te worden van deze hackersgroepering!</string>
+    <string name="txt_how_to_leave">Je kan de hackersgroepering alleen uit door te worden ontslagen. De leider mag je ontslaan als je 48 uur (2 dagen) niet hackt, of als je reputatie onder het minimum komt</string>
+    <string name="btn_accept">Accepteer</string>
+    <string name="btn_reject">Weiger</string>
+    <string name="btn_send">Verstuur</string>
+    <string name="txt_guilds">Hackersgroeperingen</string>
+    <string name="txt_rank">Rang</string>
+    <string name="txt_guild_pre">Hackersgroepering Prefix</string>
+    <string name="txt_mitigation">DDoS Mit.</string>
+    <string name="txt_remove">Verwijder</string>
+    <string name="tit_your_email">Jouw email:</string>
+    <string name="des_weekly">Reset elke maandag, middernacht UTC (02:00 in nederland). BBs voor top 100</string>
+    <string name="info_hacked_already">[Al gehackt]</string>
+    <string name="info_guild_member">[Hackersgroepering id]</string>
+    <string name="tit_chat_lines">Maximaal aantal regels in chat:</string>
+    <string name="desc_chat_lines">Maximaal aantal regels in chat. Als je autoscroll stops door omhoog te scrollen wordt deze waarde genegereed.</string>
+    <string name="desc_share_300_bb">Deel het spel me je vrienden en krijg 200 BBs p.p. als ze een reputatie van 1000 hebben! (Je moet de game downloaden door op de link te klikken op je mobiel/tablet en dan direct te installeren)</string>
+    <string name="txt_share">Deel</string>
+    <string name="txt_try_again">Probeer opnieuw!</string>
+    <string name="txt_db_record_name">Database Record Naam</string>
+    <string name="txt_db_connection_failed">Database Verbinding Mislukt!</string>
+    <string name="txt_save">Opslaan</string>
+    <string name="tit_support">Ondersteuning:</string>
+    <string name="not_connecting_twitter">Server is momenteel uit de lucht voor onderhoud.\nKlik hier voor meer info, en probeer later opnieuw!</string>
+    <string name="txt_clear">Alles wissen</string>
+    <string name="coming_soon">Nog in productie</string>
+    <string name="q_delete_hardware">Hardware verwijderen ?</string>
+    <string name="aus_delete_hardware">Weet je zeker dat je deze hardware wil verwijderen?\nJe kan dit NIET ongedaan maken.\n\nJe krijgt 100B als vergoeding.</string>
+    <string name="prc_loading">Laden ...</string>
+    <string name="tit_from">Van:</string>
+    <string name="txt_subject">Onderwerp</string>
+    <string name="tit_subject">Onderwerp:</string>
+    <string name="bad_usernames">### Ongepaste gebruikersnamen worden verwijderd! ###</string>
+    <string name="WEGotThere">We zijn er, Aan het kraken .... *</string>
+    <string name="tit_to">Naar:</string>
+    <string name="tit_attachment">Bijlage:</string>
+    <string name="UserName">Gebruikersnaam</string>
+    <string name="email_subject">Email Onderwerp</string>
+    <string name="email_message">Email Bericht</string>
+    <string name="attachment_name">Volledige bestandsnaam (kopiëer bestandsnaam)</string>
+    <string name="email_warning">!!! Een email versturen die niet aan de regels voldoet of mensen lastig valt zal resulteren in een PERMANENTE UITSCHAKELING van deze functie voor jouw account !!!</string>
+    <string name="txt_sending_email">Email verzenden</string>
+    <string name="q_delete_email">Email verwijderen?</string>
+    <string name="aus_delete_email">Weet je zeker dat je dit bericht wil verwijderen?</string>
+    <string name="txt_deleting_email">Bericht verwijderen ...</string>
+    <string name="tit_date">Datum:</string>
+    <string name="chat_box_hint"><![CDATA[<< Klik op het icoon om een chatroom te selecteren!]]></string>
+    <string name="invitation_title">Hackerz.Online</string>
+    <string name="invitation_message">Speel met me mee in Hackerz Online; Hacking simulatie MMO!</string>
+    <string name="invitation_cta">Aanmelden </string>
+    <string name="tit_mail">Mail:</string>
+    <string name="sep_hardware_name">Hardware Naam</string>
+    <string name="please_wait_reg">Een ogenblik geduld AUB ...</string>
+    <string name="failed_try_again">Mislukt! Probeer opnieuw</string>
+    <string name="captcha">Captcha Code</string>
+    <string name="need_help">Hulp nodig? Klik hier!</string>
+    <string name="tit_search_term">Zoeken:</string>
+    <string-array name="create_mission_actions">
+        <item>HC Innen</item>
+        <item>Verwijderen</item>
+        <item>Verwijder_Log_Tijd</item>
+        <item>Verwijder_Log_Herkomst_IP</item>
+        <item>Verijder_Bestand</item>
+    </string-array>
+    <string-array name="create_mission_objects">
+        <item>log</item>
+        <item>bestand</item>
+    </string-array>
+    <string name="txt_translator">Vertaling is gehackt door krankenwagen :D</string>
+</resources>
