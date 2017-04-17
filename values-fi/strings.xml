@@ -7,9 +7,7 @@
 <string name="_connecting">"Luodaan yhteyttä"</string>
 <string name="fail_mission">"Luovuta"</string>
 <string name="crack_twice">"Huomio: Voit kräkätä vain KERRAN TUNNISSA"</string>
-<string name="Reputation_display">"Maine:"</string>
 <string name="_message">"Viesti:"</string>
-<string name="verify_create">"Tarkista ja Luo"</string>
 <string name="mission_nore">"Vain maineellesi sopivat tehtävät näkyvät täällä"</string>
 <string name="str_login">"Kirjaudu"</string>
 <string name="str_reg">"Rekisteröidy"</string>
