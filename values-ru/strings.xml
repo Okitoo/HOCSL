@@ -5,20 +5,21 @@
 <string name="password">"Пароль"</string>
 <string name="_connect">"Подключиться"</string>
 <string name="_connecting">"$ Подключение ... _"</string>
-<string name="fail_mission">"Отмена задания"</string>
+<string name="fail_mission">"Провалить задание"</string>
 <string name="crack_twice">"Внимание: Вы можете взламывать только 1 РАЗ В ЧАС"</string>
 <string name="_message">"Сообщение:"</string>
-<string name="mission_nore">"Показаны задания, которые соответствуют вашей Репутации"</string>
+<string name="mission_nore">"Показаны задания, которые соответствуют вашей репутации"</string>
 <string name="str_login">"Логин"</string>
 <string name="str_reg">"Регистрация"</string>
 <string name="txt_up_pc">"Улучшайте взломщик паролей, процессор и ИИ чтобы взламывать быстрее!"</string>
 <string name="btn_upgrade_software">"Чем мощнее ваш процессор и ИИ, тем сильнее алгоритмы вашего ПО!"</string>
-<string name="btn_cancel_software_description">"Отменить процесс обновления ПО и вернуть ХК"</string>
-<string name="btn_finish_soft_upgrade_explain">"Арендовать суперкомпьютер улучшения алгоритма. Улучшения мгновенные!"</string>
+<string name="btn_finish_soft_upgrade_explain">"Арендовать суперкомпьютер для улучшения софта. Мгновенный результат!"</string>
 <string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
 <string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Туннель разорван! Переподключение возможно через час!"</string>
-<string name="txt_not_being_traced">"Не отслежен"</string>
+
+<!-- ne otslejevaietsa (ceijas) -->
+<string name="txt_not_being_traced">"Не отслежевается"</string>
 <string name="txt_auth_failed">"Ошибка авторизации"</string>
 <string name="txt_wrong_user_pass">"Неверное имя пользователя или пароль!"</string>
 <string name="txt_data_corrupted">"Данные повреждены!"</string>
@@ -31,7 +32,7 @@
 <string name="tit_name_prefix">"Префикс:"</string>
 <string name="h_16_chars_max">"Максимум 16 символов"</string>
 <string name="h_3_chars_exactly">"Три символа (только a-z и 0-9)"</string>
-<string name="tit_slogam">"Слоган:"</string>
+<string name="tit_slogam">"Девиз:"</string>
 <string name="h_64_chars_max">"Максимум 64 символа"</string>
 <string name="tit_create_price">"Задать цену:"</string>
 <string name="btn_create">"Создать"</string>
@@ -44,8 +45,8 @@
 <string name="tit_bandwidth_util">"Нагрузка на канал:"</string>
 <string name="tit_news">"Новости:"</string>
 <string name="tit_guild_leader">"Лидер гильдии:"</string>
-<string name="tit_hackcoins">"Хак Коины:"</string>
-<string name="tit_blackbits">"Блэк Биты:"</string>
+<string name="tit_hackcoins">"HachCoins:"</string>
+<string name="tit_blackbits">"BlackBits:"</string>
 <string name="tit_member_name">"Имя участника:"</string>
 <string name="tit_reputation">"Репутация:"</string>
 <string name="tit_last_login">"Последний вход:"</string>
@@ -54,8 +55,10 @@
 <string name="tit_enter_guild_prefix">"Введите префикс гильдии:"</string>
 <string name="tit_min_rep">"Мин. репутация:"</string>
 <string name="btn_send_join_request">"Вступить"</string>
-<string name="txt_min_rep">"У вас должно быть минимальное значение репутации для вступления в данную гильдию!"</string>
-<string name="txt_how_to_leave">"Исключить из гильдии может только глава. Вступая в неё убедитесь куда вы вступаете и что лидер активно играет!"</string>
+
+<!-- Fuzzy -->
+<string name="txt_min_rep">"Ваша репутация должна соответствовать минимальному уровню для вступления в гильдию."</string>
+<string name="txt_how_to_leave">"Исключить из гильдии может только глава. Вступая в неё, убедитесь, куда вы вступаете и что лидер активно играет!"</string>
 <string name="btn_accept">"Принять"</string>
 <string name="btn_reject">"Отклонить"</string>
 <string name="btn_send">"Отправить"</string>
@@ -65,12 +68,12 @@
 <string name="txt_mitigation">"Защита от DDoS"</string>
 <string name="txt_remove">"Удалить"</string>
 <string name="tit_your_email">"Ваш e-mail:"</string>
-<string name="des_weekly">"Статистика сбрасывается каждый понедельник в полночь (серверное время). Призовые ББ для первых 100 участников"</string>
+<string name="des_weekly">"Статистика сбрасывается каждый понедельник в полночь (серверное время). Призовые BB для первых 100"</string>
 <string name="info_hacked_already">"[Уже взломан]"</string>
 <string name="info_guild_member">"[Член гильдии]"</string>
 <string name="tit_chat_lines">"Максимальное количество строк в чате:"</string>
 <string name="desc_chat_lines">"Максимальное кол-во строк, показываемых в чате. При остановке автоматической прокрутки это значение будет проигнорировано."</string>
-<string name="desc_share_300_bb">"Поделись ссылкой на игру с друзьями, чтобы получить 200 ББ, когда они достигнут 1000 репутации! (Они должны открыть вашу ссылку и установить игру из Play Market, до регистрации в игре)"</string>
+<string name="desc_share_300_bb">"Поделись ссылкой на игру с друзьями, чтобы получить 200 BB, когда они достигнут 1000 репутации! (Они должны открыть вашу ссылку и установить игру из Play Market до регистрации в игре)"</string>
 <string name="txt_share">"Поделиться"</string>
 <string name="txt_try_again">"Попробуйте снова!"</string>
 <string name="txt_db_record_name">"Имя записи базы данных"</string>
@@ -78,14 +81,14 @@
 <string name="txt_save">"Сохранить"</string>
 <string name="tit_support">"Поддержка:"</string>
 <string name="not_connecting_twitter">"Сервер недоступен. 
-Информация по ссылке!"</string>
+Кликни для более подробной информации!"</string>
 <string name="txt_clear">"Очистить"</string>
 <string name="coming_soon">"Скоро"</string>
 <string name="q_delete_hardware">"Удалить оборудование?"</string>
 <string name="aus_delete_hardware">"Вы уверены, что хотите удалить это устройство? 
 Эта операция НЕ может быть отменена. 
 
-Вы получите 100 ББ в качестве компенсации."</string>
+Вы получите 100 BB в качестве компенсации."</string>
 <string name="prc_loading">"Загрузка ..."</string>
 <string name="tit_from">"От:"</string>
 <string name="txt_subject">"Тема"</string>
@@ -97,12 +100,12 @@
 <string name="UserName">"Имя пользователя"</string>
 <string name="email_subject">"Тема письма"</string>
 <string name="email_message">"Сообщение"</string>
-<string name="attachment_name">"Имя файла (вставить)"</string>
+<string name="attachment_name">"Полное имя файла (вставить)"</string>
 <string name="email_warning">"! Отправка любого электронного письма, нарушающего правила чата, оскорбляющего игроков, наказывается вечным БАНОМ учётной записи !"</string>
 <string name="txt_sending_email">"Отправка почты..."</string>
 <string name="q_delete_email">"Удалить сообщение?"</string>
-<string name="aus_delete_email">"Вы уверены, что хотите удалить сообщение?"</string>
-<string name="txt_deleting_email">"Удаление сообщения ..."</string>
+<string name="aus_delete_email">"Вы уверены, что хотите удалить это сообщение?"</string>
+<string name="txt_deleting_email">"Сообщение удаляется ..."</string>
 <string name="tit_date">"Дата:"</string>
 <string name="chat_box_hint">"&lt;&lt; Нажмите, чтобы выбрать чат"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
@@ -122,8 +125,10 @@
 <string name="row_rep">"|Репутация"</string>
 <string name="row_client">"|Заказчик"</string>
 <string name="row_timelimit">"|Осталось времени"</string>
-<string name="txt_no_missions">"Не выполняется никаких заданий!
-Вы можете искать миссии."</string>
+
+<!-- Fuzzy -->
+<string name="txt_no_missions">"Нет активных заданий!
+Вы можете поискать новые."</string>
 <string name="txt_reputation">"Репутация"</string>
 <string name="txt_hacker_name">"Ник хакера"</string>
 <string name="txt_alpha">"- Альфа-сервер предназначен только для разработки, все игровые данные на Альфа сервере сбрасываются по крайней мере один раз в месяц для тестирования новых функций и оптимизации игры. Покупка игровой валюты недоступна в Альфа-версии. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
@@ -134,54 +139,129 @@
 <string name="txt_shop">"Магазин"</string>
 <string name="txt_software_center">"Центр софта"</string>
 <string name="txt_installed">"Установлено"</string>
-<string name="txt_description">"Тип"</string>
+<string name="txt_description">"Описание"</string>
 <string name="row_name">"|Алгоритм"</string>
 <string name="row_version">"|Версия"</string>
 <string name="txt_uninstall">"Удалить"</string>
 <string name="txt_upgrade">"Улучшить"</string>
-<string name="txt_start">"Начало"</string>
-<string name="tit_on_success">"Выполнено:"</string>
-<string name="tit_on_fail">"Провалено:"</string>
+<string name="txt_start">"Начать"</string>
+
+<!-- Fuzzy -->
+<string name="tit_on_success">"При успехе:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_on_fail">"При провале:"</string>
 <string name="tit_target">"Цель:"</string>
 <string name="tit_target_rep">"Репутация цели:"</string>
-<string name="tit_requested_by">"Запрос от:"</string>
+<string name="tit_requested_by">"Заказчик:"</string>
 <string name="header_gateway_center">"Серверное оборудование"</string>
 <string name="tit_gw_name">"Имя сервера:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_gateway_slots">"Всего слотов:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_ip_address">"IP адрес:"</string>
+
+<!-- Fuzzy -->
 <string name="row_level">"|Уровень"</string>
+
+<!-- Fuzzy -->
 <string name="row_spec">"|Спецификация"</string>
+
+<!-- Fuzzy -->
 <string name="header_file_manager">"Midnight Commander"</string>
-<string name="pcr_mounting_drive">"Подключение удаленного хранилища ..."</string>
+
+<!-- Fuzzy -->
+<string name="pcr_mounting_drive">"Подключение удаленного диска ..."</string>
+
+<!-- Fuzzy -->
 <string name="header_email">"Хак-Мейл"</string>
+
+<!-- Fuzzy -->
 <string name="header_desktop">"Рабочий стол"</string>
+
+<!-- Fuzzy -->
 <string name="header_con_manager">"Диспетчер подключений"</string>
+
+<!-- Fuzzy -->
 <string name="tct_fw_log">"Журнал"</string>
+
+<!-- Fuzzy -->
 <string name="tit_add_target">"Добавить цель:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_con_log">"Журнал подключений:"</string>
+
+<!-- Fuzzy -->
 <string name="txt_close">"Закрыть"</string>
+
+<!-- Fuzzy -->
 <string name="btn_add_hardware">"+ Добавить оборудование"</string>
+
+<!-- Fuzzy -->
 <string name="txt_empty_slot">"Пустой слот"</string>
+
+<!-- Fuzzy -->
 <string name="txt_open_file">"Открыть файл"</string>
+
+<!-- Fuzzy -->
 <string name="txt_enter_decryption_key">"Введите ключ расшифровки"</string>
+
+<!-- Fuzzy -->
 <string name="txt_decrypt">"Расшифровать"</string>
+
+<!-- Fuzzy -->
 <string name="txt_execute">"Запустить"</string>
+
+<!-- Fuzzy -->
 <string name="tit_file_name">"Название файла :"</string>
+
+<!-- Fuzzy -->
 <string name="tit_file_size">"Размер файла :"</string>
-<string name="tit_origin">"Оригинал :"</string>
+
+<!-- Fuzzy -->
+<string name="tit_origin">"Владелец :"</string>
+
+<!-- Fuzzy -->
 <string name="txt_buy">"Купить"</string>
+
+<!-- Fuzzy -->
 <string name="note_shop_limit">"Примечание: Вы не можете купить больше, чем на 50$ за 7 дней."</string>
+
+<!-- Fuzzy -->
 <string name="txt_cancel_upgrade">"Отменить улучшение"</string>
+
+<!-- Fuzzy -->
 <string name="txt_delete">"Удалить"</string>
+
+<!-- Fuzzy -->
 <string name="tit_connected_to">"Подключиться к:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_tracing">"Отслеживание:"</string>
+
+<!-- Fuzzy -->
 <string name="txt_disconnect">"Разорвать"</string>
+
+<!-- Fuzzy -->
 <string name="txt_hardware">"Оборудование"</string>
+
+<!-- Fuzzy -->
 <string name="txt_database">"База данных"</string>
+
+<!-- Midnight Commander -->
 <string name="txt_file_manager">"MC"</string>
+
+<!-- Fuzzy -->
 <string name="txt_log">"Журнал"</string>
-<string name="txt_my_guild">"Моя Гильдия"</string>
-<string name="txt_guilds_net">"Сеть Гильдий"</string>
+
+<!-- Fuzzy -->
+<string name="txt_my_guild">"Моя гильдия"</string>
+
+<!-- Fuzzy -->
 <string name="txt_members">"Участники"</string>
+
+<!-- Fuzzy -->
 <string name="txt_requests">"Запросы"</string>
 </resources>
