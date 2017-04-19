@@ -13,7 +13,7 @@
 <string name="str_reg">"Регистрация"</string>
 <string name="txt_up_pc">"Улучшайте взломщик паролей, процессор и ИИ чтобы взламывать быстрее!"</string>
 <string name="btn_upgrade_software">"Чем мощнее ваш процессор и ИИ, тем сильнее алгоритмы вашего ПО!"</string>
-<string name="btn_finish_soft_upgrade_explain">"Арендовать суперкомпьютер для улучшения софта. Мгновенный результат!"</string>
+<string name="btn_cancel_software_description">"Отменить процесс обновления ПО и вернуть HC"</string>
 <string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
 <string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Туннель разорван! Переподключение возможно через час!"</string>
@@ -258,6 +258,10 @@
 
 <!-- Fuzzy -->
 <string name="txt_my_guild">"Моя гильдия"</string>
+
+<!-- Поиск гильдий -->
+<!-- Fuzzy -->
+<string name="txt_guilds_net">"Поиск гильдий"</string>
 
 <!-- Fuzzy -->
 <string name="txt_members">"Участники"</string>
