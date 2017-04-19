@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Missions and Jobs portal"
+            android:text="@string/txt_missions_job_portal"
             android:id="@+id/textView10"
             android:textSize="15dp"
             android:textStyle="bold"

@@ -178,6 +178,7 @@
     <string name="txt_guilds_net">Guilds Net</string>
     <string name="txt_members">Members</string>
     <string name="txt_requests">Requests</string>
+    <string name="txt_missions_job_portal">Missions and Jobs portal</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
