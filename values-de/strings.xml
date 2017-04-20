@@ -40,7 +40,7 @@ Such eine Gilde zum beitreten oder erstelle eine neue Gilde!"</string>
 <string name="txt_load_guild">"Lade Gilde"</string>
 <string name="txt_guild_load_error">"Es gab einen Fehler beim Laden der Gilde!"</string>
 <string name="tit_members_count">"Mitgliederanzahl:"</string>
-<string name="tit_ddos_mitigation">"DDoS Abwehr"</string>
+<string name="tit_ddos_mitigation">"DDoS-Abwehr"</string>
 <string name="tit_bandwidth_util">"Verwendete Bandbreite:"</string>
 <string name="tit_news">"Neuigkeiten:"</string>
 <string name="tit_guild_leader">"Gildenleiter:"</string>
@@ -53,17 +53,15 @@ Such eine Gilde zum beitreten oder erstelle eine neue Gilde!"</string>
 <string name="tit_contributions">"Beiträge:"</string>
 <string name="tit_enter_guild_prefix">"Gib das Gildenkürzel ein:"</string>
 <string name="tit_min_rep">"Min Rep:"</string>
-<string name="btn_send_join_request">"Sende Beitrittsanfrage"</string>
+<string name="btn_send_join_request">"Beitrittsanfrage senden"</string>
 <string name="txt_min_rep">"Du musst die Mindestreputation erreicht haben, um dieser Gilde beitreten zu können!"</string>
-<string name="txt_how_to_leave">"Du kannst die Gilde nur verlassen, indem du vom Anführer gekickt wirst. Stelle sicher, dass du weißt wo du eintrittst und das der Anführer online ist."</string>
+<string name="txt_how_to_leave">"Du kannst die Gilde nur verlassen, indem du vom Besitzer gekickt wirst. Stelle sicher, dass du weißt wo du eintrittst und dass der Anführer online ist."</string>
 <string name="btn_accept">"Annehmen"</string>
 <string name="btn_reject">"Ablehnen"</string>
 <string name="btn_send">"Senden"</string>
 <string name="txt_guilds">"Gilden"</string>
 <string name="txt_rank">"Rang"</string>
 <string name="txt_guild_pre">"Gildenkürzel"</string>
-
-<!-- Fuzzy -->
 <string name="txt_mitigation">"DDoS Filt."</string>
 <string name="txt_remove">"Entfernen"</string>
 <string name="tit_your_email">"Deine E-Mail:"</string>
@@ -71,7 +69,7 @@ Such eine Gilde zum beitreten oder erstelle eine neue Gilde!"</string>
 <string name="info_hacked_already">"[Bereits gehackt]"</string>
 <string name="info_guild_member">"[Gildenmitglied]"</string>
 <string name="tit_chat_lines">"Maximale Chatzeilen:"</string>
-<string name="desc_chat_lines">"Maximale Anzahl an angezeigten Chatzeilen.  Beim automatischen Scrollen wird dieser Wert nicht berücksichtigt."</string>
+<string name="desc_chat_lines">"Maximale Anzahl an angezeigten Chatzeilen. Beim automatischen Scrollen wird dieser Wert nicht berücksichtigt."</string>
 <string name="desc_share_300_bb">"Teile das Spiel mit deinen Freunden und bekomme 200BB wenn diese 1000 Rep erreichen! (Das Spiel muss vor der Registrierung über den Link zum Play Store installiert werden.)"</string>
 <string name="txt_share">"Teilen"</string>
 <string name="txt_try_again">"Versuche es nochmal!"</string>
@@ -79,8 +77,6 @@ Such eine Gilde zum beitreten oder erstelle eine neue Gilde!"</string>
 <string name="txt_db_connection_failed">"Datenbankverbindung fehlgeschlagen!"</string>
 <string name="txt_save">"Speichern"</string>
 <string name="tit_support">"Hilfe:"</string>
-
-<!-- Fuzzy -->
 <string name="not_connecting_twitter">"Server offline für Wartungsarbeiten.
 Klicke hier für mehr Informationen​!"</string>
 <string name="txt_clear">"Löschen"</string>
@@ -95,8 +91,6 @@ Du erhälst dafür nur 100BB zurück."</string>
 <string name="txt_subject">"Betreff"</string>
 <string name="tit_subject">"Betreff:"</string>
 <string name="bad_usernames">"Unangebrachte Benutzernamen werden gelöscht!"</string>
-
-<!-- no need to translate this one -->
 <string name="WEGotThere">"Wir sind angekommen, Cracken jetzt .... *"</string>
 <string name="tit_to">"An:"</string>
 <string name="tit_attachment">"Anhang:"</string>
@@ -104,8 +98,8 @@ Du erhälst dafür nur 100BB zurück."</string>
 <string name="email_subject">"E-Mail Betreff"</string>
 <string name="email_message">"E-Mail Nachricht"</string>
 <string name="attachment_name">"Vollständiger Dateiname (Kopiere den Dateinamen)"</string>
-<string name="email_warning">"! Das verschicken von E-Mails, die nicht den Chatregeln entsprechen oder andere Spieler belästigen, wird mit einer permanenten Sperre dieser Funktion für deinen Account bestraft!"</string>
-<string name="txt_sending_email">"Email wird gesendet"</string>
+<string name="email_warning">"! Das verschicken von E-Mails, die nicht den Chatregeln entsprechen oder andere Spieler belästigen, wird mit einer permanenten Sperre dieser Funktion für deinen Account bestraft !"</string>
+<string name="txt_sending_email">"E-Mail wird gesendet"</string>
 <string name="q_delete_email">"E-Mail löschen?"</string>
 <string name="aus_delete_email">"Bist du dir sicher, dass du die Nachricht löschen willst?"</string>
 <string name="txt_deleting_email">"Lösche Nachricht ..."</string>
@@ -114,7 +108,7 @@ Du erhälst dafür nur 100BB zurück."</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Schließ dich mir in Hackerz Online an; Massive Multiplayer Online hacking Simulator (MMO)"</string>
 <string name="invitation_cta">"Beitreten "</string>
-<string name="tit_mail">"Mail:"</string>
+<string name="tit_mail">"E-Mail:"</string>
 <string name="sep_hardware_name">"HW Name"</string>
 <string name="please_wait_reg">"Bitte warten ..."</string>
 <string name="failed_try_again">"Fehlgeschlagen! Bitte erneut versuchen"</string>
@@ -134,7 +128,7 @@ Du kannst nach Missionen suchen."</string>
 <string name="txt_hacker_name">"Hackername"</string>
 <string name="txt_alpha">"- Der Alpha-Server dient nur zu Entwicklungzwecken, alle Spiel-Daten auf dem Alpha-Server werden mindestens einmal im Monat zurückgesetzt, um neue Funktionen und Verbesserungen für das Spiel zu testen. Der Kauf von Ingame-Coins ist in der Alpha-Version nicht verfügbar, der Server wird oft neustarten und kann für längere Zeit nicht verfügbar sein."</string>
 <string name="question_which_server">"Auf welchem Server spielen:"</string>
-<string name="tit_email_verification">"E-Mail Verifikation:"</string>
+<string name="tit_email_verification">"E-Mail-Verifikation"</string>
 <string name="txt_email_steps">"\\NUR @GMAIL.COM: Um dein Passwort zurücksetzen zu können falls du es vergessen haben solltest, musst du deine E-Mail im System eintragen. Um dies zu machen musst du eine E-Mail mit einem speziellen Code im Betreff an mail_verify@hackerz.online senden. Drück die Taste unten um die E-Mail zu senden."</string>
 <string name="btn_send_email">"Mit GMail senden"</string>
 <string name="txt_shop">"Laden"</string>
@@ -144,7 +138,7 @@ Du kannst nach Missionen suchen."</string>
 <string name="row_name">"|Name"</string>
 <string name="row_version">"|Version"</string>
 <string name="txt_uninstall">"Deinstallieren"</string>
-<string name="txt_upgrade">"Verbessern"</string>
+<string name="txt_upgrade">"Aufwerten"</string>
 <string name="txt_start">"Start"</string>
 <string name="tit_on_success">"Bei Erfolg:"</string>
 <string name="tit_on_fail">"Bei Versagen:"</string>
@@ -165,9 +159,9 @@ Du kannst nach Missionen suchen."</string>
 <string name="tct_fw_log">"Firewall Log"</string>
 <string name="tit_add_target">"Ziel hinzufügen:"</string>
 <string name="tit_con_log">"Verbindungs Log:"</string>
-<string name="txt_close">"schließen"</string>
+<string name="txt_close">"Schließen"</string>
 <string name="btn_add_hardware">"+ Hardware hinzufügen"</string>
-<string name="txt_empty_slot">"leerer Slot"</string>
+<string name="txt_empty_slot">"Leerer Slot"</string>
 <string name="txt_open_file">"Datei öffnen"</string>
 <string name="txt_enter_decryption_key">"Entschlüsselungsschlüssel eingeben"</string>
 <string name="txt_decrypt">"Entschlüsseln"</string>
@@ -190,4 +184,5 @@ Du kannst nach Missionen suchen."</string>
 <string name="txt_guilds_net">"Gildennetz"</string>
 <string name="txt_members">"Mitglieder"</string>
 <string name="txt_requests">"Anfragen"</string>
+<string name="txt_missions_job_portal">"Missions- und Aufgabenportal"</string>
 </resources>
