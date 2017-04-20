@@ -8,22 +8,30 @@
 <string name="fail_mission">"Провалить задание"</string>
 <string name="crack_twice">"Внимание: Вы можете взламывать только 1 РАЗ В ЧАС"</string>
 <string name="_message">"Сообщение:"</string>
-<string name="mission_nore">"Показаны задания, которые соответствуют вашей репутации"</string>
 <string name="str_login">"Логин"</string>
 <string name="str_reg">"Регистрация"</string>
-<string name="txt_up_pc">"Улучшайте взломщик паролей, процессор и ИИ чтобы взламывать быстрее!"</string>
+
+<!-- Может "тем продуктивнее работа вашего ПО"? -->
 <string name="btn_upgrade_software">"Чем мощнее ваш процессор и ИИ, тем сильнее алгоритмы вашего ПО!"</string>
 <string name="btn_cancel_software_description">"Отменить процесс обновления ПО и вернуть HC"</string>
-<string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
-<string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
-<string name="txt_tunnel_broke_reconn_hour">"Туннель разорван! Переподключение возможно через час!"</string>
 
-<!-- ne otslejevaietsa (ceijas) -->
-<string name="txt_not_being_traced">"Не отслежевается"</string>
+<!-- Пасхалка -->
+<string name="btn_finish_soft_upgrade_explain">"QuantumMod, быстро и без СМС!"</string>
+<string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
+
+<!-- "отследили" больше подойдёт... Может, поменяем? -->
+<string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
+
+<!-- Не хватает "только" перед "через час" -->
+<string name="txt_tunnel_broke_reconn_hour">"Туннель разорван! Переподключение возможно через час!"</string>
 <string name="txt_auth_failed">"Ошибка авторизации"</string>
 <string name="txt_wrong_user_pass">"Неверное имя пользователя или пароль!"</string>
 <string name="txt_data_corrupted">"Данные повреждены!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_log_corrupted">"Журнал поврежден!"</string>
+
+<!-- Может, "вы не состоите в гильдии" переведём? А то звучит коряво... -->
 <string name="no_guild">"Вы не являетесь членом гильдии! 
 Используйте поиск или создайте собственную гильдию!"</string>
 <string name="txt_search_guilds">"Поиск гильдий"</string>
@@ -54,10 +62,12 @@
 <string name="tit_contributions">"Вклад:"</string>
 <string name="tit_enter_guild_prefix">"Введите префикс гильдии:"</string>
 <string name="tit_min_rep">"Мин. репутация:"</string>
+
+<!-- Вернее будет "Отослать заявку на вступление" -->
+<!-- Fuzzy -->
 <string name="btn_send_join_request">"Вступить"</string>
 
-<!-- Fuzzy -->
-<string name="txt_min_rep">"Ваша репутация должна соответствовать минимальному уровню для вступления в гильдию."</string>
+<!-- Предлагаю что-то вроде "Вы не сможете самостоятельно покинуть гильдию. Право исключить из гильдии есть только у лидера. Убедитесь, что он активный хакер" -->
 <string name="txt_how_to_leave">"Исключить из гильдии может только глава. Вступая в неё, убедитесь, куда вы вступаете и что лидер активно играет!"</string>
 <string name="btn_accept">"Принять"</string>
 <string name="btn_reject">"Отклонить"</string>
@@ -68,7 +78,6 @@
 <string name="txt_mitigation">"Защита от DDoS"</string>
 <string name="txt_remove">"Удалить"</string>
 <string name="tit_your_email">"Ваш e-mail:"</string>
-<string name="des_weekly">"Статистика сбрасывается каждый понедельник в полночь (серверное время). Призовые BB для первых 100"</string>
 <string name="info_hacked_already">"[Уже взломан]"</string>
 <string name="info_guild_member">"[Член гильдии]"</string>
 <string name="tit_chat_lines">"Максимальное количество строк в чате:"</string>
@@ -80,8 +89,6 @@
 <string name="txt_db_connection_failed">"Ошибка подключения к базе данных!"</string>
 <string name="txt_save">"Сохранить"</string>
 <string name="tit_support">"Поддержка:"</string>
-<string name="not_connecting_twitter">"Сервер недоступен. 
-Кликни для более подробной информации!"</string>
 <string name="txt_clear">"Очистить"</string>
 <string name="coming_soon">"Скоро"</string>
 <string name="q_delete_hardware">"Удалить оборудование?"</string>
@@ -94,6 +101,8 @@
 <string name="txt_subject">"Тема"</string>
 <string name="tit_subject">"Тема:"</string>
 <string name="bad_usernames">"Аккаунты игроков с запрещенными именами будут удалены!"</string>
+
+<!-- Не согласованные глаголы... Звучит немного криво... -->
 <string name="WEGotThere">"Подключено, взламываем .... *"</string>
 <string name="tit_to">"Кому:"</string>
 <string name="tit_attachment">"Вложение:"</string>
@@ -101,17 +110,23 @@
 <string name="email_subject">"Тема письма"</string>
 <string name="email_message">"Сообщение"</string>
 <string name="attachment_name">"Полное имя файла (вставить)"</string>
+
+<!-- Предлагаю "перманентной блокировкой" -->
 <string name="email_warning">"! Отправка любого электронного письма, нарушающего правила чата, оскорбляющего игроков, наказывается вечным БАНОМ учётной записи !"</string>
 <string name="txt_sending_email">"Отправка почты..."</string>
 <string name="q_delete_email">"Удалить сообщение?"</string>
 <string name="aus_delete_email">"Вы уверены, что хотите удалить это сообщение?"</string>
 <string name="txt_deleting_email">"Сообщение удаляется ..."</string>
 <string name="tit_date">"Дата:"</string>
+
+<!-- Добавим "на иконку"? -->
 <string name="chat_box_hint">"&lt;&lt; Нажмите, чтобы выбрать чат"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Присоединяйся ко мне в Hackerz Online; онлайн симулятор хакера (MMO)"</string>
 <string name="invitation_cta">"Войти␣"</string>
 <string name="tit_mail">"Почта:"</string>
+
+<!-- Тут точно нужен знак |  в оригинале его нет. -->
 <string name="sep_hardware_name">"|Железо"</string>
 <string name="please_wait_reg">"Пожалуйста, подождите ..."</string>
 <string name="failed_try_again">"Неудачно! Попробуйте снова"</string>
@@ -131,16 +146,24 @@
 Вы можете поискать новые."</string>
 <string name="txt_reputation">"Репутация"</string>
 <string name="txt_hacker_name">"Ник хакера"</string>
+
+<!-- А разве "по крайней мере" это не вводное слово? -->
 <string name="txt_alpha">"- Альфа-сервер предназначен только для разработки, все игровые данные на Альфа сервере сбрасываются по крайней мере один раз в месяц для тестирования новых функций и оптимизации игры. Покупка игровой валюты недоступна в Альфа-версии. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
 <string name="question_which_server">"Выберите игровой сервер:"</string>
 <string name="tit_email_verification">"Подтверждение e-mail:"</string>
+
+<!-- Предлагаю:
+\ТОЛЬКО @GMAIL.COM: Чтобы иметь возможность восстановить пароль в случае его утери, вам необходимо подтвердить ваш почтовый ящик, отправив письмо с кодом в заголовке на mail_verify@hackerz.online. Нажмите кнопку ниже, чтобы отправить письмо из вашего почтового клиента! -->
 <string name="txt_email_steps">"\\ТОЛЬКО @GMAIL.COM: Если забыли пароль Вы можете его сбросить отправив письмо с кодом в заголовке на mail_verify@hackerz.online. Нажмите кнопку ниже чтобы отправить письмо из вашего почтового клиента!"</string>
 <string name="btn_send_email">"Отправить с GMail"</string>
 <string name="txt_shop">"Магазин"</string>
+
+<!-- Предлагаю "Центр разработки ПО" -->
 <string name="txt_software_center">"Центр софта"</string>
 <string name="txt_installed">"Установлено"</string>
+
+<!-- В таблице это тип, а не описание, описания никакого нет -->
 <string name="txt_description">"Описание"</string>
-<string name="row_name">"|Алгоритм"</string>
 <string name="row_version">"|Версия"</string>
 <string name="txt_uninstall">"Удалить"</string>
 <string name="txt_upgrade">"Улучшить"</string>
@@ -160,6 +183,7 @@
 <!-- Fuzzy -->
 <string name="tit_gateway_slots">"Всего слотов:"</string>
 
+<!-- Дефис нужен -->
 <!-- Fuzzy -->
 <string name="tit_ip_address">"IP адрес:"</string>
 
@@ -170,22 +194,17 @@
 <string name="row_spec">"|Спецификация"</string>
 
 <!-- Fuzzy -->
-<string name="header_file_manager">"Midnight Commander"</string>
-
-<!-- Fuzzy -->
 <string name="pcr_mounting_drive">"Подключение удаленного диска ..."</string>
 
+<!-- Если честно, перевод странный. Либо надо оригинал на Eng, либо что-то придумать. -->
 <!-- Fuzzy -->
-<string name="header_email">"Хак-Мейл"</string>
+<string name="header_email">"HMail"</string>
 
 <!-- Fuzzy -->
 <string name="header_desktop">"Рабочий стол"</string>
 
 <!-- Fuzzy -->
 <string name="header_con_manager">"Диспетчер подключений"</string>
-
-<!-- Fuzzy -->
-<string name="tct_fw_log">"Журнал"</string>
 
 <!-- Fuzzy -->
 <string name="tit_add_target">"Добавить цель:"</string>
@@ -205,6 +224,7 @@
 <!-- Fuzzy -->
 <string name="txt_open_file">"Открыть файл"</string>
 
+<!-- Ключ для расшифровки, ключ для дешифровки... "Для" должно быть... -->
 <!-- Fuzzy -->
 <string name="txt_enter_decryption_key">"Введите ключ расшифровки"</string>
 
@@ -226,6 +246,7 @@
 <!-- Fuzzy -->
 <string name="txt_buy">"Купить"</string>
 
+<!-- Криво звучит, но пока нет идей, как лучше... -->
 <!-- Fuzzy -->
 <string name="note_shop_limit">"Примечание: Вы не можете купить больше, чем на 50$ за 7 дней."</string>
 
@@ -235,14 +256,17 @@
 <!-- Fuzzy -->
 <string name="txt_delete">"Удалить"</string>
 
+<!-- Connected - Подключённый, т.е "Подключён к:" Либо "Подключение к:"
+Не смог понять где это в игре, поэтому на обдумывание. -->
 <!-- Fuzzy -->
-<string name="tit_connected_to">"Подключиться к:"</string>
+<string name="tit_connected_to">"Подключен к:"</string>
 
 <!-- Fuzzy -->
 <string name="tit_tracing">"Отслеживание:"</string>
 
+<!-- Не очень подходит, в русском языке слово "разорвать" имеет много значений. В этом случае лучше уточнить -->
 <!-- Fuzzy -->
-<string name="txt_disconnect">"Разорвать"</string>
+<string name="txt_disconnect">"Отключиться"</string>
 
 <!-- Fuzzy -->
 <string name="txt_hardware">"Оборудование"</string>
@@ -250,9 +274,7 @@
 <!-- Fuzzy -->
 <string name="txt_database">"База данных"</string>
 
-<!-- Midnight Commander -->
-<string name="txt_file_manager">"MC"</string>
-
+<!-- Полагаю, именно тут журнал безопасности должен был быть? -->
 <!-- Fuzzy -->
 <string name="txt_log">"Журнал"</string>
 
