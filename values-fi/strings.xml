@@ -4,7 +4,7 @@
 <string name="user_name">"Käyttäjätunnus"</string>
 <string name="password">"Salasana"</string>
 <string name="_connect">"Yhdistä"</string>
-<string name="_connecting">"Luodaan yhteyttä"</string>
+<string name="_connecting">"Luodaan yhteyttä ..."</string>
 <string name="fail_mission">"Luovuta"</string>
 <string name="crack_twice">"Huomio: Voit kräkätä vain KERRAN TUNNISSA"</string>
 <string name="_message">"Viesti:"</string>
@@ -12,7 +12,7 @@
 <string name="str_login">"Kirjaudu"</string>
 <string name="str_reg">"Rekisteröidy"</string>
 <string name="txt_up_pc">"Päivitä Salasanakräkkeri, Prosessori ja Tekoäly kräkätäksesi nopeammin!"</string>
-<string name="btn_upgrade_software">"Käytä prosessoria ja tekälyä päivittääksesi ohjelmistojen algoritmejä ja vahvistaaksesi niitä!"</string>
+<string name="btn_upgrade_software">"Käytä prosessoria ja tekoälyä päivittääksesi ohjelmistojen algoritmejä ja vahvistaaksesi niitä!"</string>
 <string name="btn_cancel_software_description">"Peruuttaa ohjelmistopäivitykset ja palauttaa HC:t tilillesi"</string>
 <string name="btn_finish_soft_upgrade_explain">"Vuokraa supertietokone laskeaksesi ohjelmistoille vahvemmat algoritmit. Tulokset näkyvät heti!"</string>
 <string name="btn_add_ip_to_history">"Tallenna IP-osoite listallesi."</string>
@@ -34,8 +34,6 @@
 <string name="h_64_chars_max">"Enintään 64 merkkiä"</string>
 <string name="tit_create_price">"Hinta:"</string>
 <string name="btn_create">"Luo"</string>
-
-<!-- Fuzzy -->
 <string name="txt_all_time">"Parhaat"</string>
 <string name="txt_weekly">"Viikottainen"</string>
 <string name="txt_load_guild">"Lataa kilta"</string>
@@ -56,8 +54,6 @@
 <string name="tit_min_rep">"Mainevaatimus:"</string>
 <string name="btn_send_join_request">"Lähetä liittymispyyntö"</string>
 <string name="txt_min_rep">"Tarvitset ainakin min. Maineen liittyäksesi kiltaan."</string>
-
-<!-- Fuzzy -->
 <string name="txt_how_to_leave">"Voit erota killasta vain, jos sinut potkitaan ulos."</string>
 <string name="btn_accept">"Hyväksy"</string>
 <string name="btn_reject">"Hylkää"</string>
@@ -77,9 +73,6 @@ Jos poistat automaattisen vierityksen käytöstä, tällä arvolla ei ole väli�
 <string name="desc_share_300_bb">"Jaa ystäviesi kanssa ja saat 200BB, kun ystäväsi saavuttaa 1000 maineen määrän. (Pitää käyttää linkkiä ladatakseen pelin)"</string>
 <string name="txt_share">"Jaa"</string>
 <string name="txt_try_again">"Yritä uudelleen!"</string>
-
-<!-- Where is this one visible? Can not translate without the actual context -->
-<!-- Fuzzy -->
 <string name="txt_db_record_name">"Tietokantaan tallennettu nimi."</string>
 <string name="txt_db_connection_failed">"Yhteys tietokantaan ei onnistu!"</string>
 <string name="txt_save">"Tallenna"</string>
@@ -121,12 +114,8 @@ Saat 100BB hyvityksen poistosta."</string>
 <string name="captcha">"Captcha koodi"</string>
 <string name="need_help">"Tarvitsetko apua? Klikkaa tästä!"</string>
 <string name="tit_search_term">"Etsi:"</string>
-
-<!-- Too many possible words for this, we need more context -->
 <string name="btn_in_progress"></string>
 <string name="txt_find_missions">"Löydä tehtäviä"</string>
-
-<!-- We need more context -->
 <string name="row_title"></string>
 <string name="row_payout">"|Maksu"</string>
 <string name="row_rep">"|Maine"</string>
@@ -139,14 +128,10 @@ Saat 100BB hyvityksen poistosta."</string>
 <string name="question_which_server">"Missä palvelimessa haluat pelata:"</string>
 <string name="tit_email_verification">"Sähköpostin varmistus:"</string>
 <string name="txt_email_steps"></string>
-
-<!-- Fuzzy -->
 <string name="btn_send_email">"Lähetä viesti Gmailin kautta"</string>
 <string name="txt_shop">"Kauppa"</string>
 <string name="txt_software_center"></string>
 <string name="txt_installed">"Asennettu"</string>
-
-<!-- Fuzzy -->
 <string name="txt_description">"Kuvaus"</string>
 <string name="row_name">"|Nimi"</string>
 <string name="row_version">"|Versio"</string>
@@ -174,40 +159,28 @@ Saat 100BB hyvityksen poistosta."</string>
 <string name="tit_con_log"></string>
 <string name="txt_close">"Sulje"</string>
 <string name="btn_add_hardware">"+ Lisää Laitteisto"</string>
-
-<!-- Fuzzy -->
 <string name="txt_empty_slot">"Tyhjä paikka"</string>
 <string name="txt_open_file">"Avaa tiedosto"</string>
-
-<!-- Fuzzy -->
 <string name="txt_enter_decryption_key">"Anna salattu avain"</string>
-
-<!-- Fuzzy -->
 <string name="txt_decrypt">"Poista salaus"</string>
 <string name="txt_execute">"Suorita"</string>
 <string name="tit_file_name">"Tiedoston nimi:"</string>
 <string name="tit_file_size">"Tiedoston koko:"</string>
 <string name="tit_origin">"Alkuperä:"</string>
 <string name="txt_buy">"Osta"</string>
-
-<!-- Fuzzy -->
 <string name="note_shop_limit">"Huom: Et voi käyttää enemmän kuin 50€ viikossa"</string>
 <string name="txt_cancel_upgrade">"Peruuta päivitys"</string>
 <string name="txt_delete">"Poista"</string>
-
-<!-- Fuzzy -->
 <string name="tit_connected_to">"Yhdistetty:"</string>
-
-<!-- Fuzzy -->
 <string name="tit_tracing">"Jäljitetään:"</string>
-
-<!-- Fuzzy -->
 <string name="txt_disconnect">"Lopeta yhteys"</string>
 <string name="txt_hardware">"Laitteisto"</string>
 <string name="txt_database">"Data keskus"</string>
 <string name="txt_file_manager"></string>
-
-<!-- There Isn't really a good word for this in finnish -->
-<!-- Fuzzy -->
 <string name="txt_log">"Loki"</string>
+<string name="txt_my_guild"></string>
+<string name="txt_guilds_net"></string>
+<string name="txt_members"></string>
+<string name="txt_requests"></string>
+<string name="txt_missions_job_portal"></string>
 </resources>
