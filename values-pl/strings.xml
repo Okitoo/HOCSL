@@ -115,7 +115,6 @@ Dostaniesz tylko 1000BB"</string>
 <string name="captcha">"Kod Captcha"</string>
 <string name="need_help">"Potrzebujesz pomocy? Kliknij tutaj!"</string>
 <string name="tit_search_term">"Wyszukaj:"</string>
-<string name="btn_in_progress">"Praca trwa"</string>
 <string name="txt_find_missions">"Znajdź misje"</string>
 <string name="row_title">"|Tytuł"</string>
 <string name="row_payout">"|Payout"</string>
@@ -176,7 +175,6 @@ Możesz wyszukać misje!"</string>
 <string name="tit_connected_to">"Połączony z:"</string>
 <string name="tit_tracing">"Namierzanie"</string>
 <string name="txt_disconnect">"Rozłacz"</string>
-<string name="txt_hardware">"Sprzęt komputerowy"</string>
 <string name="txt_database">"Baza danych"</string>
 <string name="txt_file_manager">"Menadżer plików"</string>
 <string name="txt_log">"Dziennik"</string>
