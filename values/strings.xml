@@ -177,8 +177,11 @@
     <string name="txt_my_guild">My Guild</string>
     <string name="txt_guilds_net">Guilds Net</string>
     <string name="txt_members">Members</string>
-    <string name="txt_requests">Requests</string>
+    <string name="txt_requests_ph">Requests [%1$d]</string>
     <string name="txt_missions_job_portal">Missions and Jobs portal</string>
+    <string name="warn_guild">Guilds with bad name,slogan or prefix will be deleted!</string>
+    <string name="tit_members_ph">Members [%1$d]:</string>
+    <string name="txt_business">Business</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>

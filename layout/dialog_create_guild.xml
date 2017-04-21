@@ -28,6 +28,17 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/warn_guild"
+        android:id="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTextWarning"
+        android:textSize="11dp" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
