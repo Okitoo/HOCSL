@@ -40,7 +40,7 @@
     <string name="txt_guild_load_error">There was an error loading the guild!</string>
     <string name="tit_members_count">Members Count:</string>
     <string name="tit_ddos_mitigation">DDoS Mitigation</string>
-    <string name="tit_bandwidth_util">Bandwidth util:</string>
+    <string name="tit_bandwidth_util">Bandwidth used:</string>
     <string name="tit_news">News:</string>
     <string name="tit_guild_leader">Guild Leader:</string>
     <string name="tit_hackcoins">HackCoins:</string>
@@ -86,7 +86,6 @@
     <string name="txt_subject">Subject</string>
     <string name="tit_subject">Subject:</string>
     <string name="bad_usernames">Inappropriate usernames will be deleted!</string>
-    <string name="WEGotThere">We Got There, Cracking Now .... *</string>
     <string name="tit_to">To:</string>
     <string name="tit_attachment">Attachment:</string>
     <string name="UserName">UserName</string>
@@ -183,16 +182,34 @@
     <string name="tit_members_ph">Members [%1$d]:</string>
     <string name="txt_sales">Sales</string>
     <string name="txt_switch_server">Switch Server</string>
-    <string name="msg_login_fail_server">You failed to login for 3 times.\\nWill switch back to live server now.</string>
+    <string name="msg_login_fail_server">You failed to login for 3 times.\nWill switch back to live server now.</string>
     <string name="msg_switch_server_complete">To complete switching the server, you must restart the game!  Restart now?</string>
     <string name="tit_bank">Bank:</string>
     <string name="hc">%1$d HC</string>
+    <string name="hcpmb">%1$dHC/MB</string>
     <string name="tit_gb_sold_bw">Sold Bandwidth:</string>
     <string name="bandwidth">%1$d MB</string>
     <string name="tit_gb_rented_bw">Rented Bandwidth:</string>
     <string name="header_tit_sales">Sales:</string>
     <string name="price_mb_hc">Price per MB [%1$dHC]:</string>
+    <string name="tit_price_per_mb">Price per MB:</string>
     <string name="percentage_mb_hc">Bandwidth to sell [%1$d%%]:</string>
+    <string name="percentage_mb_hc_buy">Buy Bandwidth [%1$dMB]:</string>
+    <string name="tit_clients">Clients:</string>
+    <string name="txt_general_error">General Error</string>
+    <string name="msg_general_error_restart">An error has occured!\nWould you like to restart the game to fix it?</string>
+    <string name="txt_protection">Protection</string>
+    <string name="tit_sellers">Sellers:</string>
+    <string name="txt_bandwidth">%1$dMB</string>
+    <string name="txt_rent">Rent</string>
+    <string name="alpha_server_1">Alpha development testing server</string>
+    <string name="warn_alpha">ALPHA GAME SERVER (DEVELOPMENT) - Will be deleted daily</string>
+    <string name="txt_important_info">Important Information</string>
+    <string name="tit_bandwidth_rental">Bandwidth Rental:</string>
+    <string name="tit_avail_bandwidth">Available Bandwidth:</string>
+    <string name="tit_total_price">Total Price:</string>
+    <string name="txt_bandwidth_rental">Bandwidth Rental</string>
+    <string name="msg_rent_bandwith_terms">Important notes:\n\n- Rented bandwidth available for 24 hours only!\nYou can\'t rent from guilds weaker than yours!\n\nAre you sure you want to rent?</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>

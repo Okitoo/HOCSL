@@ -109,7 +109,7 @@
                                     <RadioButton
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="Alpha development testing server"
+                                        android:text="@string/alpha_server_1"
                                         android:id="@+id/rb_server_alpha"
                                         android:background="@color/transparent"
                                         android:textSize="12dp"

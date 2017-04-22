@@ -226,33 +226,49 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/remote_connection_window">
 
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="wrap_content"
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/horizontalScrollView2"
                         android:background="@color/transparent">
 
-                        <Button
+                        <LinearLayout
+                            android:orientation="horizontal"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@android:string/search_go"
-                            android:id="@+id/guild_search_guilds2"
-                            android:layout_marginRight="5dp" />
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/transparent"
+                            android:paddingBottom="6dp">
 
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/txt_requests_ph"
-                            android:id="@+id/btn_guild_requests"
-                            android:layout_marginRight="5dp" />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@android:string/search_go"
+                                android:id="@+id/guild_search_guilds2"
+                                android:layout_marginRight="5dp" />
 
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/txt_sales"
-                            android:id="@+id/guild_business" />
-                    </LinearLayout>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txt_requests_ph"
+                                android:id="@+id/btn_guild_requests"
+                                android:layout_marginRight="5dp" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txt_sales"
+                                android:id="@+id/guild_business"
+                                android:layout_marginRight="5dp" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txt_protection"
+                                android:id="@+id/guild_buy_protection" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
                 </LinearLayout>
 
             </LinearLayout>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@drawable/remote_connection_window">
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/scrollView15"
-        android:background="@color/transparent">
+        android:id="@+id/scrollView16" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -18,18 +17,10 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/remote_connection_window"
                 android:layout_marginBottom="5dp">
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/transparent">
-
-                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -42,13 +33,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"
-                        android:layout_weight="1">
+                        android:layout_weight="1" >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tit_gb_sold_bw"
-                            android:id="@+id/textView94"
+                            android:text="@string/tit_gb_rented_bw"
+                            android:id="@+id/textView98"
                             android:textSize="11dp"
                             android:layout_column="0"
                             android:layout_row="2" />
@@ -61,7 +52,7 @@
                             android:textSize="12dp"
                             android:textColor="@color/colorValueText"
                             android:layout_marginLeft="10dp"
-                            android:id="@+id/gb_sold_bw" />
+                            android:id="@+id/gb_rented_bw" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -69,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparent"
-                        android:layout_weight="1" >
+                        android:layout_weight="1">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -99,92 +90,41 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/remote_connection_window">
-
-                <Switch
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/header_tit_sales"
-                    android:id="@+id/gb_switch_sales"
-                    style="@style/TextViewStyleTitle"
-                    android:checked="false" />
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/transparent"
-                    android:layout_marginBottom="3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="@string/price_mb_hc"
-                        android:id="@+id/gb_sell_price"
-                        android:layout_weight="1"
-                        android:textSize="11dp"
-                        android:layout_gravity="center_vertical" />
-
-                    <SeekBar
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/gb_sell_price_slider"
-                        android:splitTrack="false"
-                        android:max="50000"
-                        android:indeterminate="false"
-                        android:layout_gravity="center_vertical" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/transparent" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="@string/percentage_mb_hc"
-                        android:id="@+id/gb_sell_mb"
-                        android:layout_weight="1"
-                        android:textSize="11dp"
-                        android:layout_gravity="center_vertical" />
-
-                    <SeekBar
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/gb_percentage_slider"
-                        android:splitTrack="false"
-                        android:max="40"
-                        android:indeterminate="false"
-                        android:layout_gravity="center_vertical" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/remote_connection_window">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tit_clients"
-                    android:id="@+id/textView130"
+                    android:text="@string/tit_gb_rented_bw"
                     style="@style/TextViewStyleTitle" />
 
                 <ListView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:id="@+id/lv_clients"
+                    android:id="@+id/lv_protection"
+                    android:background="@drawable/txt_style_section" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/remote_connection_window">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_sellers"
+                    android:id="@+id/textView130"
+                    style="@style/TextViewStyleTitle" />
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/lv_sellers"
                     android:background="@drawable/txt_style_section" />
             </LinearLayout>
         </LinearLayout>

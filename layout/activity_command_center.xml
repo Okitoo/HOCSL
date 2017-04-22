@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="ALPHA GAME SERVER (DEVELOPMENT)"
+                android:text="@string/warn_alpha"
                 android:id="@+id/textView78"
                 android:textSize="9dp"
                 android:layout_gravity="center_vertical"
