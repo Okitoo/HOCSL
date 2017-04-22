@@ -181,7 +181,18 @@
     <string name="txt_missions_job_portal">Missions and Jobs portal</string>
     <string name="warn_guild">Guilds with bad name,slogan or prefix will be deleted!</string>
     <string name="tit_members_ph">Members [%1$d]:</string>
-    <string name="txt_business">Business</string>
+    <string name="txt_sales">Sales</string>
+    <string name="txt_switch_server">Switch Server</string>
+    <string name="msg_login_fail_server">You failed to login for 3 times.\\nWill switch back to live server now.</string>
+    <string name="msg_switch_server_complete">To complete switching the server, you must restart the game!  Restart now?</string>
+    <string name="tit_bank">Bank:</string>
+    <string name="hc">%1$d HC</string>
+    <string name="tit_gb_sold_bw">Sold Bandwidth:</string>
+    <string name="bandwidth">%1$d MB</string>
+    <string name="tit_gb_rented_bw">Rented Bandwidth:</string>
+    <string name="header_tit_sales">Sales:</string>
+    <string name="price_mb_hc">Price per MB [%1$dHC]:</string>
+    <string name="percentage_mb_hc">Bandwidth to sell [%1$d%%]:</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
