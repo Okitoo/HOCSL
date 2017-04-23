@@ -1,114 +1,306 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+<!-- Fuzzy -->
 <string name="app_name">"Hackers"</string>
+
+<!-- Fuzzy -->
 <string name="user_name">"Nome utente"</string>
+
+<!-- Fuzzy -->
 <string name="password">"Password"</string>
-<string name="_connect">"Connettiti"</string>
+
+<!-- Fuzzy -->
+<string name="_connect">"Entra"</string>
+
+<!-- Fuzzy -->
 <string name="_connecting">"$ Connettendo... _"</string>
+
+<!-- Fuzzy -->
 <string name="fail_mission">"Fallisci missione"</string>
+
+<!-- Fuzzy -->
 <string name="crack_twice">"Avviso: puoi crackare la password dell'obiettivo solo UNA VOLTA OGNI ORA"</string>
+
+<!-- Fuzzy -->
 <string name="_message">"Messaggio:"</string>
+
+<!-- Fuzzy -->
 <string name="mission_nore">"Verranno mostrate solo le missioni adatte alla tua Reputazione"</string>
+
+<!-- Fuzzy -->
 <string name="str_login">"Accedi"</string>
+
+<!-- Fuzzy -->
 <string name="str_reg">"Registrati"</string>
+
+<!-- Fuzzy -->
 <string name="txt_up_pc">"Migliora il Password Cracker, CPU e A.I. per crackare più velocemente!"</string>
+
+<!-- Fuzzy -->
 <string name="btn_upgrade_software">"Usa la potenza della CPU e dell'A.I per potenziare gli algoritmi del software e per renderlo più forte!"</string>
+
+<!-- Fuzzy -->
 <string name="btn_cancel_software_description">"Annulla il processo di aggiornamento del software e restituisci gli HC"</string>
+
+<!-- Fuzzy -->
 <string name="btn_finish_soft_upgrade_explain">"Noleggia un supercomputer per calcolare velocemente un algoritmo più potente per il software. Risultati immediati!"</string>
+
+<!-- Fuzzy -->
 <string name="btn_add_ip_to_history">"Salva IP nella cronologia"</string>
+
+<!-- Fuzzy -->
 <string name="txt_u_r_almost_traced_down">"Stai per essere rintracciato!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Tunnel interrotto! Riconnettiti fra un ora!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_not_being_traced">"Non sei stato rintracciato"</string>
+
+<!-- Fuzzy -->
 <string name="txt_auth_failed">"Autentificazione fallita"</string>
+
+<!-- Fuzzy -->
 <string name="txt_wrong_user_pass">"Nome utente o Password errati!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_data_corrupted">"Dati corrotti!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_log_corrupted">"Log corrotto!"</string>
-<string name="no_guild">"Non sei membro di nessuna gilda!
+
+<!-- Fuzzy -->
+<string name="no_guild">"Non sei un membro di nessuna gilda!
 Cerca una gilda in cui entrare o creane una nuova!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_search_guilds">"Cerca Gilde"</string>
-<string name="btn_create_guild"></string>
+
+<!-- Fuzzy -->
+<string name="btn_create_guild">"Cerca una Gilda"</string>
+
+<!-- Fuzzy -->
 <string name="tit_guild_name">"Nome della gilda:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_name_prefix">"Prefisso:"</string>
+
+<!-- Fuzzy -->
 <string name="h_16_chars_max">"Massimo 16 caratteri"</string>
-<string name="h_3_chars_exactly"></string>
+<string name="h_3_chars_exactly">"3 caratteri esatti che siano compresi tra a-z e 0-9"</string>
+
+<!-- Fuzzy -->
 <string name="tit_slogam">"Slogan:"</string>
+
+<!-- Fuzzy -->
 <string name="h_64_chars_max">"Massimo 64 caratteri"</string>
+
+<!-- Fuzzy -->
 <string name="tit_create_price">"Crea Prezzo:"</string>
+
+<!-- Fuzzy -->
 <string name="btn_create">"Crea"</string>
-<string name="txt_all_time"></string>
+
+<!-- Fuzzy -->
+<string name="txt_all_time">"In Assoluto"</string>
+
+<!-- Fuzzy -->
 <string name="txt_weekly">"Settimanale"</string>
 <string name="txt_load_guild">"Carica gilda"</string>
 <string name="txt_guild_load_error">"C'è stato un errore nel caricare la gilda!"</string>
+
+<!-- Fuzzy -->
 <string name="tit_members_count">"Numero di Membri:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_ddos_mitigation">"Mitigazione DDoS:"</string>
-<string name="tit_bandwidth_util"></string>
+<string name="tit_bandwidth_util">"Larghezza di banda:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_news">"Notizie:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_guild_leader">"Leader della Gilda:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_hackcoins">"HackCoins:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_blackbits">"BlackBits:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_member_name">"Nome del Membro:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_reputation">"Reputazione:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_last_login">"Ultimo Accesso:"</string>
-<string name="tit_last_hack"></string>
+
+<!-- Fuzzy -->
+<string name="tit_last_hack">"Ultima Hack:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_contributions">"Contributi:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_enter_guild_prefix">"Inserisci il prefisso della gilda:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_min_rep">"Rep minima:"</string>
-<string name="btn_send_join_request">"Invia richiesta d'iscrizione"</string>
-<string name="txt_min_rep">"Devi avere almeno la reputazione minima necessaria per entrare in gilda!"</string>
-<string name="txt_how_to_leave"></string>
+
+<!-- Fuzzy -->
+<string name="btn_send_join_request">"Invia richiesta di partecipazione"</string>
+
+<!-- Fuzzy -->
+<string name="txt_min_rep">"Devi avere almeno la reputazione minima necessaria per entrare a far parte di questa gilda!"</string>
+<string name="txt_how_to_leave">"Puoi uscire dalla gilda solo se vieni cacciato dal leader. Sii sicuro di conoscere con chi stai partecipando e che il leader della gilda sia attivo!"</string>
+
+<!-- Fuzzy -->
 <string name="btn_accept">"Accetta"</string>
+
+<!-- Fuzzy -->
 <string name="btn_reject">"Rifiuta"</string>
+
+<!-- Fuzzy -->
 <string name="btn_send">"Invia"</string>
+
+<!-- Fuzzy -->
 <string name="txt_guilds">"Gilde"</string>
+
+<!-- Fuzzy -->
 <string name="txt_rank">"Rango"</string>
+
+<!-- Fuzzy -->
 <string name="txt_guild_pre">"Prefisso della Gilda"</string>
+
+<!-- Fuzzy -->
 <string name="txt_mitigation">"Mit. dDoS"</string>
+
+<!-- Fuzzy -->
 <string name="txt_remove">"Elimina"</string>
+
+<!-- Fuzzy -->
 <string name="tit_your_email">"La tua email:"</string>
-<string name="des_weekly"></string>
+
+<!-- Fuzzy -->
+<string name="des_weekly">"Si azzera ogni lunedì a mezzanotte (timezone del server). BB per i top 100"</string>
+
+<!-- Fuzzy -->
 <string name="info_hacked_already">"[Già Hackerato]"</string>
+
+<!-- Fuzzy -->
 <string name="info_guild_member">"[Membro Della Gilda]"</string>
+
+<!-- Fuzzy -->
 <string name="tit_chat_lines">"Numero massimo di linee di chat:"</string>
+
+<!-- Fuzzy -->
 <string name="desc_chat_lines">"Numero massimo di linee che saranno mostrate in chat. Se blocchi lo scorrimento automatico questo valore sarà ignorato."</string>
-<string name="desc_share_300_bb">"Condividi il gioco con i tuoi amici e ricevi 200 BB quando raggiungeranno 1000 Rep! (Devono aprire il link nel Play Store e installare il gioco prima di registrarsi)"</string>
+
+<!-- Fuzzy -->
+<string name="desc_share_300_bb">"Se condividi il gioco con i tuoi amici riceverai 200 BB quando raggiungeranno 1000 Rep! (Devono aprire il link nel Play Store e installare il gioco prima di registrarsi)"</string>
+
+<!-- Fuzzy -->
 <string name="txt_share">"Condividi"</string>
-<string name="txt_try_again"></string>
+
+<!-- Fuzzy -->
+<string name="txt_try_again">"Riprova!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_db_record_name">"Nome registrato nel Database"</string>
+
+<!-- Fuzzy -->
 <string name="txt_db_connection_failed">"La connessione al Database è fallita!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_save">"Salva"</string>
+
+<!-- Fuzzy -->
 <string name="tit_support">"Assistenza:"</string>
+
+<!-- Fuzzy -->
 <string name="not_connecting_twitter">"Sospensione del server a causa di lavori di manutenzione.
 Clicca quì per maggiori informazioni!"</string>
+
+<!-- Fuzzy -->
 <string name="txt_clear">"Cancella"</string>
+
+<!-- Fuzzy -->
 <string name="coming_soon">"Prossimamente"</string>
-<string name="q_delete_hardware"></string>
+<string name="q_delete_hardware">"Eliminare l'hardware ?"</string>
+
+<!-- Fuzzy -->
 <string name="aus_delete_hardware">"Sei sicuro di voler cancellare questo hardware?
-Questa operazione non è reversibile.
+Questa operazione NON è reversibile.
 
 In cambio avrai solo 100 BB."</string>
+
+<!-- Fuzzy -->
 <string name="prc_loading">"Caricamento in corso ..."</string>
+
+<!-- Fuzzy -->
 <string name="tit_from">"Da:"</string>
+
+<!-- Fuzzy -->
 <string name="txt_subject">"Soggetto"</string>
+
+<!-- Fuzzy -->
 <string name="tit_subject">"Soggetto:"</string>
+
+<!-- Fuzzy -->
 <string name="bad_usernames">"Nomi utente inappropriati verranno cancellati!"</string>
+
+<!-- Fuzzy -->
 <string name="WEGotThere">"Ci siamo, Stiamo crackando .... *"</string>
+
+<!-- Fuzzy -->
 <string name="tit_to">"A:"</string>
+
+<!-- Fuzzy -->
 <string name="tit_attachment">"Allegato:"</string>
+
+<!-- Fuzzy -->
 <string name="UserName">"Nome Utente"</string>
+
+<!-- Fuzzy -->
 <string name="email_subject">"Soggetto Email:"</string>
+
+<!-- Fuzzy -->
 <string name="email_message">"Messaggio Email"</string>
 <string name="attachment_name"></string>
-<string name="email_warning"></string>
-<string name="txt_sending_email">"Invio E-mail"</string>
+
+<!-- Fuzzy -->
+<string name="email_warning">"! L'invio di email che non rispettano le regole della chat o che disturbano gli altri giocatori COMPORTERÀ un ban permanente ed irreversibile !"</string>
+
+<!-- Fuzzy -->
+<string name="txt_sending_email">"Invio Email"</string>
+
+<!-- Fuzzy -->
 <string name="q_delete_email">"Eliminare l'Email?"</string>
-<string name="aus_delete_email">"Sei sicuro di voler cancellare il messaggio?"</string>
+
+<!-- Fuzzy -->
+<string name="aus_delete_email">"Sei sicuro di voler cancellare questo messaggio?"</string>
+
+<!-- Fuzzy -->
 <string name="txt_deleting_email">"Eliminazione del messaggio ..."</string>
+
+<!-- Fuzzy -->
 <string name="tit_date">"Data:"</string>
+
+<!-- Fuzzy -->
 <string name="chat_box_hint">"&lt;&lt; Clicca sull'icona e seleziona le chat disponibili"</string>
+
+<!-- Fuzzy -->
 <string name="invitation_title">"Hackerz.Online"</string>
+
+<!-- Fuzzy -->
 <string name="invitation_message">"Unisciti a me e gioca ad Hackerz Online; un simulatore di Hacking Massive Multiplayer Online (MMO)"</string>
 <string name="invitation_cta"></string>
+
+<!-- Fuzzy -->
 <string name="tit_mail">"Mail:"</string>
+
+<!-- Fuzzy -->
 <string name="sep_hardware_name">"Nome HW"</string>
 <string name="please_wait_reg">"Attendere prego ..."</string>
 <string name="failed_try_again"></string>
@@ -175,10 +367,18 @@ Puoi cercare missioni."</string>
 <string name="txt_delete">"Elimina"</string>
 <string name="tit_connected_to">"Connesso a:"</string>
 <string name="tit_tracing"></string>
-<string name="txt_disconnect">"Disconnettiti"</string>
+
+<!-- Fuzzy -->
+<string name="txt_disconnect">"Esci"</string>
+
+<!-- Fuzzy -->
 <string name="txt_hardware">"Hardware"</string>
+
+<!-- Fuzzy -->
 <string name="txt_database">"Database"</string>
-<string name="txt_file_manager">"File manager"</string>
+
+<!-- Fuzzy -->
+<string name="txt_file_manager">"File Manager"</string>
 <string name="txt_log"></string>
 <string name="txt_my_guild">"La mia Gilda"</string>
 <string name="txt_guilds_net">"Rete Gilda"</string>
