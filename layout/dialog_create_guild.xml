@@ -109,7 +109,7 @@
                     android:id="@+id/nm_prefix"
                     android:layout_weight="1"
                     android:hint="@string/h_3_chars_exactly"
-                    android:maxLength="3" />
+                    android:maxLength="4" />
 
                 <ImageView
                     android:layout_width="24dp"

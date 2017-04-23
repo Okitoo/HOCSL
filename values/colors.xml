@@ -17,7 +17,7 @@
     <color name="colorValueText">#7cffbb</color>
     <color name="colorValueTextT">#017cffbb</color>
     <color name="colorBtnBorder">#2b5840</color>
-    <color name="colorDialogBorder">#1e3e2d</color>
+    <color name="colorDialogBorder">#1e3e31</color>
 
     <color name="colorSelectedTargetBackground">#337cffbb</color>
 
@@ -40,4 +40,8 @@
     <color name="gold">#e6d558</color>
     <color name="silver">#d2d2d1</color>
     <color name="bronze">#ffa24c</color>
+
+    <color name="remote_con_window_start">#88000000</color>
+    <color name="remote_con_window_center">#88000000</color>
+    <color name="remote_con_window_end">#017cf2ff</color>
 </resources>

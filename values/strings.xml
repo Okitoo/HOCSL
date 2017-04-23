@@ -30,6 +30,7 @@
     <string name="tit_name_prefix">Prefix:</string>
     <string name="h_16_chars_max">16 chars max</string>
     <string name="h_3_chars_exactly">3 chars exactly a-z 0-9 only</string>
+    <string name="h_3_to_4_cars">3-4 chars a-z 0-9 only</string>
     <string name="tit_slogam">Slogan:</string>
     <string name="h_64_chars_max">64 chars max</string>
     <string name="tit_create_price">Create Price:</string>
