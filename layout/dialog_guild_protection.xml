@@ -90,7 +90,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/remote_connection_window">
 
@@ -99,6 +99,13 @@
                     android:layout_height="wrap_content"
                     android:text="@string/tit_gb_rented_bw"
                     style="@style/TextViewStyleTitle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_guild_protection_warning"
+                    android:id="@+id/textView131"
+                    android:textSize="11dp" />
 
                 <ListView
                     android:layout_width="match_parent"
@@ -110,7 +117,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/remote_connection_window">
 
@@ -123,7 +130,7 @@
 
                 <ListView
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_height="200dp"
                     android:id="@+id/lv_sellers"
                     android:background="@drawable/txt_style_section" />
             </LinearLayout>

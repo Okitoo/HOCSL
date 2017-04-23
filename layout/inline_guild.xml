@@ -107,7 +107,7 @@
                     <GridLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:columnCount="2"
+                        android:columnCount="3"
                         android:background="@color/transparent"
                         android:rowCount="7"
                         android:alignmentMode="alignBounds">
@@ -195,6 +195,27 @@
                             android:layout_row="3"
                             android:layout_column="1" />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tit_datacenter_ip"
+                            android:id="@+id/textView132"
+                            android:textSize="11dp"
+                            android:layout_column="0"
+                            android:layout_row="4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="0"
+                            android:id="@+id/mg_guild_ip"
+                            android:textSize="12dp"
+                            android:textColor="@color/colorValueText"
+                            android:layout_marginLeft="10dp"
+                            android:layout_row="4"
+                            android:layout_column="1" />
+
                     </GridLayout>
 
                 </LinearLayout>
@@ -238,7 +259,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:background="@color/transparent"
-                            android:paddingBottom="6dp">
+                            android:paddingBottom="12dp">
 
                             <Button
                                 android:layout_width="wrap_content"

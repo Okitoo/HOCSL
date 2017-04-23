@@ -192,12 +192,13 @@
     <string name="tit_gb_rented_bw">Rented Bandwidth:</string>
     <string name="header_tit_sales">Sales:</string>
     <string name="price_mb_hc">Price per MB [%1$dHC]:</string>
+    <string name="add_hc">Add [%1$dHC]:</string>
     <string name="tit_price_per_mb">Price per MB:</string>
     <string name="percentage_mb_hc">Bandwidth to sell [%1$d%%]:</string>
     <string name="percentage_mb_hc_buy">Buy Bandwidth [%1$dMB]:</string>
     <string name="tit_clients">Clients:</string>
     <string name="txt_general_error">General Error</string>
-    <string name="msg_general_error_restart">An error has occured!\nWould you like to restart the game to fix it?</string>
+    <string name="msg_general_error_restart">An caching has occured!\nPlease close the game completely (kill from task manager) or restart your phone to fix the issue.</string>
     <string name="txt_protection">Protection</string>
     <string name="tit_sellers">Sellers:</string>
     <string name="txt_bandwidth">%1$dMB</string>
@@ -210,6 +211,13 @@
     <string name="tit_total_price">Total Price:</string>
     <string name="txt_bandwidth_rental">Bandwidth Rental</string>
     <string name="msg_rent_bandwith_terms">Important notes:\n\n- Rented bandwidth available for 24 hours only!\nYou can\'t rent from guilds weaker than yours!\n\nAre you sure you want to rent?</string>
+    <string name="txt_add">Add</string>
+    <string name="header_add_hc_guild">Deposit to guild bank</string>
+    <string name="msg_add_hc_guild">Are you sure you want to add %1$HC to the guild bank? \nThis operation can\'t be reversed!</string>
+    <string name="msg_guild_protection_warning">If a guild that you are renting from gets destroyed, your datacenter IP will be visible in their \"clients\" file only if you have active bandwidth rented from them.</string>
+    <string name="tit_datacenter_ip">Datacenter IP:</string>
+    <string name="txt_copied_to_clip">Copied to clipboard</string>
+    <string name="txt_file_copied_to_clip">Full file path copied to clipboard</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
