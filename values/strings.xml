@@ -211,7 +211,7 @@
     <string name="tit_avail_bandwidth">Available Bandwidth:</string>
     <string name="tit_total_price">Total Price:</string>
     <string name="txt_bandwidth_rental">Bandwidth Rental</string>
-    <string name="msg_rent_bandwith_terms">Important notes:\n\n- Rented bandwidth available for 24 hours only!\nYou can\'t rent from guilds weaker than yours!\n\nAre you sure you want to rent?</string>
+    <string name="msg_rent_bandwith_terms">Important notes:\n\n- Rented bandwidth available for 24 hours only!\n- If the guild you rented from is destroyed, your datacenter IP will be visible in their data file if the bandwidth rented is still active!\n- You can\'t rent from guilds weaker than yours!\n\nAre you sure you want to rent?</string>
     <string name="txt_add">Add</string>
     <string name="header_add_hc_guild">Deposit to guild bank</string>
     <string name="msg_add_hc_guild">Are you sure you want to add %1$HC to the guild bank? \nThis operation can\'t be reversed!</string>
