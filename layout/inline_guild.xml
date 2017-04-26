@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:background="@color/transparentRed"
+            android:background="@drawable/remote_connection_window"
             android:id="@+id/guilds_myguilds_no_guild"
             android:visibility="gone">
 

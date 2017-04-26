@@ -24,7 +24,7 @@
                 android:id="@+id/txt_guild_search"
                 android:layout_weight="1"
                 android:singleLine="true"
-                android:maxLength="3" />
+                android:maxLength="4" />
 
             <Button
                 android:layout_width="wrap_content"
