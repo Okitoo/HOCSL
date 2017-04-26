@@ -219,6 +219,11 @@
     <string name="tit_datacenter_ip">Datacenter IP:</string>
     <string name="txt_copied_to_clip">Copied to clipboard</string>
     <string name="txt_file_copied_to_clip">Full file path copied to clipboard</string>
+    <string name="tit_language_engine">Select language engine:</string>
+    <string name="msg_lang_change">What language the game will be in, Device default or english?</string>
+    <string name="tit_game_language">Game language [EN/Default]:</string>
+    <string name="txt_restart_game_question">Restart game?</string>
+    <string name="msg_are_you_sure_restart_game">Are you sure you want to restart the game?</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
