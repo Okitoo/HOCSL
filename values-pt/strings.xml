@@ -2,7 +2,7 @@
 <resources>
 <string name="app_name">"Hackers"</string>
 <string name="user_name">"Username"</string>
-<string name="password">"Senha"</string>
+<string name="password">"Password"</string>
 <string name="_connect">"Conectar"</string>
 <string name="_connecting">"$ Conectando ... _"</string>
 <string name="fail_mission">"Falhar missão"</string>
@@ -15,12 +15,12 @@
 <string name="btn_upgrade_software">"Usa o poder da CPU e da A.I para melhorar os algoritmos de software tornando-os mais fortes!"</string>
 <string name="btn_cancel_software_description">"Cancela o processo de atualização de software e reembolsa o HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Aluga um super computador para calcular algoritmos mais rápidos para o software. Resultados imediatos!"</string>
-<string name="btn_add_ip_to_history">"Guardar o IP no histórico"</string>
+<string name="btn_add_ip_to_history">"Guardar IP no histórico"</string>
 <string name="txt_u_r_almost_traced_down">"Estás quase a ser localizado!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Ligação quebrada! Reconecta-te daqui a uma hora."</string>
 <string name="txt_not_being_traced">"Não estás a ser localizado"</string>
 <string name="txt_auth_failed">"A autenticação falhou"</string>
-<string name="txt_wrong_user_pass">"Username ou senha errado!"</string>
+<string name="txt_wrong_user_pass">"Username ou password errada!"</string>
 <string name="txt_data_corrupted">"Dados corrompidos!"</string>
 <string name="txt_log_corrupted">"Registo corrompido!"</string>
 <string name="no_guild">"Não és membro de nenhuma guild!
@@ -33,7 +33,7 @@ Procura por uma para entrar, ou cria uma guild nova!"</string>
 <string name="h_3_chars_exactly">"Exatamente 3 carateres somente a-z 0-9 "</string>
 <string name="tit_slogam">"Slogan:"</string>
 <string name="h_64_chars_max">"64 carateres no máximo"</string>
-<string name="tit_create_price">"Criar recompensa::"</string>
+<string name="tit_create_price">"Criar preço:"</string>
 <string name="btn_create">"Criar"</string>
 <string name="txt_all_time">"Desde o Início"</string>
 <string name="txt_weekly">"Semanalmente"</string>
@@ -51,7 +51,7 @@ Procura por uma para entrar, ou cria uma guild nova!"</string>
 <string name="tit_last_login">"Último Login:"</string>
 <string name="tit_last_hack">"Último Hack:"</string>
 <string name="tit_contributions">"Contribuições:"</string>
-<string name="tit_enter_guild_prefix">"Insira o Prefixo da Guild:"</string>
+<string name="tit_enter_guild_prefix">"Insere o Prefixo da Guild:"</string>
 <string name="tit_min_rep">"Min Rep:"</string>
 <string name="btn_send_join_request">"Enviar pedido de adesão"</string>
 <string name="txt_min_rep">"Precisas de ter pelo menos o mínimo de reputação pedida para entrar na Guild!"</string>
@@ -98,14 +98,14 @@ Irás receber somente 100BB em retorno."</string>
 <string name="UserName">"Username"</string>
 <string name="email_subject">"Assunto do Email"</string>
 <string name="email_message">"Mensagem do Email"</string>
-<string name="attachment_name">"Nome Completo do Arquivo (copie o nome do arquivo)"</string>
+<string name="attachment_name">"Nome Completo do Arquivo (copia o nome do arquivo)"</string>
 <string name="email_warning">"! Enviar qualquer e-mail que não cumpra as regras de chat ou assediar jogadores resultará em banimento permanente irreversível deste recurso na sua conta !"</string>
 <string name="txt_sending_email">"Enviando email"</string>
 <string name="q_delete_email">"Apagar Email?"</string>
 <string name="aus_delete_email">"Tens a certeza que desejas excluir esta mensagem?"</string>
 <string name="txt_deleting_email">"Excluindo a mensagem..."</string>
 <string name="tit_date">"Data:"</string>
-<string name="chat_box_hint">"&lt;&lt; Clice no ícone para selecionar o chat"</string>
+<string name="chat_box_hint">"&lt;&lt; Clica no ícone para selecionar o chat"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Vem jogar Hackerz Online comigo; Simulador De Hackeamento Massivo Multijogador Online (MMO)"</string>
 <string name="invitation_cta">"Entrar "</string>
@@ -149,7 +149,7 @@ Podes procurar por missões."</string>
 <string name="header_gateway_center">"Hardware - Servidor do Gateway"</string>
 <string name="tit_gw_name">"Nome do Gateway:"</string>
 <string name="tit_gateway_slots">"Total de Slots:"</string>
-<string name="tit_ip_address">"Endereço IP"</string>
+<string name="tit_ip_address">"Endereço IP:"</string>
 <string name="row_level">"|Nível"</string>
 <string name="row_spec">"|Especificações"</string>
 <string name="header_file_manager">"Gestor de Arquivos"</string>
@@ -176,7 +176,7 @@ Podes procurar por missões."</string>
 <string name="txt_delete">"Excluir"</string>
 <string name="tit_connected_to">"Conectado a:"</string>
 <string name="tit_tracing">"Localizando:"</string>
-<string name="txt_disconnect">"Desconectar"</string>
+<string name="txt_disconnect">"Desligar"</string>
 <string name="txt_hardware">"Hardware"</string>
 <string name="txt_database">"Base de dados"</string>
 <string name="txt_file_manager">"Gestor de Arquivos"</string>
@@ -185,4 +185,62 @@ Podes procurar por missões."</string>
 <string name="txt_guilds_net">"Rede de Guilds"</string>
 <string name="txt_members">"Membros"</string>
 <string name="txt_requests">"Pedidos"</string>
+<string name="txt_missions_job_portal">"Portal de missões"</string>
+<string name="txt_requests_ph">"Solicitações [%1$d]"</string>
+<string name="warn_guild">"Guilds com nome, slogan ou prefixo impróprio serão apagadas!"</string>
+<string name="tit_members_ph">"Membros [%1$d]"</string>
+<string name="txt_sales">"Vendas"</string>
+<string name="txt_switch_server">"Mudar servidor"</string>
+<string name="msg_login_fail_server">"Falhaste o login 3 vezes.
+A voltar ao live server."</string>
+<string name="msg_switch_server_complete">"Para completar a mudança de servidor, deves reiniciar o jogo!
+Reiniciar agora?"</string>
+<string name="tit_bank">"Banco:"</string>
+<string name="hc">"%1$d HC"</string>
+<string name="hcpmb">"%1$dHC/MB"</string>
+<string name="tit_gb_sold_bw">"Banda larga vendida:"</string>
+<string name="bandwidth">"%1$d MB"</string>
+<string name="tit_gb_rented_bw">"Banda larga alugada:"</string>
+<string name="header_tit_sales">"Vendas:"</string>
+<string name="price_mb_hc">"Preço por MB [%1$dHC]:"</string>
+<string name="add_hc">"Adicionar [%1$dHC]:"</string>
+<string name="tit_price_per_mb">"Preço por MB:"</string>
+<string name="percentage_mb_hc">"Largura de banda para vender [%1$d%%]:"</string>
+<string name="percentage_mb_hc_buy">"Comprar largura de banda [%1$dMB]:"</string>
+<string name="tit_clients">"Clientes:"</string>
+<string name="txt_general_error">"Erro Geral"</string>
+<string name="msg_general_error_restart">"Ocorreu um cache!
+Por favor fecha o jogo completamente (fecha no gestor processos) ou reinicia o telemóvel para resolver o problema."</string>
+<string name="txt_protection">"Proteção"</string>
+<string name="tit_sellers">"Vendedores:"</string>
+<string name="txt_bandwidth">"%1$dMB"</string>
+<string name="txt_rent">"Alugar"</string>
+<string name="alpha_server_1">"Servidor de teste de desenvolvimento Alpha"</string>
+<string name="warn_alpha">"SERVIDOR ALPHA (DESENVOLVIMENTO) - Será deletado diariamente"</string>
+<string name="txt_important_info">"Informação importante"</string>
+<string name="tit_bandwidth_rental">"Aluguer banda larga:"</string>
+<string name="tit_avail_bandwidth">"Banda larga disponível:"</string>
+<string name="tit_total_price">"Preço total:"</string>
+<string name="txt_bandwidth_rental">"Aluguer banda larga"</string>
+<string name="msg_rent_bandwith_terms">"Notas importantes:
+
+- Banda larga alugada só está disponível por 24 horas!
+- Se a guild da qual alugaste for destruida, o IP do teu datacenter ficará visível no seu ficheiro data se a banda larga alugada ainda estiver ativa!
+- Não podes alugar de guilds mais fracas que a tua!
+
+Tens a certeza que queres alugar?"</string>
+<string name="txt_add">"Adicionar"</string>
+<string name="header_add_hc_guild">"Depositar para o banco da guild"</string>
+<string name="msg_add_hc_guild">"Tens a certeza de que queres adicionar %1$HC ao banco da guild?
+Esta operação não é reversível!"</string>
+<string name="msg_guild_protection_warning">"Se a guild da qual alugaste for destruída, o IP do teu datacenter estará visível no seu ficheiro de \"clientes\" apenas se tiveres banda larga alugada ativa deles."</string>
+<string name="tit_datacenter_ip">"IP do datacenter:"</string>
+<string name="txt_copied_to_clip">"Copiado para área de transferência"</string>
+<string name="txt_file_copied_to_clip">"Caminho completo do arquivo copiado para a área de transferência"</string>
+<string name="h_3_to_4_cars">"3-4 carateres a-z 0-9 apenas"</string>
+<string name="tit_language_engine">"Selecionar o mecanismo de idioma:"</string>
+<string name="msg_lang_change">"Qual idioma o jogo irá ser apresentado, Idioma do dispositivo ou inglês?"</string>
+<string name="tit_game_language">"Idioma do jogo [EN/Padrão]:"</string>
+<string name="txt_restart_game_question">"Reiniciar o jogo?"</string>
+<string name="msg_are_you_sure_restart_game">"Tens a certeza de que queres reiniciar o jogo?"</string>
 </resources>
