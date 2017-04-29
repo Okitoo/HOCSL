@@ -224,6 +224,7 @@
     <string name="tit_game_language">Game language [EN/Default]:</string>
     <string name="txt_restart_game_question">Restart game?</string>
     <string name="msg_are_you_sure_restart_game">Are you sure you want to restart the game?</string>
+    <string name="cant_alpha">New players can\'t join alpha.</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
