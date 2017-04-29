@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">"Hackerz"</string>
+<string name="app_name">"Hackers"</string>
 <string name="user_name">"Käyttäjätunnus"</string>
 <string name="password">"Salasana"</string>
 <string name="_connect">"Yhdistä"</string>
@@ -90,6 +90,7 @@ Saat 100BB hyvityksen poistosta."</string>
 <string name="txt_subject">"Aihe"</string>
 <string name="tit_subject">"Aihe:"</string>
 <string name="bad_usernames">"Sopimattomat käyttäjätunnukset poistetaan!"</string>
+<string name="WEGotThere">"-"</string>
 <string name="tit_to">"Vastaanottaja:"</string>
 <string name="tit_attachment">"Liite:"</string>
 <string name="UserName">"Käyttäjätunnus"</string>
@@ -128,6 +129,8 @@ Voit etsiä uusia tehtäviä."</string>
 Ostot eivät ole sallittuja ja palvelin voi olla epävakaa. "</string>
 <string name="question_which_server">"Kummalla palvelimella haluat pelata:"</string>
 <string name="tit_email_verification">"Sähköpostin varmistus:"</string>
+<string name="txt_email_steps">"
+\\@GMAIL.COM VAIN: Jotta voisit palauttaa salasanasi, jos unohdat sen, sinun on lisättävä sähköpostisi järjestelmään. Sinun on lähetettävä sähköpostitse erityinen koodi otsikossa, osoitteeseen mail_verify@hackerz.online. Klikkaa lähettääksesi sähköpostiviestin."</string>
 <string name="btn_send_email">"Lähetä viesti Gmailin kautta"</string>
 <string name="txt_shop">"Kauppa"</string>
 <string name="txt_software_center">"Ohjelmistokeskus"</string>
@@ -145,6 +148,7 @@ Ostot eivät ole sallittuja ja palvelin voi olla epävakaa. "</string>
 <string name="tit_requested_by">"Pyytänyt:"</string>
 <string name="header_gateway_center">"Laitteisto - Yhdyskäytäväpalvelin"</string>
 <string name="tit_gw_name">"Portin nimi:"</string>
+<string name="tit_gateway_slots">"Paikat yhteensä"</string>
 <string name="tit_ip_address">"IP osoite:"</string>
 <string name="row_level">"|Taso"</string>
 <string name="row_spec">"|Tiedot"</string>
@@ -182,4 +186,60 @@ Ostot eivät ole sallittuja ja palvelin voi olla epävakaa. "</string>
 <string name="txt_members">"Jäsenet"</string>
 <string name="txt_requests">"Pyynnöt"</string>
 <string name="txt_missions_job_portal">"Tehtävä portaali"</string>
+<string name="txt_requests_ph">"Pyynnöt [%1$d]"</string>
+<string name="warn_guild">"Killat, joilla on sopimattomat nimet tai etuliitteet tullaan poistamaan!"</string>
+<string name="tit_members_ph">"Jäsenet [%1$d]"</string>
+<string name="txt_sales">"Myynnit"</string>
+<string name="txt_switch_server">"Vaihda Palvelin"</string>
+<string name="msg_login_fail_server">"Epäonnistuit kirjautumaan kolmeen kertaan
+Vaihdetaan takaisin live palvelimelle"</string>
+<string name="msg_switch_server_complete">"Peli on käynnistettävä uudelleen vaihtaaksesi palvelinta! Käynnistetäänkö uudelleen nyt?"</string>
+<string name="tit_bank">"Pankki:"</string>
+<string name="hc">"%1$d HC"</string>
+<string name="hcpmb">"%1$dHC/MB"</string>
+<string name="tit_gb_sold_bw">"Myyty Kaistanleveys:"</string>
+<string name="bandwidth">"%1$d MB"</string>
+<string name="tit_gb_rented_bw">"Vuokrattu Kaistanleveys:"</string>
+<string name="header_tit_sales">"Myynnit:"</string>
+<string name="price_mb_hc">"Hinta per MB [%1$dHC]"</string>
+<string name="add_hc">"Lisää [%1$dHC]"</string>
+<string name="tit_price_per_mb">"Hinta per MB"</string>
+<string name="percentage_mb_hc">"Myytävissä oleva kaistanleveys [%1$d%%]:"</string>
+<string name="percentage_mb_hc_buy">"Osta kaistanleveyttä [%1$dMB]:"</string>
+<string name="tit_clients">"Asiakkaat:"</string>
+<string name="txt_general_error">"Yleinen Virhe"</string>
+<string name="msg_general_error_restart">"Sattui virhe! Ole hyvä ja käynnistä sovellus uudelleen! (poista myös viimeaikaisista sovelluksista)"</string>
+<string name="txt_protection">"Suojaus"</string>
+<string name="tit_sellers">"Myyjät:"</string>
+<string name="txt_bandwidth">"%1$dMB"</string>
+<string name="txt_rent">"Vuokraa"</string>
+<string name="alpha_server_1">"Alpha kehitys ja testi palvelin"</string>
+<string name="warn_alpha">"ALPHA PALVELIN (Kehittämistä varten) - Tiedot poistetaan päivittäin"</string>
+<string name="txt_important_info">"Tärkeää Tietoa"</string>
+<string name="tit_bandwidth_rental">"Kaistanleveyden vuokraaminen:"</string>
+<string name="tit_avail_bandwidth">"Käytettävissä oleva kaistanleveys:"</string>
+<string name="tit_total_price">"Kokonaishinta:"</string>
+<string name="txt_bandwidth_rental">"Kaistanleveyden vuokraus"</string>
+<string name="msg_rent_bandwith_terms">"Huomio: 
+
+ - Vuokrattu kaistanleveys on käytössä 24 tunnin ajan!
+ - Jos vuokraava kilta tuhoutuu, sinun datakeskuksen IP tulee näkymään heidän killan tiedostossa, jos vuokra-aika ei ole umpeutunut!
+- Ei voi vuorata heikommilta killoilta!
+
+
+Haluatko varmasti vuokrata?"</string>
+<string name="txt_add">"Lisää"</string>
+<string name="header_add_hc_guild">"Talleta killan pankkiin"</string>
+<string name="msg_add_hc_guild">"Haluatko varmasti tallettaa %1$HC killan pankkiin?
+Tätä ei voi perua!"</string>
+<string name="msg_guild_protection_warning">"Jos vuokraava kilta tuhoutuu, sinun datakeskuksen IP tulee näkymään heidän killan tiedostossa, jos vuokra-aika ei ole umpeutunut!"</string>
+<string name="tit_datacenter_ip">"Datakeskuksen IP-Osoite:"</string>
+<string name="txt_copied_to_clip">"Kopioitu Leikepöydälle"</string>
+<string name="txt_file_copied_to_clip">"Täysi tiedostopolku kopioituun tiedostoon"</string>
+<string name="h_3_to_4_cars">"3-4 merkkiä, Vain a-z ja 0-9 kelpaavat"</string>
+<string name="tit_language_engine">"Kielen valinta"</string>
+<string name="msg_lang_change">"Millä kielellä haluat pelata? Laitteen kielellä vai Englanniksi?"</string>
+<string name="tit_game_language">"Kieli [EN/FI]"</string>
+<string name="txt_restart_game_question">"Käynnistetäänkö peli uudelleen?"</string>
+<string name="msg_are_you_sure_restart_game">"Haluatko varmasti käynnistää pelin uudelleen?"</string>
 </resources>
