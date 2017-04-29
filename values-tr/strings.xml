@@ -1,1 +1,255 @@
-<resources></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">"Hackers"</string>
+<string name="user_name">"Kullanıcı Adı"</string>
+<string name="password">"Şifre"</string>
+<string name="_connect">"Bağlan"</string>
+<string name="_connecting">"$ Bağlanılıyor ... _"</string>
+<string name="fail_mission">"Görev Başarısız"</string>
+<string name="crack_twice">"SAATTE YALNIZCA BİR KERE kırabilirsiniz"</string>
+<string name="_message">"Mesaj:"</string>
+<string name="mission_nore">"Burada sadece İtibar puanınızın yettiği görevler gösterilir"</string>
+<string name="str_login">"Giriş"</string>
+<string name="str_reg">"Kayıt ol"</string>
+<string name="txt_up_pc">"Daha hızlı kırmak için şifre kırıcıyı , işlemciyi ve yapay zekayı geliştir!"</string>
+<string name="btn_upgrade_software">"işlemci ve yapay zekanın geliştirilmesi yazılımların daha güçlü olmasını sağlar!"</string>
+<string name="btn_cancel_software_description">"Yazılım geliştirmesini iptal et ve HC'ni geri al"</string>
+<string name="btn_finish_soft_upgrade_explain">"Supercomputer kirala; hızlı hesaplamalarla yazılım için daha güçlü algoritmalar üret,hemde anında!"</string>
+<string name="btn_add_ip_to_history">"IP'yi kaydet"</string>
+
+<!-- (trace : izlenme), but if you translate it word to word : neredeyse izini buldular !
+but for more correct feel neredeyse seni buldular (they almost got you) more accurate i think. -->
+<string name="txt_u_r_almost_traced_down">"Neredeyse seni buldular!"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Tünel koptu, 1 saat sonra tekrar dene!"</string>
+<string name="txt_not_being_traced">"İzlenmeye başlanmadı"</string>
+<string name="txt_auth_failed">"Doğrulama başarısız"</string>
+<string name="txt_wrong_user_pass">"Yanlış kullanıcı adı veya şifre!"</string>
+<string name="txt_data_corrupted">"Veri bozulmuş!"</string>
+<string name="txt_log_corrupted">"Günlük bozulmuş!"</string>
+<string name="no_guild">"Bir loncanın üyesi değilsin!
+Bir lonca ara veya yeni bir lonca oluştur!"</string>
+<string name="txt_search_guilds">"Lonca Ara"</string>
+<string name="btn_create_guild">"Lonca Oluştur"</string>
+<string name="tit_guild_name">"Lonca Adı:"</string>
+<string name="tit_name_prefix">"Önad:"</string>
+<string name="h_16_chars_max">"Maks 16 karakter"</string>
+<string name="h_3_chars_exactly">"En az 3 sadece a-z 0-9"</string>
+<string name="tit_slogam">"Slogan:"</string>
+<string name="h_64_chars_max">"Maks 64 karakter"</string>
+
+<!-- fiyat oluştur (word to word) depends on what you use it . teklif : purposal -->
+<string name="tit_create_price">"Teklif oluştur"</string>
+<string name="btn_create">"Oluştur"</string>
+<string name="txt_all_time">"Tüm zamanlar"</string>
+<string name="txt_weekly">"Haftalık"</string>
+<string name="txt_load_guild">"Lonca yükle"</string>
+<string name="txt_guild_load_error">"Guildi yüklerken bir sorun oluştu!"</string>
+<string name="tit_members_count">"Üye sayısı:"</string>
+<string name="tit_ddos_mitigation">"DDos koruması"</string>
+<string name="tit_bandwidth_util">"Bandaralığı"</string>
+<string name="tit_news">"Haberler:"</string>
+<string name="tit_guild_leader">"Lonca lideri:"</string>
+<string name="tit_hackcoins">"HackCoins:"</string>
+<string name="tit_blackbits">"BlackBits:"</string>
+<string name="tit_member_name">"Üye adı:"</string>
+<string name="tit_reputation">"İtibar:"</string>
+<string name="tit_last_login">"Son giriş:"</string>
+<string name="tit_last_hack">"Son hack:"</string>
+<string name="tit_contributions">"Katkılar:"</string>
+<string name="tit_enter_guild_prefix">"Lonca öneki:"</string>
+<string name="tit_min_rep">"Min itibar:"</string>
+<string name="btn_send_join_request">"Katılma isteği gönder"</string>
+<string name="txt_min_rep">"Lonca minimum itibar değerinin altındasın!"</string>
+<string name="txt_how_to_leave">"Loncadan çıkmak istersen sadece liderin seni atmasıyla ayrılabilirsin. Liderin sürekli online olduğundan emin olmalısın."</string>
+<string name="btn_accept">"Kabul et"</string>
+<string name="btn_reject">"Reddet"</string>
+<string name="btn_send">"Gönder"</string>
+<string name="txt_guilds">"Lonca"</string>
+<string name="txt_rank">"Sıra"</string>
+<string name="txt_guild_pre">"Lonca öneki"</string>
+<string name="txt_mitigation">"Ddos kor."</string>
+<string name="txt_remove">"Çıkarma"</string>
+<string name="tit_your_email">"Epostanız:"</string>
+<string name="des_weekly">"Her Pazartesi 24'de sıfırlanır.ilk100 hesabına BB ödül"</string>
+<string name="info_hacked_already">"[Zaten hacklendi]"</string>
+<string name="info_guild_member">"[Lonca üyesi]"</string>
+<string name="tit_chat_lines">"Max.chat satıradeti"</string>
+<string name="desc_chat_lines">"Max.chat satır sayısı otomatik kaydırma yapılınca görmezden gelinir"</string>
+<string name="desc_share_300_bb">"Oyun arkadaşlarınızla paylaşın BB ödüller kazanın! 1000 Rep ulaşan oyuncu için 200BB ödül! linkten açıp playstordan kurmaları gereklidir."</string>
+<string name="txt_share">"Paylaş"</string>
+<string name="txt_try_again">"Tekrar dene!"</string>
+<string name="txt_db_record_name">"Veritabanı kayıt adı"</string>
+<string name="txt_db_connection_failed">"Veritabanı bağlantı koptu!"</string>
+<string name="txt_save">"Kayıt"</string>
+<string name="tit_support">"Destek:"</string>
+<string name="not_connecting_twitter">"Server bakımda.
+Buradan bilgi al!"</string>
+<string name="txt_clear">"Temizle"</string>
+<string name="coming_soon">"Yakında gelecek"</string>
+<string name="q_delete_hardware">"Donanım kaldır?"</string>
+<string name="aus_delete_hardware">"Donanımı kaldırmak istediğine emin misin? Geri dönüşü yoktur !!
+100 BB iadesi olacaktır."</string>
+<string name="prc_loading">"Yükleniyor..."</string>
+<string name="tit_from">"Gönderen:"</string>
+<string name="txt_subject">"Konu"</string>
+<string name="tit_subject">"Konu"</string>
+<string name="bad_usernames">"Uygunsuz kullanıcı adları silinecektir!"</string>
+<string name="WEGotThere">"DO_NOT_TRANSLATE"</string>
+<string name="tit_to">"Kime"</string>
+<string name="tit_attachment">"Dosya ekle:"</string>
+<string name="UserName">"Kullanıcı Adı"</string>
+<string name="email_subject">"Eposta konusu"</string>
+<string name="email_message">"Eposta Mesajı"</string>
+<string name="attachment_name">"Dosya adı (dosya adı buraya kopyala)"</string>
+<string name="email_warning">"Chat kurallarına uymayan içerik,küfür,tehdit vs dolayı Kalıcı (Geridönüşü yok!) olarak hesabınızın silinmesine neden olacaktır!"</string>
+<string name="txt_sending_email">"Epostayı gönder"</string>
+<string name="q_delete_email">"Eposta silinsin?"</string>
+<string name="aus_delete_email">"Mesajınız silinsin?"</string>
+<string name="txt_deleting_email">"Mesaj siliniyor..."</string>
+<string name="tit_date">"Tarih:"</string>
+<string name="chat_box_hint">"&lt;&lt; chat için simgeye tıklayın"</string>
+<string name="invitation_title">"Hackerz.Online"</string>
+<string name="invitation_message">"Hackerz.Online oyununda birlikte oynayalım; Çok oyunculu online hack simulasyonu"</string>
+<string name="invitation_cta">"Katıl"</string>
+<string name="tit_mail">"Mail:"</string>
+<string name="sep_hardware_name">"Donanım adı"</string>
+<string name="please_wait_reg">"Lütfen bekleyiniz..."</string>
+<string name="failed_try_again">"Başarısız oldun! tekrar dene"</string>
+<string name="captcha">"Captcha kodu"</string>
+<string name="need_help">"Yardım mı lazım? tıkla !"</string>
+<string name="tit_search_term">"Ara:"</string>
+<string name="btn_in_progress">"İşleniyor"</string>
+<string name="txt_find_missions">"Görev bul"</string>
+<string name="row_title">"Başlık"</string>
+
+<!-- payout for what ? must see where it use to be -->
+<string name="row_payout">"Ödeme"</string>
+<string name="row_rep">"Rep"</string>
+<string name="row_client">"İstemci"</string>
+<string name="row_timelimit">"Zaman kısıtlaması"</string>
+<string name="txt_no_missions">"Henüz yeni görevler yayınlanmadı!
+Görev aratabilirsiniz"</string>
+<string name="txt_reputation">"İtibar"</string>
+<string name="txt_hacker_name">"Hacker adı"</string>
+<string name="txt_alpha">"Alpha sunucu geliştirme aşamasındadır. Bütün veriler aylık periyodik olarak silinebilir! Oyun içi satın alma yapamazsınız. Alpha sunucusu tekrar başlatılabilir ve uzun süre kapalı kalabilir."</string>
+<string name="question_which_server">"Lütfen sunucu seçin:"</string>
+<string name="tit_email_verification">"Eposta doğrulama:"</string>
+
+<!-- \@GMAIL.COM ONLY: ONLY translateable ? or i leave it as ONLY -->
+<string name="txt_email_steps">"\\@GMAIL.COM için: Şifreyi unutmanız halinde özel bir kod verdiğiniz eposta adresine gönderilicektir. Konuya özel kodu ekleyip\"mail_verify@hackerz.online\" epostaya gönderin, aşağıdaki düğmeden epostayı gönderebilirsiniz."</string>
+<string name="btn_send_email">"GMailyle gönder"</string>
+<string name="txt_shop">"Dükkan"</string>
+<string name="txt_software_center">"Yazılım Merkezi"</string>
+<string name="txt_installed">"Kurulu"</string>
+<string name="txt_description">"Açıklama"</string>
+<string name="row_name">"Adı"</string>
+<string name="row_version">"Versiyonu"</string>
+<string name="txt_uninstall">"Kaldır"</string>
+<string name="txt_upgrade">"Geliştir"</string>
+<string name="txt_start">"Başla"</string>
+<string name="tit_on_success">"Başarılı:"</string>
+<string name="tit_on_fail">"Başarısız:"</string>
+<string name="tit_target">"Hedef:"</string>
+<string name="tit_target_rep">"Hedef rep:"</string>
+<string name="tit_requested_by">"Tarafından istendi:"</string>
+<string name="header_gateway_center">"Donanım - Gateway Sunucu"</string>
+<string name="tit_gw_name">"Gateway Adı:"</string>
+<string name="tit_gateway_slots">"Toplam slot:"</string>
+<string name="tit_ip_address">"IP adresi"</string>
+<string name="row_level">"Seviye"</string>
+
+<!-- Spec? -->
+<string name="row_spec">"Tanım"</string>
+<string name="header_file_manager">"Dosya Yöneticisi"</string>
+<string name="pcr_mounting_drive">"Harici sürücü yükleniyor..."</string>
+<string name="header_email">"Mail"</string>
+<string name="header_desktop">"Masaüstü"</string>
+<string name="header_con_manager">"Bağlantı Yöneticisi"</string>
+<string name="tct_fw_log">"Firewall Log"</string>
+<string name="tit_add_target">"Hedef Ekle:"</string>
+<string name="tit_con_log">"Bağlantı logları:"</string>
+<string name="txt_close">"Kapat"</string>
+<string name="btn_add_hardware">"+ Donanım Ekle"</string>
+<string name="txt_empty_slot">"Boş Slot"</string>
+<string name="txt_open_file">"Dosya aç"</string>
+<string name="txt_enter_decryption_key">"şifre anahtarını gir"</string>
+<string name="txt_decrypt">"şifre çöz"</string>
+<string name="txt_execute">"Uygula"</string>
+<string name="tit_file_name">"Dosya adı:"</string>
+<string name="tit_file_size">"Dosya boyut:"</string>
+<string name="tit_origin">"Kaynak:"</string>
+<string name="txt_buy">"Al"</string>
+<string name="note_shop_limit">"Not: 7gün sonra 50$ daha alabilirsiniz"</string>
+<string name="txt_cancel_upgrade">"Geliştirme iptal"</string>
+<string name="txt_delete">"Sil"</string>
+<string name="tit_connected_to">"şuna bağlan:"</string>
+<string name="tit_tracing">"izle:"</string>
+<string name="txt_disconnect">"Sonlandır"</string>
+<string name="txt_hardware">"Donanım"</string>
+<string name="txt_database">"Veritabanı"</string>
+<string name="txt_file_manager">"Dosya Yöneticisi"</string>
+
+<!-- common we use "günlük" but exceed 200% so "log" should be ok -->
+<string name="txt_log">"Log"</string>
+<string name="txt_my_guild">"Loncam"</string>
+<string name="txt_guilds_net">"Lonca Ağı"</string>
+<string name="txt_members">"Üyeler"</string>
+<string name="txt_requests">"DO_NOT_TRANSLATE"</string>
+<string name="txt_missions_job_portal">"Görev ve iş ilanları"</string>
+<string name="txt_requests_ph">"İstenen [%1$d]"</string>
+<string name="warn_guild">"Sakıncalı isimli, sloganlı veya önadlı loncalar silinecektir"</string>
+<string name="tit_members_ph">"Üyeler [%1$d]:"</string>
+<string name="txt_sales">"Satış"</string>
+<string name="txt_switch_server">"Sunucu Değiştir"</string>
+<string name="msg_login_fail_server">"3 kere hatalı giriş yaptın.
+"</string>
+<string name="msg_switch_server_complete">"Sunucu değiştirmek için oyunu yeniden başlatın!
+Şimdi Başlatın ?"</string>
+<string name="tit_bank">"Banka:"</string>
+<string name="hc">"%1$d HC"</string>
+<string name="hcpmb">"%1$dHC/MB"</string>
+<string name="tit_gb_sold_bw">"Satılan bandaralığı:"</string>
+<string name="bandwidth">"%1$d MB"</string>
+<string name="tit_gb_rented_bw">"Kiralanan bandaralığı:"</string>
+<string name="header_tit_sales">"Satışlar:"</string>
+<string name="price_mb_hc">"MB bazfiyatı [%1$dHC]:"</string>
+<string name="add_hc">"ekle [%1$dHC]:"</string>
+<string name="tit_price_per_mb">"baz MB fiyatı :"</string>
+<string name="percentage_mb_hc">"Bandaralığı satış [%1$d%%]:"</string>
+<string name="percentage_mb_hc_buy">"Bandaralığı al [%1$dMB]:"</string>
+<string name="tit_clients">"İstemci:"</string>
+<string name="txt_general_error">"Genel Hata"</string>
+<string name="msg_general_error_restart">"Önbellekleme hatası oluştu!
+Çözmek için oyunu tamamen kapayın (görev yöneticisinden) veya telefonu yeniden başlatın."</string>
+<string name="txt_protection">"Koruma"</string>
+<string name="tit_sellers">"Satıcı:"</string>
+<string name="txt_bandwidth">"%1$dMB"</string>
+<string name="txt_rent">"Kiralama"</string>
+<string name="alpha_server_1">"Alpha geliştirme test sunucusu"</string>
+<string name="warn_alpha">"ALPHA OYUN SUNUCUSU (GELİŞTİRİLMEDE) - Günlük silinebilir"</string>
+<string name="txt_important_info">"Önemli bilgi"</string>
+<string name="tit_bandwidth_rental">"Kiralık Bandaralığı:"</string>
+<string name="tit_avail_bandwidth">"Mevcut Bantaralığı:"</string>
+<string name="tit_total_price">"Toplam Ücret:"</string>
+<string name="txt_bandwidth_rental">"Bandaralığı kira"</string>
+<string name="msg_rent_bandwith_terms">"Önemli Not:
+-Kiralanan bandaralığı 24saatliktir!
+-Kiraya verdiğiniz lonca yokedilirse, veritabanı ip herkes tarafından görünür (kira devam ettiği sürece)
+-Sizden zayıf loncalardan kiralama yapamazsınız!
+
+Kiralama yapmak istediğinden emin misin?"</string>
+<string name="txt_add">"Ekle"</string>
+<string name="header_add_hc_guild">"Lonca bankasına bağışla"</string>
+<string name="msg_add_hc_guild">"Lonca bankasına %1$HC bağışlamak istediğine emin misin ?
+Bu işlem geri çevrilemez!"</string>
+<string name="msg_guild_protection_warning">"Kira aldığınız lonca yokedilirse, veritabanı ip herkes tarafından görünür (kira devam ettiği sürece)"</string>
+<string name="tit_datacenter_ip">"Veri merkezi IP:"</string>
+<string name="txt_copied_to_clip">"Panoya kopyalandı"</string>
+<string name="txt_file_copied_to_clip">"Dosya yolunu tamamı kopyalandı"</string>
+<string name="h_3_to_4_cars">"3-4 karakter sadece a-z 0-9"</string>
+<string name="tit_language_engine">"Dili seçin"</string>
+<string name="msg_lang_change">"Hangi dilde oynamak istersin? cihaz varsayılanı veya ingilizce?"</string>
+<string name="tit_game_language">"Oyun Dili [İng/Varsayılan]:"</string>
+<string name="txt_restart_game_question">"Yeniden başlat?"</string>
+<string name="msg_are_you_sure_restart_game">"Yeniden başlatılacak! Emin misin?"</string>
+</resources>
