@@ -12,9 +12,11 @@
 <string name="str_login">"Логин"</string>
 <string name="str_reg">"Регистрация"</string>
 <string name="txt_up_pc">"Улучшайте Password cracker, CPU и A.I., чтобы взламывать быстрее!"</string>
+<string name="btn_upgrade_software">"Скорость обновления вашего ПО зависит от уровня вашего A.I. и CPU!"</string>
 <string name="btn_cancel_software_description">"Отменить процесс обновления ПО и вернуть hC"</string>
+<string name="btn_finish_soft_upgrade_explain">"Арендовать сервер для моментального апдейта"</string>
 <string name="btn_add_ip_to_history">"Сохранить IP в историю"</string>
-<string name="txt_u_r_almost_traced_down">"Вас почти выследили!"</string>
+<string name="txt_u_r_almost_traced_down">"Ща спалимся, отключайся!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Тоннель разорван! Переподключение возможно через час!"</string>
 <string name="txt_not_being_traced">"Еще не отслежен"</string>
 <string name="txt_auth_failed">"Ошибка авторизации"</string>
@@ -63,6 +65,8 @@
 <string name="txt_mitigation">"Защита от DDoS"</string>
 <string name="txt_remove">"Удалить"</string>
 <string name="tit_your_email">"Ваш e-mail:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Статистика сбрасывается каждый понедельник, в полночь (GMT). Призовые BB для 100 лучших участников"</string>
 <string name="info_hacked_already">"[Уже взломан]"</string>
 <string name="info_guild_member">"[Член гильдии]"</string>
@@ -75,6 +79,8 @@
 <string name="txt_db_connection_failed">"Ошибка подключения к базе данных!"</string>
 <string name="txt_save">"Сохранить"</string>
 <string name="tit_support">"Поддержка:"</string>
+
+<!-- Fuzzy -->
 <string name="not_connecting_twitter">"Сервер на обслуживании.
 Нажмите здесь для подробной информации!"</string>
 <string name="txt_clear">"Очистить"</string>
@@ -89,7 +95,6 @@
 <string name="txt_subject">"Тема"</string>
 <string name="tit_subject">"Тема:"</string>
 <string name="bad_usernames">"Игроки с именами, нарушающими праила, будут удалены!"</string>
-<string name="WEGotThere">"-"</string>
 <string name="tit_to">"Кому:"</string>
 <string name="tit_attachment">"Вложение:"</string>
 <string name="UserName">"Имя пользователя"</string>
@@ -109,6 +114,13 @@
 <string name="invitation_message">"Присоединяйся ко мне в Hackerz Online; онлайн симулятор хакера (MMO)"</string>
 <string name="invitation_cta">"Войти␣"</string>
 <string name="tit_mail">"Почта:"</string>
+<string name="sep_hardware_name">"|Железо"</string>
+<string name="please_wait_reg">"Пожалуйста, подождите ..."</string>
+<string name="failed_try_again">"Неудачно! Попробуйте снова"</string>
+<string name="captcha">"Капча"</string>
+<string name="need_help">"Нужна помощь? Нажми здесь!"</string>
+<string name="tit_search_term">"Поиск:"</string>
+<string name="btn_in_progress">"В процессе"</string>
 <string name="txt_find_missions">"Поиск миссий"</string>
 <string name="row_title">"|Задание"</string>
 <string name="row_payout">"|Награда"</string>
@@ -119,14 +131,26 @@
 Вы можете поискать новые."</string>
 <string name="txt_reputation">"Репутация"</string>
 <string name="txt_hacker_name">"Ник хакера"</string>
-<string name="txt_alpha">"- Альфа-сервер предназначен только для разработки и тестирования новых функций, все игровые данные на Альфа сервере обнуляются не менее одного раза в месяц. В Альфа-версии недоступна покупка игровой валюты. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
+<string name="txt_alpha">"- Альфа-сервер предназначен только для разработки и тестирования новых функций, все игровые данные на Альфа сервере обнуляются не реже одного раза в месяц. В Альфа-версии недоступна покупка игровой валюты. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
 <string name="question_which_server">"Выберите игровой сервер:"</string>
 <string name="tit_email_verification">"Подтверждение e-mail:"</string>
-<string name="txt_email_steps">"\\ТОЛЬКО @GMAIL.COM: Если Вы забыли пароль, то вы можете его сбросить, отправив письмо с кодом в заголовке на mail_verify@hackerz.online. Нажмите кнопку ниже чтобы отправить письмо из вашего почтового клиента!"</string>
+<string name="txt_email_steps">"\\Внимание! Только для пользователей @GMAIL.COM: Забытый пароль вы можете восстановить, отправив письмо с кодом в заголовке на mail_verify@hackerz.online. На ваш почтовый ящик будет отправлено письмо со специальным кодом для подтверждения регистрации и восстановления пароля, при его утрате."</string>
+<string name="btn_send_email">"Отправить через GMail"</string>
 <string name="txt_shop">"Магазин"</string>
+<string name="txt_software_center">"Центр ПО"</string>
 <string name="txt_installed">"Установлено"</string>
+<string name="txt_description">"Описание"</string>
 <string name="row_name">"|ПО"</string>
 <string name="row_version">"|Версия"</string>
+<string name="txt_uninstall">"Удалить"</string>
+<string name="txt_upgrade">"Улучшить"</string>
+<string name="txt_start">"Начать"</string>
+<string name="tit_on_success">"При успехе:"</string>
+<string name="tit_on_fail">"При поражении:"</string>
+<string name="tit_target">"Игрок:"</string>
+<string name="tit_target_rep">"Репутация игрока:"</string>
+<string name="tit_requested_by">"Заказчик:"</string>
+<string name="header_gateway_center">"Устройства - Gateway Server"</string>
 <string name="tit_gw_name">"Имя сервера:"</string>
 <string name="tit_gateway_slots">"Всего слотов:"</string>
 <string name="tit_ip_address">"IP адрес:"</string>
@@ -134,9 +158,14 @@
 <string name="row_spec">"|Спецификация"</string>
 <string name="header_file_manager">"Файл-менеджер"</string>
 <string name="pcr_mounting_drive">"Подключаю удаленный диск ..."</string>
+
+<!-- Fuzzy -->
 <string name="header_email">"H-Mail"</string>
 <string name="header_desktop">"Рабочий стол"</string>
 <string name="header_con_manager">"Диспетчер подключений"</string>
+
+<!-- Лог фаервола -->
+<string name="tct_fw_log">"Журнал подключений"</string>
 <string name="tit_add_target">"Добавить цель:"</string>
 <string name="tit_con_log">"Журнал подключений:"</string>
 <string name="txt_close">"Закрыть"</string>
@@ -163,7 +192,6 @@
 <string name="txt_my_guild">"Моя гильдия"</string>
 <string name="txt_guilds_net">"Поиск гильдий"</string>
 <string name="txt_members">"Участники"</string>
-<string name="txt_requests">"Запросы"</string>
 <string name="txt_missions_job_portal">"Поиск миссий и работы"</string>
 <string name="txt_requests_ph">"Запросов [%1$d]"</string>
 <string name="warn_guild">"Некорректные имена, слоганы или префиксы будут удалены!"</string>
@@ -172,8 +200,12 @@
 <!-- context needed! -->
 <string name="txt_sales">"Продажи"</string>
 
+<!-- @Teamer. Is this a button? Max lenght? -->
+<string name="txt_switch_server">"Смена сервера"</string>
+
 <!-- @Teamer. need context -->
-<string name="msg_login_fail_server">"Троекратная ошибка авторизации. Переключаю на live сервер."</string>
+<string name="msg_login_fail_server">"Троекратная ошибка авторизации.
+Переключаю на live сервер."</string>
 <string name="msg_switch_server_complete">"Требуется перезагрузка для завершения переключения. Перезагрузить?"</string>
 <string name="tit_bank">"Банк:"</string>
 <string name="hc">"%1$d hC"</string>
@@ -181,18 +213,29 @@
 <string name="tit_gb_sold_bw">"Канал:"</string>
 <string name="bandwidth">"%1$d Mb"</string>
 <string name="tit_gb_rented_bw">"Арендуемый канал:"</string>
-<string name="header_tit_sales">"В продаже"</string>
+<string name="header_tit_sales">"В продаже:"</string>
 <string name="price_mb_hc">"Цена за Mb [%1$dHC]:"</string>
 <string name="add_hc">"Добавить [%1$dHC]:"</string>
 <string name="tit_price_per_mb">"Цена за Mb:"</string>
+<string name="percentage_mb_hc">"Продаваемый канал [%1$d%%]:"</string>
+<string name="percentage_mb_hc_buy">"Купить канал [%1$dMb]:"</string>
 <string name="tit_clients">"Клиенты:"</string>
+
+<!-- Тотальная ошибка -->
+<string name="txt_general_error">"Обнаружена ошибка"</string>
+<string name="msg_general_error_restart">"Ошибка кэширования!
+Требуется принудительный перезапуск приложения или перезагрузка устройства для устранения ошибки."</string>
 <string name="txt_protection">"Защита"</string>
 <string name="tit_sellers">"Продавцы:"</string>
 <string name="txt_bandwidth">"%1$dMb"</string>
-<string name="alpha_server_1">"Сервер бета-тестирования"</string>
+
+<!-- кнопка -->
+<string name="txt_rent">"Купить"</string>
+<string name="alpha_server_1">"Сервер альфа-тестирования"</string>
 <string name="warn_alpha">"ALPHA СЕРВЕР (ТЕСТОВЫЙ) - сброс прогресса происходит ежедневно."</string>
 <string name="txt_important_info">"Важная информация"</string>
-<string name="tit_avail_bandwidth">"Доступная ширина канала"</string>
+<string name="tit_bandwidth_rental">"Арендован канал:"</string>
+<string name="tit_avail_bandwidth">"Доступная ширина канала:"</string>
 <string name="tit_total_price">"Итого:"</string>
 <string name="txt_bandwidth_rental">"Аренда канала"</string>
 <string name="msg_rent_bandwith_terms">"Важные замечания:
@@ -205,12 +248,25 @@
 
 <!-- нужна замена слову "добавить" длиной пять символов -->
 <string name="txt_add">"Добавить"</string>
+
+<!-- Задонатить в банк гильдии -->
+<string name="header_add_hc_guild">"Перевод средств в банк гильдии"</string>
+<string name="msg_add_hc_guild">"Подтвердить перевод %1$HC в банк гильдии?
+Эта операция не может быть отменена!"</string>
+<string name="msg_guild_protection_warning">"IP вашего Дата Центра станет доступен атакующим, если вы арендуете канал у гильдии, которая подверглась успешному взлому."</string>
 <string name="tit_datacenter_ip">"IP Дата Цетра:"</string>
 <string name="txt_copied_to_clip">"Добавлено в буфер"</string>
 <string name="txt_file_copied_to_clip">"Путь к файлу скопирован в буфер"</string>
 
-<!-- Fuzzy -->
-<string name="tit_language_engine">"Выберите язык движка:"</string>
+<!-- 3-4 символа, только (a-z) и (0-9) -->
+<string name="h_3_to_4_cars">"3-4 симв., [a-z] [0-9]"</string>
+
+<!-- Язык движка:
+(след стринг)
+Сударь, извольте выбрать язык - системный или забугорный?
+(след стринг)
+Английский --::-- Системный [пустое место, справа переключатель] -->
+<string name="tit_language_engine">"Выберите язык интерфейса:"</string>
 <string name="msg_lang_change">"Извольте выбрать язык, сударь - системный или забугорный?"</string>
 <string name="tit_game_language">"Язык [Англ/Системный]:"</string>
 <string name="txt_restart_game_question">"Перезапустить?"</string>
