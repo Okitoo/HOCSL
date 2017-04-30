@@ -61,7 +61,7 @@
         android:layout_height="fill_parent"
         android:background="@color/transparent"
         android:id="@+id/software_installed"
-        android:visibility="gone">
+        android:visibility="visible">
 
 
         <LinearLayout

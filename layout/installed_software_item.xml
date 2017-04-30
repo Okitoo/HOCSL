@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
         android:text="@string/txt_uninstall"
-        android:id="@+id/btn_software_i_uninstall" />
+        android:id="@+id/btn_software_i_action" />
 
     <LinearLayout
         android:orientation="horizontal"

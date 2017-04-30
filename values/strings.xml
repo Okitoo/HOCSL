@@ -214,7 +214,7 @@
     <string name="msg_rent_bandwith_terms">Important notes:\n\n- Rented bandwidth available for 24 hours only!\n- If the guild you rented from is destroyed, your datacenter IP will be visible in their data file if the bandwidth rented is still active!\n- You can\'t rent from guilds weaker than yours!\n\nAre you sure you want to rent?</string>
     <string name="txt_add">Add</string>
     <string name="header_add_hc_guild">Deposit to guild bank</string>
-    <string name="msg_add_hc_guild">Are you sure you want to add %1$HC to the guild bank? \nThis operation can\'t be reversed!</string>
+    <string name="msg_add_hc_guild">Are you sure you want to add %1$dHC to the guild bank? \nThis operation can\'t be reversed!</string>
     <string name="msg_guild_protection_warning">If a guild that you are renting from gets destroyed, your datacenter IP will be visible in their \"clients\" file only if you have active bandwidth rented from them.</string>
     <string name="tit_datacenter_ip">Datacenter IP:</string>
     <string name="txt_copied_to_clip">Copied to clipboard</string>
@@ -225,6 +225,9 @@
     <string name="txt_restart_game_question">Restart game?</string>
     <string name="msg_are_you_sure_restart_game">Are you sure you want to restart the game?</string>
     <string name="cant_alpha">New players can\'t join alpha.</string>
+    <string name="txt_cool_down">Cool Down %1$s</string>
+    <string name="txt_reset_cooldown">Reset cooldown ?</string>
+    <string name="msg_reset_cooldown">Are you sure you want to reset the cooldown for this software?\n\nThe cost for reset is %1$dBB</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>

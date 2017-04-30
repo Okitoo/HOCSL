@@ -7,8 +7,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/toolboxBG2"
-        android:layout_marginBottom="5dp">
+        android:background="@color/toolboxBG2">
 
         <TextView
             android:layout_width="wrap_content"
@@ -25,18 +24,22 @@
             android:background="@color/transparent"
             android:textColor="@color/colorText" />
 
-        <ImageView
-            android:layout_width="12dp"
-            android:layout_height="12dp"
-            android:id="@+id/cr_settings"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:layout_marginLeft="10dp"
-            android:src="@android:drawable/ic_dialog_info"
-            android:background="@color/transparent"
-            android:layout_gravity="center_vertical"
-            android:visibility="gone" />
     </GridLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/annouoncement"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textSize="11dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/toolboxBG"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="gone" />
 
     <LinearLayout
         android:orientation="horizontal"
