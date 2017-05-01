@@ -525,19 +525,14 @@
                 android:textSize="10dp"
                 android:background="@drawable/btn_style_negative" />
 
-            <ScrollView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:id="@+id/scrollView2"
-                android:background="@drawable/txt_style_section"
-                android:layout_marginTop="10dp">
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rc_software_list"
+                android:background="@color/transparent"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal" />
 
-                <ListView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/rc_software_list"
-                    android:background="@color/transparent" />
-            </ScrollView>
         </LinearLayout>
 
     </RelativeLayout>
