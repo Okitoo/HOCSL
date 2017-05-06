@@ -230,6 +230,8 @@ Vaihdetaan takaisin live palvelimelle"</string>
 Haluatko varmasti vuokrata?"</string>
 <string name="txt_add">"Lisää"</string>
 <string name="header_add_hc_guild">"Talleta killan pankkiin"</string>
+
+<!-- Fuzzy -->
 <string name="msg_add_hc_guild">"Haluatko varmasti tallettaa %1$HC killan pankkiin?
 Tätä ei voi perua!"</string>
 <string name="msg_guild_protection_warning">"Jos vuokraava kilta tuhoutuu, sinun datakeskuksen IP tulee näkymään heidän killan tiedostossa, jos vuokra-aika ei ole umpeutunut!"</string>
@@ -242,4 +244,10 @@ Tätä ei voi perua!"</string>
 <string name="tit_game_language">"Kieli [EN/FI]"</string>
 <string name="txt_restart_game_question">"Käynnistetäänkö peli uudelleen?"</string>
 <string name="msg_are_you_sure_restart_game">"Haluatko varmasti käynnistää pelin uudelleen?"</string>
+<string name="cant_alpha">"Uudet pelaajat eivät voi liittyä Alpha palvelimelle"</string>
+<string name="txt_cool_down">"Jäähdytys %1$s"</string>
+<string name="txt_reset_cooldown">"Nopeuta jäähdytys?"</string>
+<string name="msg_reset_cooldown">"Haluatko varmasti nopeuttaa jäähdytyksen?
+
+Tämä tulee maksamaan %1$dBB"</string>
 </resources>
