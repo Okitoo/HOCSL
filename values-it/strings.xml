@@ -241,4 +241,10 @@ Questa operazione non è reversibile!"</string>
 <string name="tit_game_language">"Lingua del gioco [EN/Default]:"</string>
 <string name="txt_restart_game_question">"Riavviare il gioco?"</string>
 <string name="msg_are_you_sure_restart_game">"Sei sicuro di voler riavviare il gioco?"</string>
+<string name="cant_alpha">"L'Alpha non è disponibile per i nuovi giocatori"</string>
+<string name="txt_cool_down">"In raffreddamento %1$s"</string>
+<string name="txt_reset_cooldown">"Resettare il raffreddamento ?"</string>
+<string name="msg_reset_cooldown">"Sei sicuro di voler resettare il raffreddamento di questo software?
+
+Il costo per il reset sarà di %1$dBB"</string>
 </resources>
