@@ -5,32 +5,33 @@
 <string name="password">"Mot de passe"</string>
 <string name="_connect">"Connecter"</string>
 <string name="_connecting">"$ Connexion ... _"</string>
-<string name="fail_mission">"Mission échoué"</string>
+
+<!-- échouée -->
+<string name="fail_mission">"Mission échouée"</string>
 <string name="crack_twice">"Remarque : Vous ne pouvez cracker QU'UNE FOIS PAR HEURE"</string>
 <string name="_message">"Message:"</string>
-<string name="mission_nore">"Seules les missions qui ont une réputation similaire à la vôtre seront affiché"</string>
+
+<!-- affichées -->
+<string name="mission_nore">"Seules les missions qui ont une réputation similaire à la vôtre seront affichées"</string>
 <string name="str_login">"Connexion"</string>
 <string name="str_reg">"Créer un compte"</string>
 <string name="txt_up_pc">"Améliorer votre crackeur de mot de passe,CPU et I.A pour cracker plus rapidement !"</string>
-<string name="btn_upgrade_software">"Utilise la puissance du CPU et de l'I.A pour améliorer les algorithmes de vos programmes et les rendre plus performants !"</string>
-<string name="btn_cancel_software_description">"Annuler l'amélioration du programme (Les HC seront remboursé)"</string>
-<string name="btn_finish_soft_upgrade_explain">"Louer un super-ordinateur pour calculer rapidement un meilleur algorithme pour le programme. Résultats immédiat!"</string>
+<string name="btn_upgrade_software">"Utilisez la puissance du CPU et de l'I.A pour améliorer les algorithmes de vos programmes et les rendre plus performants !"</string>
+<string name="btn_cancel_software_description">"Annuler l'amélioration du programme (Les HC seront remboursés)"</string>
+<string name="btn_finish_soft_upgrade_explain">"Louer un super-ordinateur pour calculer rapidement un meilleur algorithme pour le programme. Résultats immédiats!"</string>
 <string name="btn_add_ip_to_history">"Sauvegarder l'IP dans l'historique"</string>
-<string name="txt_u_r_almost_traced_down">"Vous êtes bientôt tracé !"</string>
-<string name="txt_tunnel_broke_reconn_hour">"La connexion au tunnel a été compromise! Reconnectez vous après une heure!"</string>
-<string name="txt_not_being_traced">"Vous n'avez pas été tracé "</string>
+<string name="txt_u_r_almost_traced_down">"Vous êtes presque tracé !"</string>
+<string name="txt_tunnel_broke_reconn_hour">"Le tunnel a été compromis! Reconnectez vous après une heure!"</string>
 <string name="txt_auth_failed">"L'identification a échoué"</string>
-<string name="txt_wrong_user_pass">"Mauvais nom ou mot de passe!"</string>
+<string name="txt_wrong_user_pass">"Nom d'utilisateur ou mot de passe incorrect !"</string>
 <string name="txt_data_corrupted">"Données corrompues !"</string>
-<string name="txt_log_corrupted">"Historique corrompue!"</string>
-<string name="no_guild">"Vous n'êtes pas membre d'une guilde!
-Cherchez une guilde à rejoindre ou créez-en une!"</string>
+<string name="txt_log_corrupted">"Historique corrompu !"</string>
 <string name="txt_search_guilds">"Chercher des guildes"</string>
 <string name="btn_create_guild">"Créer une guilde"</string>
 <string name="tit_guild_name">"Nom de la guilde:"</string>
 <string name="tit_name_prefix">"Préfixe:"</string>
 <string name="h_16_chars_max">"16 caractères max"</string>
-<string name="h_3_chars_exactly">"3 caractères seulement, de a-z ou 0-9"</string>
+<string name="h_3_chars_exactly">"3 caractères exactement a-z 0-9 seulement"</string>
 <string name="tit_slogam">"Slogan:"</string>
 <string name="h_64_chars_max">"64 caractères max"</string>
 <string name="tit_create_price">"Créer prix:"</string>
@@ -49,7 +50,6 @@ Cherchez une guilde à rejoindre ou créez-en une!"</string>
 <string name="tit_member_name">"Nom du membre:"</string>
 <string name="tit_reputation">"Réputation:"</string>
 <string name="tit_last_login">"Dernière connexion:"</string>
-<string name="tit_last_hack">"Dernier piratage:"</string>
 <string name="tit_contributions">"Contributions:"</string>
 <string name="tit_enter_guild_prefix">"Entrer le préfixe de la guilde:"</string>
 <string name="tit_min_rep">"Rép min. :"</string>
@@ -62,7 +62,7 @@ Cherchez une guilde à rejoindre ou créez-en une!"</string>
 <string name="txt_guilds">"Guildes"</string>
 <string name="txt_rank">"Rang"</string>
 <string name="txt_guild_pre">"Préfixe de la guilde"</string>
-<string name="txt_mitigation">"Atténuation  de DDoS"</string>
+<string name="txt_mitigation">"Att. de DDoS"</string>
 <string name="txt_remove">"Expulser"</string>
 <string name="tit_your_email">"Votre email:"</string>
 <string name="des_weekly">"Réinitialisé chaque lundi à minuit (heure du serveur). Des BB seront distribués pour le top 100"</string>
@@ -70,11 +70,11 @@ Cherchez une guilde à rejoindre ou créez-en une!"</string>
 <string name="info_guild_member">"[Membre de la guilde]"</string>
 <string name="tit_chat_lines">"Nombre max. de lignes de la discussion:"</string>
 <string name="desc_chat_lines">"Le nombre max de lignes qui peuvent apparaitre dans le canal de discussion. Si vous arrêtez le défilement automatique, cette valeur sera ignoré."</string>
-<string name="desc_share_300_bb">"Partagez le jeu avec vos amis et recevez 200BB si ils atteignent 1000 rép! (Ils doivent ouvrir le lien dans l'application Play Store et installer le jeu avant de s'enregistrer)"</string>
+<string name="desc_share_300_bb">"Partagez le jeu avec vos amis et recevez 200BB quand ils atteignent 1000 rép! (Ils doivent ouvrir le lien dans l'application Play Store et installer le jeu avant de s'enregistrer)"</string>
 <string name="txt_share">"Partager"</string>
 <string name="txt_try_again">"Réessayer!"</string>
 <string name="txt_db_record_name">"Nom de l'enregistrement de la base de données "</string>
-<string name="txt_db_connection_failed">"La connexion a la base de données a échoué!"</string>
+<string name="txt_db_connection_failed">"La connexion à la base de données a échouée!"</string>
 <string name="txt_save">"Sauvegarder"</string>
 <string name="tit_support">"Support:"</string>
 <string name="not_connecting_twitter">"Serveurs en maintenance.
@@ -82,7 +82,7 @@ Cliquez ici pour plus d'info!"</string>
 <string name="txt_clear">"Nettoyer"</string>
 <string name="coming_soon">"Bientôt"</string>
 <string name="q_delete_hardware">"Supprimer le composant ?"</string>
-<string name="aus_delete_hardware">"êtes vous sûr de vouloir supprimer ce composant?
+<string name="aus_delete_hardware">"Êtes vous sûr de vouloir supprimer ce composant?
 Cette opération ne peut PAS être annuler.
 
 Vous recevrez seulement 100BB en retour."</string>
@@ -90,32 +90,30 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="tit_from">"De:"</string>
 <string name="txt_subject">"Sujet"</string>
 <string name="tit_subject">"Sujet:"</string>
-<string name="bad_usernames">"Les noms inappropriés seront effacé!"</string>
-<string name="WEGotThere">"Nous i sommes, crack en cours .... *"</string>
+<string name="bad_usernames">"Les noms d'utilisateurs inappropriés seront effacés!"</string>
 <string name="tit_to">"À:"</string>
-<string name="tit_attachment">"Pièces jointes "</string>
+<string name="tit_attachment">"Attachement:"</string>
 <string name="UserName">"Nom d'utilisateur"</string>
 <string name="email_subject">"Sujet du mail"</string>
 <string name="email_message">"Message du mail"</string>
 <string name="attachment_name">"Nom complet du fichier (Copiez le nom du fichier)"</string>
 <string name="email_warning">"! Envoyer un mail qui ne respecte pas les règles du canal de discussion aura pour résultat un bannissement permanent et irréversible de cette fonctionnalité pour votre compte !"</string>
-<string name="txt_sending_email">"Envoi d'email"</string>
+<string name="txt_sending_email">"Envoi du mail"</string>
 <string name="q_delete_email">"Supprimer le mail?"</string>
 <string name="aus_delete_email">"Êtes-vous sûr de vouloir supprimer ce message?"</string>
 <string name="txt_deleting_email">"Supression du message ..."</string>
 <string name="tit_date">"Date:"</string>
-<string name="chat_box_hint">"&lt;&lt;&lt; Cliquez sur l’icône pour choisir un canal"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Rejoignez moi dans Hackerz Online; Un simulateur de piratage massivement multijoueur (MMO)"</string>
 <string name="invitation_cta">"Rejoindre "</string>
 <string name="tit_mail">"Mail:"</string>
-<string name="sep_hardware_name">"Type de composant"</string>
+<string name="sep_hardware_name">"Nom de composant"</string>
 <string name="please_wait_reg">"Veuillez patienter..."</string>
-<string name="failed_try_again">"L'action a échoué! veuillez réessayer"</string>
+<string name="failed_try_again">"L'action a échoué! Veuillez réessayer"</string>
 <string name="captcha">"Code Captcha"</string>
 <string name="need_help">"Besoin d'aide? Cliquez ici!"</string>
 <string name="tit_search_term">"Chercher:"</string>
-<string name="btn_in_progress">"Missions en cours"</string>
+<string name="btn_in_progress">"Mission en cours"</string>
 <string name="txt_find_missions">"Trouver une mission"</string>
 <string name="row_title">"|Titre"</string>
 <string name="row_payout">"|Paiement"</string>
@@ -147,16 +145,16 @@ vous pouvez chercher des missions."</string>
 <string name="tit_requested_by">"Demandé par:"</string>
 <string name="header_gateway_center">"Composant de votre passerelle"</string>
 <string name="tit_gw_name">"Nom de la passerelle:"</string>
-<string name="tit_gateway_slots">"Emplacements total:"</string>
+<string name="tit_gateway_slots">"Emplacement total:"</string>
 <string name="tit_ip_address">"Adresse IP:"</string>
-<string name="row_level">"|Niveau"</string>
 <string name="row_spec">"|Spec"</string>
 <string name="header_file_manager">"Gestionnaire de fichiers"</string>
-<string name="pcr_mounting_drive">"Mise en fonctionnement de la commande à distance  ..."</string>
 <string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Bureau"</string>
 <string name="header_con_manager">"Gestionnaire de connexion"</string>
 <string name="tct_fw_log">"Journal du pare-feu"</string>
+
+<!-- Ajouter comme cible: ou Ajouter une cible: ou Ajouter cible: ? -->
 <string name="tit_add_target">"Ajouter une cible:"</string>
 <string name="tit_con_log">"Journal des connexions:"</string>
 <string name="txt_close">"Fermer"</string>
@@ -174,14 +172,61 @@ vous pouvez chercher des missions."</string>
 <string name="txt_cancel_upgrade">"Annuler l'amélioration"</string>
 <string name="txt_delete">"Supprimer"</string>
 <string name="tit_connected_to">"Connecté à:"</string>
-<string name="tit_tracing">"Tracé:"</string>
 <string name="txt_disconnect">"Déconnecter"</string>
-<string name="txt_hardware">"Matériel"</string>
 <string name="txt_database">"Base de données"</string>
 <string name="txt_file_manager">"Gestionnaire de fichiers"</string>
-<string name="txt_log">"Historique"</string>
 <string name="txt_my_guild">"Ma Guilde"</string>
-<string name="txt_guilds_net">"Recherche de Guilde"</string>
 <string name="txt_members">"Membres"</string>
-<string name="txt_requests">"Demandes"</string>
+<string name="txt_requests_ph">"Requêtes [%1$d]"</string>
+<string name="warn_guild">"Toute guilde avec un mauvais nom, slogan ou préfixe sera supprimée!"</string>
+<string name="tit_members_ph">"Membres [%1$d]:"</string>
+<string name="txt_sales">"Ventes"</string>
+<string name="txt_switch_server">"Changer de serveur"</string>
+<string name="msg_login_fail_server">"Vous avez echoué à vous connecter pour 3 fois.
+Vous retournerez au serveur direct maintenant."</string>
+<string name="msg_switch_server_complete">"Afin de compléter le changement de serveur, vous devez redémarrer le jeu! Le faire maintenant ?"</string>
+<string name="tit_bank">"Banque:"</string>
+<string name="hc">"%1$d HC"</string>
+<string name="hcpmb">"%1$dHC/Mo"</string>
+<string name="tit_gb_sold_bw">"Bande Passante vendue:"</string>
+<string name="bandwidth">"%1$d Mo"</string>
+<string name="tit_gb_rented_bw">"Bande Passante louée:"</string>
+<string name="header_tit_sales">"Ventes:"</string>
+<string name="price_mb_hc">"Prix par Mo [%1$dHC]:"</string>
+<string name="add_hc">"Ajouter [%1$dHC]:"</string>
+<string name="tit_price_per_mb">"Prix par Mo:"</string>
+<string name="percentage_mb_hc">"Bande passante à vendre [%1$d%%]"</string>
+<string name="percentage_mb_hc_buy">"Acheter bande passante [%1$dMB]"</string>
+<string name="tit_clients">"Clients:"</string>
+<string name="txt_general_error">"Erreur générale "</string>
+<string name="msg_general_error_restart">"Une erreur s'est produite! Fermez complètement le jeu (tuez le depuis le gestionnaire de tâches) ou redémarrez votre téléphone pour résoudre le problème."</string>
+<string name="txt_protection">"Protection"</string>
+<string name="tit_sellers">"Vendeurs:"</string>
+<string name="txt_bandwidth">"%1$dMo"</string>
+<string name="txt_rent">"Location"</string>
+<string name="txt_important_info">"Informations importantes"</string>
+<string name="tit_bandwidth_rental">"Location de Bande Passante:"</string>
+<string name="tit_avail_bandwidth">"Bande Passante disponible:"</string>
+<string name="tit_total_price">"Prix Total:"</string>
+<string name="txt_bandwidth_rental">"Location de bande passante"</string>
+<string name="msg_rent_bandwith_terms">"Notes IMPORTANTES:
+
+- La bande passante louée est disponible pour 24 heures seulement!
+- Si la guilde dont vous avez loué la bande passante est détruite, votre adresse IP de datacenter sera visible dans leur fichier de données si la bande passante est toujours active!
+- Vous ne pouvez pas louer auprès de guildes plus faibles que la vôtre!
+
+Êtes-vous sûr de vouloir louer?"</string>
+<string name="txt_add">"Ajouter"</string>
+<string name="header_add_hc_guild">"Dépôt à la banque de guilde"</string>
+<string name="msg_add_hc_guild">"Êtes-vous sûr de vouloir ajouter %1$dHC à la banque de guilde?
+Cette opération ne peut pas être inversée!"</string>
+<string name="tit_datacenter_ip">"IP de Centre de données"</string>
+<string name="txt_restart_game_question">"Redémarrer le jeu?"</string>
+<string name="msg_are_you_sure_restart_game">"Êtes-vous sûr de vouloir redémarrer le jeu?"</string>
+<string name="cant_alpha">"Les nouveaux joueurs ne peuvent pas rejoindre l'alpha."</string>
+<string name="txt_cool_down">"Temps de refroidissement %1$s"</string>
+<string name="txt_reset_cooldown">"Réinitialiser le refroidissement ?"</string>
+<string name="msg_reset_cooldown">"Êtes-vous sûr de vouloir réinitialiser le refroidissement de ce logiciel?
+
+Le coût de réinitialisation est %1$dBB"</string>
 </resources>
