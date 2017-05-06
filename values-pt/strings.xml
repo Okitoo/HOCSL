@@ -29,10 +29,10 @@ Procura por uma para entrar, ou cria uma guild nova!"</string>
 <string name="btn_create_guild">"Criar uma Guild"</string>
 <string name="tit_guild_name">"Nome da Guild:"</string>
 <string name="tit_name_prefix">"Prefixo:"</string>
-<string name="h_16_chars_max">"16 carateres no máximo"</string>
-<string name="h_3_chars_exactly">"Exatamente 3 carateres somente a-z 0-9 "</string>
+<string name="h_16_chars_max">"16 caracteres no máximo"</string>
+<string name="h_3_chars_exactly">"Exatamente 3 caracteres somente a-z 0-9"</string>
 <string name="tit_slogam">"Slogan:"</string>
-<string name="h_64_chars_max">"64 carateres no máximo"</string>
+<string name="h_64_chars_max">"64 caracteres no máximo"</string>
 <string name="tit_create_price">"Criar preço:"</string>
 <string name="btn_create">"Criar"</string>
 <string name="txt_all_time">"Desde o Início"</string>
@@ -237,10 +237,16 @@ Esta operação não é reversível!"</string>
 <string name="tit_datacenter_ip">"IP do datacenter:"</string>
 <string name="txt_copied_to_clip">"Copiado para área de transferência"</string>
 <string name="txt_file_copied_to_clip">"Caminho completo do arquivo copiado para a área de transferência"</string>
-<string name="h_3_to_4_cars">"3-4 carateres a-z 0-9 apenas"</string>
+<string name="h_3_to_4_cars">"3-4 caracteres a-z 0-9 apenas"</string>
 <string name="tit_language_engine">"Selecionar o mecanismo de idioma:"</string>
 <string name="msg_lang_change">"Qual idioma o jogo irá ser apresentado, Idioma do dispositivo ou inglês?"</string>
 <string name="tit_game_language">"Idioma do jogo [EN/Padrão]:"</string>
 <string name="txt_restart_game_question">"Reiniciar o jogo?"</string>
 <string name="msg_are_you_sure_restart_game">"Tens a certeza de que queres reiniciar o jogo?"</string>
+<string name="cant_alpha">"Novos jogadores não podem entrar no alpha."</string>
+<string name="txt_cool_down">"Cooldown %1$s"</string>
+<string name="txt_reset_cooldown">"Resetar cooldown?"</string>
+<string name="msg_reset_cooldown">"Tens a certeza que queres resetar o cooldown para este software?
+
+O custo do reset é %1$dBB"</string>
 </resources>
