@@ -228,6 +228,14 @@
     <string name="txt_cool_down">Cool Down %1$s</string>
     <string name="txt_reset_cooldown">Reset cooldown ?</string>
     <string name="msg_reset_cooldown">Are you sure you want to reset the cooldown for this software?\n\nThe cost for reset is %1$dBB</string>
+    <string name="help_1_upgrading">1- Upgrading hardware and software</string>
+    <string name="help_2_missions_ips">2 - Finding IPs and finishing missions (video)</string>
+    <string name="help_3_bounce_logs">3 - Understanding bounce and logs (video)</string>
+    <string name="help_4_files">4 - Transfering files (video)</string>
+    <string name="help_5_decryption">5 - Decrypting files (video)</string>
+    <string name="help_6_guilds">6 - Guilds and guild wars (video)</string>
+    <string name="update">Update app</string>
+    <string name="update_now">To be able to connect to the server you must upate the game from play store. Update now?</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>

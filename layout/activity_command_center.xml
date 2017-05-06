@@ -180,6 +180,17 @@
                     <ImageView
                         android:layout_width="35dp"
                         android:layout_height="35dp"
+                        android:id="@+id/img_help"
+                        android:src="@android:drawable/ic_menu_help"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:soundEffectsEnabled="false"
+                        android:background="@color/transparent"
+                        android:tint="#5fff47" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
                         android:id="@+id/img_desktop"
                         android:src="@mipmap/left_desktop"
                         android:layout_gravity="center"
@@ -267,6 +278,16 @@
                 android:layout_height="fill_parent"
                 android:background="@color/toolboxBG"
                 android:paddingLeft="5dp">
+
+                <include
+                    layout="@layout/inline_help"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/frame_help"
+                    android:visibility="gone" />
 
                 <include
                     android:layout_width="fill_parent"
