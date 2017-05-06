@@ -93,4 +93,10 @@ Czy na pewno chcesz wypożyczyć?"</string>
 <string name="tit_game_language">"Język Gry [Ang/Domyślny]"</string>
 <string name="txt_restart_game_question">"Zrestartować grę?"</string>
 <string name="msg_are_you_sure_restart_game">"Jesteś pewien, że chcesz zrestartować grę"</string>
+<string name="cant_alpha">"Nowi gracze nie mogą wejść na serwer alpha"</string>
+<string name="txt_cool_down">"Chłodzenie %1$s"</string>
+<string name="txt_reset_cooldown">"Zrestartować chłodzenie?"</string>
+<string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz ochłodzić ten sprzęt?
+
+Ten reset kosztuje %1$dBB"</string>
 </resources>
