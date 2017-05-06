@@ -24,7 +24,7 @@
 <string name="txt_data_corrupted">"Данные повреждены!"</string>
 <string name="txt_log_corrupted">"Журнал поврежден!"</string>
 <string name="no_guild">"Вы не являетесь членом гильдии! 
-Используйте поиск или создайте собственную гильдию!"</string>
+Вступите или создайте собственную гильдию!"</string>
 <string name="txt_search_guilds">"Поиск гильдий"</string>
 <string name="btn_create_guild">"Создать гильдию"</string>
 <string name="tit_guild_name">"Название гильдии:"</string>
@@ -55,7 +55,9 @@
 <string name="tit_min_rep">"Мин. репутация:"</string>
 <string name="btn_send_join_request">"Вступить"</string>
 <string name="txt_min_rep">"Ваша репутация должна соответствовать минимальному порогу для вступления в эту гильдию!"</string>
-<string name="txt_how_to_leave">"Исключить из гильдии может только глава. Вступая в неё, убедитесь, куда вы вступаете и что лидер активно играет!"</string>
+
+<!-- может поменять главу на лидера? -->
+<string name="txt_how_to_leave">"Исключить из гильдии может только лидер. Вступая в неё, убедитесь, куда вы вступаете и что лидер активно играет!"</string>
 <string name="btn_accept">"Принять"</string>
 <string name="btn_reject">"Отклонить"</string>
 <string name="btn_send">"Отправить"</string>
@@ -79,8 +81,6 @@
 <string name="txt_db_connection_failed">"Ошибка подключения к базе данных!"</string>
 <string name="txt_save">"Сохранить"</string>
 <string name="tit_support">"Поддержка:"</string>
-
-<!-- Fuzzy -->
 <string name="not_connecting_twitter">"Сервер на обслуживании.
 Нажмите здесь для подробной информации!"</string>
 <string name="txt_clear">"Очистить"</string>
@@ -111,7 +111,9 @@
 <string name="tit_date">"Дата:"</string>
 <string name="chat_box_hint">"&lt;&lt; Нажмите, чтобы выбрать чат"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
-<string name="invitation_message">"Присоединяйся ко мне в Hackerz Online; онлайн симулятор хакера (MMO)"</string>
+
+<!-- хакинга может уж тогда) -->
+<string name="invitation_message">"Присоединяйся ко мне в Hackerz Online; онлайн симулятор хакинга (MMO)"</string>
 <string name="invitation_cta">"Войти␣"</string>
 <string name="tit_mail">"Почта:"</string>
 <string name="sep_hardware_name">"|Железо"</string>
@@ -120,8 +122,8 @@
 <string name="captcha">"Капча"</string>
 <string name="need_help">"Нужна помощь? Нажми здесь!"</string>
 <string name="tit_search_term">"Поиск:"</string>
-<string name="btn_in_progress">"В процессе"</string>
-<string name="txt_find_missions">"Поиск миссий"</string>
+<string name="btn_in_progress">"Активные задания"</string>
+<string name="txt_find_missions">"Поиск заданий"</string>
 <string name="row_title">"|Задание"</string>
 <string name="row_payout">"|Награда"</string>
 <string name="row_rep">"|Репутация"</string>
@@ -130,6 +132,8 @@
 <string name="txt_no_missions">"Нет активных заданий!
 Вы можете поискать новые."</string>
 <string name="txt_reputation">"Репутация"</string>
+
+<!-- Fuzzy -->
 <string name="txt_hacker_name">"Ник хакера"</string>
 <string name="txt_alpha">"- Альфа-сервер предназначен только для разработки и тестирования новых функций, все игровые данные на Альфа сервере обнуляются не реже одного раза в месяц. В Альфа-версии недоступна покупка игровой валюты. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
 <string name="question_which_server">"Выберите игровой сервер:"</string>
@@ -160,7 +164,7 @@
 <string name="pcr_mounting_drive">"Подключаю удаленный диск ..."</string>
 
 <!-- Fuzzy -->
-<string name="header_email">"H-Mail"</string>
+<string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Рабочий стол"</string>
 <string name="header_con_manager">"Диспетчер подключений"</string>
 
@@ -192,8 +196,11 @@
 <string name="txt_my_guild">"Моя гильдия"</string>
 <string name="txt_guilds_net">"Поиск гильдий"</string>
 <string name="txt_members">"Участники"</string>
-<string name="txt_missions_job_portal">"Поиск миссий и работы"</string>
-<string name="txt_requests_ph">"Запросов [%1$d]"</string>
+
+<!-- Было - запросы. Do not delete! -->
+<string name="txt_requests">"Запросы"</string>
+<string name="txt_missions_job_portal">"Меню заданий"</string>
+<string name="txt_requests_ph">"Запросы [%1$d]"</string>
 <string name="warn_guild">"Некорректные имена, слоганы или префиксы будут удалены!"</string>
 <string name="tit_members_ph">"Членов [%1$d]:"</string>
 
@@ -207,7 +214,7 @@
 <string name="msg_login_fail_server">"Троекратная ошибка авторизации.
 Переключаю на live сервер."</string>
 <string name="msg_switch_server_complete">"Требуется перезагрузка для завершения переключения. Перезагрузить?"</string>
-<string name="tit_bank">"Банк:"</string>
+<string name="tit_bank">"В банке:"</string>
 <string name="hc">"%1$d hC"</string>
 <string name="hcpmb">"%1$dhC/Mb"</string>
 <string name="tit_gb_sold_bw">"Канал:"</string>
@@ -230,7 +237,7 @@
 <string name="txt_bandwidth">"%1$dMb"</string>
 
 <!-- кнопка -->
-<string name="txt_rent">"Купить"</string>
+<string name="txt_rent">"Арендовать"</string>
 <string name="alpha_server_1">"Сервер альфа-тестирования"</string>
 <string name="warn_alpha">"ALPHA СЕРВЕР (ТЕСТОВЫЙ) - сброс прогресса происходит ежедневно."</string>
 <string name="txt_important_info">"Важная информация"</string>
@@ -241,7 +248,7 @@
 <string name="msg_rent_bandwith_terms">"Важные замечания:
 
 - Арендованный канал доступен в течение 24 часов!
-- IP вашего дата-центра хранится в списке клиентов гильдии, пока вы арендуете у неё канал передачи данных!
+- IP вашего дата-центра хранится в списке клиентов гильдии, у которой вы арендуете канал передачи данных!
 - Нельзя арендовать у более слабых гильдий!
 
 Вы уверены, что хотите арендовать?"</string>
@@ -251,19 +258,36 @@
 
 <!-- Задонатить в банк гильдии -->
 <string name="header_add_hc_guild">"Перевод средств в банк гильдии"</string>
-<string name="msg_add_hc_guild">"Подтвердить перевод %1$HC в банк гильдии?
+
+<!-- Fuzzy -->
+<string name="msg_add_hc_guild">"Подтвердить перевод %1$hC в банк гильдии?
 Эта операция не может быть отменена!"</string>
 <string name="msg_guild_protection_warning">"IP вашего Дата Центра станет доступен атакующим, если вы арендуете канал у гильдии, которая подверглась успешному взлому."</string>
-<string name="tit_datacenter_ip">"IP Дата Цетра:"</string>
+<string name="tit_datacenter_ip">"IP дата-центра:"</string>
 <string name="txt_copied_to_clip">"Добавлено в буфер"</string>
 <string name="txt_file_copied_to_clip">"Путь к файлу скопирован в буфер"</string>
 
 <!-- 3-4 символа, только (a-z) и (0-9) -->
 <string name="h_3_to_4_cars">"3-4 симв., [a-z] [0-9]"</string>
 
+<!-- Язык движка:
+(след стринг)
+Сударь, извольте выбрать язык - системный или забугорный?
+(след стринг)
+Английский --::-- Системный [пустое место, справа переключатель] -->
 <string name="tit_language_engine">"Выберите язык интерфейса:"</string>
 <string name="msg_lang_change">"Извольте выбрать язык, сударь - системный или забугорный?"</string>
 <string name="tit_game_language">"Язык [Англ/Системный]:"</string>
 <string name="txt_restart_game_question">"Перезапустить?"</string>
 <string name="msg_are_you_sure_restart_game">"Вы уверены, что хотите перезапустить игру?"</string>
+<string name="cant_alpha">"Подключение новых аккаунтов невозможно."</string>
+<string name="txt_cool_down">"Тайм-аут %1$s"</string>
+<string name="txt_reset_cooldown">"Сбросить тайм-аут?"</string>
+
+<!-- Произойдет сброс тайм-аута этого ПО. Уверены?
+
+Стоимость сброса: -->
+<string name="msg_reset_cooldown">"Для данного ПО будет сброшен тайм-аут. Продолжить?
+
+Стоимость сброса составит %1$dBB"</string>
 </resources>
