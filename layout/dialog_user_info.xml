@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/remote_connection_window">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView12"
+        android:src="@mipmap/avatar_1"
+        android:layout_marginRight="5dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_name"
+            android:id="@+id/textView136"
+            android:textSize="11dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="..."
+            android:id="@+id/txt_name"
+            android:textSize="12dp"
+            android:textColor="@color/colorValueText"
+            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_guild_name"
+            android:id="@+id/textView138"
+            android:textSize="11dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="..."
+            android:id="@+id/txt_guild"
+            android:textSize="12dp"
+            android:textColor="@color/colorValueText"
+            android:layout_marginLeft="10dp"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_reputation"
+            android:id="@+id/textView140"
+            android:textSize="11dp"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="..."
+            android:id="@+id/txt_rep"
+            android:textSize="12dp"
+            android:textColor="@color/colorValueText"
+            android:layout_marginLeft="10dp"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_pm"
+                android:id="@+id/btn_pm"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_mention"
+                android:id="@+id/btn_mention"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_report"
+                android:id="@+id/btn_report"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_warn"
+                android:id="@+id/btn_warn"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_kick"
+                android:id="@+id/btn_kick"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+    </GridLayout>
+
+</LinearLayout>

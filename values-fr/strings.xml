@@ -6,12 +6,10 @@
 <string name="_connect">"Connecter"</string>
 <string name="_connecting">"$ Connexion ... _"</string>
 
-<!-- échouée -->
 <string name="fail_mission">"Mission échouée"</string>
 <string name="crack_twice">"Remarque : Vous ne pouvez cracker QU'UNE FOIS PAR HEURE"</string>
 <string name="_message">"Message:"</string>
 
-<!-- affichées -->
 <string name="mission_nore">"Seules les missions qui ont une réputation similaire à la vôtre seront affichées"</string>
 <string name="str_login">"Connexion"</string>
 <string name="str_reg">"Créer un compte"</string>
@@ -154,7 +152,6 @@ vous pouvez chercher des missions."</string>
 <string name="header_con_manager">"Gestionnaire de connexion"</string>
 <string name="tct_fw_log">"Journal du pare-feu"</string>
 
-<!-- Ajouter comme cible: ou Ajouter une cible: ou Ajouter cible: ? -->
 <string name="tit_add_target">"Ajouter une cible:"</string>
 <string name="tit_con_log">"Journal des connexions:"</string>
 <string name="txt_close">"Fermer"</string>

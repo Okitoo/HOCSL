@@ -236,6 +236,12 @@
     <string name="help_6_guilds">6 - Guilds and guild wars (video)</string>
     <string name="update">Update app</string>
     <string name="update_now">To be able to connect to the server you must upate the game from play store. Update now?</string>
+    <string name="tit_name">Name:</string>
+    <string name="txt_pm">P.M</string>
+    <string name="txt_report">Report</string>
+    <string name="txt_kick">Kick</string>
+    <string name="txt_warn">Warn</string>
+    <string name="txt_mention">Mention</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
