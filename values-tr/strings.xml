@@ -46,7 +46,7 @@ Bir lonca ara veya yeni bir lonca oluştur!"</string>
 <string name="txt_guild_load_error">"Guildi yüklerken bir sorun oluştu!"</string>
 <string name="tit_members_count">"Üye sayısı:"</string>
 <string name="tit_ddos_mitigation">"DDos koruması"</string>
-<string name="tit_bandwidth_util">"Bandaralığı"</string>
+<string name="tit_bandwidth_util">"Bandaralığı:"</string>
 <string name="tit_news">"Haberler:"</string>
 <string name="tit_guild_leader">"Lonca lideri:"</string>
 <string name="tit_hackcoins">"HackCoins:"</string>
@@ -59,7 +59,7 @@ Bir lonca ara veya yeni bir lonca oluştur!"</string>
 <string name="tit_enter_guild_prefix">"Lonca öneki:"</string>
 <string name="tit_min_rep">"Min itibar:"</string>
 <string name="btn_send_join_request">"Katılma isteği gönder"</string>
-<string name="txt_min_rep">"Lonca minimum itibar değerinin altındasın!"</string>
+<string name="txt_min_rep">"Lonca minimum itibar değerinden yüksek olmalısın"</string>
 <string name="txt_how_to_leave">"Loncadan çıkmak istersen sadece liderin seni atmasıyla ayrılabilirsin. Liderin sürekli online olduğundan emin olmalısın."</string>
 <string name="btn_accept">"Kabul et"</string>
 <string name="btn_reject">"Reddet"</string>
@@ -67,13 +67,13 @@ Bir lonca ara veya yeni bir lonca oluştur!"</string>
 <string name="txt_guilds">"Lonca"</string>
 <string name="txt_rank">"Sıra"</string>
 <string name="txt_guild_pre">"Lonca öneki"</string>
-<string name="txt_mitigation">"Ddos kor."</string>
+<string name="txt_mitigation">"dDoS kor."</string>
 <string name="txt_remove">"Çıkarma"</string>
 <string name="tit_your_email">"Epostanız:"</string>
-<string name="des_weekly">"Her Pazartesi 24'de sıfırlanır.ilk100 hesabına BB ödül"</string>
+<string name="des_weekly">"Her Pazartesi 24'de sıfırlanır.ilk100 hesabına BB ödül var"</string>
 <string name="info_hacked_already">"[Zaten hacklendi]"</string>
 <string name="info_guild_member">"[Lonca üyesi]"</string>
-<string name="tit_chat_lines">"Max.chat satıradeti"</string>
+<string name="tit_chat_lines">"Max.chat satır sayısı"</string>
 <string name="desc_chat_lines">"Max.chat satır sayısı otomatik kaydırma yapılınca görmezden gelinir"</string>
 <string name="desc_share_300_bb">"Oyun arkadaşlarınızla paylaşın BB ödüller kazanın! 1000 Rep ulaşan oyuncu için 200BB ödül! linkten açıp playstordan kurmaları gereklidir."</string>
 <string name="txt_share">"Paylaş"</string>
@@ -140,7 +140,7 @@ Görev aratabilirsiniz"</string>
 <string name="btn_send_email">"GMailyle gönder"</string>
 <string name="txt_shop">"Dükkan"</string>
 <string name="txt_software_center">"Yazılım Merkezi"</string>
-<string name="txt_installed">"Kurulu"</string>
+<string name="txt_installed">"Kuruldu"</string>
 <string name="txt_description">"Açıklama"</string>
 <string name="row_name">"Adı"</string>
 <string name="row_version">"Versiyonu"</string>
@@ -155,12 +155,12 @@ Görev aratabilirsiniz"</string>
 <string name="header_gateway_center">"Donanım - Gateway Sunucu"</string>
 <string name="tit_gw_name">"Gateway Adı:"</string>
 <string name="tit_gateway_slots">"Toplam slot:"</string>
-<string name="tit_ip_address">"IP adresi"</string>
+<string name="tit_ip_address">"IP adresi:"</string>
 <string name="row_level">"Seviye"</string>
 
 <!-- Spec? -->
 <string name="row_spec">"Tanım"</string>
-<string name="header_file_manager">"Dosya Yöneticisi"</string>
+<string name="header_file_manager">"Dizinler"</string>
 <string name="pcr_mounting_drive">"Harici sürücü yükleniyor..."</string>
 <string name="header_email">"Mail"</string>
 <string name="header_desktop">"Masaüstü"</string>
@@ -172,8 +172,8 @@ Görev aratabilirsiniz"</string>
 <string name="btn_add_hardware">"+ Donanım Ekle"</string>
 <string name="txt_empty_slot">"Boş Slot"</string>
 <string name="txt_open_file">"Dosya aç"</string>
-<string name="txt_enter_decryption_key">"şifre anahtarını gir"</string>
-<string name="txt_decrypt">"şifre çöz"</string>
+<string name="txt_enter_decryption_key">"Şifre anahtarını gir"</string>
+<string name="txt_decrypt">"Şifre çöz"</string>
 <string name="txt_execute">"Uygula"</string>
 <string name="tit_file_name">"Dosya adı:"</string>
 <string name="tit_file_size">"Dosya boyut:"</string>
@@ -182,8 +182,8 @@ Görev aratabilirsiniz"</string>
 <string name="note_shop_limit">"Not: 7gün sonra 50$ daha alabilirsiniz"</string>
 <string name="txt_cancel_upgrade">"Geliştirme iptal"</string>
 <string name="txt_delete">"Sil"</string>
-<string name="tit_connected_to">"şuna bağlan:"</string>
-<string name="tit_tracing">"izle:"</string>
+<string name="tit_connected_to">"Şuna bağlan:"</string>
+<string name="tit_tracing">"izleme:"</string>
 <string name="txt_disconnect">"Sonlandır"</string>
 <string name="txt_hardware">"Donanım"</string>
 <string name="txt_database">"Veritabanı"</string>
@@ -240,7 +240,7 @@ Görev aratabilirsiniz"</string>
 Kiralama yapmak istediğinden emin misin?"</string>
 <string name="txt_add">"Ekle"</string>
 <string name="header_add_hc_guild">"Lonca bankasına bağışla"</string>
-<string name="msg_add_hc_guild">"Lonca bankasına %1$HC bağışlamak istediğine emin misin ?
+<string name="msg_add_hc_guild">"Lonca bankasına %1$dHC bağışlamak istediğine emin misin ?
 Bu işlem geri çevrilemez!"</string>
 <string name="msg_guild_protection_warning">"Kira aldığınız lonca yokedilirse, veritabanı ip herkes tarafından görünür (kira devam ettiği sürece)"</string>
 <string name="tit_datacenter_ip">"Veri merkezi IP:"</string>
@@ -252,4 +252,9 @@ Bu işlem geri çevrilemez!"</string>
 <string name="tit_game_language">"Oyun Dili [İng/Varsayılan]:"</string>
 <string name="txt_restart_game_question">"Yeniden başlat?"</string>
 <string name="msg_are_you_sure_restart_game">"Yeniden başlatılacak! Emin misin?"</string>
+<string name="cant_alpha">"Yeni oyuncular alphaya katılamaz"</string>
+<string name="txt_cool_down">"Bekleme %1$s"</string>
+<string name="txt_reset_cooldown">"Beklemeyi sonlandir?"</string>
+<string name="msg_reset_cooldown">"Bekleme süresini sonlandırmak istiyor musun?
+Sonlandırma karşılığı olarak %1$dBB ver"</string>
 </resources>
