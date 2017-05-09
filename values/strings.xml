@@ -65,7 +65,7 @@
     <string name="txt_mitigation">dDoS Mit.</string>
     <string name="txt_remove">Remove</string>
     <string name="tit_your_email">Your email:</string>
-    <string name="des_weekly">Resets each Monday midnight server time. BBs for top 100</string>
+    <string name="des_weekly">Resets each Monday midnight server time (%1$s to go). BBs for top 100</string>
     <string name="info_hacked_already">[Hacked Already]</string>
     <string name="info_guild_member">[Guild member]</string>
     <string name="tit_chat_lines">Maximum chat lines:</string>
@@ -242,6 +242,7 @@
     <string name="txt_kick">Kick</string>
     <string name="txt_warn">Warn</string>
     <string name="txt_mention">Mention</string>
+    <string name="tit_guilds_destroyed">Guilds Destroyed:</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>

@@ -106,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:columnCount="2"
                         android:background="@color/transparent"
-                        android:rowCount="8"
+                        android:rowCount="9"
                         android:alignmentMode="alignBounds"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1">
@@ -116,7 +116,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/tg_attacks"
-                            android:layout_row="2"
+                            android:layout_row="3"
                             android:layout_column="1"
                             android:background="@color/transparent"
                             android:layout_gravity="fill_horizontal" />
@@ -133,6 +133,15 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:text="@string/tit_guild_leader"
+                            android:id="@+id/textView118"
+                            android:textSize="11dp"
+                            android:layout_column="0"
+                            android:layout_row="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="0"
                             android:id="@+id/tg_member_count"
@@ -145,11 +154,23 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="0"
+                            android:id="@+id/tg_leader"
+                            android:textSize="12dp"
+                            android:textColor="@color/colorValueText"
+                            android:layout_marginLeft="10dp"
+                            android:layout_row="1"
+                            android:layout_column="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:text="@string/tit_ddos_mitigation"
                             android:id="@+id/textView115"
                             android:textSize="11dp"
                             android:layout_column="0"
-                            android:layout_row="1" />
+                            android:layout_row="2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -160,7 +181,7 @@
                             android:textSize="12dp"
                             android:textColor="@color/colorValueText"
                             android:layout_marginLeft="10dp"
-                            android:layout_row="1"
+                            android:layout_row="2"
                             android:layout_column="1" />
 
                         <TextView
@@ -170,28 +191,28 @@
                             android:id="@+id/textView117"
                             android:textSize="11dp"
                             android:layout_column="0"
-                            android:layout_row="2"
+                            android:layout_row="3"
                             android:layout_gravity="center_vertical" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tit_guild_leader"
-                            android:id="@+id/textView118"
+                            android:text="@string/tit_guilds_destroyed"
+                            android:id="@+id/textView8"
                             android:textSize="11dp"
                             android:layout_column="0"
-                            android:layout_row="3" />
+                            android:layout_row="4" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:text="0"
-                            android:id="@+id/tg_leader"
+                            android:id="@+id/tg_guilds_des"
                             android:textSize="12dp"
                             android:textColor="@color/colorValueText"
                             android:layout_marginLeft="10dp"
-                            android:layout_row="3"
+                            android:layout_row="4"
                             android:layout_column="1" />
 
                         <TextView
@@ -201,7 +222,7 @@
                             android:id="@+id/textView107"
                             android:textSize="11dp"
                             android:layout_column="0"
-                            android:layout_row="4" />
+                            android:layout_row="5" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -212,7 +233,7 @@
                             android:textSize="12dp"
                             android:textColor="@color/colorValueText"
                             android:layout_marginLeft="10dp"
-                            android:layout_row="4"
+                            android:layout_row="5"
                             android:layout_column="1" />
 
                         <TextView
@@ -223,7 +244,7 @@
                             android:textAlignment="center"
                             android:textColor="@color/colorShadow"
                             android:textSize="11dp"
-                            android:layout_row="6"
+                            android:layout_row="7"
                             android:layout_column="0"
                             android:layout_columnSpan="2" />
 
@@ -232,7 +253,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_send_join_request"
                             android:id="@+id/gs_request_join"
-                            android:layout_row="7"
+                            android:layout_row="8"
                             android:layout_column="0"
                             android:layout_gravity="center_horizontal"
                             android:layout_columnSpan="2" />
