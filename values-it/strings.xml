@@ -65,6 +65,8 @@ Cerca una gilda in cui entrare o creane una nuova!"</string>
 <string name="txt_mitigation">"Mit. dDoS"</string>
 <string name="txt_remove">"Elimina"</string>
 <string name="tit_your_email">"La tua email:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Si azzera ogni lunedì a mezzanotte (timezone del server). BB per i top 100"</string>
 <string name="info_hacked_already">"[Già Hackerato]"</string>
 <string name="info_guild_member">"[Membro Della Gilda]"</string>
@@ -91,7 +93,7 @@ In cambio avrai solo 100 BB."</string>
 <string name="txt_subject">"Oggetto"</string>
 <string name="tit_subject">"Oggetto:"</string>
 <string name="bad_usernames">"Nomi utente inappropriati verranno cancellati!"</string>
-<string name="WEGotThere">"DO_NOT_TRANSLATE"</string>
+<string name="WEGotThere">"xxx"</string>
 <string name="tit_to">"A:"</string>
 <string name="tit_attachment">"Allegato:"</string>
 <string name="UserName">"Nome Utente"</string>
@@ -183,7 +185,7 @@ Puoi cercare missioni."</string>
 <string name="txt_my_guild">"La mia Gilda"</string>
 <string name="txt_guilds_net">"Rete Gilda"</string>
 <string name="txt_members">"Membri"</string>
-<string name="txt_requests">"DO_NOT_TRANSLATE"</string>
+<string name="txt_requests">"xxx"</string>
 <string name="txt_missions_job_portal">"Missioni e incarichi"</string>
 <string name="txt_requests_ph">"Richieste [%1$d]"</string>
 <string name="warn_guild">"Le gilde con nome, slogan o prefisso volgari o non appropriati saranno eliminate!"</string>
@@ -247,4 +249,19 @@ Questa operazione non è reversibile!"</string>
 <string name="msg_reset_cooldown">"Sei sicuro di voler resettare il raffreddamento di questo software?
 
 Il costo per il reset sarà di %1$dBB"</string>
+<string name="help_1_upgrading">"1 - Migliorare hardware e software"</string>
+<string name="help_2_missions_ips">"2 - Trovare IP e finire missioni (video)"</string>
+<string name="help_3_bounce_logs">"3 - Comprendi i bounce e i log (video)"</string>
+<string name="help_4_files">"4 - Trasferire file (video)"</string>
+<string name="help_5_decryption">"5 - Decriptare file (video)"</string>
+<string name="help_6_guilds">"6 - Gilde e guerra fra gilde (video)"</string>
+<string name="update">"Aggiorna app"</string>
+<string name="update_now">"Per poterti connettere al server devi aggiornare il gioco dal play store. Aggiornare ora?"</string>
+<string name="tit_name">"Nome:"</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Rapporto"</string>
+<string name="txt_kick">"Caccia"</string>
+<string name="txt_warn">"Avverti"</string>
+<string name="txt_mention">"Menziona"</string>
+<string name="tit_guilds_destroyed">"Gilde distrutte:"</string>
 </resources>
