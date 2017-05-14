@@ -5,7 +5,7 @@
 <string name="password">"Şifre"</string>
 <string name="_connect">"Bağlan"</string>
 <string name="_connecting">"$ Bağlanılıyor ... _"</string>
-<string name="fail_mission">"Görev Başarısız"</string>
+<string name="fail_mission">"Görev iptali"</string>
 <string name="crack_twice">"SAATTE YALNIZCA BİR KERE kırabilirsiniz"</string>
 <string name="_message">"Mesaj:"</string>
 <string name="mission_nore">"Burada sadece İtibar puanınızın yettiği görevler gösterilir"</string>
@@ -70,6 +70,8 @@ Bir lonca ara veya yeni bir lonca oluştur!"</string>
 <string name="txt_mitigation">"dDoS kor."</string>
 <string name="txt_remove">"Çıkarma"</string>
 <string name="tit_your_email">"Epostanız:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Her Pazartesi 24'de sıfırlanır.ilk100 hesabına BB ödül var"</string>
 <string name="info_hacked_already">"[Zaten hacklendi]"</string>
 <string name="info_guild_member">"[Lonca üyesi]"</string>
@@ -118,7 +120,7 @@ Buradan bilgi al!"</string>
 <string name="captcha">"Captcha kodu"</string>
 <string name="need_help">"Yardım mı lazım? tıkla !"</string>
 <string name="tit_search_term">"Ara:"</string>
-<string name="btn_in_progress">"İşleniyor"</string>
+<string name="btn_in_progress">"Aktif Görev"</string>
 <string name="txt_find_missions">"Görev bul"</string>
 <string name="row_title">"Başlık"</string>
 
@@ -257,4 +259,19 @@ Bu işlem geri çevrilemez!"</string>
 <string name="txt_reset_cooldown">"Beklemeyi sonlandir?"</string>
 <string name="msg_reset_cooldown">"Bekleme süresini sonlandırmak istiyor musun?
 Sonlandırma karşılığı olarak %1$dBB ver"</string>
+<string name="help_1_upgrading">"1- Yazılım ve Donanım Güncellemesi"</string>
+<string name="help_2_missions_ips">"2- IP bulma ve görev tamamlama (video)"</string>
+<string name="help_3_bounce_logs">"3- Bounce ve loglarını anlama (video)"</string>
+<string name="help_4_files">"4- Dosya transferi (video)"</string>
+<string name="help_5_decryption">"5- Dosya şifreleme (video)"</string>
+<string name="help_6_guilds">"6- Lonca ve lonca savaşları (video)"</string>
+<string name="update">"App güncelle"</string>
+<string name="update_now">"Sunucuya bağlanmak için son sürümü indirmek ister misin?"</string>
+<string name="tit_name">"Adı:"</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Rapor"</string>
+<string name="txt_kick">"At"</string>
+<string name="txt_warn">"Uyar"</string>
+<string name="txt_mention">"Bahset"</string>
+<string name="tit_guilds_destroyed">"Yokedilen Lonca:"</string>
 </resources>
