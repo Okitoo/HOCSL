@@ -23,10 +23,15 @@
 <string name="txt_wrong_user_pass">"Nama user atau kata sandi salah!"</string>
 <string name="txt_data_corrupted">"Data rusak!"</string>
 <string name="txt_log_corrupted">"Catatan rusak!"</string>
-<string name="no_guild">"Kamu bukan anggota guild manapun! Cari sebuah guild untuk bergabung, atau buat guild baru!"</string>
+
+<!-- nambah enter -->
+<string name="no_guild">"Kamu bukan anggota guild manapun!
+Cari sebuah guild untuk bergabung, atau buat guild baru!"</string>
 <string name="txt_search_guilds">"Cari Guild"</string>
 <string name="btn_create_guild">"Buat Guild"</string>
-<string name="tit_guild_name">"Nama Guild:"</string>
+
+<!-- Sentence case, bukan title case -->
+<string name="tit_guild_name">"Nama guild:"</string>
 <string name="tit_name_prefix">"Awalan:"</string>
 <string name="h_16_chars_max">"maksimal 16 karakter"</string>
 <string name="h_3_chars_exactly">"3 karakter, hanya a-z 0-9 saja"</string>
@@ -64,12 +69,14 @@
 <string name="txt_mitigation">"Mit. DDoS"</string>
 <string name="txt_remove">"Hapus"</string>
 <string name="tit_your_email">"Emailmu:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Pengulangan setiap Senin tengah malam waktu server. BB diberikan untuk peringkat 100 teratas"</string>
 <string name="info_hacked_already">"[Sudah Diretas]"</string>
 <string name="info_guild_member">"[Anggota Guild]"</string>
 <string name="tit_chat_lines">"Baris chat maksimal:"</string>
 <string name="desc_chat_lines">"Baris chat maksimal yang tampil pada chat. Jika kamu mematikan scroll otomatis, pengaturan ini diabaikan."</string>
-<string name="desc_share_300_bb">"Bagikan game ini dengan teman-temanmu, dan dapatkan 200 BB ketika mereka mencapai 1000 Rep! (Mereka harus membuka tautan ke  aplikasi PlayStore dan memasang game sebelum mendaftar)"</string>
+<string name="desc_share_300_bb">"Bagikan game ini dengan teman-temanmu, dan dapatkan 200 BB ketika mereka mencapai 1000 Rep! (Mereka harus membuka tautan ke aplikasi PlayStore dan memasang game sebelum mendaftar)"</string>
 <string name="txt_share">"Bagikan"</string>
 <string name="txt_try_again">"Coba lagi!"</string>
 <string name="txt_db_record_name">"Nama Rekaman Basis Data"</string>
@@ -214,7 +221,14 @@ Silahkan tutup game (tutup paksa dari task manager) atau mulai ulang telepon and
 <string name="txt_bandwidth">"%1$dMB"</string>
 <string name="txt_rent">"Sewa"</string>
 <string name="alpha_server_1">"Server percobaan pengembangan alpha"</string>
-<string name="warn_alpha">"SERVER GAME ALPHA (PENGEMBANGAN) - Akan dihapus secara harian"</string>
+
+<!-- akan dihapus secara harian : 
+secara itu menunjukkan 'cara' menghapus, jadi kalo secara harian, gua rasa kurang pas... 
+gua sih mikirnya 
+Data akan dihapus setiap hari
+itu lebih masuk akal
+tapi ga ada kata2 data di kalimat inggrisnya .. -->
+<string name="warn_alpha">"SERVER GAME ALPHA (PENGEMBANGAN) - Akan dihapus setiap hari"</string>
 <string name="txt_important_info">"Informasi Penting"</string>
 <string name="tit_bandwidth_rental">"Penyewaan Bandwidth:"</string>
 <string name="tit_avail_bandwidth">"Bandwidth Tersedia:"</string>
@@ -229,9 +243,7 @@ Silahkan tutup game (tutup paksa dari task manager) atau mulai ulang telepon and
 Apakah kamu yakin ingin menyewa?"</string>
 <string name="txt_add">"Tambah"</string>
 <string name="header_add_hc_guild">"Setorkan ke bank guild"</string>
-
-<!-- Fuzzy -->
-<string name="msg_add_hc_guild">"Apa kamu yakin ingin menambahkan %1$HC ke bank guild?
+<string name="msg_add_hc_guild">"Apa kamu yakin ingin menambahkan %1$dHC ke bank guild?
 Hal ini tidak bisa dikembalikan!"</string>
 <string name="msg_guild_protection_warning">"Jika guild tempat kamu menyewa dihancurkan, IP datacentermu akan terlihat pada file \"klien\" mereka jika kamu masih memiliki bandwidth sewaan yang aktif dari mereka."</string>
 <string name="tit_datacenter_ip">"IP Datacenter:"</string>
@@ -249,4 +261,19 @@ Hal ini tidak bisa dikembalikan!"</string>
 <string name="msg_reset_cooldown">"Apa kamu yakin ingin mengulang masa tunggu perangkat lunak ini?
 
 Reset ini memerlukan biaya %1$dBB"</string>
+<string name="help_1_upgrading">"1- Meningkatkan perangkat keras dan lunak"</string>
+<string name="help_2_missions_ips">"2 - Mencari IP dan menyelesaikan misi (video)"</string>
+<string name="help_3_bounce_logs">"3 - Memahami bounce dan catatan (video)"</string>
+<string name="help_4_files">"4 - Mentransfer file (video)"</string>
+<string name="help_5_decryption">"5 - Mendekripsi file (video)"</string>
+<string name="help_6_guilds">"6 - Guild dan perang guild (video)"</string>
+
+<!-- Di kbbi perbarui nex, bukan perbaharui :v -->
+<string name="update">"Perbarui aplikasi"</string>
+<string name="update_now">"Untuk bisa menghubungkan ke server, kamu harus memperbarui game dari Play Store. Perbarui sekarang?"</string>
+<string name="tit_name">"Nama:"</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Laporkan"</string>
+<string name="txt_warn">"Peringatkan"</string>
+<string name="txt_mention">"Mention"</string>
 </resources>
