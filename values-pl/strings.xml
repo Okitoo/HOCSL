@@ -7,7 +7,6 @@
 <string name="_connecting">"$ Łączenie...  _"</string>
 <string name="fail_mission">"Misja Nieudana"</string>
 <string name="crack_twice">"Notatka: Nie możesz łamać hasła jednej osoby więcej niż JEDEN RAZ NA GODZINĘ"</string>
-<string name="_message">"Wiadomość "</string>
 <string name="mission_nore">"Widać tylko misję odpowiadające twojej Reputacji"</string>
 <string name="str_login">"Login"</string>
 <string name="str_reg">"Rejestracja"</string>
@@ -28,7 +27,6 @@ Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
 <string name="txt_search_guilds">"Szukaj Gildii "</string>
 <string name="btn_create_guild">"Stwórz Gildię"</string>
 <string name="tit_guild_name">"Nazwa Gildii"</string>
-<string name="tit_name_prefix">"Prefix"</string>
 <string name="h_16_chars_max">"Najwyżej 16 znaków"</string>
 <string name="h_3_chars_exactly">"Muszą być 3 znaki. Tylko a-z 0-9"</string>
 <string name="tit_slogam">"Slogan"</string>
@@ -99,4 +97,14 @@ Czy na pewno chcesz wypożyczyć?"</string>
 <string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz ochłodzić ten sprzęt?
 
 Ten reset kosztuje %1$dBB"</string>
+<string name="help_2_missions_ips">"2 - Znajdywanie IP oraz ukończenie misji (wideo)"</string>
+<string name="help_3_bounce_logs">"3 - Wyjaśnienie Bounce oraz Logów (wideo)"</string>
+<string name="help_5_decryption">"5 - Odszyfrowywanie plików (wideo)"</string>
+<string name="help_6_guilds">"6 - Gildie oraz wojny gildii (wideo)"</string>
+<string name="txt_pm">"P.W"</string>
+<string name="txt_report">"Zgłoś"</string>
+<string name="txt_kick">"Wyrzuć"</string>
+<string name="txt_warn">"Ostrzeż"</string>
+<string name="txt_mention">"Wspomnij"</string>
+<string name="tit_guilds_destroyed">"Zniszczone gildie"</string>
 </resources>
