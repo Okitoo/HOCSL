@@ -6,10 +6,12 @@
 <string name="_connect">"Connecter"</string>
 <string name="_connecting">"$ Connexion ... _"</string>
 
+<!-- échouée -->
 <string name="fail_mission">"Mission échouée"</string>
 <string name="crack_twice">"Remarque : Vous ne pouvez cracker QU'UNE FOIS PAR HEURE"</string>
 <string name="_message">"Message:"</string>
 
+<!-- affichées -->
 <string name="mission_nore">"Seules les missions qui ont une réputation similaire à la vôtre seront affichées"</string>
 <string name="str_login">"Connexion"</string>
 <string name="str_reg">"Créer un compte"</string>
@@ -20,10 +22,18 @@
 <string name="btn_add_ip_to_history">"Sauvegarder l'IP dans l'historique"</string>
 <string name="txt_u_r_almost_traced_down">"Vous êtes presque tracé !"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Le tunnel a été compromis! Reconnectez vous après une heure!"</string>
+
+<!-- It's the text shown when you start cracking so it tel that you are not getting traced yet at that moment so the french translation should be " Pas en train d'être tracé" Je pense
+
+We need a native french speaker to confirm -->
+<!-- Fuzzy -->
+<string name="txt_not_being_traced">"Pas en cours d'être tracé"</string>
 <string name="txt_auth_failed">"L'identification a échoué"</string>
 <string name="txt_wrong_user_pass">"Nom d'utilisateur ou mot de passe incorrect !"</string>
 <string name="txt_data_corrupted">"Données corrompues !"</string>
 <string name="txt_log_corrupted">"Historique corrompu !"</string>
+<string name="no_guild">"Vous n'êtes pas membre d'une guilde!
+Cherchez une guilde à rejoindre ou créez-en une!"</string>
 <string name="txt_search_guilds">"Chercher des guildes"</string>
 <string name="btn_create_guild">"Créer une guilde"</string>
 <string name="tit_guild_name">"Nom de la guilde:"</string>
@@ -48,6 +58,11 @@
 <string name="tit_member_name">"Nom du membre:"</string>
 <string name="tit_reputation">"Réputation:"</string>
 <string name="tit_last_login">"Dernière connexion:"</string>
+
+<!-- Not sure what we should use for the term hack 
+"Hack " or " Piratage "
+the same translating should be used on the whole game -->
+<string name="tit_last_hack">"Dernier piratage:"</string>
 <string name="tit_contributions">"Contributions:"</string>
 <string name="tit_enter_guild_prefix">"Entrer le préfixe de la guilde:"</string>
 <string name="tit_min_rep">"Rép min. :"</string>
@@ -63,7 +78,7 @@
 <string name="txt_mitigation">"Att. de DDoS"</string>
 <string name="txt_remove">"Expulser"</string>
 <string name="tit_your_email">"Votre email:"</string>
-<string name="des_weekly">"Réinitialisé chaque lundi à minuit (heure du serveur). Des BB seront distribués pour le top 100"</string>
+<string name="des_weekly">"Réinitialisé chaque lundi à minuit heure du serveur (reste %1$s). Des BB seront distribués pour le top 100"</string>
 <string name="info_hacked_already">"[Déjà piraté]"</string>
 <string name="info_guild_member">"[Membre de la guilde]"</string>
 <string name="tit_chat_lines">"Nombre max. de lignes de la discussion:"</string>
@@ -89,6 +104,9 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="txt_subject">"Sujet"</string>
 <string name="tit_subject">"Sujet:"</string>
 <string name="bad_usernames">"Les noms d'utilisateurs inappropriés seront effacés!"</string>
+
+<!-- What's this ? it says do no translate -->
+<string name="WEGotThere">"XXX"</string>
 <string name="tit_to">"À:"</string>
 <string name="tit_attachment">"Attachement:"</string>
 <string name="UserName">"Nom d'utilisateur"</string>
@@ -101,6 +119,9 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="aus_delete_email">"Êtes-vous sûr de vouloir supprimer ce message?"</string>
 <string name="txt_deleting_email">"Supression du message ..."</string>
 <string name="tit_date">"Date:"</string>
+
+<!-- Need developer attention about that <![CDATA[ tag is it mandatory -->
+<string name="chat_box_hint">"&lt;&lt; Cliquez sur l’icône pour choisir un canal"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Rejoignez moi dans Hackerz Online; Un simulateur de piratage massivement multijoueur (MMO)"</string>
 <string name="invitation_cta">"Rejoindre "</string>
@@ -145,13 +166,16 @@ vous pouvez chercher des missions."</string>
 <string name="tit_gw_name">"Nom de la passerelle:"</string>
 <string name="tit_gateway_slots">"Emplacement total:"</string>
 <string name="tit_ip_address">"Adresse IP:"</string>
+<string name="row_level">"|Niveau"</string>
 <string name="row_spec">"|Spec"</string>
 <string name="header_file_manager">"Gestionnaire de fichiers"</string>
+<string name="pcr_mounting_drive">"Montage du disque à distance ..."</string>
 <string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Bureau"</string>
 <string name="header_con_manager">"Gestionnaire de connexion"</string>
 <string name="tct_fw_log">"Journal du pare-feu"</string>
 
+<!-- Ajouter comme cible: ou Ajouter une cible: ou Ajouter cible: ? -->
 <string name="tit_add_target">"Ajouter une cible:"</string>
 <string name="tit_con_log">"Journal des connexions:"</string>
 <string name="txt_close">"Fermer"</string>
@@ -169,11 +193,19 @@ vous pouvez chercher des missions."</string>
 <string name="txt_cancel_upgrade">"Annuler l'amélioration"</string>
 <string name="txt_delete">"Supprimer"</string>
 <string name="tit_connected_to">"Connecté à:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_tracing">"En cours d'être tracer:"</string>
 <string name="txt_disconnect">"Déconnecter"</string>
+<string name="txt_hardware">"Composant"</string>
 <string name="txt_database">"Base de données"</string>
 <string name="txt_file_manager">"Gestionnaire de fichiers"</string>
+<string name="txt_log">"Journal"</string>
 <string name="txt_my_guild">"Ma Guilde"</string>
+<string name="txt_guilds_net">"Recherche de Guilde"</string>
 <string name="txt_members">"Membres"</string>
+<string name="txt_requests">"XXX"</string>
+<string name="txt_missions_job_portal">"Portail des Missions et des Tâches"</string>
 <string name="txt_requests_ph">"Requêtes [%1$d]"</string>
 <string name="warn_guild">"Toute guilde avec un mauvais nom, slogan ou préfixe sera supprimée!"</string>
 <string name="tit_members_ph">"Membres [%1$d]:"</string>
@@ -201,6 +233,8 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="tit_sellers">"Vendeurs:"</string>
 <string name="txt_bandwidth">"%1$dMo"</string>
 <string name="txt_rent">"Location"</string>
+<string name="alpha_server_1">"Serveur de test du développement Alpha"</string>
+<string name="warn_alpha">"SERVER ALPHA DU JEU (DEVELOPPEMENT) - Suppression journalière"</string>
 <string name="txt_important_info">"Informations importantes"</string>
 <string name="tit_bandwidth_rental">"Location de Bande Passante:"</string>
 <string name="tit_avail_bandwidth">"Bande Passante disponible:"</string>
@@ -217,7 +251,14 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="header_add_hc_guild">"Dépôt à la banque de guilde"</string>
 <string name="msg_add_hc_guild">"Êtes-vous sûr de vouloir ajouter %1$dHC à la banque de guilde?
 Cette opération ne peut pas être inversée!"</string>
+<string name="msg_guild_protection_warning">"Si la guilde dont vous avez loué la bande passante est détruite, l'adresse IP de votre datacenter sera visible dans leur fichier client si la bande passante louée est toujours active!"</string>
 <string name="tit_datacenter_ip">"IP de Centre de données"</string>
+<string name="txt_copied_to_clip">"Copié dans le presse-papier"</string>
+<string name="txt_file_copied_to_clip">"Chemin de fichier complet copié dans le presse-papiers"</string>
+<string name="h_3_to_4_cars">"3-4 caractères a-z 0-9 uniquement"</string>
+<string name="tit_language_engine">"Sélectionnez la langue du jeu:"</string>
+<string name="msg_lang_change">"Choisissez la langue du jeu, anglais ou la langue de votre appareil?"</string>
+<string name="tit_game_language">"Langue du jeu [EN/Langue de votre appareil]:"</string>
 <string name="txt_restart_game_question">"Redémarrer le jeu?"</string>
 <string name="msg_are_you_sure_restart_game">"Êtes-vous sûr de vouloir redémarrer le jeu?"</string>
 <string name="cant_alpha">"Les nouveaux joueurs ne peuvent pas rejoindre l'alpha."</string>
@@ -226,4 +267,19 @@ Cette opération ne peut pas être inversée!"</string>
 <string name="msg_reset_cooldown">"Êtes-vous sûr de vouloir réinitialiser le refroidissement de ce logiciel?
 
 Le coût de réinitialisation est %1$dBB"</string>
+<string name="help_1_upgrading">"1- Mise à niveau des composants et des logiciels"</string>
+<string name="help_2_missions_ips">"2 - Trouver des IP et finir les missions (vidéo)"</string>
+<string name="help_3_bounce_logs">"3 - Comprendre le rebond et les fichiers journaux (vidéo)"</string>
+<string name="help_4_files">"4 - Transfert de fichiers (vidéo)"</string>
+<string name="help_5_decryption">"5 - Décryptage des fichiers (vidéo)"</string>
+<string name="help_6_guilds">"6 - Guildes et guerres de guilde (vidéo)"</string>
+<string name="update">"Mettre à jour"</string>
+<string name="update_now">"Pour pouvoir se connecter au serveur, vous devez mettre à jour le jeu depuis le Play Store. Mettre à jour maintenant?"</string>
+<string name="tit_name">"Nom :"</string>
+<string name="txt_pm">"M.P"</string>
+<string name="txt_report">"Signaler"</string>
+<string name="txt_kick">"Expulser"</string>
+<string name="txt_warn">"Avertissement"</string>
+<string name="txt_mention">"Mentionner"</string>
+<string name="tit_guilds_destroyed">"Guildes détruites:"</string>
 </resources>
