@@ -67,6 +67,8 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 <string name="txt_mitigation">"Mit. dDos"</string>
 <string name="txt_remove">"Retirar"</string>
 <string name="tit_your_email">"Tu correo electronico:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Se restablece cada lunes a medianoche acorde a la hora del servidor.
 ¡Habrá BBits gratis para los top 100!"</string>
 <string name="info_hacked_already">"[Ya hackeado]"</string>
