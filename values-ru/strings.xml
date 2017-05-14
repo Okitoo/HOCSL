@@ -53,6 +53,9 @@
 <string name="tit_contributions">"Вклад:"</string>
 <string name="tit_enter_guild_prefix">"Введите префикс гильдии:"</string>
 <string name="tit_min_rep">"Мин. репутация:"</string>
+
+<!-- Отправить запрос для вступления -->
+<!-- Fuzzy -->
 <string name="btn_send_join_request">"Вступить"</string>
 <string name="txt_min_rep">"Ваша репутация должна соответствовать минимальному порогу для вступления в эту гильдию!"</string>
 
@@ -67,8 +70,6 @@
 <string name="txt_mitigation">"Защита от DDoS"</string>
 <string name="txt_remove">"Удалить"</string>
 <string name="tit_your_email">"Ваш e-mail:"</string>
-
-<!-- Fuzzy -->
 <string name="des_weekly">"Статистика сбрасывается каждый понедельник, в полночь (GMT). Призовые BB для 100 лучших участников"</string>
 <string name="info_hacked_already">"[Уже взломан]"</string>
 <string name="info_guild_member">"[Член гильдии]"</string>
@@ -104,6 +105,8 @@
 <!-- Копировать в буфер? -->
 <string name="attachment_name">"Введите/вставьте путь к файлу."</string>
 <string name="email_warning">"! Отправка любого e-mail, нарушающего правила чата или оскорбляющего игроков, наказывается вечным БАНОМ учётной записи !"</string>
+
+<!-- В оригинеле нет ... да и вообще точек. -->
 <string name="txt_sending_email">"Отправка почты..."</string>
 <string name="q_delete_email">"Удалить сообщение?"</string>
 <string name="aus_delete_email">"Вы уверены, что хотите удалить это сообщение?"</string>
@@ -116,7 +119,10 @@
 <string name="invitation_message">"Присоединяйся ко мне в Hackerz Online; онлайн симулятор хакинга (MMO)"</string>
 <string name="invitation_cta">"Войти␣"</string>
 <string name="tit_mail">"Почта:"</string>
-<string name="sep_hardware_name">"|Железо"</string>
+
+<!-- Без | -->
+<!-- Fuzzy -->
+<string name="sep_hardware_name">"|Оборудование"</string>
 <string name="please_wait_reg">"Пожалуйста, подождите ..."</string>
 <string name="failed_try_again">"Неудачно! Попробуйте снова"</string>
 <string name="captcha">"Капча"</string>
@@ -132,10 +138,11 @@
 <string name="txt_no_missions">"Нет активных заданий!
 Вы можете поискать новые."</string>
 <string name="txt_reputation">"Репутация"</string>
-
-<!-- Fuzzy -->
-<string name="txt_hacker_name">"Ник хакера"</string>
+<string name="txt_hacker_name">"Имя хакера"</string>
 <string name="txt_alpha">"- Альфа-сервер предназначен только для разработки и тестирования новых функций, все игровые данные на Альфа сервере обнуляются не реже одного раза в месяц. В Альфа-версии недоступна покупка игровой валюты. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
+
+<!-- Выбирите сервер игры: -->
+<!-- Fuzzy -->
 <string name="question_which_server">"Выберите игровой сервер:"</string>
 <string name="tit_email_verification">"Подтверждение e-mail:"</string>
 <string name="txt_email_steps">"\\Внимание! Только для пользователей @GMAIL.COM: Забытый пароль вы можете восстановить, отправив письмо с кодом в заголовке на mail_verify@hackerz.online. На ваш почтовый ящик будет отправлено письмо со специальным кодом для подтверждения регистрации и восстановления пароля, при его утрате."</string>
@@ -162,8 +169,6 @@
 <string name="row_spec">"|Спецификация"</string>
 <string name="header_file_manager">"Файл-менеджер"</string>
 <string name="pcr_mounting_drive">"Подключаю удаленный диск ..."</string>
-
-<!-- Fuzzy -->
 <string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Рабочий стол"</string>
 <string name="header_con_manager">"Диспетчер подключений"</string>
@@ -176,6 +181,8 @@
 <string name="btn_add_hardware">"+ Добавить оборудование"</string>
 <string name="txt_empty_slot">"Пустой слот"</string>
 <string name="txt_open_file">"Открыть файл"</string>
+
+<!-- : убрать, в оригинеле нет. -->
 <string name="txt_enter_decryption_key">"Ключ расшифровки:"</string>
 <string name="txt_decrypt">"Расшифровать"</string>
 <string name="txt_execute">"Запустить"</string>
@@ -258,8 +265,6 @@
 
 <!-- Задонатить в банк гильдии -->
 <string name="header_add_hc_guild">"Перевод средств в банк гильдии"</string>
-
-<!-- Fuzzy -->
 <string name="msg_add_hc_guild">"Подтвердить перевод %1$hC в банк гильдии?
 Эта операция не может быть отменена!"</string>
 <string name="msg_guild_protection_warning">"IP вашего Дата Центра станет доступен атакующим, если вы арендуете канал у гильдии, которая подверглась успешному взлому."</string>
@@ -270,6 +275,11 @@
 <!-- 3-4 символа, только (a-z) и (0-9) -->
 <string name="h_3_to_4_cars">"3-4 симв., [a-z] [0-9]"</string>
 
+<!-- Язык движка:
+(след стринг)
+Сударь, извольте выбрать язык - системный или забугорный?
+(след стринг)
+Английский --::-- Системный [пустое место, справа переключатель] -->
 <string name="tit_language_engine">"Выберите язык интерфейса:"</string>
 <string name="msg_lang_change">"Извольте выбрать язык, сударь - системный или забугорный?"</string>
 <string name="tit_game_language">"Язык [Англ/Системный]:"</string>
@@ -285,4 +295,26 @@
 <string name="msg_reset_cooldown">"Для данного ПО будет сброшен тайм-аут. Продолжить?
 
 Стоимость сброса составит %1$dBB"</string>
+<string name="help_1_upgrading">"1 - Усовершенствование оборудования и обновление програмного обеспечения"</string>
+<string name="help_2_missions_ips">"2 - Выполнение миссий. Работа с IP адресами (видео)"</string>
+<string name="help_3_bounce_logs">"3 - Что такое \"bounce\" и Журнал Подключений (видео)"</string>
+<string name="help_4_files">"4 - Операции с файлами (видео)"</string>
+<string name="help_5_decryption">"5 - Расшифровка/декодинг файлов (видео)"</string>
+<string name="update">"Пожалуйста, обновите приложение"</string>
+<string name="update_now">"Необходима более поздняя версия приложения. Обновить сейчас?"</string>
+
+<!-- screenshot: https://goo.gl/q2JrIs -->
+<string name="tit_name">"Имя пользователя:"</string>
+
+<!-- screenshot: https://goo.gl/q2JrIs -->
+<string name="txt_pm">"ЛС"</string>
+<string name="txt_report">"Пожаловаться"</string>
+<string name="txt_kick">"Бан"</string>
+
+<!-- screenshot: https://goo.gl/q2JrIs -->
+<string name="txt_warn">"Предупреждение"</string>
+
+<!-- screenshot: https://goo.gl/q2JrIs -->
+<string name="txt_mention">"Ответить"</string>
+<string name="tit_guilds_destroyed">"Уничтожено гильдий:"</string>
 </resources>
