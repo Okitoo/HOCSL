@@ -65,6 +65,8 @@ Such eine Gilde zum beitreten oder erstelle eine neue Gilde!"</string>
 <string name="txt_mitigation">"DDoS Filt."</string>
 <string name="txt_remove">"Entfernen"</string>
 <string name="tit_your_email">"Deine E-Mail:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Wird jeden Montag um Mitternacht Serverzeit zurückgesetzt. BBs für die Top 100."</string>
 <string name="info_hacked_already">"[Bereits gehackt]"</string>
 <string name="info_guild_member">"[Gildenmitglied]"</string>
