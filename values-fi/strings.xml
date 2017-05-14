@@ -16,13 +16,10 @@
 <string name="btn_cancel_software_description">"Peruuttaa ohjelmistopäivitykset ja palauttaa HC:t tilillesi"</string>
 <string name="btn_finish_soft_upgrade_explain">"Vuokraa supertietokone laskeaksesi ohjelmistoille vahvemmat algoritmit. Tulokset näkyvät heti!"</string>
 <string name="btn_add_ip_to_history">"Tallenna IP-osoite listallesi."</string>
-<string name="txt_u_r_almost_traced_down">"Olet melkein jäljitetty!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Protokolla rikki! Yritä uudelleen 1h jälkeen"</string>
 <string name="txt_not_being_traced">"Ei jäljitetä"</string>
 <string name="txt_auth_failed">"Todennus epäonnistui"</string>
 <string name="txt_wrong_user_pass">"Väärä käyttäjätunnus tai salasana!"</string>
-<string name="txt_data_corrupted">"Tiedot vioittuneet!"</string>
-<string name="txt_log_corrupted">"Loki vioittunut!"</string>
 <string name="no_guild">"Et ole minkään killan jäsen! Etsi tai luo uusi kilta!"</string>
 <string name="txt_search_guilds">"Etsi kiltaa"</string>
 <string name="btn_create_guild">"Luo kilta"</string>
@@ -64,6 +61,8 @@
 <string name="txt_mitigation">"DDos lievennys"</string>
 <string name="txt_remove">"Poista"</string>
 <string name="tit_your_email">"Sähköpostiosoiteesi:"</string>
+
+<!-- Fuzzy -->
 <string name="des_weekly">"Nollaantuu maanantaisin keskiyöllä palvelimen aikaan. 100 parhaalle BB palkintoja."</string>
 <string name="info_hacked_already">"[Kräkätty äskettäin]"</string>
 <string name="info_guild_member">"[Killan jäsen]"</string>
