@@ -243,6 +243,12 @@
     <string name="txt_warn">Warn</string>
     <string name="txt_mention">Mention</string>
     <string name="tit_guilds_destroyed">Guilds Destroyed:</string>
+    <string name="qr_code_permission" type="id">Can\'t read QR code. Camera Permission not granted!!</string>
+    <string name="failed_login_g_plus">Failed to login with Google Plus!</string>
+    <string name="please_wait_login">Logging in ...</string>
+    <string name="tit_gplus_connect">Connect account with G+</string>
+    <string name="btn_connect_gplus">Connect with G+</string>
+    <string name="please_wait_connecting_gplus">Connecting to G+ ...</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
