@@ -107,4 +107,10 @@ Ten reset kosztuje %1$dBB"</string>
 <string name="txt_warn">"Ostrzeż"</string>
 <string name="txt_mention">"Wspomnij"</string>
 <string name="tit_guilds_destroyed">"Zniszczone gildie"</string>
+<string name="qr_code_permission">"Nie można odczytać kodu QR, dostęp do kamery nie jest przyznany"</string>
+<string name="failed_login_g_plus">"Nie udało się zalogować z Google Plus!"</string>
+<string name="please_wait_login">"Logowanie"</string>
+<string name="tit_gplus_connect">"Połącz konto z G+"</string>
+<string name="btn_connect_gplus">"Połącz z G+"</string>
+<string name="please_wait_connecting_gplus">"Łączenie do G+"</string>
 </resources>
