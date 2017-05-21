@@ -264,4 +264,10 @@ O custo do reset é %1$dBB"</string>
 <string name="txt_warn">"Avisar"</string>
 <string name="txt_mention">"Menção"</string>
 <string name="tit_guilds_destroyed">"Guild destruídas:"</string>
+<string name="qr_code_permission">"Impossível ler código QR. Permissão de câmara não concedida!"</string>
+<string name="failed_login_g_plus">"Falha ao entrar com Google Plus!"</string>
+<string name="please_wait_login">"Fazendo login..."</string>
+<string name="tit_gplus_connect">"Conectar conta com G+"</string>
+<string name="btn_connect_gplus">"Conectar com G+"</string>
+<string name="please_wait_connecting_gplus">"Conectando ao G+ ..."</string>
 </resources>
