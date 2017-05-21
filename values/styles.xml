@@ -15,7 +15,7 @@
         <item name="android:editTextStyle">@style/TextEditStyle</item>
         <item name="android:textAppearance">@style/TextEditStyle</item>
         <item name="android:textAppearanceMedium">@style/TextEditStyle</item>
-        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
 
         <item name="android:alertDialogTheme">@style/HackersDialogTheme</item>
         <!--<item name="android:alertDialogStyle">@style/YourDialogStyle</item>-->
