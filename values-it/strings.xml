@@ -264,4 +264,10 @@ Il costo per il reset sarà di %1$dBB"</string>
 <string name="txt_warn">"Avverti"</string>
 <string name="txt_mention">"Menziona"</string>
 <string name="tit_guilds_destroyed">"Gilde distrutte:"</string>
+<string name="qr_code_permission">"Impossibile leggere il codice QR. Il permesso alla fotocamera non è stato abilitato!!"</string>
+<string name="failed_login_g_plus">"C'è stato un errore nel login con Google Plus!"</string>
+<string name="please_wait_login">"Acesso in corso ..."</string>
+<string name="tit_gplus_connect">"Connetti account con G+"</string>
+<string name="btn_connect_gplus">"Connettiti con G+"</string>
+<string name="please_wait_connecting_gplus">"Connessione a G+ in corso..."</string>
 </resources>
