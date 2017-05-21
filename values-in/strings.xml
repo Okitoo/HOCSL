@@ -133,7 +133,6 @@ Kamu bisa mencari misi."</string>
 <string name="txt_reputation">"Reputasi"</string>
 <string name="txt_hacker_name">"Nama Peretas"</string>
 <string name="txt_alpha">"- Server alpha hanya untuk pengembangan saja, semua data game pada server alpha akan dihapus setidaknya satu bulan sekali untuk mencoba fitur baru dan optimisasi game. Pembelian koin pada game tidak tersedia pada versi Alpha, server akan sering restart dan mungkin akan tidak tersedia untuk waktu yang lama."</string>
-<string name="question_which_server">"Pilih server mana untuk bermain:"</string>
 <string name="tit_email_verification">"Verifikasi Email:"</string>
 <string name="txt_email_steps">"\\HANYA @GMAIL.COM: Supaya kamu bisa mengubah password ketika kamu lupa, kamu harus menambahkan email ke dalam sistem. Untuk melakukannya, kamu harus mengirim email dengan kode spesial di dalam judul email, kirim ke mail_verify@hackerz.online. Tekan tombol dibawah ini untuk mengirim email dari aplikasi emailmu!"</string>
 <string name="btn_send_email">"Kirim dengan GMail"</string>
@@ -181,7 +180,6 @@ Kamu bisa mencari misi."</string>
 <string name="txt_delete">"Hapus"</string>
 <string name="tit_connected_to">"Terhubung Ke:"</string>
 <string name="tit_tracing">"Melacak:"</string>
-<string name="txt_disconnect">"Putuskan Hubungan"</string>
 <string name="txt_hardware">"Perangkat Keras"</string>
 <string name="txt_database">"Basis Data"</string>
 <string name="txt_file_manager">"Pengelola File"</string>
