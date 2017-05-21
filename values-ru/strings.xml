@@ -55,8 +55,7 @@
 <string name="tit_min_rep">"Мин. репутация:"</string>
 
 <!-- Отправить запрос для вступления -->
-<!-- Fuzzy -->
-<string name="btn_send_join_request">"Вступить"</string>
+<string name="btn_send_join_request">"Подать заявку"</string>
 <string name="txt_min_rep">"Ваша репутация должна соответствовать минимальному порогу для вступления в эту гильдию!"</string>
 
 <!-- может поменять главу на лидера? -->
@@ -121,8 +120,7 @@
 <string name="tit_mail">"Почта:"</string>
 
 <!-- Без | -->
-<!-- Fuzzy -->
-<string name="sep_hardware_name">"|Оборудование"</string>
+<string name="sep_hardware_name">"Оборудование"</string>
 <string name="please_wait_reg">"Пожалуйста, подождите ..."</string>
 <string name="failed_try_again">"Неудачно! Попробуйте снова"</string>
 <string name="captcha">"Капча"</string>
@@ -142,8 +140,7 @@
 <string name="txt_alpha">"- Альфа-сервер предназначен только для разработки и тестирования новых функций, все игровые данные на Альфа сервере обнуляются не реже одного раза в месяц. В Альфа-версии недоступна покупка игровой валюты. Сервер часто перезагружается и может быть недоступен в течение долгого времени."</string>
 
 <!-- Выбирите сервер игры: -->
-<!-- Fuzzy -->
-<string name="question_which_server">"Выберите игровой сервер:"</string>
+<string name="question_which_server">"Выбор сервера:"</string>
 <string name="tit_email_verification">"Подтверждение e-mail:"</string>
 <string name="txt_email_steps">"\\Внимание! Только для пользователей @GMAIL.COM: Забытый пароль вы можете восстановить, отправив письмо с кодом в заголовке на mail_verify@hackerz.online. На ваш почтовый ящик будет отправлено письмо со специальным кодом для подтверждения регистрации и восстановления пароля, при его утрате."</string>
 <string name="btn_send_email">"Отправить через GMail"</string>
