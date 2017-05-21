@@ -152,6 +152,9 @@ Du kannst nach Missionen suchen."</string>
 <string name="tit_gateway_slots">"Slots insgesamt:"</string>
 <string name="tit_ip_address">"IP-Adresse:"</string>
 <string name="row_level">"|Level"</string>
+
+<!-- Fuzzy -->
+<string name="row_spec">"|Angaben"</string>
 <string name="header_file_manager">"Dateimanager"</string>
 <string name="pcr_mounting_drive">"Einhängen des Remote-Laufwerks ..."</string>
 <string name="header_email">"HackMail"</string>
@@ -169,4 +172,10 @@ Du kannst nach Missionen suchen."</string>
 <string name="txt_execute">"Ausführen"</string>
 <string name="tit_file_name">"Dateiname :"</string>
 <string name="tit_file_size">"Dateigröße :"</string>
+<string name="tit_origin">"Ursprung :"</string>
+<string name="txt_buy">"Kaufen"</string>
+<string name="note_shop_limit">"Hinweis: Du kannst nicht mehr als 50$ in 7 Tagen ausgeben."</string>
+<string name="txt_cancel_upgrade">"Upgrade abbrechen"</string>
+<string name="txt_delete">"Löschen"</string>
+<string name="tit_connected_to">"Verbunden mit:"</string>
 </resources>
