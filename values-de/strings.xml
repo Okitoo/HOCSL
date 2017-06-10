@@ -178,4 +178,104 @@ Du kannst nach Missionen suchen."</string>
 <string name="txt_cancel_upgrade">"Upgrade abbrechen"</string>
 <string name="txt_delete">"Löschen"</string>
 <string name="tit_connected_to">"Verbunden mit:"</string>
+
+<!-- Fuzzy -->
+<string name="tit_tracing">"Zurückverfolgung:"</string>
+
+<!-- Fuzzy -->
+<string name="txt_disconnect">"Verbindung trennen"</string>
+<string name="txt_hardware">"Hardware"</string>
+<string name="txt_database">"Datenbank"</string>
+<string name="txt_file_manager">"Dateimanager"</string>
+<string name="txt_log">"Log"</string>
+<string name="txt_my_guild">"Meine Gilde"</string>
+<string name="txt_guilds_net">"Gildennetz"</string>
+<string name="txt_members">"Mitglieder"</string>
+
+<!-- Fuzzy -->
+<string name="txt_requests">"Anfragen"</string>
+<string name="txt_missions_job_portal">"Missions- und Aufgabenportal"</string>
+<string name="txt_requests_ph">"Anfragen  [%1$d]"</string>
+<string name="warn_guild">"Gilden mit unangebrachten Namen, Slogans oder Kürzeln werden gelöscht!"</string>
+<string name="tit_members_ph">"Mitglieder  [%1$d]:"</string>
+<string name="txt_sales">"Verkäufe"</string>
+<string name="txt_switch_server">"Server wechseln"</string>
+<string name="msg_login_fail_server">"Die Anmeldung ist dreimal fehlgeschlagen.
+Wechsle zurück zum live-Server"</string>
+<string name="msg_switch_server_complete">"Um den Server zu wechseln, muss das Spiel neugestartet werden! Jetzt neustarten?"</string>
+<string name="tit_bank">"Bank:"</string>
+<string name="hc">"%1$d HC"</string>
+<string name="hcpmb">"%1$dHC/MB"</string>
+<string name="tit_gb_sold_bw">"verkaufte Bandbreite: "</string>
+<string name="bandwidth">"%1$d MB"</string>
+<string name="tit_gb_rented_bw">"Gemietete Bandbreite:"</string>
+<string name="header_tit_sales">"Verkäufe"</string>
+<string name="price_mb_hc">"Kosten pro MB"</string>
+<string name="add_hc">"Hinzufügen"</string>
+<string name="tit_price_per_mb">"Kosten pro MB"</string>
+<string name="percentage_mb_hc">"Zu kaufende Bandbreite  [%1$d%%]:"</string>
+<string name="percentage_mb_hc_buy">"Kaufe Bandbreite: [%1$dMB]:"</string>
+<string name="tit_clients">"Klienten:"</string>
+<string name="txt_general_error">"Allgemeiner Fehler"</string>
+<string name="msg_general_error_restart">"Ein Fehler ist aufgetreten!
+Bitte beende das Spiel komplett (beende es über den Task-Manager) oder starte dein Handy neu, um den Fehler zu beheben. "</string>
+<string name="txt_protection">"Schutz"</string>
+<string name="tit_sellers">"Käufer:"</string>
+<string name="txt_bandwidth">"%1$dMB"</string>
+<string name="txt_rent">"Mieten"</string>
+<string name="alpha_server_1">"Alpha-Test Server"</string>
+<string name="warn_alpha">"ALPHA SERVER  - Spielstände werden täglich gelöscht"</string>
+<string name="txt_important_info">"Wichtige Information"</string>
+<string name="tit_bandwidth_rental">"Bandbreite mieten:"</string>
+<string name="tit_avail_bandwidth">"Verfügbare Bandbreite"</string>
+<string name="tit_total_price">"Gesamtpreis:"</string>
+<string name="txt_bandwidth_rental">"Bandbreite mieten"</string>
+<string name="msg_rent_bandwith_terms">"Wichtige Informationen:
+
+- Gemietete Bandbreite ist nur für 24 Stunden verfügbar!
+- Wenn die Gilde, bei der du Bandbreite mietest zerstört wird, ist die IP deines Datencenters in deren Daten sichtbar
+ - Du kannst nicht Bandbreite von Gilden mieten, die schwächer als deine sind
+
+Bist du dir sicher, dass du fortfahren willst?"</string>
+<string name="txt_add">"Hinzufügen"</string>
+<string name="header_add_hc_guild">"Einzahlen in die Gildenbank"</string>
+<string name="msg_add_hc_guild">"Möchtest du wirklich %1$dHC der Gildenbank hinzufügen?
+Dies kann nicht rückgängig gemacht werden!"</string>
+<string name="msg_guild_protection_warning">"Wenn die Gilde, bei der du Bandbreite mietest zerstört wird, ist die IP deines Datencenters in deren Daten sichtbar wenn du aktive Bandbreite von ihnen mietest."</string>
+<string name="tit_datacenter_ip">"Datencenter IP:"</string>
+<string name="txt_copied_to_clip">"In die Zwischenablage kopiert"</string>
+<string name="txt_file_copied_to_clip">"Gesamter Pfad in die Zwischenablage kopiert"</string>
+<string name="h_3_to_4_cars">"3-4 Zeichen nur aus a-z 0-9"</string>
+<string name="tit_language_engine">"Sprachsystem auswählen:"</string>
+<string name="msg_lang_change">"In welcher Sprache soll das Spiel sein, Gerätesprache oder Englsch?"</string>
+<string name="tit_game_language">"Sprache [EN / Gerät]:"</string>
+<string name="txt_restart_game_question">"Spiel neustarten?"</string>
+<string name="msg_are_you_sure_restart_game">"Möchtest du das Spiel wirklich neustarten?"</string>
+<string name="cant_alpha">"Neue Spieler dürfen nicht der Alpha beitreten"</string>
+<string name="txt_cool_down">"Abkühlen %1$s"</string>
+<string name="txt_reset_cooldown">"Cooldown zurücksetzten?"</string>
+<string name="msg_reset_cooldown">"Möchtest du wirklich den Cooldown zurücksetzen?
+
+Dies kostet %1$dBB"</string>
+<string name="help_1_upgrading">"1- Upgrade Hardware und Software"</string>
+<string name="help_2_missions_ips">"2 - Finde IPs und beende Missionen (Video)"</string>
+<string name="help_3_bounce_logs">"3 - Verstehe Bounce-Knoten und Logs (Video) "</string>
+<string name="help_4_files">"4 - Übertragen von Dateien (Video)"</string>
+<string name="help_5_decryption">"5 - Entschlüssen von Dateien (Video)"</string>
+<string name="help_6_guilds">"6 - Gilden und Gilden angreifen (Video)"</string>
+<string name="update">"Update die App"</string>
+<string name="update_now">"Um dich mit dem Server zu verbinden musst du die neuste Version aus dem Play-Store haben. Jetzt updaten?"</string>
+<string name="tit_name">"Name:"</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Reporten"</string>
+<string name="txt_kick">"Kicken"</string>
+<string name="txt_warn">"Warnen"</string>
+<string name="txt_mention">"Erwähnung"</string>
+<string name="tit_guilds_destroyed">"Gilden zerstört:"</string>
+<string name="qr_code_permission">"QR-Code kann nicht gelesen werden. Zugriff auf die Kamera verweigert!"</string>
+<string name="failed_login_g_plus">"Google Plus Login fehlgeschlagen!"</string>
+<string name="please_wait_login">"Anmelden..."</string>
+<string name="tit_gplus_connect">"Account mit G+ verbinden"</string>
+<string name="btn_connect_gplus">"Mit G+ verbinden"</string>
+<string name="please_wait_connecting_gplus">"Verbindung zu G+ wird hergestellt"</string>
 </resources>
