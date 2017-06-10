@@ -94,7 +94,7 @@
 <string name="tit_from">"От:"</string>
 <string name="txt_subject">"Тема"</string>
 <string name="tit_subject">"Тема:"</string>
-<string name="bad_usernames">"Игроки с именами, нарушающими праила, будут удалены!"</string>
+<string name="bad_usernames">"Игроки с именами, нарушающими правила, будут удалены!"</string>
 <string name="tit_to">"Кому:"</string>
 <string name="tit_attachment">"Вложение:"</string>
 <string name="UserName">"Имя пользователя"</string>
