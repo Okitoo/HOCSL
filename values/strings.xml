@@ -249,6 +249,9 @@
     <string name="tit_gplus_connect">Connect account with G+</string>
     <string name="btn_connect_gplus">Connect with G+</string>
     <string name="please_wait_connecting_gplus">Connecting to G+ ...</string>
+    <string name="txt_dash_balance">Dash Balance</string>
+    <string name="tit_dash_balance">Dash Balance:</string>
+    <string name="fmt_convert_to_x_bb">Convert to %1$dBB</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
