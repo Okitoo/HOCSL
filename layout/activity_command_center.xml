@@ -468,6 +468,58 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:id="@+id/login_g"
+            android:visibility="gone"
+            android:background="@drawable/remote_connection_window" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connect_g_plus"
+                    android:id="@+id/textView144"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/gplus2"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/transparent"
+                    android:src="@mipmap/gplus" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/login_other"
+                android:id="@+id/other_method"
+                android:layout_gravity="right"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:id="@+id/loginLayout"
             android:visibility="gone"
             android:background="@drawable/remote_connection_window">

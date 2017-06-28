@@ -252,6 +252,16 @@
     <string name="txt_dash_balance">Dash Balance</string>
     <string name="tit_dash_balance">Dash Balance:</string>
     <string name="fmt_convert_to_x_bb">Convert to %1$dBB</string>
+    <string name="tutorial_desktop"><![CDATA[Welcome to hackers!\n\nLets have a small tutorial on how to use the game!\n\n<--- On the left you will see icons, click on the \"Desktop\" icon]]></string>
+    <string name="tutorial_open_daily_package">Tutorial 2: \n\nNow in the Desktop:\n1- click on \"packages\" folder\n2- click on \"daily_package.pkg\"\n3- click \"Execute\" to collect your daily package!</string>
+    <string name="tutorial_connection_manager">Tutorial3:\nOn the left menu, there is a new icon (connection manager)!.\n\nClick on the "Connection Manager"</string>
+    <string name="tutorial_add_ip">Tutorial 4:\nIn the \"connection manager\", on the right bottom of the screen, you will find \"Add Target\" box.\n\n1- Put the IP address: 192.168.0.1\n2- Click on the small + (plus) sign next to add it to the list above!\n3- Click \"Save IP to History\"</string>
+    <string name="tutorial_connect_ip">Tutorial 5:\n\nYou first hack!\n\n1- Goto \"Connection Manager\"\n2- On top right of the screen click the left arrow \"&lt;&lt;\"\n3- Click \"Connect\"\n4- Play around the hacked server then press \"Disconnect\" on the top-right of the screen.</string>
+    <string name="tutorial_upgrade_cpu">Tutorial 6:\nOn the left menu, there is a new icon (Hardware)!.\n\nClick on the "Hardware" icon then:\n\n1- Find the CPU\n2- Click "Update"\n\nCPU is VERY important if you want to hack others without losing! Better not to hack anyone before reaching CPU level 10 AT LEAST</string>
+    <string name="tutorial_upgrade_passcrack">Tutorial 7:\nOn the left menu, there is a new icon (Software)!.\n\nClick on the "Software" icon then:\n\n1- Find the \"Password Cracker\"\n2- Click "Update"\n\nPassword Cracker (PC) is VERY important if you want to hack others without losing! Better not to hack anyone before reaching Password Cracker level 1.5 AT LEAST</string>
+    <string name="tutorial_missions">Tutorial 8:\n\nOn the left menu, there is a new icon (Missions)! Click on it and finish your first mission!\n\nMissions have detailed description on how to finish them. Read the description carefully to finish the mission!\n\nSome upgrade missions might not finish on the first time, so keep upgrading!</string>
+    <string name="connect_g_plus">Login with G+ :</string>
+    <string name="login_other">Other method</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
