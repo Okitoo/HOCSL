@@ -262,6 +262,7 @@
     <string name="tutorial_missions">Tutorial 8:\n\nOn the left menu, there is a new icon (Missions)! Click on it and finish your first mission!\n\nMissions have detailed description on how to finish them. Read the description carefully to finish the mission!\n\nSome upgrade missions might not finish on the first time, so keep upgrading!</string>
     <string name="connect_g_plus">Login with G+ :</string>
     <string name="login_other">Other method</string>
+    <string name="txt_bb_dash">BB/Dash</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
