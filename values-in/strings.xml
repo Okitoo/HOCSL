@@ -69,8 +69,6 @@ Cari sebuah guild untuk bergabung, atau buat guild baru!"</string>
 <string name="txt_mitigation">"Mit. DDoS"</string>
 <string name="txt_remove">"Hapus"</string>
 <string name="tit_your_email">"Emailmu:"</string>
-
-<!-- Fuzzy -->
 <string name="des_weekly">"Pengulangan setiap Senin tengah malam waktu server. BB diberikan untuk peringkat 100 teratas"</string>
 <string name="info_hacked_already">"[Sudah Diretas]"</string>
 <string name="info_guild_member">"[Anggota Guild]"</string>
@@ -133,6 +131,7 @@ Kamu bisa mencari misi."</string>
 <string name="txt_reputation">"Reputasi"</string>
 <string name="txt_hacker_name">"Nama Peretas"</string>
 <string name="txt_alpha">"- Server alpha hanya untuk pengembangan saja, semua data game pada server alpha akan dihapus setidaknya satu bulan sekali untuk mencoba fitur baru dan optimisasi game. Pembelian koin pada game tidak tersedia pada versi Alpha, server akan sering restart dan mungkin akan tidak tersedia untuk waktu yang lama."</string>
+<string name="question_which_server">"Pilih server untuk bermain:"</string>
 <string name="tit_email_verification">"Verifikasi Email:"</string>
 <string name="txt_email_steps">"\\HANYA @GMAIL.COM: Supaya kamu bisa mengubah password ketika kamu lupa, kamu harus menambahkan email ke dalam sistem. Untuk melakukannya, kamu harus mengirim email dengan kode spesial di dalam judul email, kirim ke mail_verify@hackerz.online. Tekan tombol dibawah ini untuk mengirim email dari aplikasi emailmu!"</string>
 <string name="btn_send_email">"Kirim dengan GMail"</string>
@@ -180,6 +179,7 @@ Kamu bisa mencari misi."</string>
 <string name="txt_delete">"Hapus"</string>
 <string name="tit_connected_to">"Terhubung Ke:"</string>
 <string name="tit_tracing">"Melacak:"</string>
+<string name="txt_disconnect">"Putuskan"</string>
 <string name="txt_hardware">"Perangkat Keras"</string>
 <string name="txt_database">"Basis Data"</string>
 <string name="txt_file_manager">"Pengelola File"</string>
@@ -272,6 +272,20 @@ Reset ini memerlukan biaya %1$dBB"</string>
 <string name="tit_name">"Nama:"</string>
 <string name="txt_pm">"P.M"</string>
 <string name="txt_report">"Laporkan"</string>
+
+<!-- teks ini kayanya buat tombol kick member di dalam guild, jadi kalo blokir artinya agak ga pas. ada 2 opsi, Tendang atau Kick
+kalo tendang kok rasanya agak aneh ya :v -->
+<string name="txt_kick">"Kick"</string>
 <string name="txt_warn">"Peringatkan"</string>
 <string name="txt_mention">"Mention"</string>
+<string name="tit_guilds_destroyed">"Guild Telah Hancur:"</string>
+<string name="qr_code_permission">"Tidak dapat membaca kode QR. Izin Kamera tidak di berikan!!"</string>
+<string name="failed_login_g_plus">"Masuk menggunakan Google Plus gagal!"</string>
+<string name="please_wait_login">"Mencoba Masuk ..."</string>
+<string name="tit_gplus_connect">"Hubungkan akun dengan G+"</string>
+<string name="btn_connect_gplus">"Hubungkan dengan G+"</string>
+<string name="please_wait_connecting_gplus">"Menghubungkan ke G+ ..."</string>
+<string name="connect_g_plus">"Masuk dengan G+ :"</string>
+<string name="login_other">"Metode Lain"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
 </resources>
