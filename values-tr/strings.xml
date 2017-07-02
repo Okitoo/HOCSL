@@ -249,6 +249,8 @@ Bu işlem geri çevrilemez!"</string>
 <string name="txt_copied_to_clip">"Panoya kopyalandı"</string>
 <string name="txt_file_copied_to_clip">"Dosya yolunu tamamı kopyalandı"</string>
 <string name="h_3_to_4_cars">"3-4 karakter sadece a-z 0-9"</string>
+
+<!-- engine? -->
 <string name="tit_language_engine">"Dili seçin"</string>
 <string name="msg_lang_change">"Hangi dilde oynamak istersin? cihaz varsayılanı veya ingilizce?"</string>
 <string name="tit_game_language">"Oyun Dili [İng/Varsayılan]:"</string>
