@@ -181,9 +181,7 @@ Du kannst nach Missionen suchen."</string>
 
 <!-- Fuzzy -->
 <string name="tit_tracing">"Zurückverfolgung:"</string>
-
-<!-- Fuzzy -->
-<string name="txt_disconnect">"Verbindung trennen"</string>
+<string name="txt_disconnect">"trennen"</string>
 <string name="txt_hardware">"Hardware"</string>
 <string name="txt_database">"Datenbank"</string>
 <string name="txt_file_manager">"Dateimanager"</string>
