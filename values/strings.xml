@@ -263,6 +263,7 @@
     <string name="connect_g_plus">Login with G+ :</string>
     <string name="login_other">Other method</string>
     <string name="txt_bb_dash">BB/Dash</string>
+    <string name="txt_hide_chat">Hide bottom chat bar</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
