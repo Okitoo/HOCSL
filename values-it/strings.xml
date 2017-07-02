@@ -270,4 +270,12 @@ Il costo per il reset sarà di %1$dBB"</string>
 <string name="tit_gplus_connect">"Connetti account con G+"</string>
 <string name="btn_connect_gplus">"Connettiti con G+"</string>
 <string name="please_wait_connecting_gplus">"Connessione a G+ in corso..."</string>
+<string name="fmt_convert_to_x_bb">"Converti in %1$dBB"</string>
+<string name="tutorial_desktop"><![CDATA[Benvenuti su hackers!\n\nFacciamo un breve tutorial su come si gioca!\n\n<--- Sulla sinistra sono presenti delle icone, clicca sull\'icona \"Desktop\" ]]></string>
+<string name="tutorial_open_daily_package">"Tutorial 2: 
+
+Adesso che sei nel Desktop:
+1- clicca sulla cartella \"pacchetti\"
+2- clicca su \"daily_package.pkg\"
+3- clicca su \"Esegui\" per ricevere il tuo pacchetto giornaliero!"</string>
 </resources>
