@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="app_name">"Hackers"</string>
-<string name="user_name">"Imię Użytkownika"</string>
+<string name="user_name">"Imię użytkownika"</string>
 <string name="password">"Hasło"</string>
 <string name="_connect">"Połącz"</string>
 <string name="_connecting">"$ Łączenie...  _"</string>
-<string name="fail_mission">"Misja Nieudana"</string>
+<string name="fail_mission">"Misja nieudana"</string>
 <string name="crack_twice">"Notatka: Nie możesz łamać hasła jednej osoby więcej niż JEDEN RAZ NA GODZINĘ"</string>
 <string name="mission_nore">"Widać tylko misję odpowiadające twojej Reputacji"</string>
 <string name="str_login">"Login"</string>
 <string name="str_reg">"Rejestracja"</string>
-<string name="txt_up_pc">"Ulepsz password crack, CPU i A.I aby szybciej się włamać!"</string>
-<string name="btn_upgrade_software">"Użyj siły CPU i A.I, aby uaktualnić algorytmy i stać się silniejszym!"</string>
-<string name="btn_cancel_software_description">"Uniemożliwia aktualizacje oprogramowania i zwraca HC"</string>
+<string name="txt_up_pc">"Ulepsz password cracker, CPU i AI, aby szybciej się włamać!"</string>
+<string name="btn_upgrade_software">"Użyj siły CPU i AI, aby uaktualnić algorytmy i stać się silniejszym!"</string>
+<string name="btn_cancel_software_description">"Uniemożliwia aktualizację oprogramowania i zwraca HC"</string>
 <string name="btn_finish_soft_upgrade_explain">"Wynajmij superkomputer, aby szybko obliczyć silniejszy algorytm dla oprogramowania. Natychmiastowe wyniki!"</string>
-<string name="btn_add_ip_to_history">"Zapisz IP do historii"</string>
+<string name="btn_add_ip_to_history">"Zapisz IP w historii"</string>
 <string name="txt_u_r_almost_traced_down">"Za chwilę zostawisz ślad!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Tunel się załamał! Połącz ponownie za godzinę!"</string>
 <string name="txt_not_being_traced">"Nie jest śledzone"</string>
@@ -23,31 +23,31 @@
 <string name="txt_data_corrupted">"Dane uszkodzone!"</string>
 <string name="txt_log_corrupted">"Logi uszkodzone!"</string>
 <string name="no_guild">"Nie jesteś członkiem żadnej gildii!
-Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
-<string name="txt_search_guilds">"Szukaj Gildii "</string>
-<string name="btn_create_guild">"Stwórz Gildię"</string>
-<string name="tit_guild_name">"Nazwa Gildii"</string>
-<string name="h_16_chars_max">"Najwyżej 16 znaków"</string>
-<string name="h_3_chars_exactly">"Muszą być 3 znaki. Tylko a-z 0-9"</string>
+Wyszukaj gildię, aby dołączyć, lub stwórz nową!"</string>
+<string name="txt_search_guilds">"Szukaj gildii"</string>
+<string name="btn_create_guild">"Stwórz gildię"</string>
+<string name="tit_guild_name">"Nazwa gildii"</string>
+<string name="h_16_chars_max">"Maksymalnie 16 znaków"</string>
+<string name="h_3_chars_exactly">"Wymagane min. 3 znaki. Tylko A-Z i 0-9"</string>
 <string name="tit_slogam">"Slogan"</string>
-<string name="h_64_chars_max">"Najwyżej 64 znaki"</string>
-<string name="tit_create_price">"Utwórz Cenę"</string>
+<string name="h_64_chars_max">"Maksymalnie 64 znaki"</string>
+<string name="tit_create_price">"Utwórz cenę"</string>
 <string name="btn_create">"Utwórz"</string>
-<string name="txt_all_time">"Cały Czas"</string>
+<string name="txt_all_time">"Cały czas"</string>
 <string name="txt_weekly">"Tygodniowy"</string>
-<string name="txt_load_guild">"Załaduj Gildię"</string>
-<string name="txt_guild_load_error">"Podczas ładowania Gildii wystąpił błąd!"</string>
-<string name="tit_members_count">"Liczba Członków:"</string>
+<string name="txt_load_guild">"Załaduj gildię"</string>
+<string name="txt_guild_load_error">"Podczas ładowania gildii wystąpił błąd!"</string>
+<string name="tit_members_count">"Liczba członków:"</string>
 <string name="tit_ddos_mitigation">"Łagodzenie DDoS "</string>
 <string name="txt_missions_job_portal">"Portal misji i prac"</string>
 <string name="txt_requests_ph">"Prośby [%1$d]"</string>
-<string name="warn_guild">"Gildię z nieodpowiednim nazwami, sloganami lub prefixami zostaną usunięte!"</string>
+<string name="warn_guild">"Gildie z nieodpowiednim nazwami, sloganami lub prefiksami zostaną usunięte!"</string>
 <string name="tit_members_ph">"Członkowie [%1$d]:"</string>
-<string name="txt_sales">"Sprzedarze"</string>
+<string name="txt_sales">"Sprzedaże"</string>
 <string name="txt_switch_server">"Przełącz serwer"</string>
-<string name="msg_login_fail_server">"Logowanie nie powiodło się 3 razy
-Zostaniesz przęłączony na serwer Live teraz"</string>
-<string name="msg_switch_server_complete">"Aby zmienić serwer musisz zrestartować grę! Zrestartować teraz?"</string>
+<string name="msg_login_fail_server">"Logowanie nie powiodło się 3 razy.
+Zostaniesz przełączony na serwer live teraz"</string>
+<string name="msg_switch_server_complete">"Aby zmienić serwer, musisz zrestartować grę! Zrobić to teraz?"</string>
 <string name="tit_bank">"Bank:"</string>
 <string name="hc">"%1$d HC"</string>
 <string name="hcpmb">"%1$d HC/MB"</string>
@@ -57,57 +57,57 @@ Zostaniesz przęłączony na serwer Live teraz"</string>
 <string name="header_tit_sales">"Sprzedaże"</string>
 <string name="price_mb_hc">"Cena za MB [%1$dHC]:"</string>
 <string name="add_hc">"Dodaj [%1$dHC]:"</string>
-<string name="tit_price_per_mb">" Cena za MB"</string>
+<string name="tit_price_per_mb">"Cena za MB"</string>
 <string name="percentage_mb_hc">"Bandwidth do sprzedaży"</string>
 <string name="percentage_mb_hc_buy">"Kup Bandwidth"</string>
-<string name="txt_general_error">"Błąd Generalny"</string>
+<string name="txt_general_error">"Błąd generalny"</string>
 <string name="msg_general_error_restart">"Wystąpiło informowanie!
-Zamknij grę kompletnie (Wyłącz z menadżera zadań) lub zrestartuj komórkę aby naprawić problem"</string>
+Całkowicie wyłącz grę (w menedżerze zadań) lub zrestartuj komórkę, aby naprawić problem"</string>
 <string name="txt_protection">"Zabezpieczenie"</string>
 <string name="tit_sellers">"Sprzedawcy"</string>
 <string name="txt_bandwidth">"%1$dMB"</string>
 <string name="txt_rent">"Wypożycz"</string>
-<string name="alpha_server_1">"Testowy serwer Alpha"</string>
-<string name="warn_alpha">"Serwer Alpha (Testowy) - Będzie usuwany codziennie"</string>
-<string name="txt_important_info">"Ważną Informacja"</string>
+<string name="alpha_server_1">"Testowy serwer alfa"</string>
+<string name="warn_alpha">"Serwer alfa (testowy) - będzie usuwany codziennie"</string>
+<string name="txt_important_info">"Ważna informacja"</string>
 <string name="tit_bandwidth_rental">"Wypożyczalność Bandwidth"</string>
 <string name="tit_avail_bandwidth">"Dostępne Bandwidth"</string>
 <string name="tit_total_price">"Całkowita cena"</string>
 <string name="txt_bandwidth_rental">"Wypożyczalność Bandwidth"</string>
-<string name="msg_rent_bandwith_terms">"Ważne Informacje:
--Wypożyczone Bandwidth dostępne tylko przez 24h!
--Jeśli gildia, od której wypożyczyłeś jest zniszczona twoje IP będzie widoczne w ich IP jeżeli wypożyczone bandwidth jest wciąż aktywne!
--Nie możesz wypożyczyć od gildii słabszych niż twoja!
+<string name="msg_rent_bandwith_terms">"Ważne informacje:
+- Wypożyczone Bandwidth są dostępne tylko przez 24h.
+- Po zniszczeniu gildii, od której wypożyczyłeś Bandwidth, twoje IP będzie widoczne w historii IP jej członków, jeżeli wypożyczone Bandwidth jest wciąż aktywne!
+- Nie możesz wypożyczać Bandwidth od gildii słabszych niż twoja!
 
 Czy na pewno chcesz wypożyczyć?"</string>
 <string name="txt_add">"Dodaj"</string>
-<string name="msg_guild_protection_warning">"Jeśli gildia, u której wypożyczasz zostanie zniszczona, IP twojego data Center będzie widoczne w folderze ich klientów, jeśli masz aktywne bandwidth od nich"</string>
+<string name="msg_guild_protection_warning">"Po zniszczeniu gildii, od której wypożyczasz Bandwidth, IP systemu danych twojej gildii będzie widoczne w folderze klientów twojego dostawcy, jeśli wypożyczone Bandwidth nadal są aktywne"</string>
 <string name="tit_datacenter_ip">"IP systemu danych"</string>
-<string name="txt_copied_to_clip">"Zkopiowano do schowka"</string>
-<string name="txt_file_copied_to_clip">"Cały plik zkopiowany do schowka"</string>
-<string name="h_3_to_4_cars">"3-4 znaki a-z 0-9 dopuszczane"</string>
+<string name="txt_copied_to_clip">"Skopiowano do schowka"</string>
+<string name="txt_file_copied_to_clip">"Cały plik skopiowany do schowka"</string>
+<string name="h_3_to_4_cars">"3-4 znaki, dopuszczalne A-Z i 0-9"</string>
 <string name="tit_language_engine">"Wybierz silnik języka"</string>
-<string name="msg_lang_change">"Jaki język ma być w grze, język urządzenia czy domyślny angielski?"</string>
-<string name="tit_game_language">"Język Gry [Ang/Domyślny]"</string>
+<string name="msg_lang_change">"Jaki język ma być w grze: język urządzenia czy domyślny angielski?"</string>
+<string name="tit_game_language">"Język gry [ang./domyślny]"</string>
 <string name="txt_restart_game_question">"Zrestartować grę?"</string>
-<string name="msg_are_you_sure_restart_game">"Jesteś pewien, że chcesz zrestartować grę"</string>
-<string name="cant_alpha">"Nowi gracze nie mogą wejść na serwer alpha"</string>
+<string name="msg_are_you_sure_restart_game">"Jesteś pewien, że chcesz zrestartować grę?"</string>
+<string name="cant_alpha">"Nowi gracze nie mogą wejść na serwer alfa"</string>
 <string name="txt_cool_down">"Chłodzenie %1$s"</string>
 <string name="txt_reset_cooldown">"Zrestartować chłodzenie?"</string>
-<string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz ochłodzić ten sprzęt?
+<string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz schłodzić ten sprzęt?
 
 Ten reset kosztuje %1$dBB"</string>
-<string name="help_2_missions_ips">"2 - Znajdywanie IP oraz ukończenie misji (wideo)"</string>
-<string name="help_3_bounce_logs">"3 - Wyjaśnienie Bounce oraz Logów (wideo)"</string>
+<string name="help_2_missions_ips">"2 - Znajdowanie IP oraz ukończenie misji (wideo)"</string>
+<string name="help_3_bounce_logs">"3 - Zasady Bounce oraz Logów (wideo)"</string>
 <string name="help_5_decryption">"5 - Odszyfrowywanie plików (wideo)"</string>
 <string name="help_6_guilds">"6 - Gildie oraz wojny gildii (wideo)"</string>
-<string name="txt_pm">"P.W"</string>
+<string name="txt_pm">"PW"</string>
 <string name="txt_report">"Zgłoś"</string>
 <string name="txt_kick">"Wyrzuć"</string>
 <string name="txt_warn">"Ostrzeż"</string>
 <string name="txt_mention">"Wspomnij"</string>
 <string name="tit_guilds_destroyed">"Zniszczone gildie"</string>
-<string name="qr_code_permission">"Nie można odczytać kodu QR, dostęp do kamery nie jest przyznany"</string>
+<string name="qr_code_permission">"Nie można odczytać kodu QR, nie przyznano dostępu do kamery"</string>
 <string name="failed_login_g_plus">"Nie udało się zalogować z Google Plus!"</string>
 <string name="please_wait_login">"Logowanie"</string>
 <string name="tit_gplus_connect">"Połącz konto z G+"</string>
