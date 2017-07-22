@@ -140,7 +140,7 @@ Du kannst nach Missionen suchen."</string>
 <string name="row_name">"|Name"</string>
 <string name="row_version">"|Version"</string>
 <string name="txt_uninstall">"Deinstallieren"</string>
-<string name="txt_upgrade">"Aufwerten"</string>
+<string name="txt_upgrade">"Upgrade"</string>
 <string name="txt_start">"Start"</string>
 <string name="tit_on_success">"Bei Erfolg:"</string>
 <string name="tit_on_fail">"Bei Versagen:"</string>
@@ -181,7 +181,7 @@ Du kannst nach Missionen suchen."</string>
 
 <!-- Fuzzy -->
 <string name="tit_tracing">"Zurückverfolgung:"</string>
-<string name="txt_disconnect">"trennen"</string>
+<string name="txt_disconnect">"Trennen"</string>
 <string name="txt_hardware">"Hardware"</string>
 <string name="txt_database">"Datenbank"</string>
 <string name="txt_file_manager">"Dateimanager"</string>
@@ -276,4 +276,63 @@ Dies kostet %1$dBB"</string>
 <string name="tit_gplus_connect">"Account mit G+ verbinden"</string>
 <string name="btn_connect_gplus">"Mit G+ verbinden"</string>
 <string name="please_wait_connecting_gplus">"Verbindung zu G+ wird hergestellt"</string>
+<string name="txt_dash_balance">"Dash-Guthaben"</string>
+<string name="tit_dash_balance">"Dash-Guthaben:"</string>
+<string name="fmt_convert_to_x_bb">"Zu %1$dBB umwandeln"</string>
+<string name="tutorial_desktop"><![CDATA[Willkommen bei Hackerz!\n\nBeginnen wir mir einem kurzen Tutorial über die Verwendung diese Spiels!\n<--- Hier links tauchen mit der Zeit verschiedene Symbole auf, klicke zuerst auf dieses \"Desktop\"-Symbol]]></string>
+<string name="tutorial_open_daily_package">"Tutorial 2:
+
+Jetzt bist du auf dem Desktop:
+1- Klicke jetzt auf \"packages\"
+2- Klicke dort auf \"daily_package.pkg\"
+3- Klicke auf \"Ausführen\"
+
+Je öfter du dich in Folge einloggst, desto mehr Belohnungen erhältst du aus diesen Paketen."</string>
+<string name="tutorial_connection_manager">"Tutorial 3:
+Bei den Symbolen links ist ein neues aufgetaucht. Das ist der Verbindungsmanager. 
+
+Klicke nun auf dieses Symbol!"</string>
+<string name="tutorial_add_ip">"Tutorial 4:
+Hier im Verbindungsmanager findest du unten die \"Ziel hinzufügen\"-Box. 
+
+1- Klicke diese an und tipppe diese IP-Adresse ein: 192.168.0.1
+2- Klicke auf das kleine + Zeichen
+3- Klicke auf \"IP in Verlauf speichern\"
+
+Damit hast du eine IP in deinem Verlauf gespeichert und kannst auf diese zugreifen, wenn du dieses Gateway hacken willst."</string>
+<string name="tutorial_connect_ip">"Tutorial 5:
+
+Dein erster Hack! Wir hacken nun die eben hinzugefügte IP!
+
+1- Klicke bei der IP, die du hacken willst, auf den Pfeil nach links \"&lt;&lt;\"
+2- Klicke auf \"Verbinden\"
+3- Schaue dich ein wenig auf diesem gehackten Server um
+4- Wenn du fertig bist, drücke auf \"Trennen\""</string>
+<string name="tutorial_upgrade_cpu">"Tutorial 6:
+Links findest du nun das Symbol für deine Hardware!
+
+1- Klicke dieses Symbol an
+2- Finde die CPU
+3- Klicke auf Upgrade
+
+Deine CPU ist SEHR wichtig, wenn du andere hacken willst, ohne dein eigenes Gateway zu verlieren. Bevor du andere Spieler hackst, sollte sie MINDESTENS auf Version 10 sein!"</string>
+<string name="tutorial_upgrade_passcrack">"Tutorial 7:
+Links ist nun das Symbol \"Software\" aufgetaucht.
+
+1- Klicke diese Symbol an
+2- Finde deinen Passwort Cracker
+3- Klicke auf Upgrade
+
+Auch dein Passwort Cracker ist SEHR wichtig wenn du andere hacken willst. Bevor du andere hackst, sollte dein Passwort Cracker MINDESTENS auf Version 1.5 sein."</string>
+<string name="tutorial_missions">"Tutoral 8: 
+
+Links ist nun das Symbol für Missionen aufgetaucht. Klicke darauf und schließe deine erste Mission ab!
+
+Missionen haben detaillierte Beschreibungen, wie sie zu beenden sind. Bitte lese diese sehr genau!
+
+Manch Missionen kannst du auf dem ersten Versuch nicht abschließen. Daher musst du weiter deine Hardware und Software upgraden."</string>
+<string name="connect_g_plus">"Mit G+ anmelden"</string>
+<string name="login_other">"Andere Methode"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"untere Chat-Leise ausblenden"</string>
 </resources>
