@@ -16,10 +16,13 @@
 <string name="btn_cancel_software_description">"Peruuttaa ohjelmistopäivitykset ja palauttaa HC:t tilillesi"</string>
 <string name="btn_finish_soft_upgrade_explain">"Vuokraa supertietokone laskeaksesi ohjelmistoille vahvemmat algoritmit. Tulokset näkyvät heti!"</string>
 <string name="btn_add_ip_to_history">"Tallenna IP-osoite listallesi."</string>
+<string name="txt_u_r_almost_traced_down">"Sinut on melkein jäljitetty!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Protokolla rikki! Yritä uudelleen 1h jälkeen"</string>
 <string name="txt_not_being_traced">"Ei jäljitetä"</string>
 <string name="txt_auth_failed">"Todennus epäonnistui"</string>
 <string name="txt_wrong_user_pass">"Väärä käyttäjätunnus tai salasana!"</string>
+<string name="txt_data_corrupted">"Tiedot korruptoituneet!"</string>
+<string name="txt_log_corrupted">"Loki korruptoitunut!"</string>
 <string name="no_guild">"Et ole minkään killan jäsen! Etsi tai luo uusi kilta!"</string>
 <string name="txt_search_guilds">"Etsi kiltaa"</string>
 <string name="btn_create_guild">"Luo kilta"</string>
@@ -249,4 +252,40 @@ Tätä ei voi perua!"</string>
 <string name="msg_reset_cooldown">"Haluatko varmasti nopeuttaa jäähdytyksen?
 
 Tämä tulee maksamaan %1$dBB"</string>
+<string name="help_1_upgrading">"1 - Laitteiston ja ohjelmiston päivittäminen"</string>
+<string name="help_2_missions_ips">"2 - IP osoitteiden löytäminen, ja tehtävien suorittaminen (video)"</string>
+<string name="help_3_bounce_logs">"3 - Bouncejen ja logien ymmärtäminen (video)"</string>
+<string name="help_4_files">"4 - Tiedostojen siirtäminen (video)"</string>
+<string name="help_5_decryption">"5 - Tiedostojen salauksen purku (video)"</string>
+<string name="help_6_guilds">"6 - Killat ja kiltojen väliset sodat (video)"</string>
+<string name="update">"Päivitä sovellus"</string>
+<string name="update_now">"Voidaksesi yhdistää palvelimeen, on sinun päivitettävä pelisi Googlen Play Storen kautta. Päivitä nyt?"</string>
+<string name="tit_name">"Nimi: "</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Ilmianna"</string>
+<string name="txt_kick">"Potkaise"</string>
+<string name="txt_warn">"Varoita"</string>
+<string name="txt_mention">"Mainitse"</string>
+<string name="tit_guilds_destroyed"></string>
+<string name="qr_code_permission"></string>
+<string name="failed_login_g_plus"></string>
+<string name="please_wait_login"></string>
+<string name="tit_gplus_connect"></string>
+<string name="btn_connect_gplus"></string>
+<string name="please_wait_connecting_gplus"></string>
+<string name="txt_dash_balance"></string>
+<string name="tit_dash_balance"></string>
+<string name="fmt_convert_to_x_bb"></string>
+<string name="tutorial_desktop"></string>
+<string name="tutorial_open_daily_package"></string>
+<string name="tutorial_connection_manager"></string>
+<string name="tutorial_add_ip"></string>
+<string name="tutorial_connect_ip"></string>
+<string name="tutorial_upgrade_cpu"></string>
+<string name="tutorial_upgrade_passcrack"></string>
+<string name="tutorial_missions"></string>
+<string name="connect_g_plus"></string>
+<string name="login_other"></string>
+<string name="txt_bb_dash"></string>
+<string name="txt_hide_chat"></string>
 </resources>
