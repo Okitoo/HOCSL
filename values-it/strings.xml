@@ -270,6 +270,8 @@ Il costo per il reset sarà di %1$dBB"</string>
 <string name="tit_gplus_connect">"Connetti account con G+"</string>
 <string name="btn_connect_gplus">"Connettiti con G+"</string>
 <string name="please_wait_connecting_gplus">"Connessione a G+ in corso..."</string>
+<string name="txt_dash_balance">"Bilancio attuale"</string>
+<string name="tit_dash_balance">"Bilancio attuale:"</string>
 <string name="fmt_convert_to_x_bb">"Converti in %1$dBB"</string>
 <string name="tutorial_desktop"><![CDATA[Benvenuti su hackers!\n\nFacciamo un breve tutorial su come si gioca!\n\n<--- Sulla sinistra sono presenti delle icone, clicca sull\'icona \"Desktop\" ]]></string>
 <string name="tutorial_open_daily_package">"Tutorial 2: 
@@ -278,4 +280,51 @@ Adesso che sei nel Desktop:
 1- clicca sulla cartella \"pacchetti\"
 2- clicca su \"daily_package.pkg\"
 3- clicca su \"Esegui\" per ricevere il tuo pacchetto giornaliero!"</string>
+<string name="tutorial_connection_manager">"Tutorial 3:
+Nel menù a sinistra, è presente una nuova icona (connection manager)!
+
+Clicca su Connection Manager"</string>
+<string name="tutorial_add_ip">"Tutorial 4:
+In \"connection manager\", in basso a destra del tuo schermo, troverai la casella \"Aggiungi bersaglio\".
+
+1- Inserisci l'indirizzo IP: 192.168.0.1
+2- Clicca sul simbolino + (più) vicino per aggiungerlo sulla lista in alto
+3- Clicca su \"Salva IP nella cronologia\""</string>
+<string name="tutorial_connect_ip">"Tutorial 5:
+
+La tua prima hack!
+
+1- Vai su \"Connection Manager\"
+2- In alto a destra dello schermo clicca la doppia freccia che punta a sinistra \"&lt;&lt;\"
+3- Clicca su \"Connettiti\"
+4- Cazzeggia un po' nel server hackerato e poi clicca \"Disconnetti\" in alto a destra dello schermo."</string>
+<string name="tutorial_upgrade_cpu">"Tutorial 6:
+Nel menu a sinistra, c'è una nuova icona (Hardware)!
+
+Clicca l'icona Hardware e poi:
+
+1- Trova la CPU
+2- Clicca Aggiorna
+
+La CPU è MOLTO importante se vuoi hackerare gli altri senza perdere! È meglio non hackerare nessuno prima che la CPU abbia raggiunto ALMENO il livello 10."</string>
+<string name="tutorial_upgrade_passcrack">"Tutorial 7:
+Nel menu a sinistra c'è una nuova icona (Software)!
+
+Clicca l'icona Software e poi:
+
+1- Trova il \"Password Cracker\"
+2- Clicca Aggiorna
+
+Il Password Cracker (PC) è MOLTO importante se vuoi hackerare gli altri senza perdere! È meglio non hackerare nessuno prima che il Password Cracker abbia raggiunto ALMENO il livello 1.5"</string>
+<string name="tutorial_missions">"Tutorial 8:
+
+Nel menu a sinistra c'è una nuova icona (Missioni)! Cliccala e termina la tua prima missione!
+
+Le missioni hanno descrizioni dettagliate su come finirle. Leggi attentamente la descrizione per finire la missione!
+
+Alcune missioni di miglioramento potrebbero non concludersi la prima volta, perciò continua a migliorare!"</string>
+<string name="connect_g_plus">"Login con G+ :"</string>
+<string name="login_other">"Metodo alternativo"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"Nascondi la barra della chat inferiore"</string>
 </resources>
