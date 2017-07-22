@@ -7,6 +7,7 @@
 <string name="_connecting">"$ Łączenie...  _"</string>
 <string name="fail_mission">"Misja Nieudana"</string>
 <string name="crack_twice">"Notatka: Nie możesz łamać hasła jednej osoby więcej niż JEDEN RAZ NA GODZINĘ"</string>
+<string name="_message">"Wiadomość: "</string>
 <string name="mission_nore">"Widać tylko misję odpowiadające twojej Reputacji"</string>
 <string name="str_login">"Login"</string>
 <string name="str_reg">"Rejestracja"</string>
@@ -27,6 +28,7 @@ Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
 <string name="txt_search_guilds">"Szukaj Gildii "</string>
 <string name="btn_create_guild">"Stwórz Gildię"</string>
 <string name="tit_guild_name">"Nazwa Gildii"</string>
+<string name="tit_name_prefix">"Prefix: "</string>
 <string name="h_16_chars_max">"Najwyżej 16 znaków"</string>
 <string name="h_3_chars_exactly">"Muszą być 3 znaki. Tylko a-z 0-9"</string>
 <string name="tit_slogam">"Slogan"</string>
@@ -39,6 +41,151 @@ Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
 <string name="txt_guild_load_error">"Podczas ładowania Gildii wystąpił błąd!"</string>
 <string name="tit_members_count">"Liczba Członków:"</string>
 <string name="tit_ddos_mitigation">"Łagodzenie DDoS "</string>
+<string name="tit_bandwidth_util">"Pozostało sieci"</string>
+<string name="tit_news">"Wiadomości:"</string>
+<string name="tit_guild_leader">"Lider gildii"</string>
+<string name="tit_hackcoins">"HackCoins:"</string>
+<string name="tit_blackbits">"BlackBits:"</string>
+<string name="tit_member_name">"Nazwa członka"</string>
+<string name="tit_reputation">"Reputacja"</string>
+<string name="tit_last_login">"Ostatnie logowanie"</string>
+<string name="tit_last_hack">"Ostatnie hackowanie"</string>
+<string name="tit_contributions">"Składki:"</string>
+<string name="tit_enter_guild_prefix">"Wprowadź Prefix Gildii:"</string>
+<string name="tit_min_rep">"Min Rep:"</string>
+<string name="btn_send_join_request">"Wyślij prośbę o dodanie"</string>
+<string name="txt_min_rep">"Musisz mieć co najmniej minimalną reputację wymaganą do przyłączenia się do tej Gildii."</string>
+<string name="txt_how_to_leave">"Możesz opuścić gildię tylko przez kopnięcie przez lidera. Upewnij się, że wiesz, do kogo wchodzisz, a przywódca gildii jest aktywny!"</string>
+<string name="btn_accept">"Akceptuję"</string>
+<string name="btn_reject">"Odrzuć"</string>
+<string name="btn_send">"Wyślij"</string>
+<string name="txt_guilds">"Gildie"</string>
+<string name="txt_rank">"Ranga"</string>
+<string name="txt_guild_pre">"Prefix Gildii"</string>
+<string name="txt_mitigation">"dDoS Mit."</string>
+<string name="txt_remove">"Usuń"</string>
+<string name="tit_your_email">"Twój E-Mail"</string>
+
+<!-- Fuzzy -->
+<string name="des_weekly">"Reset jest w każdy poniedziałek o północy
+BB dla pierwszej 100"</string>
+<string name="info_hacked_already">"[Już hakowany]"</string>
+<string name="info_guild_member">"Członek gilidii"</string>
+<string name="tit_chat_lines">"Maksymalnie linii w czacie"</string>
+<string name="desc_chat_lines">"Maksymalna ilość linii w czacie. Jeśli przestaniesz automatycznie skrolować ta wartość będzie ignorowana"</string>
+<string name="desc_share_300_bb">"Podziel się grą z przyjaciółmi, i otrzymaj 200BB kiedy osiągną 1000rep! (Muszą otworzyć link w aplikacji sklepu Play i zainstalować grę zanim się zarejestrują"</string>
+<string name="txt_share">"Udostępnij"</string>
+<string name="txt_try_again">"Spróbuj ponownie!"</string>
+<string name="txt_db_record_name">"Nazwa zapisu bazy danych"</string>
+<string name="txt_db_connection_failed">"Połączenie z bazą danych nieudane"</string>
+<string name="txt_save">"Zapisz"</string>
+<string name="tit_support">"Wsparcie:"</string>
+<string name="not_connecting_twitter">"Serwer wyłączony z powodu prac
+Kliknij tu po więcej informacji!"</string>
+<string name="txt_clear">"Wyczyść"</string>
+<string name="coming_soon">"Już w krótce"</string>
+<string name="q_delete_hardware">"Usunąć Hardware?"</string>
+<string name="aus_delete_hardware">"Czy na pewno chcesz usunąć ten sprzęt?
+Ta operacja jest NIEODWRACALNA
+Dostaniesz tylko 1000BB"</string>
+<string name="prc_loading">"Wczytywanie..."</string>
+<string name="tit_from">"Od:"</string>
+<string name="txt_subject">"Temat"</string>
+<string name="tit_subject">"Temat:"</string>
+<string name="bad_usernames">"Użytkownicy o niewłaściwych nazwach będą usunięci"</string>
+<string name="WEGotThere">"Mamy to, teraz łamiemy hasło"</string>
+<string name="tit_to">"Do:"</string>
+<string name="tit_attachment">"Załącznik:"</string>
+<string name="UserName">"Nazwa gracza"</string>
+<string name="email_subject">"Temat Emaila"</string>
+<string name="email_message">"Wiadomość Emaila"</string>
+<string name="attachment_name">"Pełna nazwa pliku (Kopiuj nazwę pliku)"</string>
+<string name="email_warning">"! Wysyłanie jakichkolwiek wiadomości, które nie będą przestrzegały zasad lub będą zastrzaszały innych graczy ZASKUTKUJE nieodwracalnym banem permamentnym w tej grze na twoim koncie !"</string>
+<string name="txt_sending_email">"Wysyłanie E-maila"</string>
+<string name="q_delete_email">"Usunąć E-maila?"</string>
+<string name="aus_delete_email">"Jesteś pewien, że chcesz usunąć tą wiadomość?"</string>
+<string name="txt_deleting_email">"Usuwanie wiadomości..."</string>
+<string name="tit_date">"Data:"</string>
+<string name="chat_box_hint">"&lt;&lt; Kliknij na ikonę aby wybrać czat"</string>
+<string name="invitation_title">"Hackerz.Online"</string>
+<string name="invitation_message">"Dołącz do mnie grając w Hackerz Online; Massive Multiplayer Online symulator hackowania (MMO)"</string>
+<string name="invitation_cta">"Dołącz"</string>
+<string name="tit_mail">"Mail:"</string>
+<string name="sep_hardware_name">"Nazwa HW"</string>
+<string name="please_wait_reg">"Proszę czekać..."</string>
+<string name="failed_try_again">"Nie udało się! Spróbuj ponownie"</string>
+<string name="captcha">"Kod Captcha"</string>
+<string name="need_help">"Potrzebujesz pomocy? Kliknij tutaj!"</string>
+<string name="tit_search_term">"Wyszukaj:"</string>
+<string name="btn_in_progress">"Trwające misje"</string>
+<string name="txt_find_missions">"Znajdź misje"</string>
+<string name="row_title">"|Tytuł"</string>
+<string name="row_payout">"|Payout"</string>
+<string name="row_rep">"|Rep"</string>
+<string name="row_client">"|Klient"</string>
+<string name="row_timelimit">"|Limit czasowy"</string>
+<string name="txt_no_missions">"Brak rozpoczętych misji!
+Możesz wyszukać misje!"</string>
+<string name="txt_reputation">"Reputacja"</string>
+<string name="txt_hacker_name">"Nazwa Hackera"</string>
+<string name="txt_alpha">"- Serwer alfa jest przeznaczony wyłącznie do celów związanych z rozwojem, wszystkie dane gry na serwerze alfa zostaną co najmniej raz w miesiącu cofnięte, aby przetestować nowe funkcje i optymalizacje w grze. Zakup monet gry nie będzie dostępne w wersji Alpha. Serwer ponownie uruchomi się i może nie być dostępny przez dłuższy czas."</string>
+<string name="question_which_server">"Na którym serwerze chcesz grać:"</string>
+<string name="tit_email_verification">"Weryfikacja E-maila"</string>
+<string name="txt_email_steps">"\\TYLKO @GMAIL.COM: Aby zresetować hasło, jeśli zapomniałeś hasła, musisz dodać swój e-mail do systemu. Aby to zrobić, musisz wysłać e-mail z specjalnym kodem w tytule na mail_verify@hackerz.online. Kliknij poniższy przycisk, aby wysłać wiadomość e-mail z klienta poczty elektronicznej!"</string>
+<string name="btn_send_email">"Wyślij przez GMail"</string>
+<string name="txt_shop">"Skalep"</string>
+<string name="txt_software_center">"Centrum"</string>
+<string name="txt_installed">"Zainstalowano"</string>
+<string name="txt_description">"Opis"</string>
+<string name="row_name">"|Nazwa"</string>
+<string name="row_version">"|Wersja"</string>
+<string name="txt_uninstall">"Odinstaluj"</string>
+<string name="txt_upgrade">"Ulepsz"</string>
+<string name="txt_start">"Start"</string>
+<string name="tit_on_success">"Sukces"</string>
+<string name="tit_on_fail">"Niepowodzenie"</string>
+<string name="tit_target">"Cel:"</string>
+<string name="tit_target_rep">"Reputacja celu:"</string>
+<string name="tit_requested_by">"Na wniosek:"</string>
+<string name="header_gateway_center">"Hardware - Serwer bramy"</string>
+<string name="tit_gw_name">"Nazwa bramy:"</string>
+<string name="tit_gateway_slots">"Max miejsc:"</string>
+<string name="tit_ip_address">"Adres IP:"</string>
+<string name="row_level">"|Lvl"</string>
+<string name="row_spec">"|Specjalizacja"</string>
+<string name="header_file_manager">"Menadżer plików:"</string>
+<string name="pcr_mounting_drive">"Montaż dysku zdalnego ..."</string>
+<string name="header_email">"HackMail"</string>
+<string name="header_desktop">"Pulpit"</string>
+<string name="header_con_manager">"Menadżer połączeń"</string>
+<string name="tct_fw_log">"Dziennik zapory"</string>
+<string name="tit_add_target">"Dodaj cel:"</string>
+<string name="tit_con_log">"Dziennik połączeń:"</string>
+<string name="txt_close">"Zamknij"</string>
+<string name="btn_add_hardware">"+ Dodaj Hardware"</string>
+<string name="txt_empty_slot">"Puste miejsce"</string>
+<string name="txt_open_file">"Otwórz plik"</string>
+<string name="txt_enter_decryption_key">"Wprowadź klucz deszyfrowania"</string>
+<string name="txt_decrypt">"Deszyfruj"</string>
+<string name="txt_execute">"Wykonaj"</string>
+<string name="tit_file_name">"Nazwa pliku:"</string>
+<string name="tit_file_size">"Rozmiar pliku:"</string>
+<string name="tit_origin">"Pochodzenie:"</string>
+<string name="txt_buy">"Kup"</string>
+<string name="note_shop_limit">"Uwaga: Nie możesz kupić więcej niż 50$ w przeciągu 7 dni."</string>
+<string name="txt_cancel_upgrade">"Anuluj aktualizację"</string>
+<string name="txt_delete">"Usuń"</string>
+<string name="tit_connected_to">"Połączony z:"</string>
+<string name="tit_tracing">"Namierzanie"</string>
+<string name="txt_disconnect">"Rozłacz"</string>
+<string name="txt_hardware">"Hardware"</string>
+<string name="txt_database">"Baza danych"</string>
+<string name="txt_file_manager">"Menadżer plików"</string>
+<string name="txt_log">"Dziennik"</string>
+<string name="txt_my_guild">"Moja Gildia"</string>
+<string name="txt_guilds_net">"Net gildii"</string>
+<string name="txt_members">"Członkowie"</string>
+<string name="txt_requests">"Prośby"</string>
 <string name="txt_missions_job_portal">"Portal misji i prac"</string>
 <string name="txt_requests_ph">"Prośby [%1$d]"</string>
 <string name="warn_guild">"Gildię z nieodpowiednim nazwami, sloganami lub prefixami zostaną usunięte!"</string>
@@ -60,6 +207,7 @@ Zostaniesz przęłączony na serwer Live teraz"</string>
 <string name="tit_price_per_mb">" Cena za MB"</string>
 <string name="percentage_mb_hc">"Bandwidth do sprzedaży"</string>
 <string name="percentage_mb_hc_buy">"Kup Bandwidth"</string>
+<string name="tit_clients">"Klienci:"</string>
 <string name="txt_general_error">"Błąd Generalny"</string>
 <string name="msg_general_error_restart">"Wystąpiło informowanie!
 Zamknij grę kompletnie (Wyłącz z menadżera zadań) lub zrestartuj komórkę aby naprawić problem"</string>
@@ -81,6 +229,10 @@ Zamknij grę kompletnie (Wyłącz z menadżera zadań) lub zrestartuj komórkę 
 
 Czy na pewno chcesz wypożyczyć?"</string>
 <string name="txt_add">"Dodaj"</string>
+<string name="header_add_hc_guild">"Zdeponuj w banku gildii"</string>
+
+<!-- Fuzzy -->
+<string name="msg_add_hc_guild">"Czy jesteś pewien, że chcesz dodać %1$HC"</string>
 <string name="msg_guild_protection_warning">"Jeśli gildia, u której wypożyczasz zostanie zniszczona, IP twojego data Center będzie widoczne w folderze ich klientów, jeśli masz aktywne bandwidth od nich"</string>
 <string name="tit_datacenter_ip">"IP systemu danych"</string>
 <string name="txt_copied_to_clip">"Zkopiowano do schowka"</string>
@@ -97,10 +249,15 @@ Czy na pewno chcesz wypożyczyć?"</string>
 <string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz ochłodzić ten sprzęt?
 
 Ten reset kosztuje %1$dBB"</string>
+<string name="help_1_upgrading">"Uaktualnianie sprzętu i oprogramowania"</string>
 <string name="help_2_missions_ips">"2 - Znajdywanie IP oraz ukończenie misji (wideo)"</string>
 <string name="help_3_bounce_logs">"3 - Wyjaśnienie Bounce oraz Logów (wideo)"</string>
+<string name="help_4_files">"4 - Transferowanie plików (wideo)"</string>
 <string name="help_5_decryption">"5 - Odszyfrowywanie plików (wideo)"</string>
 <string name="help_6_guilds">"6 - Gildie oraz wojny gildii (wideo)"</string>
+<string name="update">"Aktualizuj aplikację"</string>
+<string name="update_now">"Aby móc połączyć się z serwerem, musisz zaktualizować grę z Sklepu Play. Aktualizować teraz?"</string>
+<string name="tit_name">"Imię:"</string>
 <string name="txt_pm">"P.W"</string>
 <string name="txt_report">"Zgłoś"</string>
 <string name="txt_kick">"Wyrzuć"</string>
@@ -113,4 +270,20 @@ Ten reset kosztuje %1$dBB"</string>
 <string name="tit_gplus_connect">"Połącz konto z G+"</string>
 <string name="btn_connect_gplus">"Połącz z G+"</string>
 <string name="please_wait_connecting_gplus">"Łączenie do G+"</string>
+<string name="txt_dash_balance"></string>
+<string name="tit_dash_balance"></string>
+<string name="fmt_convert_to_x_bb">"Wymień na %1$dBB"</string>
+<string name="tutorial_desktop">"&lt;![CDATA[Witaj w hackers!\n\nZacznijmy od małego samouczka o tym jak grać w tą grę!\n\n&lt;---
+Po lewej zobaczysz ikony, kliknij na "</string>
+<string name="tutorial_open_daily_package"></string>
+<string name="tutorial_connection_manager"></string>
+<string name="tutorial_add_ip"></string>
+<string name="tutorial_connect_ip"></string>
+<string name="tutorial_upgrade_cpu"></string>
+<string name="tutorial_upgrade_passcrack"></string>
+<string name="tutorial_missions"></string>
+<string name="connect_g_plus">"Zaloguj z G+"</string>
+<string name="login_other">"Inna metoda"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat"></string>
 </resources>
