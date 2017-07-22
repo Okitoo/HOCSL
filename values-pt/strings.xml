@@ -2,19 +2,19 @@
 <resources>
 <string name="app_name">"Hackers"</string>
 <string name="user_name">"Username"</string>
-<string name="password">"Password"</string>
+<string name="password">"Senha"</string>
 <string name="_connect">"Conectar"</string>
 <string name="_connecting">"$ Conectando ... _"</string>
-<string name="fail_mission">"Falhar missão"</string>
+<string name="fail_mission">"Cancelar missão"</string>
 <string name="crack_twice">"Aviso : Só podes crackear UMA VEZ POR HORA"</string>
 <string name="_message">"Mensagem:"</string>
 <string name="mission_nore">"Só irá aparecer missões adequadas à tua Reputação"</string>
 <string name="str_login">"Login"</string>
-<string name="str_reg">"Registar"</string>
+<string name="str_reg">"Registrar"</string>
 <string name="txt_up_pc">"Melhora o password cracker, CPU e a A.I. para crackear mais rápido!"</string>
 <string name="btn_upgrade_software">"Usa o poder da CPU e da A.I para melhorar os algoritmos de software tornando-os mais fortes!"</string>
 <string name="btn_cancel_software_description">"Cancela o processo de atualização de software e reembolsa o HC"</string>
-<string name="btn_finish_soft_upgrade_explain">"Aluga um super computador para calcular algoritmos mais rápidos para o software. Resultados imediatos!"</string>
+<string name="btn_finish_soft_upgrade_explain">"Alugue um super computador para calcular algoritmos mais rápidos para o software. Resultados imediatos!"</string>
 <string name="btn_add_ip_to_history">"Guardar IP no histórico"</string>
 <string name="txt_u_r_almost_traced_down">"Estás quase a ser localizado!"</string>
 <string name="txt_tunnel_broke_reconn_hour">"Ligação quebrada! Reconecta-te daqui a uma hora."</string>
@@ -52,7 +52,7 @@ Procura por uma para entrar, ou cria uma guild nova!"</string>
 <string name="tit_last_hack">"Último Hack:"</string>
 <string name="tit_contributions">"Contribuições:"</string>
 <string name="tit_enter_guild_prefix">"Insere o Prefixo da Guild:"</string>
-<string name="tit_min_rep">"Min Rep:"</string>
+<string name="tit_min_rep">"Rep Min:"</string>
 <string name="btn_send_join_request">"Enviar pedido de adesão"</string>
 <string name="txt_min_rep">"Precisas de ter pelo menos o mínimo de reputação pedida para entrar na Guild!"</string>
 <string name="txt_how_to_leave">"Só podes abandonar a guild se fores expulso!
@@ -63,14 +63,14 @@ Só podes ser expulso se não fores ativo(sem fazer login) durante 48 horas, ou 
 <string name="txt_guilds">"Guilds"</string>
 <string name="txt_rank">"Rank"</string>
 <string name="txt_guild_pre">"Prefixo da Guild"</string>
-<string name="txt_mitigation">"Mit. dDoS"</string>
+<string name="txt_mitigation">"Mit. DDoS"</string>
 <string name="txt_remove">"Remover"</string>
 <string name="tit_your_email">"Seu email:"</string>
-<string name="des_weekly">"Recomeça todas as segundas-feiras à meia-noite (hora do servidor). BBs para o top 100"</string>
+<string name="des_weekly">"Recomeça todas as segundas-feiras à meia-noite (faltam %1$s). BBs para o top 100"</string>
 <string name="info_hacked_already">"[Já Hackeado]"</string>
 <string name="info_guild_member">"[Membro da Guild]"</string>
 <string name="tit_chat_lines">"Máximo de linhas do chat:"</string>
-<string name="desc_chat_lines">"Máximo de linhas no chat. Se parares o scrolling automático este valor será ignorado."</string>
+<string name="desc_chat_lines">"Máximo de linhas no chat. Se parares a rolagem automática este valor será ignorado."</string>
 <string name="desc_share_300_bb">"Partilha este jogo com os teus amigos, e recebe 200BB quando eles chegarem a 1000 de reputação! (Eles têm que abrir o link na Play Store e instalar antes de se registarem)"</string>
 <string name="txt_share">"Partilhar"</string>
 <string name="txt_try_again">"Tenta novamente!"</string>
@@ -92,7 +92,7 @@ Irás receber somente 100BB em retorno."</string>
 <string name="txt_subject">"Assunto"</string>
 <string name="tit_subject">"Assunto:"</string>
 <string name="bad_usernames">"Usernames inapropriados serão excluidos!"</string>
-<string name="WEGotThere">"Conseguimos, crackeando agora... *"</string>
+<string name="WEGotThere">"XXX"</string>
 <string name="tit_to">"Para:"</string>
 <string name="tit_attachment">"Anexo:"</string>
 <string name="UserName">"Username"</string>
@@ -184,7 +184,7 @@ Podes procurar por missões."</string>
 <string name="txt_my_guild">"Minha Guild"</string>
 <string name="txt_guilds_net">"Rede de Guilds"</string>
 <string name="txt_members">"Membros"</string>
-<string name="txt_requests">"Pedidos"</string>
+<string name="txt_requests">"XXX"</string>
 <string name="txt_missions_job_portal">"Portal de missões"</string>
 <string name="txt_requests_ph">"Solicitações [%1$d]"</string>
 <string name="warn_guild">"Guilds com nome, slogan ou prefixo impróprio serão apagadas!"</string>
@@ -270,4 +270,61 @@ O custo do reset é %1$dBB"</string>
 <string name="tit_gplus_connect">"Conectar conta com G+"</string>
 <string name="btn_connect_gplus">"Conectar com G+"</string>
 <string name="please_wait_connecting_gplus">"Conectando ao G+ ..."</string>
+<string name="txt_dash_balance">"Saldo Dash"</string>
+<string name="tit_dash_balance">"Saldo Dash:"</string>
+<string name="fmt_convert_to_x_bb">"Converter para %1$dBB"</string>
+<string name="tutorial_desktop"><![CDATA[Bem-vindo aos hackers!\n\nVamos ter um pequeno tutorial sobre como usar o jogo!\n\n<--- À esquerda você verá ícones, clique no ícone \"Desktop\"]]></string>
+<string name="tutorial_open_daily_package">"Tutorial 2:
+
+Agora no Desktop:
+1- Clique na pasta \"packages\"
+2- Clique em \"daily_package.pkg\"
+3- Clique em \"Executar\" para coletar seu pacote diário!"</string>
+<string name="tutorial_connection_manager">"Tutorial 3:
+No menu à esquerda, há um novo ícone (gerenciador de conexão)!.
+
+Clique no Gerenciador de Conexão"</string>
+<string name="tutorial_add_ip">"Tutorial 4:
+No \"gerenciador de conexão\", na parte inferior direita da tela, você encontrará a caixa \"Adicionar destino\".
+
+1- Coloque o endereço IP: 192.168.0.1
+2- Clique no pequeno sinal + (mais) ao lado para adicioná-lo à lista acima!
+3- Clique em \"Salvar IP para o Histórico\""</string>
+<string name="tutorial_connect_ip">"Tutorial 5:
+
+Seu primeiro hack!
+
+1- Vá para o \"Gerenciador de Conexão\"
+2- No canto superior direito da tela, clique na seta para a esquerda \"&lt;&lt;\"
+3- Clique em \"Conectar\"
+4- Navegue pelo servidor hackeado e então pressione \"Desconectar\" no canto superior direito da tela."</string>
+<string name="tutorial_upgrade_cpu">"Tutorial 6:
+No menu à esquerda, há um novo ícone (Hardware)!.
+
+Clique no ícone Hardware, em seguida:
+
+1- Encontre a CPU
+2- Clique em Atualizar
+
+O CPU é muito importante se você quiser hackear outros sem perder! Melhor não hackear ninguém antes de atingir o nível de CPU 10 pelo menos"</string>
+<string name="tutorial_upgrade_passcrack">"Tutorial 7:
+No menu à esquerda, há um novo ícone (Software)!.
+
+Clique no ícone Software, em seguida:
+
+1- Encontre o \"Cracker de Senha\"
+2- Clique em Atualizar
+
+Password Cracker (PC) é muito importante se você quiser hackear outros sem perder! Melhor não hackear ninguém antes de alcançar o Password Cracker nível 1.5 pelo menos"</string>
+<string name="tutorial_missions">"Tutorial 8:
+
+No menu à esquerda, há um novo ícone (Missões)! Clique nele e termine sua primeira missão!
+
+As missões possuem uma descrição detalhada sobre como concluí-las. Leia a descrição com cuidado para terminar a missão!
+
+Algumas missões de atualização podem não terminar na primeira vez, então continue atualizando!"</string>
+<string name="connect_g_plus">"Login com G+:"</string>
+<string name="login_other">"Outro método"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"Ocultar barra de bate-papo inferior"</string>
 </resources>
