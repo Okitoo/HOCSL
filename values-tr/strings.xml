@@ -276,4 +276,25 @@ Sonlandırma karşılığı olarak %1$dBB ver"</string>
 <string name="txt_warn">"Uyar"</string>
 <string name="txt_mention">"Bahset"</string>
 <string name="tit_guilds_destroyed">"Yokedilen Lonca:"</string>
+<string name="qr_code_permission"></string>
+<string name="failed_login_g_plus"></string>
+<string name="please_wait_login"></string>
+<string name="tit_gplus_connect"></string>
+<string name="btn_connect_gplus"></string>
+<string name="please_wait_connecting_gplus"></string>
+<string name="txt_dash_balance"></string>
+<string name="tit_dash_balance"></string>
+<string name="fmt_convert_to_x_bb"></string>
+<string name="tutorial_desktop"></string>
+<string name="tutorial_open_daily_package"></string>
+<string name="tutorial_connection_manager"></string>
+<string name="tutorial_add_ip"></string>
+<string name="tutorial_connect_ip"></string>
+<string name="tutorial_upgrade_cpu"></string>
+<string name="tutorial_upgrade_passcrack"></string>
+<string name="tutorial_missions"></string>
+<string name="connect_g_plus"></string>
+<string name="login_other"></string>
+<string name="txt_bb_dash"></string>
+<string name="txt_hide_chat"></string>
 </resources>
