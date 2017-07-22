@@ -26,8 +26,7 @@
 <!-- It's the text shown when you start cracking so it tel that you are not getting traced yet at that moment so the french translation should be " Pas en train d'être tracé" Je pense
 
 We need a native french speaker to confirm -->
-<!-- Fuzzy -->
-<string name="txt_not_being_traced">"Pas en cours d'être tracé"</string>
+<string name="txt_not_being_traced">"Non-tracé"</string>
 <string name="txt_auth_failed">"L'identification a échoué"</string>
 <string name="txt_wrong_user_pass">"Nom d'utilisateur ou mot de passe incorrect !"</string>
 <string name="txt_data_corrupted">"Données corrompues !"</string>
@@ -67,7 +66,7 @@ the same translating should be used on the whole game -->
 <string name="tit_enter_guild_prefix">"Entrer le préfixe de la guilde:"</string>
 <string name="tit_min_rep">"Rép min. :"</string>
 <string name="btn_send_join_request">"Envoyer une demande pour rejoindre"</string>
-<string name="txt_min_rep">"Vous devez avoir au moins la réputation minimum demandé pour rejoindre cette guilde!"</string>
+<string name="txt_min_rep">"Vous devez avoir au moins la réputation minimum demandée pour rejoindre cette guilde!"</string>
 <string name="txt_how_to_leave">"Vous pouvez quitter la guilde seulement en étant expulsé par le leader. Assurez-vous de savoir à qui vous vous joignez et que le leader de la guilde est actif!"</string>
 <string name="btn_accept">"Accepter"</string>
 <string name="btn_reject">"Rejeter"</string>
@@ -82,7 +81,7 @@ the same translating should be used on the whole game -->
 <string name="info_hacked_already">"[Déjà piraté]"</string>
 <string name="info_guild_member">"[Membre de la guilde]"</string>
 <string name="tit_chat_lines">"Nombre max. de lignes de la discussion:"</string>
-<string name="desc_chat_lines">"Le nombre max de lignes qui peuvent apparaitre dans le canal de discussion. Si vous arrêtez le défilement automatique, cette valeur sera ignoré."</string>
+<string name="desc_chat_lines">"Le nombre max de lignes qui peuvent apparaitre dans le canal de discussion. Si vous arrêtez le défilement automatique, cette valeur sera ignorée."</string>
 <string name="desc_share_300_bb">"Partagez le jeu avec vos amis et recevez 200BB quand ils atteignent 1000 rép! (Ils doivent ouvrir le lien dans l'application Play Store et installer le jeu avant de s'enregistrer)"</string>
 <string name="txt_share">"Partager"</string>
 <string name="txt_try_again">"Réessayer!"</string>
@@ -90,13 +89,13 @@ the same translating should be used on the whole game -->
 <string name="txt_db_connection_failed">"La connexion à la base de données a échouée!"</string>
 <string name="txt_save">"Sauvegarder"</string>
 <string name="tit_support">"Support:"</string>
-<string name="not_connecting_twitter">"Serveurs en maintenance.
+<string name="not_connecting_twitter">"Serveur en maintenance.
 Cliquez ici pour plus d'info!"</string>
 <string name="txt_clear">"Nettoyer"</string>
 <string name="coming_soon">"Bientôt"</string>
 <string name="q_delete_hardware">"Supprimer le composant ?"</string>
 <string name="aus_delete_hardware">"Êtes vous sûr de vouloir supprimer ce composant?
-Cette opération ne peut PAS être annuler.
+Cette opération ne peut PAS être annulée.
 
 Vous recevrez seulement 100BB en retour."</string>
 <string name="prc_loading">"Chargement..."</string>
@@ -108,7 +107,7 @@ Vous recevrez seulement 100BB en retour."</string>
 <!-- What's this ? it says do no translate -->
 <string name="WEGotThere">"XXX"</string>
 <string name="tit_to">"À:"</string>
-<string name="tit_attachment">"Attachement:"</string>
+<string name="tit_attachment">"Pièce-jointe:"</string>
 <string name="UserName">"Nom d'utilisateur"</string>
 <string name="email_subject">"Sujet du mail"</string>
 <string name="email_message">"Message du mail"</string>
@@ -140,7 +139,7 @@ Vous recevrez seulement 100BB en retour."</string>
 <string name="row_client">"|Client"</string>
 <string name="row_timelimit">"|Limite de temps"</string>
 <string name="txt_no_missions">"Aucune mission en cours!
-vous pouvez chercher des missions."</string>
+Vous pouvez chercher des missions."</string>
 <string name="txt_reputation">"Réputation"</string>
 <string name="txt_hacker_name">"Nom du Hacker"</string>
 <string name="txt_alpha">"- Le serveur Alpha est conçu uniquement à des fins de développement, toutes les données du jeu sur le serveur alpha seront réinitialisées au moins une fois par mois pour tester de nouvelles fonctionnalités et des optimisations pour le jeu. Les achats de BB ne seront pas disponibles dans la version Alpha, le serveur redémarre souvent et pourrait ne pas être disponible pendant de longues périodes."</string>
@@ -162,14 +161,14 @@ vous pouvez chercher des missions."</string>
 <string name="tit_target">"Cible:"</string>
 <string name="tit_target_rep">"Rep de la Cible:"</string>
 <string name="tit_requested_by">"Demandé par:"</string>
-<string name="header_gateway_center">"Composant de votre passerelle"</string>
+<string name="header_gateway_center">"Composants de votre passerelle"</string>
 <string name="tit_gw_name">"Nom de la passerelle:"</string>
-<string name="tit_gateway_slots">"Emplacement total:"</string>
+<string name="tit_gateway_slots">"Ports totaux:"</string>
 <string name="tit_ip_address">"Adresse IP:"</string>
 <string name="row_level">"|Niveau"</string>
 <string name="row_spec">"|Spec"</string>
 <string name="header_file_manager">"Gestionnaire de fichiers"</string>
-<string name="pcr_mounting_drive">"Montage du disque à distance ..."</string>
+<string name="pcr_mounting_drive">"Montage du disque distant"</string>
 <string name="header_email">"HackMail"</string>
 <string name="header_desktop">"Bureau"</string>
 <string name="header_con_manager">"Gestionnaire de connexion"</string>
@@ -180,7 +179,7 @@ vous pouvez chercher des missions."</string>
 <string name="tit_con_log">"Journal des connexions:"</string>
 <string name="txt_close">"Fermer"</string>
 <string name="btn_add_hardware">"+ Ajouter un composant"</string>
-<string name="txt_empty_slot">"Emplacement vide"</string>
+<string name="txt_empty_slot">"Port vide"</string>
 <string name="txt_open_file">"Ouvrir le fichier"</string>
 <string name="txt_enter_decryption_key">"Entrez la clé de décryptage"</string>
 <string name="txt_decrypt">"Décrypter"</string>
@@ -193,16 +192,14 @@ vous pouvez chercher des missions."</string>
 <string name="txt_cancel_upgrade">"Annuler l'amélioration"</string>
 <string name="txt_delete">"Supprimer"</string>
 <string name="tit_connected_to">"Connecté à:"</string>
-
-<!-- Fuzzy -->
-<string name="tit_tracing">"En cours d'être tracer:"</string>
+<string name="tit_tracing">"Traçage en cours:"</string>
 <string name="txt_disconnect">"Déconnecter"</string>
 <string name="txt_hardware">"Composant"</string>
 <string name="txt_database">"Base de données"</string>
 <string name="txt_file_manager">"Gestionnaire de fichiers"</string>
 <string name="txt_log">"Journal"</string>
 <string name="txt_my_guild">"Ma Guilde"</string>
-<string name="txt_guilds_net">"Recherche de Guilde"</string>
+<string name="txt_guilds_net">"Réseau des guildes"</string>
 <string name="txt_members">"Membres"</string>
 <string name="txt_requests">"XXX"</string>
 <string name="txt_missions_job_portal">"Portail des Missions et des Tâches"</string>
@@ -211,8 +208,8 @@ vous pouvez chercher des missions."</string>
 <string name="tit_members_ph">"Membres [%1$d]:"</string>
 <string name="txt_sales">"Ventes"</string>
 <string name="txt_switch_server">"Changer de serveur"</string>
-<string name="msg_login_fail_server">"Vous avez echoué à vous connecter pour 3 fois.
-Vous retournerez au serveur direct maintenant."</string>
+<string name="msg_login_fail_server">"Vous avez échoué à vous connecter 3 fois.
+Vous retournez maintenant au serveur normal"</string>
 <string name="msg_switch_server_complete">"Afin de compléter le changement de serveur, vous devez redémarrer le jeu! Le faire maintenant ?"</string>
 <string name="tit_bank">"Banque:"</string>
 <string name="hc">"%1$d HC"</string>
@@ -225,7 +222,7 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="add_hc">"Ajouter [%1$dHC]:"</string>
 <string name="tit_price_per_mb">"Prix par Mo:"</string>
 <string name="percentage_mb_hc">"Bande passante à vendre [%1$d%%]"</string>
-<string name="percentage_mb_hc_buy">"Acheter bande passante [%1$dMB]"</string>
+<string name="percentage_mb_hc_buy">"Acheter bande passante [%1$dMo]"</string>
 <string name="tit_clients">"Clients:"</string>
 <string name="txt_general_error">"Erreur générale "</string>
 <string name="msg_general_error_restart">"Une erreur s'est produite! Fermez complètement le jeu (tuez le depuis le gestionnaire de tâches) ou redémarrez votre téléphone pour résoudre le problème."</string>
@@ -234,7 +231,7 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="txt_bandwidth">"%1$dMo"</string>
 <string name="txt_rent">"Location"</string>
 <string name="alpha_server_1">"Serveur de test du développement Alpha"</string>
-<string name="warn_alpha">"SERVER ALPHA DU JEU (DEVELOPPEMENT) - Suppression journalière"</string>
+<string name="warn_alpha">"SERVEUR ALPHA DU JEU (DÉVELOPPEMENT) - Suppression journalière"</string>
 <string name="txt_important_info">"Informations importantes"</string>
 <string name="tit_bandwidth_rental">"Location de Bande Passante:"</string>
 <string name="tit_avail_bandwidth">"Bande Passante disponible:"</string>
@@ -243,7 +240,7 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="msg_rent_bandwith_terms">"Notes IMPORTANTES:
 
 - La bande passante louée est disponible pour 24 heures seulement!
-- Si la guilde dont vous avez loué la bande passante est détruite, votre adresse IP de datacenter sera visible dans leur fichier de données si la bande passante est toujours active!
+- Si la guilde dont vous avez loué la bande passante est détruite, l'adresse IP de votre centre de données sera visible dans leur fichier de données si la bande passante est toujours active!
 - Vous ne pouvez pas louer auprès de guildes plus faibles que la vôtre!
 
 Êtes-vous sûr de vouloir louer?"</string>
@@ -251,14 +248,14 @@ Vous retournerez au serveur direct maintenant."</string>
 <string name="header_add_hc_guild">"Dépôt à la banque de guilde"</string>
 <string name="msg_add_hc_guild">"Êtes-vous sûr de vouloir ajouter %1$dHC à la banque de guilde?
 Cette opération ne peut pas être inversée!"</string>
-<string name="msg_guild_protection_warning">"Si la guilde dont vous avez loué la bande passante est détruite, l'adresse IP de votre datacenter sera visible dans leur fichier client si la bande passante louée est toujours active!"</string>
+<string name="msg_guild_protection_warning">"Si la guilde dont vous avez loué la bande passante est détruite, l'adresse IP de votre centre de données sera visible dans leur fichier \"clients\" seulement si la bande passante louée est toujours active!"</string>
 <string name="tit_datacenter_ip">"IP de Centre de données"</string>
 <string name="txt_copied_to_clip">"Copié dans le presse-papier"</string>
 <string name="txt_file_copied_to_clip">"Chemin de fichier complet copié dans le presse-papiers"</string>
 <string name="h_3_to_4_cars">"3-4 caractères a-z 0-9 uniquement"</string>
 <string name="tit_language_engine">"Sélectionnez la langue du jeu:"</string>
-<string name="msg_lang_change">"Choisissez la langue du jeu, anglais ou la langue de votre appareil?"</string>
-<string name="tit_game_language">"Langue du jeu [EN/Langue de votre appareil]:"</string>
+<string name="msg_lang_change">"La langue affichée par le jeu, langue par défaut de l'appareil ou anglais?"</string>
+<string name="tit_game_language">"Langue du jeu [EN/Langue de l'appareil]:"</string>
 <string name="txt_restart_game_question">"Redémarrer le jeu?"</string>
 <string name="msg_are_you_sure_restart_game">"Êtes-vous sûr de vouloir redémarrer le jeu?"</string>
 <string name="cant_alpha">"Les nouveaux joueurs ne peuvent pas rejoindre l'alpha."</string>
@@ -272,14 +269,79 @@ Le coût de réinitialisation est %1$dBB"</string>
 <string name="help_3_bounce_logs">"3 - Comprendre le rebond et les fichiers journaux (vidéo)"</string>
 <string name="help_4_files">"4 - Transfert de fichiers (vidéo)"</string>
 <string name="help_5_decryption">"5 - Décryptage des fichiers (vidéo)"</string>
-<string name="help_6_guilds">"6 - Guildes et guerres de guilde (vidéo)"</string>
+<string name="help_6_guilds">"6 - Guildes et guerres de guildes (vidéo)"</string>
 <string name="update">"Mettre à jour"</string>
 <string name="update_now">"Pour pouvoir se connecter au serveur, vous devez mettre à jour le jeu depuis le Play Store. Mettre à jour maintenant?"</string>
 <string name="tit_name">"Nom :"</string>
 <string name="txt_pm">"M.P"</string>
 <string name="txt_report">"Signaler"</string>
 <string name="txt_kick">"Expulser"</string>
-<string name="txt_warn">"Avertissement"</string>
+<string name="txt_warn">"Avertir"</string>
 <string name="txt_mention">"Mentionner"</string>
 <string name="tit_guilds_destroyed">"Guildes détruites:"</string>
+<string name="qr_code_permission">"Impossible de lire le QR code. L'autorisation d’accès à la caméra n'est pas accordée !"</string>
+<string name="failed_login_g_plus">"Échec de la connexion avec Google+ !"</string>
+<string name="please_wait_login">"Connexion en cours ..."</string>
+<string name="tit_gplus_connect">"Connectez votre compte avec Google+"</string>
+<string name="btn_connect_gplus">"Connexion avec Google+"</string>
+<string name="please_wait_connecting_gplus">"Connexion à Google+ en cours ..."</string>
+<string name="txt_dash_balance">"Solde de Dash"</string>
+<string name="tit_dash_balance">"Solde de Dash:"</string>
+<string name="fmt_convert_to_x_bb">"Convertir en %1$dBB"</string>
+<string name="tutorial_desktop"><![CDATA[Bienvenue dans Hackers!\n\nVoici un petit tutoriel pour comprendre comment fonctionne le jeu !\n\n<--- Sur votre gauche, vous verrez des icônes, cliquez sur l\'icône \"Bureau\"]]></string>
+<string name="tutorial_open_daily_package">"Tutoriel 2:
+
+Maintenant sur votre Bureau:
+1- cliquez sur le dossier \"packages\"
+2- cliquez sur le daily_package.pkg\"
+3- cliquez sur \"Exécuter\" pour récupérer votre paquet quotidien !"</string>
+<string name="tutorial_connection_manager">"Tutoriel 3:
+Sur le menu de gauche, il y a une nouvelle icône (Gestionnaire de connexion) !
+
+Cliquez sur le gestionnaire de connexion"</string>
+<string name="tutorial_add_ip">"Tutoriel 4:
+Dans le \"gestionnaire de connexion\", en bas à droite de l'écran, vous trouverez la ligne \"Ajouter une cible\".
+
+1- Entrez l'adresse IP : 192.168.0.1 (sur la ligne)
+2- Cliquez sur le signe + (plus) pour ajouter l'ip dans votre liste qui se trouve au dessus!
+3- Cliquez sur \"Sauvegarder l'IP dans l'historique\""</string>
+<string name="tutorial_connect_ip">"Tutoriel 5:
+
+Votre premier piratage !
+
+1- Allez dans le «Gestionnaire de connexion»
+2- En haut de l'écran, cliquez sur la double flèche gauche \"&lt;&lt;\"
+3- Cliquez sur \"Connecter\"
+4- Baladez vous sur le serveur piraté puis quand vous avez terminé appuyez sur \"Déconnecter\" en haut a droite de votre écran."</string>
+<string name="tutorial_upgrade_cpu">"Tutoriel 6:
+
+Sur le menu de gauche, il y a une nouvelle icône (Composants de votre passerelle) !
+
+Cliquez sur l’icône des composants de votre passerelle :
+
+1- Trouvez le CPU
+2- Cliquez sur \"Upgrade HC 600\"
+
+Le CPU est TRÈS important si vous voulez pirater les autres sans perdre! Il est conseillé de ne pirater personne avant d'avoir le CPU au niveau 10 minimum."</string>
+<string name="tutorial_upgrade_passcrack">"Tutoriel 7:
+
+Sur le menu de gauche, il y a une nouvelle icône (Centre de logiciels) !
+
+Cliquez sur l’icône du centre de logiciels :
+
+1- Trouvez le \"Password Cracker\"
+2- Cliquez sur \"Upgrade HC 499\"
+
+Password Cracker (PC) est très important si vous voulez pirater les autres sans perdre! Il est conseillé de ne pirater personne avant d'avoir le Password Cracker au niveau 1.5 minimum."</string>
+<string name="tutorial_missions">"Tutoriel 8:
+
+Sur le menu de gauche, il y a une nouvelle icône (Portail des Missions et des Tâches)! Cliquez dessus et terminez votre première mission !
+
+Les missions ont une description détaillée sur la façon de procéder. Lisez attentivement la description pour terminer la mission !
+
+Certaines missions d'upgrade pourraient ne pas être terminées dès la première fois, alors continuez à upgrade!"</string>
+<string name="connect_g_plus">"Connexion avec G+ :"</string>
+<string name="login_other">"Autre méthode"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"Masquer la barre de discussion inférieure"</string>
 </resources>
