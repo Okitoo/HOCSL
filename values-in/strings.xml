@@ -285,7 +285,61 @@ kalo tendang kok rasanya agak aneh ya :v -->
 <string name="tit_gplus_connect">"Hubungkan akun dengan G+"</string>
 <string name="btn_connect_gplus">"Hubungkan dengan G+"</string>
 <string name="please_wait_connecting_gplus">"Menghubungkan ke G+ ..."</string>
+<string name="txt_dash_balance">"Saldo Dash"</string>
+<string name="tit_dash_balance">"Saldo Dash:"</string>
+<string name="fmt_convert_to_x_bb">"Ubah le %1$dBB"</string>
+<string name="tutorial_desktop"><![CDATA[Selamat datang di hackers!\n\nSedikit bantuan untuk memulai game!\n\n<--- Kamu dapat melihat icon di sebelah kiri, klik pada icon \"Desktop\" ]]></string>
+<string name="tutorial_open_daily_package">"Tutorial 2:
+
+Pada Desktop:
+1- klik folder \"packages\"
+2. klik \"daily_package.pkg\"
+3. klik \"Jalankan\" untuk mengambil paket harian mu!"</string>
+<string name="tutorial_connection_manager">"Tutorial 3:
+Pada menu sebelah kiri, ada icon baru (pengelola koneksi)!
+
+Klik Pengelola Koneksi"</string>
+<string name="tutorial_add_ip">"Tutorial 4:
+Pada \"Pengelola Koneksi\", di sebelah kanan bawah layar, kamu akan melihat kotak \"Tambah Target\".
+
+1- Isi dengan alamat IP: 192.168.0.1
+2. Klik simbol + (plus) kecil di sebelahnya untuk menambahkan IP ke dalam daftar di atas!
+3. Klik \"Simpan IP ke Riwayat\""</string>
+<string name="tutorial_connect_ip">"Tutorial 5:
+
+Retas pertama kali!
+
+1- Buka \"Pengelola Koneksi\"
+2- Pada kanan atas layar klik tanda panah kiri \"&lt;&lt;\"
+3- Klik \"Hubungkan\"
+4- Bermain-mainlah di dalam server yang di retas kemudian tekan \"Putuskan\" pada sebelah kanan atas layar."</string>
+<string name="tutorial_upgrade_cpu">"Tutorial 6:
+Pada menu sebelah kiri, ada icon baru (Perangkat Keras)!
+
+Klik pada icon Perangkat Keras lalu:
+
+1- Temukan CPU
+2- Klik Tingkatkan
+
+CPU menjadi SANGAT penting jika kamu ingin meretas orang lain tanpa kekalahan! Lebih baik tidak meretas siapapun sebelum CPU sampai pada level 10"</string>
+<string name="tutorial_upgrade_passcrack">"Tutorial 7:
+Pada menu sebelah kiri, ada icon baru (Perangkat Lunak)!
+
+Klik pada icon Perangkat Lunak lalu:
+
+1- Temukan \"Peretas Kata Sandi\"
+2- Klik Tingkatkan
+
+Peretas Kata Sandi (PC) sangatlah penting jika kamu ingin meretas tanpa kekalahan! Lebih baik tidak meretas siapapun sebelum mencapai level 1.5"</string>
+<string name="tutorial_missions">"Tutorial 8:
+
+Pada menu sebelah kiri, ada icon baru (Misi)! Klik dan selesaikan misi pertamamu!
+
+Misi mempunyai deskripsi lengkap tentang cara menyelesaikannya. Baca deskripsi dengan seksama untuk menyelesaikan misi!
+
+Beberapa misi tingkatkan mungkin tidak bisa terselesaikan secara langsung, teruslah meningkatkan!"</string>
 <string name="connect_g_plus">"Masuk dengan G+ :"</string>
 <string name="login_other">"Metode Lain"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"Sembunyikan kolom chat bawah"</string>
 </resources>
