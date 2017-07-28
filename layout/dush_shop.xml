@@ -42,6 +42,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/list_dush_shop"
             android:layout_gravity="center_horizontal"
-            android:background="@color/transparent" />
+            android:background="@color/transparent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note_dash_buy"
+            android:id="@+id/textView145"
+            android:textColor="@color/gold"
+            android:textSize="11dp" />
     </LinearLayout>
 </LinearLayout>

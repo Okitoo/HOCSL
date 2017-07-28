@@ -168,6 +168,40 @@
                                 android:orientation="vertical"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/remote_connection_window">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/tit_sound"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/primary_text_default_material_dark" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/msg_mute_sound"
+                                    android:textSize="10dp"
+                                    android:textColor="@color/bronze" />
+
+                                <Switch
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/tit_game_audio"
+                                    android:id="@+id/switch_audio"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/txt_style_section"
+                                    android:textSize="11dp"
+                                    android:textColor="@color/colorText"
+                                    android:checked="false"
+                                    android:showText="false" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
                                 android:background="@drawable/remote_connection_window">
 
                                 <TextView

@@ -264,6 +264,10 @@
     <string name="login_other">Other method</string>
     <string name="txt_bb_dash">BB/Dash</string>
     <string name="txt_hide_chat">Hide bottom chat bar</string>
+    <string name="note_dash_buy">Converting Dash to BBs is available in settings.app!</string>
+    <string name="tit_sound">Sound</string>
+    <string name="msg_mute_sound">Mutes all sounds in the game</string>
+    <string name="tit_game_audio">Mute game audio</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
