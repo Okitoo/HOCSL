@@ -327,4 +327,8 @@ Algumas missões de atualização podem não terminar na primeira vez, então co
 <string name="login_other">"Outro método"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
 <string name="txt_hide_chat">"Ocultar barra de bate-papo inferior"</string>
+<string name="note_dash_buy">"Conversão de Dash para BBs está disponível em settings.app!"</string>
+<string name="tit_sound">"Áudio"</string>
+<string name="msg_mute_sound">"Silencia todos os sons do jogo"</string>
+<string name="tit_game_audio">"Silenciar áudio do jogo"</string>
 </resources>
