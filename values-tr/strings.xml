@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">"Hackers"</string>
+<string name="app_name">"Hackerlar"</string>
 <string name="user_name">"Kullanıcı Adı"</string>
 <string name="password">"Şifre"</string>
 <string name="_connect">"Bağlan"</string>
@@ -276,25 +276,71 @@ Sonlandırma karşılığı olarak %1$dBB ver"</string>
 <string name="txt_warn">"Uyar"</string>
 <string name="txt_mention">"Bahset"</string>
 <string name="tit_guilds_destroyed">"Yokedilen Lonca:"</string>
-<string name="qr_code_permission"></string>
-<string name="failed_login_g_plus"></string>
-<string name="please_wait_login"></string>
-<string name="tit_gplus_connect"></string>
-<string name="btn_connect_gplus"></string>
-<string name="please_wait_connecting_gplus"></string>
-<string name="txt_dash_balance"></string>
-<string name="tit_dash_balance"></string>
-<string name="fmt_convert_to_x_bb"></string>
-<string name="tutorial_desktop"></string>
-<string name="tutorial_open_daily_package"></string>
-<string name="tutorial_connection_manager"></string>
-<string name="tutorial_add_ip"></string>
-<string name="tutorial_connect_ip"></string>
-<string name="tutorial_upgrade_cpu"></string>
-<string name="tutorial_upgrade_passcrack"></string>
-<string name="tutorial_missions"></string>
-<string name="connect_g_plus"></string>
-<string name="login_other"></string>
-<string name="txt_bb_dash"></string>
-<string name="txt_hide_chat"></string>
+<string name="qr_code_permission">"QR kodu okunamıyor. Kamera İzin Verilmedi!"</string>
+<string name="failed_login_g_plus">"Google Plus ile giriş yapılamadı!"</string>
+<string name="please_wait_login">"Giriş..."</string>
+<string name="tit_gplus_connect">"Hesabı G+ ile bağlayın"</string>
+<string name="btn_connect_gplus">"G+ ile iletişime geç"</string>
+<string name="please_wait_connecting_gplus">"G+ 'ya bağlanma ..."</string>
+<string name="txt_dash_balance">"DASH denge"</string>
+<string name="tit_dash_balance">"DASH dance:"</string>
+<string name="fmt_convert_to_x_bb">"E dönüşmek %1$dBB"</string>
+<string name="tutorial_desktop">"&lt;![CDATA [Bilgisayar korsanlarına hoş geldiniz!\n\nOyunun nasıl kullanılacağı hakkında kısa bir ders verelim!\n\n&lt;--- Soldaki simgeleri göreceksiniz,\\"Masaüstü\\" simgesini tıklayın]]&gt;"</string>
+<string name="tutorial_open_daily_package">"Eğitim 2:
+
+Şimdi Masaüstünde:
+1- \"paketler\" klasörüne tıklayın
+2. \"daily_package.pkg\" üzerine tıklayın
+3- Günlük paketinizi toplamak için \"Yürüt\" e tıklayın!"</string>
+<string name="tutorial_connection_manager">"Eğitim 3:
+Sol menüde yeni bir simge (bağlantı yöneticisi) var !.
+
+Bağlantı Yöneticisi üzerine tıklayın."</string>
+<string name="tutorial_add_ip">"Eğitim 4:
+Ekranın sağ alt kısmındaki \"bağlantı yöneticisi\" nde \"Hedefi Ekle\" kutusunu bulacaksınız.
+
+1- IP adresini girin: 192.168.0.1
+2- Üstteki listeye eklemek için yanındaki küçük + (artı) işaretini tıklayın!
+3- \"Geçmişe IP Kaydet\" i tıklayın"</string>
+<string name="tutorial_connect_ip">"Eğitim 5:
+
+Önce kesmek!
+
+1- \"Bağlantı Yöneticisi\" ne gidin
+2- Ekranın sağ üst köşesinde \"&lt;&lt;\" sol okunu tıklayın
+3- \"Bağlan\" ı tıklayın
+4- Saldırıya uğramış sunucuyu çalın ve ekranın sağ üst köşesindeki \"Bağlantıyı Kes\" düğmesine basın."</string>
+<string name="tutorial_upgrade_cpu">"Eğitim 6:
+Sol menüde yeni bir simge (Donanım) var !.
+
+Donanım simgesini tıklayın ve ardından:
+
+1- CPU'yu bulun
+2- Güncelle'yi tıklayın
+
+CPU, kaybetmeden başkalarını kesmek isterseniz çok önemlidir! CPU seviyesine 10 ulaşmadan önce kimseyi kırmamak daha iyidir"</string>
+<string name="tutorial_upgrade_passcrack">"Eğitim 7:
+Soldaki menüde yeni bir simge (Yazılım) var !.
+
+Yazılım simgesini tıklayın ve ardından:
+
+1- \"Şifre Krakerini\" bulun
+2- Güncelle'yi tıklayın
+
+Şifre Kraker (PC) çok kaybetmeden başkalarını kesmek istiyorsanız önemlidir! Password Cracker seviyesine ulaşmadan önce herhangi birini kesmekten kaçının EN AZ"</string>
+<string name="tutorial_missions">"Eğitim 8:
+
+Sol menüde, yeni bir simge (Görevler) var! Üzerine tıklayın ve ilk görevinizi tamamlayın!
+
+Görevler, onları nasıl tamamlayacakları konusunda ayrıntılı açıklamalara sahiptir. Görevi bitirmek için açıklamayı dikkatli bir şekilde okuyun!
+
+Bazı yükseltme görevleri ilk seferinde bitmeyebilir, bu nedenle yeni sürüme geçmeye devam edin!"</string>
+<string name="connect_g_plus">"G+ ile giriş yapın:"</string>
+<string name="login_other">"Diğer yöntem"</string>
+<string name="txt_bb_dash">"BB/DASH"</string>
+<string name="txt_hide_chat">"Alttaki sohbet çubuğunu gizle"</string>
+<string name="note_dash_buy">"DASH'ı BB'lere dönüştürmek settings.app dosyasında mevcuttur!"</string>
+<string name="tit_sound">"Ses"</string>
+<string name="msg_mute_sound">"Oyundaki tüm sesleri susturur"</string>
+<string name="tit_game_audio">"Oyun sesini kapat"</string>
 </resources>
