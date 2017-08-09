@@ -254,40 +254,86 @@ Porfavor cerrar el juego completamente (cierra desde el administrador de trabajo
 <string name="msg_reset_cooldown">"¿Estás seguro de que quieres restablecer el tiempo de reutilización de este software?
 
 El costo de restablecimiento es %1$dBB"</string>
-<string name="help_1_upgrading"></string>
-<string name="help_2_missions_ips"></string>
-<string name="help_3_bounce_logs"></string>
-<string name="help_4_files"></string>
-<string name="help_5_decryption"></string>
-<string name="help_6_guilds"></string>
-<string name="update"></string>
-<string name="update_now"></string>
-<string name="tit_name"></string>
-<string name="txt_pm"></string>
-<string name="txt_report"></string>
-<string name="txt_kick"></string>
-<string name="txt_warn"></string>
-<string name="txt_mention"></string>
-<string name="tit_guilds_destroyed"></string>
-<string name="qr_code_permission"></string>
-<string name="failed_login_g_plus"></string>
-<string name="please_wait_login"></string>
-<string name="tit_gplus_connect"></string>
-<string name="btn_connect_gplus"></string>
-<string name="please_wait_connecting_gplus"></string>
-<string name="txt_dash_balance"></string>
-<string name="tit_dash_balance"></string>
-<string name="fmt_convert_to_x_bb"></string>
-<string name="tutorial_desktop"></string>
-<string name="tutorial_open_daily_package"></string>
-<string name="tutorial_connection_manager"></string>
-<string name="tutorial_add_ip"></string>
-<string name="tutorial_connect_ip"></string>
-<string name="tutorial_upgrade_cpu"></string>
-<string name="tutorial_upgrade_passcrack"></string>
-<string name="tutorial_missions"></string>
-<string name="connect_g_plus"></string>
-<string name="login_other"></string>
-<string name="txt_bb_dash"></string>
-<string name="txt_hide_chat"></string>
+<string name="help_1_upgrading">"Actualización de hardware y software"</string>
+<string name="help_2_missions_ips">"Encontrar IPs y misiones de acabado (vídeo)"</string>
+<string name="help_3_bounce_logs">"Comprensión de rebote y registros (vídeo)"</string>
+<string name="help_4_files">"Transferencia de archivos (vídeo)"</string>
+<string name="help_5_decryption">"Descifrar archivos (vídeo)"</string>
+<string name="help_6_guilds">"Gremios y guerras de gremios (vídeo)"</string>
+<string name="update">"Actualizar aplicación"</string>
+<string name="update_now">"Para poder conectarse al servidor debe actualizar el juego desde la tienda de juegos. ¿Actualizar ahora?"</string>
+<string name="tit_name">"Nombre:"</string>
+<string name="txt_pm">"P.M"</string>
+<string name="txt_report">"Informe"</string>
+<string name="txt_kick">"Patada"</string>
+<string name="txt_warn">"Advertir"</string>
+<string name="txt_mention">"Mencionar"</string>
+<string name="tit_guilds_destroyed">"Gremios Destruidos:"</string>
+<string name="qr_code_permission">"No se puede leer el código QR. Permiso de la cámara no concedido!!"</string>
+<string name="failed_login_g_plus">"No se pudo acceder con Google Plus."</string>
+<string name="please_wait_login">"Iniciar sesión ..."</string>
+<string name="tit_gplus_connect">"Conectar la cuenta con G+"</string>
+<string name="btn_connect_gplus">"Conectar con G+"</string>
+<string name="please_wait_connecting_gplus">"Conectando a G+ ..."</string>
+<string name="txt_dash_balance">"Balance de rociadas"</string>
+<string name="tit_dash_balance">"Balance de rociadas:"</string>
+<string name="fmt_convert_to_x_bb">"Convertir a %1$dBB"</string>
+<string name="tutorial_desktop">"&lt;! [CDATA[Bienvenido a los hackers!\N\nLos invitados tienen un pequeño tutorial sobre cómo usar el juego.\N\n&lt;--- A la izquierda verá iconos, haga clic en el icono \\"Escritorio\\"icon]]&gt;"</string>
+<string name="tutorial_open_daily_package">"Tutorial 2:
+
+Ahora en el Escritorio:
+1- haga clic en la carpeta \"paquetes\"
+2- haga clic en \"daily_package.pkg\"
+3- Haga clic en \"Ejecutar\" para recoger su paquete diario!"</string>
+<string name="tutorial_connection_manager">"Tutorial 3:
+En el menú de la izquierda, hay un nuevo icono (administrador de conexión)!.
+
+Haga clic en el Administrador de conexiones"</string>
+<string name="tutorial_add_ip">"Tutorial 4:
+En el \"gestor de conexiones\", en la parte inferior derecha de la pantalla, encontrará la casilla \"Añadir destino\".
+
+1- Coloque la dirección IP: 192.168.0.1
+2- Haga clic en el pequeño signo + (más) al lado de añadirlo a la lista de arriba!
+3- Haga clic en \"Guardar IP en Historial\""</string>
+<string name="tutorial_connect_ip">"Tutorial 5:
+
+¡Primero hackeas!
+
+1- Vaya a \"Administrador de conexiones\"
+2- En la parte superior derecha de la pantalla, haga clic en la flecha izquierda \"&lt;&lt;\"
+3- Haga clic en \"Conectar\"
+4- Juegue alrededor del servidor hackeado y presione \"Desconectar\" en la parte superior derecha de la pantalla."</string>
+<string name="tutorial_upgrade_cpu">"Tutorial 6:
+En el menú de la izquierda, hay un nuevo icono (Hardware) !.
+
+Haga clic en el ícono Hardware entonces:
+
+1- Buscar la CPU
+2- Haga clic en Actualizar
+
+CPU es muy importante si desea hackear a otros sin perder! Mejor no hackear a nadie antes de alcanzar el nivel de CPU 10 POR LO MENOS"</string>
+<string name="tutorial_upgrade_passcrack">"Tutorial 7:
+En el menú de la izquierda, hay un nuevo icono (Software)!.
+
+Haga clic en el icono de Software entonces:
+
+1- Encuentra el \"Password Cracker\"
+2- Haga clic en Actualizar
+
+Password Cracker (PC) es MUY importante si quieres hackear a otros sin perder! Mejor no hackear a nadie antes de llegar a Password Cracker nivel 1.5 POR LO MENOS"</string>
+<string name="tutorial_missions">"Tutorial 8:
+
+En el menú de la izquierda, hay un nuevo icono (Misiones)! Haga clic en él y terminar su primera misión!
+
+Las misiones tienen una descripción detallada de cómo terminarlas. Lea la descripción cuidadosamente para terminar la misión!
+
+Es posible que algunas misiones de actualización no terminen la primera vez, ¡así que continúa actualizando!"</string>
+<string name="connect_g_plus">"Ingresar con G+ :"</string>
+<string name="login_other">"Otro método"</string>
+<string name="txt_bb_dash">"BB/Dash"</string>
+<string name="txt_hide_chat">"Ocultar barra de chat inferior"</string>
+<string name="note_dash_buy">"Convertir Dash a BBs está disponible en settings.app!"</string>
+<string name="tit_sound">"Sonar"</string>
+<string name="msg_mute_sound">"Silencia todos los sonidos en el juego"</string>
+<string name="tit_game_audio">"Silenciar el audio del juego"</string>
 </resources>
