@@ -342,4 +342,8 @@ Beberapa misi tingkatkan mungkin tidak bisa terselesaikan secara langsung, terus
 <string name="login_other">"Metode Lain"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
 <string name="txt_hide_chat">"Sembunyikan kolom chat bawah"</string>
+<string name="note_dash_buy">"Mengkonversi Dash ke BB tersedia di settings.app!"</string>
+<string name="tit_sound">"Suara"</string>
+<string name="msg_mute_sound">"Membungkam semua suara dalam permainan"</string>
+<string name="tit_game_audio">"Nonaktifkan audio game"</string>
 </resources>
