@@ -327,4 +327,8 @@ Alcune missioni di miglioramento potrebbero non concludersi la prima volta, perc
 <string name="login_other">"Metodo alternativo"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
 <string name="txt_hide_chat">"Nascondi la barra della chat inferiore"</string>
+<string name="note_dash_buy">"La conversione di Dash in BB è disponibile in settings.app!"</string>
+<string name="tit_sound">"Suono"</string>
+<string name="msg_mute_sound">"Muta tutti i suoni del gioco"</string>
+<string name="tit_game_audio">"Muta l'audio del gioco"</string>
 </resources>
