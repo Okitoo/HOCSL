@@ -266,26 +266,72 @@ Tämä tulee maksamaan %1$dBB"</string>
 <string name="txt_kick">"Potkaise"</string>
 <string name="txt_warn">"Varoita"</string>
 <string name="txt_mention">"Mainitse"</string>
-<string name="tit_guilds_destroyed"></string>
-<string name="qr_code_permission"></string>
-<string name="failed_login_g_plus"></string>
-<string name="please_wait_login"></string>
-<string name="tit_gplus_connect"></string>
-<string name="btn_connect_gplus"></string>
-<string name="please_wait_connecting_gplus"></string>
-<string name="txt_dash_balance"></string>
-<string name="tit_dash_balance"></string>
-<string name="fmt_convert_to_x_bb"></string>
-<string name="tutorial_desktop"></string>
-<string name="tutorial_open_daily_package"></string>
-<string name="tutorial_connection_manager"></string>
-<string name="tutorial_add_ip"></string>
-<string name="tutorial_connect_ip"></string>
-<string name="tutorial_upgrade_cpu"></string>
-<string name="tutorial_upgrade_passcrack"></string>
-<string name="tutorial_missions"></string>
-<string name="connect_g_plus"></string>
-<string name="login_other"></string>
-<string name="txt_bb_dash"></string>
-<string name="txt_hide_chat"></string>
+<string name="tit_guilds_destroyed">"Kavereita tuhottiin:"</string>
+<string name="qr_code_permission">"QR-koodia ei voi lukea. Kameran käyttö ei ole sallittua!"</string>
+<string name="failed_login_g_plus">"Kirjautuminen epäonnistui Google Plusn avulla!"</string>
+<string name="please_wait_login">"Kirjautua sisään ..."</string>
+<string name="tit_gplus_connect">"Liitä tili G+: n kanssa"</string>
+<string name="btn_connect_gplus">"Yhdistä G+"</string>
+<string name="please_wait_connecting_gplus">"Yhdistäminen G+ -palveluun ..."</string>
+<string name="txt_dash_balance">"DASH Saldo"</string>
+<string name="tit_dash_balance">"DASH Saldo:"</string>
+<string name="fmt_convert_to_x_bb">"Muuntaa %1$dBB"</string>
+<string name="tutorial_desktop"><![CDATA[Tervetuloa hakkereihin! \n\nLetillä on pieni opetusohjelma pelin käyttämisestä! \n\n<--- Vasemmalla näet kuvakkeita, napsauta \"Desktop\" -kuvaketta]]></string>
+<string name="tutorial_open_daily_package">"Oppitunti 2:
+
+Nyt työpöydällä:
+1- napsauta \"paketit\" -kansiota
+2- napsauta \"daily_package.pkg\"
+3- Napsauta Suorita, jos haluat kerätä päivittäisen paketin!"</string>
+<string name="tutorial_connection_manager">"Oppitunti 3:
+Vasemmassa valikossa on uusi kuvake (yhteyshallinta) !.
+
+Napsauta Connection Manager -ohjelmaa"</string>
+<string name="tutorial_add_ip">"Oppitunti 4:
+\"Yhteysjohtajan\" näytön oikeassa alareunassa on \"Lisää kohde\" -ruutu.
+
+1- Aseta IP-osoite: 192.168.0.1
+2- Napsauta pienen + (plus) -merkin vieressä lisätäksesi sen yllä olevaan luetteloon!
+3- Napsauta \"Tallenna IP historiaan\""</string>
+<string name="tutorial_connect_ip">"Oppitunti 5:
+
+Ensimmäinen hakata!
+
+1- Siirry \"Connection Manager\"
+2- Valitse näytön oikeassa yläkulmassa vasen nuoli \"&lt;&lt;\"
+3- Napsauta \"Connect\"
+4- Kokeile hakkeroidun palvelimen ympärillä ja paina \"Irrota\" ruudun oikeassa yläkulmassa."</string>
+<string name="tutorial_upgrade_cpu">"Ohjaus 6:
+Vasemmassa valikossa on uusi kuvake (Hardware) !.
+
+Napsauta Laitteisto-kuvaketta ja valitse sitten:
+
+1 Etsi keskusyksikkö
+2- Napsauta Päivitä
+
+CPU on erittäin tärkeä, jos haluat hakata muita menettämättä! Parempi ei hakata ketään ennen suorittimen 10 tasoa"</string>
+<string name="tutorial_upgrade_passcrack">"Oppitunti 7:
+Vasemmassa valikossa on uusi kuvake (Software) !.
+
+Napsauta sitten Ohjelmiston kuvaketta:
+
+1- Löydä \"Password Cracker\"
+2- Napsauta Päivitä
+
+Password Cracker (PC) on erittäin tärkeä, jos haluat hakata muita menettämättä! Parempi älä hakata ketään ennen kuin saavutat Password Cracker -tason 1,5"</string>
+<string name="tutorial_missions">"Oppitunti 8:
+
+Vasemmalla valikossa on uusi kuvake (lähetystöt)! Napsauta sitä ja täytä ensimmäinen tehtäväsi!
+
+Lähetystöillä on yksityiskohtainen kuvaus siitä, miten ne voidaan suorittaa. Lue kuvaus huolellisesti tehtävän suorittamiseksi!
+
+Jotkut päivitystoimet eivät ehkä pääse ensimmäistä kertaa, joten päivitä!"</string>
+<string name="connect_g_plus">"Kirjaudu G+ -palveluun:"</string>
+<string name="login_other">"Muu menetelmä"</string>
+<string name="txt_bb_dash">"BB/DASH"</string>
+<string name="txt_hide_chat">"Piilota alaotsikkopalkki"</string>
+<string name="note_dash_buy">"Muuntaminen Dash BBs on saatavilla settings.app!"</string>
+<string name="tit_sound">"Ääni"</string>
+<string name="msg_mute_sound">"Poistaa kaikki äänet pelissä"</string>
+<string name="tit_game_audio">"Mykistä pelin ääni"</string>
 </resources>
