@@ -28,7 +28,7 @@ Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
 <string name="txt_search_guilds">"Szukaj Gildii "</string>
 <string name="btn_create_guild">"Stwórz Gildię"</string>
 <string name="tit_guild_name">"Nazwa Gildii"</string>
-<string name="tit_name_prefix">"Prefix: "</string>
+<string name="tit_name_prefix">"Prefix:"</string>
 <string name="h_16_chars_max">"Najwyżej 16 znaków"</string>
 <string name="h_3_chars_exactly">"Muszą być 3 znaki. Tylko a-z 0-9"</string>
 <string name="tit_slogam">"Slogan"</string>
@@ -65,8 +65,6 @@ Wyszukaj gildii aby dołączyć lub stwórz nową!"</string>
 <string name="txt_mitigation">"dDoS Mit."</string>
 <string name="txt_remove">"Usuń"</string>
 <string name="tit_your_email">"Twój E-Mail"</string>
-
-<!-- Fuzzy -->
 <string name="des_weekly">"Reset jest w każdy poniedziałek o północy
 BB dla pierwszej 100"</string>
 <string name="info_hacked_already">"[Już hakowany]"</string>
@@ -110,7 +108,7 @@ Dostaniesz tylko 1000BB"</string>
 <string name="invitation_title">"Hackerz.Online"</string>
 <string name="invitation_message">"Dołącz do mnie grając w Hackerz Online; Massive Multiplayer Online symulator hackowania (MMO)"</string>
 <string name="invitation_cta">"Dołącz"</string>
-<string name="tit_mail">"Mail:"</string>
+<string name="tit_mail">"Poczta:"</string>
 <string name="sep_hardware_name">"Nazwa HW"</string>
 <string name="please_wait_reg">"Proszę czekać..."</string>
 <string name="failed_try_again">"Nie udało się! Spróbuj ponownie"</string>
@@ -120,7 +118,7 @@ Dostaniesz tylko 1000BB"</string>
 <string name="btn_in_progress">"Trwające misje"</string>
 <string name="txt_find_missions">"Znajdź misje"</string>
 <string name="row_title">"|Tytuł"</string>
-<string name="row_payout">"|Payout"</string>
+<string name="row_payout">"|Wypłata"</string>
 <string name="row_rep">"|Rep"</string>
 <string name="row_client">"|Klient"</string>
 <string name="row_timelimit">"|Limit czasowy"</string>
@@ -183,9 +181,9 @@ Możesz wyszukać misje!"</string>
 <string name="txt_file_manager">"Menadżer plików"</string>
 <string name="txt_log">"Dziennik"</string>
 <string name="txt_my_guild">"Moja Gildia"</string>
-<string name="txt_guilds_net">"Net gildii"</string>
+<string name="txt_guilds_net">"Sieć Gildii"</string>
 <string name="txt_members">"Członkowie"</string>
-<string name="txt_requests">"Prośby"</string>
+<string name="txt_requests">"Nie_Tłumacz"</string>
 <string name="txt_missions_job_portal">"Portal misji i prac"</string>
 <string name="txt_requests_ph">"Prośby [%1$d]"</string>
 <string name="warn_guild">"Gildię z nieodpowiednim nazwami, sloganami lub prefixami zostaną usunięte!"</string>
@@ -230,9 +228,8 @@ Zamknij grę kompletnie (Wyłącz z menadżera zadań) lub zrestartuj komórkę 
 Czy na pewno chcesz wypożyczyć?"</string>
 <string name="txt_add">"Dodaj"</string>
 <string name="header_add_hc_guild">"Zdeponuj w banku gildii"</string>
-
-<!-- Fuzzy -->
-<string name="msg_add_hc_guild">"Czy jesteś pewien, że chcesz dodać %1$HC"</string>
+<string name="msg_add_hc_guild">"Czy jesteś pewien, że chcesz dodać %1$dHC do banku gildii?
+Ta operacja jest nieodwracalna"</string>
 <string name="msg_guild_protection_warning">"Jeśli gildia, u której wypożyczasz zostanie zniszczona, IP twojego data Center będzie widoczne w folderze ich klientów, jeśli masz aktywne bandwidth od nich"</string>
 <string name="tit_datacenter_ip">"IP systemu danych"</string>
 <string name="txt_copied_to_clip">"Zkopiowano do schowka"</string>
@@ -249,15 +246,15 @@ Czy na pewno chcesz wypożyczyć?"</string>
 <string name="msg_reset_cooldown">"Czy jesteś pewien, że chcesz ochłodzić ten sprzęt?
 
 Ten reset kosztuje %1$dBB"</string>
-<string name="help_1_upgrading">"Uaktualnianie sprzętu i oprogramowania"</string>
+<string name="help_1_upgrading">"1 - Uaktualnianie sprzętu i oprogramowania"</string>
 <string name="help_2_missions_ips">"2 - Znajdywanie IP oraz ukończenie misji (wideo)"</string>
 <string name="help_3_bounce_logs">"3 - Wyjaśnienie Bounce oraz Logów (wideo)"</string>
-<string name="help_4_files">"4 - Transferowanie plików (wideo)"</string>
+<string name="help_4_files">"4 - Przesyłanie plików (wideo)"</string>
 <string name="help_5_decryption">"5 - Odszyfrowywanie plików (wideo)"</string>
 <string name="help_6_guilds">"6 - Gildie oraz wojny gildii (wideo)"</string>
 <string name="update">"Aktualizuj aplikację"</string>
 <string name="update_now">"Aby móc połączyć się z serwerem, musisz zaktualizować grę z Sklepu Play. Aktualizować teraz?"</string>
-<string name="tit_name">"Imię:"</string>
+<string name="tit_name">"Nazwa:"</string>
 <string name="txt_pm">"P.W"</string>
 <string name="txt_report">"Zgłoś"</string>
 <string name="txt_kick">"Wyrzuć"</string>
@@ -270,20 +267,66 @@ Ten reset kosztuje %1$dBB"</string>
 <string name="tit_gplus_connect">"Połącz konto z G+"</string>
 <string name="btn_connect_gplus">"Połącz z G+"</string>
 <string name="please_wait_connecting_gplus">"Łączenie do G+"</string>
-<string name="txt_dash_balance"></string>
-<string name="tit_dash_balance"></string>
+<string name="txt_dash_balance">"DASH Bilansowy"</string>
+<string name="tit_dash_balance">"DASH Bilansowy:"</string>
 <string name="fmt_convert_to_x_bb">"Wymień na %1$dBB"</string>
 <string name="tutorial_desktop">"&lt;![CDATA[Witaj w hackers!\n\nZacznijmy od małego samouczka o tym jak grać w tą grę!\n\n&lt;---
 Po lewej zobaczysz ikony, kliknij na "</string>
-<string name="tutorial_open_daily_package"></string>
-<string name="tutorial_connection_manager"></string>
-<string name="tutorial_add_ip"></string>
-<string name="tutorial_connect_ip"></string>
-<string name="tutorial_upgrade_cpu"></string>
-<string name="tutorial_upgrade_passcrack"></string>
-<string name="tutorial_missions"></string>
+<string name="tutorial_open_daily_package">"Samouczek 2:
+
+Teraz w Pulpicie:
+1- kliknij folder \"pakiety\"
+2- kliknij na \"daily_package.pkg\"
+3- kliknij \"Wykonaj\", aby zebrać pakiet codzienny!"</string>
+<string name="tutorial_connection_manager">"Samouczek 3:
+W lewym menu jest nowa ikona (menedżer połączeń) !.
+
+Kliknij Menedżer połączeń"</string>
+<string name="tutorial_add_ip">"Samouczek 4:
+W \"menedżerze połączeń\" w prawym dolnym rogu ekranu znajduje się pole \"Dodaj cel\".
+
+1- Podaj adres IP: 192.168.0.1
+2- Kliknij obok znak + plus (plus), aby dodać go do powyższej listy!
+3- Kliknij przycisk \"Zapisz historię IP do historii\""</string>
+<string name="tutorial_connect_ip">"Samouczek 5:
+
+Twój pierwszy hack
+
+1- Idź do \"Menedżer połączeń\"
+2- W prawym górnym rogu ekranu kliknij strzałkę w lewo \"&lt;&lt;\"
+3- Kliknij \"Połącz\"
+4- Graj wokół serwera, a następnie naciśnij przycisk \"Rozłącz\" w prawym górnym rogu ekranu."</string>
+<string name="tutorial_upgrade_cpu">"Samouczek 6:
+W lewym menu znajduje się nowa ikona (sprzęt) !.
+
+Kliknij ikonę Sprzęt, a następnie:
+
+1- Znajdź CPU
+2- Kliknij Aktualizuj
+
+CPU jest bardzo ważne, jeśli chcesz hackować innych bez utraty! Lepiej nie hackować nikogo przed osiągnięciem co najmniej poziomu 10 komputera "</string>
+<string name="tutorial_upgrade_passcrack">"Samouczek 7:
+W lewym menu znajduje się nowa ikona (Oprogramowanie) !.
+
+Kliknij ikonę Software:
+
+1- Znajdź \"Cracker Password\"
+2- Kliknij Aktualizuj
+
+Kraker haseł (PC) jest bardzo ważny, jeśli chcesz włamać się do innych bez utraty! Lepiej nie zrywać nikogo przed osiągnięciem poziomu Kraker co najmniej na poziomie 1.5 "</string>
+<string name="tutorial_missions">"Samouczek 8:
+
+W lewym menu jest nowa ikona (misje)! Kliknij na niego i skończ swoją pierwszą misję!
+
+Misje mają szczegółowy opis sposobu ich zakończenia. Przeczytaj uważnie opis, aby zakończyć misję!
+
+Niektóre misje uaktualniania mogą nie zakończyć się po raz pierwszy, więc kontynuuj aktualizację!"</string>
 <string name="connect_g_plus">"Zaloguj z G+"</string>
 <string name="login_other">"Inna metoda"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
-<string name="txt_hide_chat"></string>
+<string name="txt_hide_chat">"Ukryj dolny pasek rozmowy"</string>
+<string name="note_dash_buy">"Konwersja DASH na BB jest dostępna w settings.app!"</string>
+<string name="tit_sound">"Dźwięk"</string>
+<string name="msg_mute_sound">"Wycisza wszystkie dźwięki w grze"</string>
+<string name="tit_game_audio">"Wycisz dźwięk gry"</string>
 </resources>
