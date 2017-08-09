@@ -334,5 +334,9 @@ Manch Missionen kannst du auf dem ersten Versuch nicht abschließen. Daher musst
 <string name="connect_g_plus">"Mit G+ anmelden"</string>
 <string name="login_other">"Andere Methode"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
-<string name="txt_hide_chat">"untere Chat-Leise ausblenden"</string>
+<string name="txt_hide_chat">"untere Chat-Leiste ausblenden"</string>
+<string name="note_dash_buy">"Konvertieren von Dash zu BBs ist in settings.app verfügbar!"</string>
+<string name="tit_sound">"Klingen"</string>
+<string name="msg_mute_sound">"Dämpft alle Geräusche im Spiel"</string>
+<string name="tit_game_audio">"Stummschalten des Spiels"</string>
 </resources>
