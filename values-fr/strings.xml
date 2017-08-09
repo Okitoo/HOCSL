@@ -344,4 +344,8 @@ Certaines missions d'upgrade pourraient ne pas être terminées dès la premièr
 <string name="login_other">"Autre méthode"</string>
 <string name="txt_bb_dash">"BB/Dash"</string>
 <string name="txt_hide_chat">"Masquer la barre de discussion inférieure"</string>
+<string name="note_dash_buy">"La conversion Dash vers BB est disponible dans settings.app!"</string>
+<string name="tit_sound">"Son"</string>
+<string name="msg_mute_sound">"Rendre muets tous les sons du jeu"</string>
+<string name="tit_game_audio">"Couper l'audio du jeu"</string>
 </resources>
