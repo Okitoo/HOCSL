@@ -278,7 +278,7 @@ El costo de restablecimiento es %1$dBB"</string>
 <string name="txt_dash_balance">"Balance de rociadas"</string>
 <string name="tit_dash_balance">"Balance de rociadas:"</string>
 <string name="fmt_convert_to_x_bb">"Convertir a %1$dBB"</string>
-<string name="tutorial_desktop">"&lt;! [CDATA[Bienvenido a los hackers!\N\nLos invitados tienen un pequeño tutorial sobre cómo usar el juego.\N\n&lt;--- A la izquierda verá iconos, haga clic en el icono \\"Escritorio\\"icon]]&gt;"</string>
+<string name="tutorial_desktop"><![CDATA[Bienvenido a los hackers!\N\nLos invitados tienen un pequeño tutorial sobre cómo usar el juego.\N\n<--- A la izquierda verá iconos, haga clic en el icono \\"Escritorio\\"icon]]></string>
 <string name="tutorial_open_daily_package">"Tutorial 2:
 
 Ahora en el Escritorio:

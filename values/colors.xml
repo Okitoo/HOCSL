@@ -44,4 +44,9 @@
     <color name="remote_con_window_start">#88000000</color>
     <color name="remote_con_window_center">#88000000</color>
     <color name="remote_con_window_end">#017cf2ff</color>
+
+    <color name="window_start">#ef090f29</color>
+    <color name="window_center">#ef010828</color>
+    <color name="window_end">#e7050f29</color>
+    <color name="window_border">#19359b</color>
 </resources>

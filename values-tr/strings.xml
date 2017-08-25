@@ -285,7 +285,7 @@ Sonlandırma karşılığı olarak %1$dBB ver"</string>
 <string name="txt_dash_balance">"DASH denge"</string>
 <string name="tit_dash_balance">"DASH dance:"</string>
 <string name="fmt_convert_to_x_bb">"E dönüşmek %1$dBB"</string>
-<string name="tutorial_desktop">"&lt;![CDATA [Bilgisayar korsanlarına hoş geldiniz!\n\nOyunun nasıl kullanılacağı hakkında kısa bir ders verelim!\n\n&lt;--- Soldaki simgeleri göreceksiniz,\\"Masaüstü\\" simgesini tıklayın]]&gt;"</string>
+<string name="tutorial_desktop"><![CDATA[Bilgisayar korsanlarına hoş geldiniz!\n\nOyunun nasıl kullanılacağı hakkında kısa bir ders verelim!\n\n<--- Soldaki simgeleri göreceksiniz,"Masaüstü" simgesini tıklayın]]></string>
 <string name="tutorial_open_daily_package">"Eğitim 2:
 
 Şimdi Masaüstünde:
