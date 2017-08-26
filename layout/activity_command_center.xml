@@ -13,7 +13,7 @@
         android:layout_height="fill_parent"
         android:background="@android:color/transparent"
         android:id="@+id/main_loggedin"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -76,7 +76,9 @@
             android:layout_height="wrap_content"
             android:background="@color/transparent"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="2dp">
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -94,7 +96,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/transparent"
-                android:id="@+id/dash_open_shop">
+                android:id="@+id/dash_open_shop"
+                android:gravity="center_vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -107,8 +110,8 @@
                     android:background="@color/transparent" />
 
                 <ImageView
-                    android:layout_width="12dp"
-                    android:layout_height="fill_parent"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
                     android:id="@+id/imageView9"
                     android:src="@android:drawable/ic_input_add"
                     android:layout_marginRight="10dp"
@@ -153,17 +156,18 @@
 
             <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="20dp"
                 android:layout_weight="1"
                 android:background="@color/transparent">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView14"
-                    android:src="@android:drawable/arrow_down_float"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/btn_extra_menu"
+                    android:src="@mipmap/dropdown"
                     android:layout_gravity="right|center_vertical"
-                    android:layout_marginRight="10dp" />
+                    android:layout_marginRight="20dp"
+                    android:tint="#7cff90" />
             </FrameLayout>
 
         </LinearLayout>
@@ -179,7 +183,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/extra_menu"
                 android:translationZ="5000dp"
-                android:background="@drawable/local_window">
+                android:background="@drawable/local_window"
+                android:visibility="gone"
+                android:clickable="true">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -187,7 +193,10 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/btn_style_dash"
                     android:gravity="center"
-                    android:layout_marginRight="5dp">
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:id="@+id/tmenu_guild">
 
                     <ImageView
                         android:layout_width="32dp"
@@ -214,7 +223,9 @@
                     android:background="@drawable/btn_style_dash"
                     android:gravity="center"
                     android:layout_marginRight="5dp"
-                    android:layout_gravity="center_vertical">
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tmenu_email"
+                    android:clickable="true">
 
                     <ImageView
                         android:layout_width="32dp"
@@ -241,7 +252,9 @@
                     android:background="@drawable/btn_style_dash"
                     android:gravity="center"
                     android:layout_marginRight="5dp"
-                    android:layout_gravity="center_vertical" >
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:id="@+id/tmenu_shop">
 
                     <ImageView
                         android:layout_width="32dp"
@@ -261,6 +274,100 @@
                         android:textSize="8dp" />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_style_dash"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:id="@+id/tmenu_ranks" >
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/imageView8"
+                        android:src="@mipmap/left_ranks"
+                        android:layout_marginBottom="5dp"
+                        android:soundEffectsEnabled="false"
+                        android:background="@color/transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/txt_ranks"
+                        android:id="@+id/textView151"
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:background="@color/transparent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_style_dash"
+                        android:gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:id="@+id/tmenu_dash">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:id="@+id/imageView18"
+                            android:src="@mipmap/dash"
+                            android:layout_marginBottom="5dp"
+                            android:soundEffectsEnabled="false"
+                            android:background="@color/transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/txt_dash"
+                            android:id="@+id/textView150"
+                            android:textSize="8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_style_dash"
+                        android:gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:id="@+id/tmenu_bbs">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:id="@+id/imageView14"
+                            android:src="@mipmap/icon_cart"
+                            android:layout_marginBottom="5dp"
+                            android:soundEffectsEnabled="false"
+                            android:background="@color/transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/txt_get_BBs"
+                            android:id="@+id/textView149"
+                            android:textSize="8dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -268,7 +375,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/transparent"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -303,7 +410,7 @@
                                 android:layout_marginBottom="5dp"
                                 android:soundEffectsEnabled="false"
                                 android:background="@color/transparent"
-                                android:tint="#5fff47" />
+                                android:tint="#6bff54" />
 
                             <ImageView
                                 android:layout_width="35dp"
@@ -374,16 +481,6 @@
                                 android:layout_gravity="center"
                                 android:layout_marginBottom="5dp"
                                 android:backgroundTintMode="multiply"
-                                android:soundEffectsEnabled="false"
-                                android:background="@color/transparent" />
-
-                            <ImageView
-                                android:layout_width="35dp"
-                                android:layout_height="35dp"
-                                android:id="@+id/img_ranking"
-                                android:src="@mipmap/left_ranks"
-                                android:layout_gravity="center"
-                                android:layout_marginBottom="5dp"
                                 android:soundEffectsEnabled="false"
                                 android:background="@color/transparent" />
 
@@ -578,7 +675,7 @@
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         android:id="@+id/main_not_logged_in"
-        android:visibility="gone"
+        android:visibility="visible"
         android:background="@color/toolboxBG2">
 
         <LinearLayout
@@ -725,7 +822,7 @@
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
             android:id="@+id/registerLayout"
-            android:visibility="gone"
+            android:visibility="visible"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true">
 
@@ -800,7 +897,7 @@
                         android:layout_alignLeft="@+id/txt_user"
                         android:layout_alignStart="@+id/txt_user"
                         android:singleLine="true"
-                        android:inputType="textNoSuggestions" />
+                        android:inputType="textNoSuggestions|number" />
 
                     <TextView
                         android:layout_width="wrap_content"

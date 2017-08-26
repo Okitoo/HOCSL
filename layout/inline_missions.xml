@@ -21,15 +21,6 @@
             android:textStyle="bold"
             android:layout_weight="1" />
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:id="@+id/hlp_missions"
-            android:src="@mipmap/question"
-            android:baselineAlignBottom="false"
-            android:cropToPadding="false"
-            android:contextClickable="false"
-            android:background="@color/transparent" />
     </LinearLayout>
 
     <LinearLayout

@@ -20,15 +20,6 @@
             android:textStyle="bold"
             android:layout_weight="1" />
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:id="@+id/hlp_connection"
-            android:src="@mipmap/question"
-            android:baselineAlignBottom="false"
-            android:cropToPadding="false"
-            android:contextClickable="false"
-            android:background="@color/transparent" />
     </LinearLayout>
 
     <RelativeLayout
@@ -134,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/connection_new_target"
                     android:layout_weight="1"
-                    android:inputType="textNoSuggestions"
+                    android:inputType="textNoSuggestions|number"
                     android:singleLine="true" />
 
                 <ImageView

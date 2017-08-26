@@ -21,7 +21,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/transparent"
             android:layout_weight="1"
             android:layout_marginLeft="10dp">
@@ -48,11 +48,12 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@color/transparent">
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_marginLeft="2dp">
 
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="150dp"
                 android:layout_height="28dp"
                 android:text="New Button"
                 android:id="@+id/si_buy_dash"
@@ -61,7 +62,7 @@
                 android:textColor="@android:color/white" />
 
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="150dp"
                 android:layout_height="28dp"
                 android:text="New Button"
                 android:id="@+id/si_buy_hc"
@@ -71,12 +72,4 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:background="@color/transparent">
-
-    </LinearLayout>
 </LinearLayout>

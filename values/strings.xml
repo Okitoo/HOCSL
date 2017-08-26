@@ -270,6 +270,9 @@
     <string name="tit_game_audio">Mute game audio</string>
     <string name="txt_guild">Guild</string>
     <string name="txt_email">Email</string>
+    <string name="txt_get_BBs">Get BBs</string>
+    <string name="txt_dash">Dash</string>
+    <string name="txt_ranks">Ranks</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
