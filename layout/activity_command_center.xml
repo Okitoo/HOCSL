@@ -318,7 +318,8 @@
                         android:layout_marginRight="5dp"
                         android:layout_gravity="center_vertical"
                         android:clickable="true"
-                        android:id="@+id/tmenu_dash">
+                        android:id="@+id/tmenu_dash"
+                        android:visibility="gone">
 
                         <ImageView
                             android:layout_width="32dp"

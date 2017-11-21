@@ -95,9 +95,7 @@ Cliquez ici pour plus d'info!"</string>
 <string name="coming_soon">"Bientôt"</string>
 <string name="q_delete_hardware">"Supprimer le composant ?"</string>
 <string name="aus_delete_hardware">"Êtes vous sûr de vouloir supprimer ce composant?
-Cette opération ne peut PAS être annulée.
-
-Vous recevrez seulement 100BB en retour."</string>
+Cette opération ne peut PAS être annulée."</string>
 <string name="prc_loading">"Chargement..."</string>
 <string name="tit_from">"De:"</string>
 <string name="txt_subject">"Sujet"</string>

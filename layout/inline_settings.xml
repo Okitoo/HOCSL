@@ -25,337 +25,269 @@
 
     </LinearLayout>
 
-    <net.okitoo.hackers.Modules.OkitooOverrides.OkitooTabHost
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/th"
-        android:layout_gravity="center_horizontal">
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView8">
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <TabWidget
-                android:id="@android:id/tabs"
+
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:tabStripEnabled="false"></TabWidget>
-
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
                 android:background="@drawable/remote_connection_window"
-                android:focusableInTouchMode="false"
-                android:forceHasOverlappingRendering="false">
+                android:layout_marginBottom="5dp"
+                android:id="@+id/play_server"
+                android:visibility="gone">
 
-                <LinearLayout
-                    android:id="@+id/tab2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_which_server"
+                    android:id="@+id/textView86"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
                     android:background="@color/transparent">
 
-                    <ScrollView
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:id="@+id/scrollView9"
-                        android:background="@color/transparent">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Live server"
+                        android:id="@+id/rb_server_live"
+                        android:background="@color/transparent"
+                        android:textSize="12dp"
+                        android:textColor="@color/btnSelected" />
 
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/transparent">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alpha_server_1"
+                        android:id="@+id/rb_server_alpha"
+                        android:background="@color/transparent"
+                        android:textSize="12dp"
+                        android:textColor="@color/btnSelected" />
+                </RadioGroup>
 
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:background="@drawable/remote_connection_window"
-                                android:layout_marginBottom="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_alpha"
+                    android:id="@+id/textView87"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze" />
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_chat_lines"
-                                    android:id="@+id/textView114"
-                                    android:textStyle="bold"
-                                    android:textColor="@color/primary_text_default_material_dark" />
+            </LinearLayout>
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/desc_chat_lines"
-                                    android:id="@+id/textView119"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/remote_connection_window"
+                android:id="@+id/gplus_connect"
+                android:layout_marginBottom="5dp" >
 
-                                <EditText
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:inputType="numberDecimal"
-                                    android:ems="10"
-                                    android:id="@+id/max_lines"
-                                    android:singleLine="true"
-                                    android:numeric="integer" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_gplus_connect"
+                    android:id="@+id/textView137"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
 
-                                <LinearLayout
-                                    android:orientation="horizontal"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:background="@color/transparent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_connect_gplus"
+                    android:id="@+id/btn_gplus_connect"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
 
-                                    <CheckBox
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="@string/txt_hide_chat"
-                                        android:id="@+id/chk_chat_hide"
-                                        android:checked="false"
-                                        android:textSize="12dp" />
-                                </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/remote_connection_window"
+                android:id="@+id/email_setting"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone">
 
-                            </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_email_verification"
+                    android:id="@+id/textView88"
+                    android:textStyle="bold" />
 
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="5dp"
-                                android:background="@drawable/remote_connection_window">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_email_steps"
+                    android:id="@+id/textView89"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze"
+                    android:layout_gravity="center_horizontal" />
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_language_engine"
-                                    android:id="@+id/textView134"
-                                    android:textStyle="bold"
-                                    android:textColor="@color/primary_text_default_material_dark" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_send_email"
+                    android:id="@+id/sendMailButton"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/msg_lang_change"
-                                    android:id="@+id/textView135"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/remote_connection_window"
+                android:layout_marginBottom="5dp">
 
-                                <Switch
-                                    android:layout_width="fill_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_game_language"
-                                    android:id="@+id/switch_device_language"
-                                    android:layout_gravity="center_horizontal"
-                                    android:background="@drawable/txt_style_section"
-                                    android:textSize="11dp"
-                                    android:textColor="@color/colorText"
-                                    android:checked="false"
-                                    android:showText="false" />
-                            </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_chat_lines"
+                    android:id="@+id/textView114"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text_default_material_dark" />
 
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="5dp"
-                                android:background="@drawable/remote_connection_window">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_chat_lines"
+                    android:id="@+id/textView119"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze" />
 
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_sound"
-                                    android:textStyle="bold"
-                                    android:textColor="@color/primary_text_default_material_dark" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/msg_mute_sound"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze" />
-
-                                <Switch
-                                    android:layout_width="fill_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_game_audio"
-                                    android:id="@+id/switch_audio"
-                                    android:layout_gravity="center_horizontal"
-                                    android:background="@drawable/txt_style_section"
-                                    android:textSize="11dp"
-                                    android:textColor="@color/colorText"
-                                    android:checked="false"
-                                    android:showText="false" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:background="@drawable/remote_connection_window">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/desc_share_300_bb"
-                                    android:id="@+id/textView120"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze" />
-
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/txt_share"
-                                    android:id="@+id/btn_share"
-                                    android:layout_gravity="center_horizontal" />
-                            </LinearLayout>
-
-                        </LinearLayout>
-                    </ScrollView>
-                </LinearLayout>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/max_lines"
+                    android:singleLine="true"
+                    android:numeric="integer" />
 
                 <LinearLayout
-                    android:id="@+id/tab1"
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:background="@color/transparent"
-                    android:transitionGroup="true"
-                    android:visibility="visible">
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent">
 
-                    <ScrollView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/scrollView8">
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:background="@drawable/remote_connection_window"
-                                android:layout_marginBottom="5dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/question_which_server"
-                                    android:id="@+id/textView86"
-                                    android:textStyle="bold" />
-
-                                <RadioGroup
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="left"
-                                    android:background="@color/transparent">
-
-                                    <RadioButton
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="Live server"
-                                        android:id="@+id/rb_server_live"
-                                        android:background="@color/transparent"
-                                        android:textSize="12dp"
-                                        android:textColor="@color/btnSelected" />
-
-                                    <RadioButton
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="@string/alpha_server_1"
-                                        android:id="@+id/rb_server_alpha"
-                                        android:background="@color/transparent"
-                                        android:textSize="12dp"
-                                        android:textColor="@color/btnSelected" />
-                                </RadioGroup>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/txt_alpha"
-                                    android:id="@+id/textView87"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze" />
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:background="@drawable/remote_connection_window"
-                                android:id="@+id/gplus_connect"
-                                android:layout_marginBottom="5dp" >
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_gplus_connect"
-                                    android:id="@+id/textView137"
-                                    android:textStyle="bold"
-                                    android:layout_marginBottom="5dp" />
-
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/btn_connect_gplus"
-                                    android:id="@+id/btn_gplus_connect"
-                                    android:layout_gravity="center_horizontal" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:orientation="vertical"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:background="@drawable/remote_connection_window"
-                                android:id="@+id/email_setting"
-                                android:layout_marginBottom="5dp">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/tit_email_verification"
-                                    android:id="@+id/textView88"
-                                    android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/txt_email_steps"
-                                    android:id="@+id/textView89"
-                                    android:textSize="10dp"
-                                    android:textColor="@color/bronze"
-                                    android:layout_gravity="center_horizontal" />
-
-                                <Button
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/btn_send_email"
-                                    android:id="@+id/sendMailButton"
-                                    android:layout_gravity="center_horizontal" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </ScrollView>
-
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_hide_chat"
+                        android:id="@+id/chk_chat_hide"
+                        android:checked="false"
+                        android:textSize="12dp" />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:background="@color/transparent"></LinearLayout>
+            </LinearLayout>
 
-            </FrameLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/remote_connection_window">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_language_engine"
+                    android:id="@+id/textView134"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text_default_material_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_lang_change"
+                    android:id="@+id/textView135"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze" />
+
+                <Switch
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_game_language"
+                    android:id="@+id/switch_device_language"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/txt_style_section"
+                    android:textSize="11dp"
+                    android:textColor="@color/colorText"
+                    android:checked="false"
+                    android:showText="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/remote_connection_window">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_sound"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text_default_material_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_mute_sound"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze" />
+
+                <Switch
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tit_game_audio"
+                    android:id="@+id/switch_audio"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/txt_style_section"
+                    android:textSize="11dp"
+                    android:textColor="@color/colorText"
+                    android:checked="false"
+                    android:showText="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/remote_connection_window">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_share_300_bb"
+                    android:id="@+id/textView120"
+                    android:textSize="10dp"
+                    android:textColor="@color/bronze" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_share"
+                    android:id="@+id/btn_share"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
         </LinearLayout>
-    </net.okitoo.hackers.Modules.OkitooOverrides.OkitooTabHost>
+    </ScrollView>
 </LinearLayout>

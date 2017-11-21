@@ -90,9 +90,7 @@
 <string name="coming_soon">"Скоро"</string>
 <string name="q_delete_hardware">"Удалить оборудование?"</string>
 <string name="aus_delete_hardware">"Вы уверены, что хотите удалить это устройство? 
-Эта операция НЕ может быть отменена. 
-
-Вы получите 100 BB в качестве компенсации."</string>
+Эта операция НЕ может быть отменена."</string>
 <string name="prc_loading">"Загрузка ..."</string>
 <string name="tit_from">"От:"</string>
 <string name="txt_subject">"Тема"</string>

@@ -85,9 +85,7 @@ Clicca quì per maggiori informazioni!"</string>
 <string name="coming_soon">"Prossimamente"</string>
 <string name="q_delete_hardware">"Eliminare l'hardware ?"</string>
 <string name="aus_delete_hardware">"Sei sicuro di voler cancellare questo hardware?
-Questa operazione NON è reversibile.
-
-In cambio avrai solo 100 BB."</string>
+Questa operazione NON è reversibile."</string>
 <string name="prc_loading">"Caricamento in corso ..."</string>
 <string name="tit_from">"Da:"</string>
 <string name="txt_subject">"Oggetto"</string>

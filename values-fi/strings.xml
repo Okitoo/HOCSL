@@ -84,9 +84,7 @@ Jos poistat automaattisen vierityksen käytöstä, tällä arvolla ei ole väli�
 <string name="coming_soon">"Tulossa pian"</string>
 <string name="q_delete_hardware">"Poista laitteisto?"</string>
 <string name="aus_delete_hardware">"Haluatko varmasti poistaa laitteiston?
-Tätä EI VOI peruuttaa!
-
-Saat 100BB hyvityksen poistosta."</string>
+Tätä EI VOI peruuttaa!"</string>
 <string name="prc_loading">"Ladataan..."</string>
 <string name="tit_from">"Lähettäjä:"</string>
 <string name="txt_subject">"Aihe"</string>

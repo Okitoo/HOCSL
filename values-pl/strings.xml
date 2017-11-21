@@ -84,8 +84,7 @@ Kliknij tu po więcej informacji!"</string>
 <string name="coming_soon">"Już w krótce"</string>
 <string name="q_delete_hardware">"Usunąć Hardware?"</string>
 <string name="aus_delete_hardware">"Czy na pewno chcesz usunąć ten sprzęt?
-Ta operacja jest NIEODWRACALNA
-Dostaniesz tylko 1000BB"</string>
+Ta operacja jest NIEODWRACALNA"</string>
 <string name="prc_loading">"Wczytywanie..."</string>
 <string name="tit_from">"Od:"</string>
 <string name="txt_subject">"Temat"</string>

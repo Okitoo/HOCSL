@@ -80,7 +80,7 @@
     <string name="txt_clear">Clear</string>
     <string name="coming_soon">Coming soon</string>
     <string name="q_delete_hardware">Delete hardware ?</string>
-    <string name="aus_delete_hardware">Are you sure you want to delete this hardware?\nThis operation can NOT be reversed.\n\nYou will get 100BB in return only.</string>
+    <string name="aus_delete_hardware">Are you sure you want to delete this hardware?\nThis operation can NOT be reversed.</string>
     <string name="prc_loading">Loading ...</string>
     <string name="tit_from">From:</string>
     <string name="txt_subject">Subject</string>

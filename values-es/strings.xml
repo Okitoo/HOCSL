@@ -88,9 +88,7 @@ Busca una a la que unirte, o crea la tuya propia!"</string>
 <string name="txt_clear">"Limpiar"</string>
 <string name="coming_soon">"Próximamente"</string>
 <string name="q_delete_hardware">"¿Quitar hardware?"</string>
-<string name="aus_delete_hardware">"¿Estás seguro de que quieres quitar este hardware? Este proceso NO se puede revertir.
-
-Solo recibirás 100 BB a cambio."</string>
+<string name="aus_delete_hardware">"¿Estás seguro de que quieres quitar este hardware? Este proceso NO se puede revertir."</string>
 <string name="prc_loading">"Cargando..."</string>
 <string name="tit_from">"De:"</string>
 <string name="txt_subject">"Tema"</string>

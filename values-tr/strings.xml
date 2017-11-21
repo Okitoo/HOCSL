@@ -89,8 +89,7 @@ Buradan bilgi al!"</string>
 <string name="txt_clear">"Temizle"</string>
 <string name="coming_soon">"Yakında gelecek"</string>
 <string name="q_delete_hardware">"Donanım kaldır?"</string>
-<string name="aus_delete_hardware">"Donanımı kaldırmak istediğine emin misin? Geri dönüşü yoktur !!
-100 BB iadesi olacaktır."</string>
+<string name="aus_delete_hardware">"Donanımı kaldırmak istediğine emin misin? Geri dönüşü yoktur !!"</string>
 <string name="prc_loading">"Yükleniyor..."</string>
 <string name="tit_from">"Gönderen:"</string>
 <string name="txt_subject">"Konu"</string>

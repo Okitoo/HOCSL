@@ -85,9 +85,7 @@ Klicke hier für mehr Informationen​!"</string>
 <string name="coming_soon">"Bald verfügbar"</string>
 <string name="q_delete_hardware">"Hardware löschen?"</string>
 <string name="aus_delete_hardware">"Möchtest du diese Hardware wirklich entfernen?
-Der Vorgang kann NICHT rückgängig gemacht werden.
-
-Du erhälst dafür nur 100BB zurück."</string>
+Der Vorgang kann NICHT rückgängig gemacht werden."</string>
 <string name="prc_loading">"Lädt..."</string>
 <string name="tit_from">"Von:"</string>
 <string name="txt_subject">"Betreff"</string>
