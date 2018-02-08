@@ -273,6 +273,7 @@
     <string name="txt_get_BBs">Get BBs</string>
     <string name="txt_dash">Dash</string>
     <string name="txt_ranks">Ranks</string>
+    <string name="try_in_a_minute">Please try again after a minute</string>
 
     <string-array name="create_mission_actions">
         <item>collect</item>
